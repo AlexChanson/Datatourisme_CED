@@ -1,0 +1,1668 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a0433980-87b4-3c46-951d-9854cae8230c",
+  "dc:identifier": "HCOCEN041V50004E",
+  "@type": [
+    "schema:Hostel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "YouthHostelAndInternationalCenter"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "This youth hostel is ideal for exploring Vendôme and the surrounding area at your own pace. Near the city centre in a modern and comfortable building with a range of services, it is the ultimate starting point for a visiting the Loire Valley and its châteaux."
+    ],
+    "fr": [
+      "L'auberge est idéale pour découvrir à votre rythme Vendôme et ses monuments. Proche du centre ville, structure moderne et confortable offrant de larges services. Départ incontournable d'une visite de la Vallée du Loir et des châteaux de la Loire."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Auberge de Jeunesse"
+    ],
+    "fr": [
+      "Auberge de Jeunesse de Vendôme"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "COVID19SpecialMeasures": {
+    "fr": [
+      "Infos COVID : hygiène mains, entrée SHA, port du masque, distanciation obligatoire."
+    ]
+  },
+  "allowedPersons": 120,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2014-02-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/109cd27a-d101-32cb-abaa-ed81f9e45af4",
+      "schema:email": [
+        "aubergedejeunessevendome@orange.fr"
+      ],
+      "schema:legalName": "Auberge de Jeunesse",
+      "schema:telephone": [
+        "+33 2 54 73 77 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.aubergedejeunessevendome.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/109cd27a-d101-32cb-abaa-ed81f9e45af4",
+      "schema:email": [
+        "aubergedejeunessevendome@orange.fr"
+      ],
+      "schema:legalName": "Auberge de Jeunesse",
+      "schema:telephone": [
+        "+33 2 54 73 77 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.aubergedejeunessevendome.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c8ee3a5b-57e6-3a84-aa5f-5adb0b2f4fdb",
+      "schema:email": [
+        "aubergedejeunessevendome@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 73 77 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.aubergedejeunessevendome.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a953bbd0-6c5c-3c88-af59-d8296c2148c7",
+      "dc:description": {
+        "en": [
+          "This youth hostel is ideal for exploring Vendôme and the surrounding area at your own pace. Near the city centre in a modern and comfortable building with a range of services, it is the ultimate starting point for a visiting the Loire Valley and its châteaux."
+        ],
+        "fr": [
+          "L'auberge est idéale pour découvrir à votre rythme Vendôme et ses monuments. Proche du centre ville, structure moderne et confortable offrant de larges services. Départ incontournable d'une visite de la Vallée du Loir et des châteaux de la Loire."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "This youth hostel is ideal for exploring Vendôme and the surrounding area at your own pace. Near the city centre in a modern and comfortable building with a range of services, it is the ultimate starting point for a visiting the Loire Valley and its châteaux."
+        ],
+        "fr": [
+          "L'auberge est idéale pour découvrir à votre rythme Vendôme et ses monuments. Proche du centre ville, structure moderne et confortable offrant de larges services. Départ incontournable d'une visite de la Vallée du Loir et des châteaux de la Loire."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/055b46b9-0738-3665-ba51-bb506f9294f6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BikeHire",
+          "@type": [
+            "CommonAmenity",
+            "RentalPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike hire"
+            ],
+            "fr": [
+              "Location de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BilliardOrPoolTable",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Billiard or pool table"
+            ],
+            "fr": [
+              "Billard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CommunalKitchen",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Communal kitchen"
+            ],
+            "fr": [
+              "Cuisine collective"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Fax",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Fax"
+            ],
+            "fr": [
+              "Fax"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Garden"
+            ],
+            "fr": [
+              "Jardin"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Library"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LockedStorageRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Locked storage room"
+            ],
+            "fr": [
+              "Local matériel fermé"
+            ]
+          }
+        },
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Meeting room"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Park"
+            ],
+            "fr": [
+              "Parc"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Playground"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PostalService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Postal service"
+            ],
+            "fr": [
+              "Point courrier"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Reception room"
+            ],
+            "fr": [
+              "Salle de réception"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SelfService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Self service"
+            ],
+            "fr": [
+              "Self service"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shared washer"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SportRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sport room"
+            ],
+            "fr": [
+              "Salle ou terrain de sport"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SportsEquipmentLending",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sports equipment lending"
+            ],
+            "fr": [
+              "Prêt de matériel de sport"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TelephoneMessages",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Telephone messages"
+            ],
+            "fr": [
+              "Messages téléphoniques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TennisCourt",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tennis court"
+            ],
+            "fr": [
+              "Court de tennis"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TouristInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tourist information"
+            ],
+            "fr": [
+              "Informations touristiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1064de3b-5bba-37eb-865c-ef117c6db72b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f7c1a99-7366-34fc-aebc-d9f8fcf89974",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Entrée auberge"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2017-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0bf24026-d15f-37cb-b356-28456a670161",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ENTREE-AUBERGE.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/08336438-76e5-3199-8a2d-b5e650ebeb6a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dbfcec65-56e0-3324-accb-409cca8c18cb",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Auberge de jeunesse de Vendôme"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c95cdbf1-7ba6-39ab-a351-94f311c13f37",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vue-nouveau-batiment.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1064de3b-5bba-37eb-865c-ef117c6db72b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f7c1a99-7366-34fc-aebc-d9f8fcf89974",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Entrée auberge"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2017-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0bf24026-d15f-37cb-b356-28456a670161",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ENTREE-AUBERGE.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/153a623e-6477-30f1-9cb4-4b2aade4a894",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dbfcec65-56e0-3324-accb-409cca8c18cb",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Auberge de jeunesse de Vendôme"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/219b97f7-daeb-369d-a182-1052d2bde4ee",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vue-exterieur.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2eacae05-eadb-3ada-9333-41c7f2301bb0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ba6c37b-1c4b-3997-937c-7d8d2312427a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salon"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/76ece632-a33e-322f-9867-78dacf00d43f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/55555-013.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3acb3496-e2c4-36df-9c9e-55131ae0e455",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ecd7c318-0f71-3500-ab55-dfdb7ac235c2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6103fabc-0568-3ef8-98f3-00b93f2c9748",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HCOCEN041V50004E-Photto-AJ-Vendome-Chr-redim.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4abad4e7-e595-3291-bc5f-ea4554792470",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/84f689dd-8f2c-3860-9859-70261ed59fa1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c7b954f9-70ca-3268-90d6-4c25bde0dcee",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chambre1-15.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/52f12283-5dc5-3cbf-8f9b-fc0a6dd90d7e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/84f689dd-8f2c-3860-9859-70261ed59fa1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/640c5111-5fa1-36a7-a2f0-2d764966c829",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chambre-92.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ad3d247-7ab5-3fea-b65a-4f1571eb581a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4579844a-7443-3129-8fb7-df7581d5b805",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Groupe devant l'Auberge de Jeunesse Vendôme"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9371a4b3-0dec-395a-91e4-1201f28a1bda",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/groupe.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/644671fc-7dbe-32b7-9bdc-09f4eaf8edf7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4dfd52d3-336b-3be7-81eb-1596dfc5c161",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Détente"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bf347e28-b95a-3aa7-a92e-e08971d960a9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/detente-5.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a7ce3713-7015-3a3d-9c8d-8f4e9f440704",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c771f970-b9bc-3bff-9715-b18724496cd1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Self"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a64df6bb-ec2a-393b-99f8-363e48716259",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Sans-titre-32.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a8e7e813-47e1-326d-b97f-60db69d08650",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/88b1b298-e8ba-3ea0-af12-68e29e3955a4",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Auberge de Jeunesse Vendôme"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1dccf120-3625-3f33-9122-870949c9daaa",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HCOCEN041V50004E-Photo-AJ-Vendome-Chr2-redim.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab34d160-5777-387d-a456-4348c9365910",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/291e0f1d-5c4c-3691-a190-a113aeea9397",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Auberge de Jeunesse Vendôme : self"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8d0e753d-ba9a-3ed6-9c8f-baed53819ca5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/self.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ae91f229-285a-3637-b751-e7c2b1c9a26d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b822620d-bea7-35ca-a32d-c1605f6e9a1a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salle de jeux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f2b642de-ee45-342c-abfe-b4844843e8fd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/salle-de-jeux.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bf363b5c-57e9-3ba7-b996-b218646a6dd5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/83c346a8-6eb9-3ca0-9004-6727cf828844",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Coursive"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/86dcb2c9-831f-3c24-b7ae-06d83f228fc2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/COURSIVE-AUBERGE.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5738e1a-ff93-39af-9982-c2c1af2975a2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a274b217-85c7-356e-b170-8576d49b6291",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Extérieur de l'auberge"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/80566df1-933e-3e4b-ade4-c250af857634",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HCOCEN041V50004E-Photo-AJ-Vendome-ext-redim.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f9cbfa5e-3542-3b54-b9b4-cd06be56146a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/04e08170-3908-38e6-8a9d-cc9e96370d54",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salle de réunion"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Auberge de Jeunesse Vendôme"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-05-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/90a41f80-4874-3f57-b47b-00fc4558f4a2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/salle-de-reunion-2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/96b812bd-1c82-383f-8347-0950045b616a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d2a90694-c30f-3437-a63a-874ff506e8f6",
+          "schema:addressLocality": "Vendôme",
+          "schema:postalCode": "41100",
+          "schema:streetAddress": [
+            "12 Rue Edouard Branly"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41269",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vendôme"
+                ],
+                "fr": [
+                  "Vendôme"
+                ]
+              },
+              "insee": "41269",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/028b4012-9ae8-3bd8-961d-8e6fb452f795",
+        "schema:latitude": "47.8080195",
+        "schema:longitude": "1.0670838",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-06",
+  "lastUpdateDatatourisme": "2020-08-06T23:49:02.263Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e33b0d72-c0cd-3471-8916-143fabec580f",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0a882a58-6cf9-3d96-9e8b-a00c9eda5d51",
+          "schema:maxPrice": [
+            "35.7"
+          ],
+          "schema:minPrice": [
+            "27.7"
+          ],
+          "schema:price": "27.7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Nous consulter"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0ea0b3dd-729e-35db-ac0f-bfabfd086f2b",
+          "schema:maxPrice": [
+            "35.7"
+          ],
+          "schema:minPrice": [
+            "27.7"
+          ],
+          "schema:price": "27.7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "( draps et petit déjeuner offerts)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/359cbb4d-90bd-306a-af9d-b73712f28682",
+          "schema:maxPrice": [
+            "26"
+          ],
+          "schema:minPrice": [
+            "18"
+          ],
+          "schema:price": "18",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(draps et petit déjeuner offerts)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4e6866c8-bcc8-3be3-8a14-fd03b946235b",
+          "schema:maxPrice": [
+            "26"
+          ],
+          "schema:minPrice": [
+            "18"
+          ],
+          "schema:price": "18",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Draps et petit déjeuner inclus"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

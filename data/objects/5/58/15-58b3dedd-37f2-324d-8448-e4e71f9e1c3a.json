@@ -1,0 +1,952 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/58b3dedd-37f2-324d-8448-e4e71f9e1c3a",
+  "dc:identifier": "HLOCEN037V500GHT",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Gîte en pleine campagne situé dans une ferme, endroit calme et reposant avec une grande terrasse devant et un jardin privatif sur le coté.  Situé à 1/4 d'heure du Zoo de Beauval, à proximité des châteaux de la Loire ( Chenonceau, Amboise, Loches) ."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Meublé Madame Joyot"
+    ],
+    "fr": [
+      "Meublé Madame Joyot"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "es",
+    "fr"
+  ],
+  "creationDate": "2014-01-15",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f935e185-2add-36e8-aef5-4112ef215b10",
+      "schema:email": [
+        "marie-helene18@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 94 34 13",
+        "+33 6 72 10 10 11"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab16e0d9-7f85-3e76-b193-26a49539a8fc",
+      "dc:description": {
+        "fr": [
+          "Gîte en pleine campagne situé dans une ferme, endroit calme et reposant. \nSitué à 1/4 d'heure du Zoo de Beauval, à proximité des châteaux de la Loire ( Chenonceau, Amboise, loches) . \nCapacité d’accueil pour 6 personnes avec une  cuisine toute équipée, 2 chambres, salon-séjour avec cheminée avec insert.\n Une grande terrasse devant et un jardin privatif sur le coté."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Gîte en pleine campagne situé dans une ferme, endroit calme et reposant avec une grande terrasse devant et un jardin privatif sur le coté.  Situé à 1/4 d'heure du Zoo de Beauval, à proximité des châteaux de la Loire ( Chenonceau, Amboise, Loches) ."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/294c28f2-9d87-34a9-94df-2947b93efd0e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ac1f2d5-197a-3d27-89cd-7d6ee573161d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/005e61a1-5aec-332c-a5b8-416673c42cdb",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "La-Maison---Mme-Joyot---Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/60517ac5-5ab1-3305-924c-85cf411d0304",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/La-Maison---Mme-Joyot---Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/08bdf955-7f11-3f4d-8726-208bd2411b9d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bbe4a7b2-d194-37a6-9d49-d276c2961492",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salon---MMe-Joyot-Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0f5676cd-916b-3480-9d1a-ffb223c72d0d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Salon---MMe-Joyot-Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4e6b7031-a81e-30ca-9efd-9a850c4ecbca",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0f382094-7978-3a11-b94b-3f31c481a977",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre-1-Mme-Joyot-Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/65e74341-de41-3677-92ec-fa2928c269ee",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-1-Mme-Joyot-Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ac1f2d5-197a-3d27-89cd-7d6ee573161d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/005e61a1-5aec-332c-a5b8-416673c42cdb",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "La-Maison---Mme-Joyot---Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/60517ac5-5ab1-3305-924c-85cf411d0304",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/La-Maison---Mme-Joyot---Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5c2ca285-cd32-3498-8339-12be8fd2d1b8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8777fb2b-b4f8-3674-8bed-8b966c31f19e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre-2---Mme-Joyot---Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c9faf72c-efe7-36cf-9493-185179d8d2b6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-2---Mme-Joyot---Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d7ccb5c4-45a9-3faf-928f-017d40ab05b0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fed737d5-63da-35f4-bbac-aaec713286ea",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre---Mme-Joyot---Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e0a54926-107c-3e93-a2b4-be9677e613e3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre---Mme-Joyot---Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e389b059-21f1-3caa-98c4-f871d73fc9bb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/02a0e795-129c-3bbc-871a-5c0ec2d2e232",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Cuisine---MMe-Joyot---Orbigny---Loches--Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/18487b8e-b10a-38a8-bcca-5373e6a80240",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Cuisine---MMe-Joyot---Orbigny---Loches--Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f69126f9-d904-3121-aacf-8d9573e0b70c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/69dc4054-2e3a-32e9-b632-f5aa40197fa8",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jardin---Mme-Joyot---Orbigny-Loches-Val-de-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Madame Joyot"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-03-03"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c62e3f8b-d625-328b-880e-6a915491df57",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Jardin---Mme-Joyot---Orbigny-Loches-Val-de-Loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2455044a-2685-357a-a173-d13e0fba14d9",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "2 étoiles"
+          ],
+          "fr": [
+            "2 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f3b1f7ab-5b02-3158-bfc8-9baa229f26ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0dfef7f9-917e-325e-8cb7-646f6c8e54aa",
+          "schema:addressLocality": "Orbigny",
+          "schema:postalCode": "37460",
+          "schema:streetAddress": [
+            "Les Touches"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37177",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Orbigny"
+                ],
+                "fr": [
+                  "Orbigny"
+                ]
+              },
+              "insee": "37177",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4c0e715c-9968-3dda-b7ee-d0f4809e0f67",
+        "schema:latitude": "47.2300515",
+        "schema:longitude": "1.2331645",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/481a2691-b3b0-3ff0-ab87-6c5de4360014",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5ceb3d71-b413-3c02-818b-71493891dda0",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/73389b79-c0b4-3149-b525-2548289de86b",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/74aabeea-4e3c-30a4-980e-c6d326fecee8",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8e3a701b-4a1a-3d48-9116-f901517aa974",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a1f232d3-690c-3e0e-bc23-e6b21efa4fe8",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ea6fff8d-5771-35e2-9d31-cad53979f0a6",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Monday"
+                ],
+                "fr": [
+                  "Lundi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2020-01-03T00:00:00",
+          "schema:validThrough": "2020-12-20T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-03-03",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.341Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8b3bf370-7f3f-321e-b806-8b9f92668a24",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3252d2b-0fe2-3690-9551-70607a6db402",
+          "schema:maxPrice": [
+            "80"
+          ],
+          "schema:minPrice": [
+            "65"
+          ],
+          "schema:price": "65",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

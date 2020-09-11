@@ -1,0 +1,552 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/58bf8864-7898-3681-b0da-0f5d6c2a3374",
+  "dc:identifier": "HLOCEN0410000126",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Ground floor: living room-kitchen, 2 bedrooms (1 bed 140, 2 beds 90), bathroom, (included) central heating and fireplace with insert. Opportunities for hiking in the surrounding area (tips-routes). Association with GR 35, 335 and GR country. Field turfed with independent access. Garden, swing and..."
+    ],
+    "fr": [
+      "Cécile vous accueille dans ses gîtes et chambres d'hôtes, aménagés sur la ferme familiale (vaches, taurillons...). Un chat, une poule, une chèvre font aussi partie du paysage de la ferme des Pignons, où les vacanciers profitent pleinement du charme de la campagne."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Les Pignons"
+    ],
+    "fr": [
+      "Les Pignons"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "en",
+    "es"
+  ],
+  "creationDate": "2018-01-12",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f952bac0-7f82-32f6-aa16-3dc199f7c796",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/df1e1f59-4fdc-3ea3-adbc-522a98beb978",
+          "schema:addressLocality": "Saint-Martin-des-Bois",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "FERME DES PIGNONS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41225",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Martin-des-Bois"
+                ],
+                "fr": [
+                  "Saint-Martin-des-Bois"
+                ]
+              },
+              "insee": "41225",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "infos@lafermedespignons.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 72 57 43",
+        "+33 6 14 46 36 36"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/62405c91-33e8-30fb-bea5-7cc9df35469a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9e7382d9-17c7-3c81-bb42-7a924bcb8b7e",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "FERME DES PIGNONS"
+          ],
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "infos@lafermedespignons.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 72 57 43",
+        "+33 6 14 46 36 36"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lafermedak.cluster026.hosting.ovh.net/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f952bac0-7f82-32f6-aa16-3dc199f7c796",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/df1e1f59-4fdc-3ea3-adbc-522a98beb978",
+          "schema:addressLocality": "Saint-Martin-des-Bois",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "FERME DES PIGNONS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41225",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Martin-des-Bois"
+                ],
+                "fr": [
+                  "Saint-Martin-des-Bois"
+                ]
+              },
+              "insee": "41225",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "infos@lafermedespignons.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 72 57 43",
+        "+33 6 14 46 36 36"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e3640d0f-eafc-30a5-aeff-ba18f0972c74",
+      "dc:description": {
+        "en": [
+          "Ground floor: living room-kitchen, 2 bedrooms (1 bed 140, 2 beds 90), bathroom, (included) central heating and fireplace with insert. Opportunities for hiking in the surrounding area (tips-routes). Association with GR 35, 335 and GR country. Field turfed with independent access. Garden, swing and children's playground, table tennis. Discovery of the farm (tractors, cows, calves, chickens, goats...). On-site, guest rooms with table of hosts and stay lodging (12 persons). TGV train station 20 minutes away (gare de Villiers 42 min from Paris). Washing machine available."
+        ],
+        "fr": [
+          "Juste à côté de la ferme en activité où vivent une centaine de vaches, des chambres d'hôtes et gîtes ont été aménages dans les anciens bâtiments du corps de ferme. Un chat, une poule, une chèvre font aussi partie du paysage de la ferme des Pignons, où les vacanciers profitent pleinement du charme de la campagne."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Ground floor: living room-kitchen, 2 bedrooms (1 bed 140, 2 beds 90), bathroom, (included) central heating and fireplace with insert. Opportunities for hiking in the surrounding area (tips-routes). Association with GR 35, 335 and GR country. Field turfed with independent access. Garden, swing and..."
+        ],
+        "fr": [
+          "Cécile vous accueille dans ses gîtes et chambres d'hôtes, aménagés sur la ferme familiale (vaches, taurillons...). Un chat, une poule, une chèvre font aussi partie du paysage de la ferme des Pignons, où les vacanciers profitent pleinement du charme de la campagne."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89ab7d1e-59f0-3c8d-ab2f-9875727b4fde",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_BienvenueaLaFerme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Bienvenue à la ferme"
+          ],
+          "fr": [
+            "Bienvenue à la ferme"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Guesthouse",
+          "Practice",
+          "Restaurant",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/76f0511d-975d-358b-aeff-3eb844a9f5e3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/de3152b7-51f5-3196-8ebb-b81c548b4b5d",
+          "schema:addressLocality": "Saint-Martin-des-Bois",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "Les Pignons"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41225",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Martin-des-Bois"
+                ],
+                "fr": [
+                  "Saint-Martin-des-Bois"
+                ]
+              },
+              "insee": "41225",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/55761ad4-5eb6-31a9-a7f5-9a7a8ebe3a0c",
+        "schema:latitude": "47.7376999",
+        "schema:longitude": "0.802015",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-16",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.34Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/99bad534-c789-34d4-859f-fa501e54fd72",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7e2925cc-6724-3496-a709-3c8100af322d",
+          "schema:maxPrice": [
+            "200"
+          ],
+          "schema:minPrice": [
+            "150"
+          ],
+          "schema:price": "150",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f9183390-905a-3646-9ee3-a9076d5aff59",
+          "schema:maxPrice": [
+            "380"
+          ],
+          "schema:minPrice": [
+            "230"
+          ],
+          "schema:price": "230",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

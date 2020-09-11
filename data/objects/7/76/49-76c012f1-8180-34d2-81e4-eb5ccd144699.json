@@ -1,0 +1,233 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/76c012f1-8180-34d2-81e4-eb5ccd144699",
+  "dc:identifier": "ITIPDL072V503K6U",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Sur petites routes jalonnées « Vallée du Loir V47 ». Passages par les coteaux avec du dénivelé entreRuillé-sur-Loir et Marçon. À la sortie de Marçon, longez le lac des Varennes."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RUILLÉ S/LOIR < > CHÂTEAU DU LOIR"
+    ]
+  },
+  "creationDate": "2014-06-25",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c7992e11-0060-3bcc-8385-e0a7a451599c",
+      "dc:description": {
+        "fr": [
+          "La Vallée du Loir à vélo débute dans la Sarthe à Ruillé-sur-Loir et vous mènera à Château-du-Loir en  passant par la Chartre-sur- le-Loir et les coteaux du Loir. Pour les amateurs de vins, prenez le temps de découvrir le célèbre Jasnière et le vignoble du pays de Marçon. Pour les amateurs de baignade, le lac de Varennes et son site de loisirs vous accueillent."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Sur petites routes jalonnées « Vallée du Loir V47 ». Passages par les coteaux avec du dénivelé entreRuillé-sur-Loir et Marçon. À la sortie de Marçon, longez le lac des Varennes."
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7a332ef8-96e6-3f64-84fb-22a7352de1f5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7a193831-1ff4-31e6-a39b-fea976e77345",
+          "ebucore:title": {
+            "fr": [
+              "chateau du loir - ruille"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/98912ae1-b40c-3de3-8aa5-dedd196d2405",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Fichier GPX"
+                ]
+              },
+              "rdfs:label": [
+                "application/gpx+xml"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://cdt72.media.tourinsoft.eu/upload/chateau-du-loir---ruille.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Bike",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Bike"
+        ],
+        "fr": [
+          "Vélo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c1c9b441-4edb-3e63-a089-f819f8b09a9b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/db212591-f351-3982-890e-225075a7f61e",
+          "schema:addressLocality": "Loir en Vallée",
+          "schema:postalCode": "72340",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72262",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loir en Vallée"
+                ],
+                "fr": [
+                  "Loir en Vallée"
+                ]
+              },
+              "insee": "72262",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/3bfa44dd-fceb-3437-977a-8837f9a02ce1",
+        "schema:latitude": "47.7511855",
+        "schema:longitude": "0.6252065",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2018-02-26",
+  "lastUpdateDatatourisme": "2020-07-07T02:53:23.684Z",
+  "tourDistance": "25000.0"
+}

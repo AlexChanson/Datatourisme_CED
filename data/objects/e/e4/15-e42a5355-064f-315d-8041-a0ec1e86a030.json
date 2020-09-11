@@ -1,0 +1,1483 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/e42a5355-064f-315d-8041-a0ec1e86a030",
+  "dc:identifier": "HLOCEN041V5036SF",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Chalet",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Charme et dépaysement garanti pour cet hébergement insolite et tout confort venu tout droit des pays d’Europe du nord. Cette chambre se situe à l’écart de la bâtisse, sous les grands sapins avec sa propre terrasse en bois."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Kota Luxe à la Cave Margot"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "COVID19SpecialMeasures": {
+    "fr": [
+      "Infos COVID : mise en place des mesures sanitaires : affichages, gel ext/int, PDJ en chambre ou terrasse, jeux plein air sur demande désinfection entre, jacuzzi ouvert et chloré : 1h, piscine 6pers. max, 4 adultes max dans la cuisine, port du masque si pas de distanciation possible, vente de masques sur place, demander pour aller dans le spa, 1h de battement entre chaque personne."
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2020-03-26",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/0adf9d08-22a8-3378-a489-00bfc859d3d2",
+    "schema:legalName": "OT de Vendome - Territoires Vendomois",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/06c0dea0-3ec1-3169-bf72-b5fc1ee6c0f3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a465dd48-790f-3793-90db-f667ebea5850",
+          "schema:addressLocality": "Lunay",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41120",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lunay"
+                ],
+                "fr": [
+                  "Lunay"
+                ]
+              },
+              "insee": "41120",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@lacavemargot.fr",
+        "nleal@wanadoo.fr"
+      ],
+      "schema:legalName": "La cave Margot",
+      "schema:telephone": [
+        "+33 2 54 72 03 53",
+        "+33 6 63 69 38 64"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/06c0dea0-3ec1-3169-bf72-b5fc1ee6c0f3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a465dd48-790f-3793-90db-f667ebea5850",
+          "schema:addressLocality": "Lunay",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41120",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lunay"
+                ],
+                "fr": [
+                  "Lunay"
+                ]
+              },
+              "insee": "41120",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@lacavemargot.fr",
+        "nleal@wanadoo.fr"
+      ],
+      "schema:legalName": "La cave Margot",
+      "schema:telephone": [
+        "+33 2 54 72 03 53",
+        "+33 6 63 69 38 64"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/82f892ad-5f43-3498-83ed-ccd10a357415",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a465dd48-790f-3793-90db-f667ebea5850",
+          "schema:addressLocality": "Lunay",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41120",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lunay"
+                ],
+                "fr": [
+                  "Lunay"
+                ]
+              },
+              "insee": "41120",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@lacavemargot.fr",
+        "nleal@wanadoo.fr"
+      ],
+      "schema:legalName": "La cave Margot",
+      "schema:telephone": [
+        "+33 2 54 72 09 53",
+        "+33 6 63 69 38 64"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lacavemargot.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5e565f33-97b4-35b0-9c96-63721e36e0b4",
+      "dc:description": {
+        "fr": [
+          "Charme et dépaysement garanti pour cet hébergement insolite et tout confort venu tout droit des pays d’Europe du nord. Cette chambre se situe à l’écart de la bâtisse, sous les grands sapins avec sa propre terrasse en bois. Il dispose de sa propre salle de bain (baignoire) avec meuble vasque et WC privatif. Le coin salon, séparé par un rideau, est équipé d’un grand BZ avec matelas Bultex (largeur 160 cm) et peut accueillir très confortablement 2 personnes supplémentaires. Un panier petit-déjeuner vous sera apporté directement dans le Kota. La location du chalet inclut toute l'année l'accès au spa et au sauna et l'été l'accès à la piscine."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Charme et dépaysement garanti pour cet hébergement insolite et tout confort venu tout droit des pays d’Europe du nord. Cette chambre se situe à l’écart de la bâtisse, sous les grands sapins avec sa propre terrasse en bois."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f07b00c9-93b3-3f5a-a623-edc86cccd6c0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BikeLoan",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike loan"
+            ],
+            "fr": [
+              "Prêt de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SportsEquipmentLending",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sports equipment lending"
+            ],
+            "fr": [
+              "Prêt de matériel de sport"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasFloorSize": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9bdf8ec1-8991-30ce-98ff-2fda3c21bb95",
+      "schema:unitText": [
+        "M2"
+      ],
+      "@type": [
+        "schema:QuantitativeValue"
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8a7c91bb-f2c3-3149-9edd-f80eb9dc0dea",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5adfdbdc-2abb-3311-95a8-7174fc5ab431",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chalet - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1cfa273e-1820-3d3e-9d3d-f1a1667905d5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chalet-insolite-Kota-Luxe.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/27b91ea6-cba5-3bd1-ab89-2fd6e3b38407",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3f3f445-32d9-35a9-b4fb-aeca9de7901e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jacuzzi - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/43bccd99-a080-3d99-a203-9cac9be27570",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/P7290003.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/36363972-942c-3f83-8610-09352926a427",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d031669b-eae2-333b-bc03-9532398b4ba3",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Parc et parking"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ac79acef-7cd1-320b-ad50-53c4196ce7db",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/PARC-et-PARKING-8.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b478608-5cd0-3af6-a1c0-eca86ad47673",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3f3f445-32d9-35a9-b4fb-aeca9de7901e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jacuzzi - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3241ac4f-d968-3e19-8b3c-a510a55b3f8a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/P7290013.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3bed2942-6310-3632-a2e0-12b6b6515c99",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2a59ecad-8955-3fb7-8fb9-65486653dab1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambre luxe - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1724320c-2a18-3bb3-8532-4fe6cf4aabed",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chambre-Kota-Luxe.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/62dd67cd-0499-3e3f-a464-5fcfa7a9471e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/edbfdd91-a1d3-3983-a628-cfaccc2b5cc2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Aire de jeux - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a85dce71-de3e-3c40-b329-e54f59e37346",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/aire-de-jeux-principale.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/63c31394-04fe-3363-a3b2-8a9611e10c54",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3667e4bd-b090-3e78-ba8c-eb1d7e84da73",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hamac - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c3ad188a-5795-3541-8d88-89396a31288a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/hamacs-sous-les-arbres.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/69f1f238-e67b-3b5e-92b9-d867873daa68",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ae502202-953f-35a4-8233-bfe95b4aa97e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jardin - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/66508b7c-88c9-3306-beb1-d0bf148e9323",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/jardin-44.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8a7c91bb-f2c3-3149-9edd-f80eb9dc0dea",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5adfdbdc-2abb-3311-95a8-7174fc5ab431",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chalet - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1cfa273e-1820-3d3e-9d3d-f1a1667905d5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chalet-insolite-Kota-Luxe.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a766da4d-680e-3b72-967c-ff0faf84d180",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3f3f445-32d9-35a9-b4fb-aeca9de7901e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jacuzzi - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/073194a0-98cb-3a91-9c63-30037d6bfd70",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Panorama-Jaccuzi-MDef.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c29d948f-ac58-37c4-bfa0-65db309e5680",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b64b31c5-13b6-3ddb-9c5b-f9af2261e300",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jacuzzi de nuit - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3674edca-dc5f-35d1-ae44-1240955c1d82",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-20180908-WA0026.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e3a18725-9260-3711-ae4e-eb17101a4175",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3f3f445-32d9-35a9-b4fb-aeca9de7901e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jacuzzi - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7fbf51d8-3883-37e4-8359-9b0ed0f3fe0b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/JACCUZI-4-Mdef.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e960af69-9f22-3dee-97f3-0abf5d8f2493",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c4d1e437-f90c-371e-bd00-5d3e6f771286",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Cave Margot - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aea7b55f-26e4-3d48-b427-2e9321c269aa",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-20180908-WA0006.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f02ab587-e37e-3481-b041-51788ad7ca93",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/643619d8-2add-3dd3-b377-0d675cacaa97",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Jardin vue pommiers - Cave Margot Lunay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/65e0586f-4e67-3f3f-9711-94b28d4ff1ac",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/jardin-vue-pommiers.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f734323e-c2be-354a-bc5a-34fc0cb79be3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/de75ffb5-4bbe-3da6-96a1-4ed512818333",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Sauna"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "LEAL"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-02-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3c8b3876-0465-31ef-a67e-30b13f881107",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/pod-sauna.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a17a423d-c4ec-3880-a288-560ec8bca4f4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7b97619d-1982-3daf-96dc-7004a003f2c4",
+          "schema:addressLocality": "Lunay",
+          "schema:postalCode": "41360",
+          "schema:streetAddress": [
+            "La cave Margot"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41120",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lunay"
+                ],
+                "fr": [
+                  "Lunay"
+                ]
+              },
+              "insee": "41120",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/da8086d6-461b-33d1-8960-2e6b24487f20",
+        "schema:latitude": "47.8211734",
+        "schema:longitude": "0.8956257",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-08",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.337Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d7de492c-6116-39dd-b8ca-abd1f2bfbe44",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9e916790-8000-32a0-b313-f19cb3f5d476",
+          "schema:maxPrice": [
+            "145"
+          ],
+          "schema:minPrice": [
+            "135"
+          ],
+          "schema:price": "135",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ff9b5fb-58ab-390a-aeeb-a4663a8e8275",
+          "schema:minPrice": [
+            "25"
+          ],
+          "schema:price": "25",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

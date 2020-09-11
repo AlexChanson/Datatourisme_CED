@@ -1,0 +1,192 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/ba62c241-3e54-37f7-9457-a4c30161bbe8",
+  "dc:identifier": "DEGPDL072V50M5TZ",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TastingProvider"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE DES PIES BLANCHES"
+    ]
+  },
+  "creationDate": "2019-12-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/92d2b321-0663-3ca5-b2d8-66e9a9367974",
+      "schema:email": [
+        "pradelle1@gmail.com"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e069f6e8-423e-3bc3-8f19-394c38f8d0f0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2cfe50a3-f165-3768-b0b9-a51ccc188491",
+          "schema:addressLocality": "Marçon",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "Lieu Dit les Nerons"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72183",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Marçon"
+                ],
+                "fr": [
+                  "Marçon"
+                ]
+              },
+              "insee": "72183",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/9624a28a-9284-3c97-9cab-0729484c7ebb",
+        "schema:latitude": "47.702659",
+        "schema:longitude": "0.529753",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-12-03",
+  "lastUpdateDatatourisme": "2020-07-07T03:53:45.087Z",
+  "providesFoodProduct": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ]
+}

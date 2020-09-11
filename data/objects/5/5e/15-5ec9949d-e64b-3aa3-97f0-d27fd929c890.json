@@ -1,0 +1,399 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/5ec9949d-e64b-3aa3-97f0-d27fd929c890",
+  "dc:identifier": "ASCCEN037V50GB29",
+  "@type": [
+    "schema:Product",
+    "EquipmentRental",
+    "EquipmentRentalShop",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "Rental",
+    "ServiceProvider",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Bike rental"
+    ],
+    "fr": [
+      "Les petits vélos de Chenonceaux - Bike rental"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2019-02-22",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f978bde1-d96d-3765-8bd1-991188b3baff",
+      "schema:telephone": [
+        "+33 7 68 55 58 07"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d6701253-0020-348e-b2c0-79d3a5047d8b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/700ddd75-7a0e-34cd-a792-21e30af84eb0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3b65b485-dd95-3733-8240-c953469d87a7",
+          "ebucore:title": {
+            "fr": [
+              "Les petits vélos de chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Les petits vélos de chenonceaux"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c0dee642-bc2b-3cd3-85a1-71ab6fdf793d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/lespetitsvelosdechenonceaux.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/700ddd75-7a0e-34cd-a792-21e30af84eb0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3b65b485-dd95-3733-8240-c953469d87a7",
+          "ebucore:title": {
+            "fr": [
+              "Les petits vélos de chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Les petits vélos de chenonceaux"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c0dee642-bc2b-3cd3-85a1-71ab6fdf793d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/lespetitsvelosdechenonceaux.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:BicycleTouring",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Bicycle touring"
+        ],
+        "fr": [
+          "Cyclotourisme"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a8696b59-9e82-3a06-8b80-729ae26510a6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/23a05555-e3ee-3545-83eb-e36d6538e9f7",
+          "schema:addressLocality": "Chisseaux",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "Pont Francueil"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37073",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chisseaux"
+                ],
+                "fr": [
+                  "Chisseaux"
+                ]
+              },
+              "insee": "37073",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/b598201f-5980-3b61-8407-60fbaafed471",
+        "schema:latitude": "47.329808",
+        "schema:longitude": "1.090866",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-24",
+  "lastUpdateDatatourisme": "2020-07-24T09:45:24.746Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19abe560-ac8d-3c8f-b429-7e3ec6b717b2",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/daaaf9ae-9ab8-3aa5-8c13-14280d64c3d1",
+          "schema:maxPrice": [
+            "150"
+          ],
+          "schema:minPrice": [
+            "7"
+          ],
+          "schema:price": "7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fcbff7c0-ade9-3779-b859-9eecc9d08198",
+          "schema:maxPrice": [
+            "150"
+          ],
+          "schema:minPrice": [
+            "9"
+          ],
+          "schema:price": "9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

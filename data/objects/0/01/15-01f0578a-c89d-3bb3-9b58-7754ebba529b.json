@@ -1,0 +1,628 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/01f0578a-c89d-3bb3-9b58-7754ebba529b",
+  "dc:identifier": "HLOCEN0410004979",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Independent house (2 rooms, 48 m Â²), very well maintained, situated near the owner. Kitchen, dining room, 1 room, shower-room. Courtyard, terrace, equipped garden garden furniture, parasol and barbecue. Bikes at arrangement(measure). Pets accepted under conditions.<br>Grocer's shop in 3 km, service"
+    ],
+    "fr": [
+      "Maison indépendante (2 pièces, 48 m²), très bien entretenue, située à proximité du propriétaire. Cuisine,  salle à manger, 1 chambre, salle d'eau. Cour, jardin équipé salon de jardin, parasol et barbecue. Animaux domestiques acceptés sous conditions."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Gîte de la mahaudière"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6dad9639-ffda-30bb-9a8f-9b894305648b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/200a9d21-e8ad-356e-b2ac-438ac5bee0dd",
+          "schema:addressLocality": "Mareuil-sur-Cher",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "4 rue de la Mahaudière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41126",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Mareuil-sur-Cher"
+                ],
+                "fr": [
+                  "Mareuil-sur-Cher"
+                ]
+              },
+              "insee": "41126",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "noel.viviane@orange.fr"
+      ],
+      "schema:legalName": "Gîte de la Mahaudière",
+      "schema:telephone": [
+        "+33 2 54 75 19 95",
+        "+33 6 60 72 06 27"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://gites-la-mahaudiere.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6dad9639-ffda-30bb-9a8f-9b894305648b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/200a9d21-e8ad-356e-b2ac-438ac5bee0dd",
+          "schema:addressLocality": "Mareuil-sur-Cher",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "4 rue de la Mahaudière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41126",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Mareuil-sur-Cher"
+                ],
+                "fr": [
+                  "Mareuil-sur-Cher"
+                ]
+              },
+              "insee": "41126",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "noel.viviane@orange.fr"
+      ],
+      "schema:legalName": "Gîte de la Mahaudière",
+      "schema:telephone": [
+        "+33 2 54 75 19 95",
+        "+33 6 60 72 06 27"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://gites-la-mahaudiere.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fce11c51-7f3c-3e8b-a614-81d164fd818f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/297c3a42-86d6-3f59-a081-23a99e784a48",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "4 rue de la Mahaudière"
+          ],
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "noel.viviane@orange.fr"
+      ],
+      "schema:legalName": "Gîte de la Mahaudière",
+      "schema:telephone": [
+        "+33 2 54 75 19 95",
+        "+33 6 60 72 06 27"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://gites-la-mahaudiere.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5cd9eb93-b023-324d-809c-8d420aa5ab8b",
+      "dc:description": {
+        "en": [
+          "Independent house (2 rooms, 48 m Â²), very well maintained, situated near the owner. Kitchen, dining room, 1 room, shower-room. Courtyard, terrace, equipped garden garden furniture, parasol and barbecue. Bikes at arrangement(measure). Pets accepted under conditions.<br>Grocer's shop in 3 km, services and shops in 4 km.<br>"
+        ],
+        "fr": [
+          "Maison indépendante (2 pièces, 48 m²), très bien entretenue, située à proximité du propriétaire. Cuisine,  salle à manger, 1 chambre, salle d'eau. Cour, jardin équipé salon de jardin, parasol et barbecue. Animaux domestiques acceptés sous conditions. Egalement : épicerie à 3 km, services et commerces à 4 km."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Independent house (2 rooms, 48 m Â²), very well maintained, situated near the owner. Kitchen, dining room, 1 room, shower-room. Courtyard, terrace, equipped garden garden furniture, parasol and barbecue. Bikes at arrangement(measure). Pets accepted under conditions.<br>Grocer's shop in 3 km, service"
+        ],
+        "fr": [
+          "Maison indépendante (2 pièces, 48 m²), très bien entretenue, située à proximité du propriétaire. Cuisine,  salle à manger, 1 chambre, salle d'eau. Cour, jardin équipé salon de jardin, parasol et barbecue. Animaux domestiques acceptés sous conditions."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8f91eb2a-0402-3e2e-9281-7b611ac72237",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/796a8f63-2bda-3a73-9d5f-adbb23fd2bbe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3f8df085-4c6f-35d1-9be8-0721988d36be",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gîte de la Mahaudière"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Noël Périgois"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0e5ff916-d1d1-38fa-812a-9b7d13f1ecee",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Mahaudiere.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/796a8f63-2bda-3a73-9d5f-adbb23fd2bbe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3f8df085-4c6f-35d1-9be8-0721988d36be",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gîte de la Mahaudière"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Noël Périgois"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0e5ff916-d1d1-38fa-812a-9b7d13f1ecee",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Mahaudiere.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2455044a-2685-357a-a173-d13e0fba14d9",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "2 étoiles"
+          ],
+          "fr": [
+            "2 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/efbfb0ad-be42-324c-8d54-50a8381912d1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/200a9d21-e8ad-356e-b2ac-438ac5bee0dd",
+          "schema:addressLocality": "Mareuil-sur-Cher",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "4 rue de la Mahaudière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41126",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Mareuil-sur-Cher"
+                ],
+                "fr": [
+                  "Mareuil-sur-Cher"
+                ]
+              },
+              "insee": "41126",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/0417fc8d-229c-3b65-bc0d-687e7791c19f",
+        "schema:latitude": "47.2829678",
+        "schema:longitude": "1.2742752",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-25",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.334Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/38e69e96-ef29-3f86-93a9-a7a1ca3722b5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e94e7edd-64ab-3b7a-89c0-dfe9cfe64d16",
+          "schema:maxPrice": [
+            "320"
+          ],
+          "schema:minPrice": [
+            "220"
+          ],
+          "schema:price": "220",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

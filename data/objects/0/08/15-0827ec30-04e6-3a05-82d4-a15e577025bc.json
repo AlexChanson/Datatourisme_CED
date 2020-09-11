@@ -1,0 +1,648 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/0827ec30-04e6-3a05-82d4-a15e577025bc",
+  "dc:identifier": "ASCCEN037V50HY4D",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "EquipmentRental",
+    "EquipmentRentalShop",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental",
+    "ServiceProvider",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Location de trottinettes électriques tout-terrain pour balade ou événementiel"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Trott'ecow"
+    ],
+    "fr": [
+      "Trott'ecow"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2019-08-08",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e8aa9aad-6cca-3609-9231-a9f263858530",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/14a94307-5355-3682-a929-a6e8758e878e",
+          "schema:addressLocality": "Sennevières",
+          "schema:postalCode": "37600",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37246",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sennevières"
+                ],
+                "fr": [
+                  "Sennevières"
+                ]
+              },
+              "insee": "37246",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "trottecow@gmail.com"
+      ],
+      "schema:legalName": "TROTTECOW",
+      "schema:telephone": [
+        "+33 6 43 62 71 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6930554b-23c0-3d4e-8340-a615756cc11a",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Location de trottinettes électriques tout-terrain pour balade ou événementiel"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d6701253-0020-348e-b2c0-79d3a5047d8b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/35cceeed-8e39-3ec2-97ec-ae5ae0416a32",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/09b9d5ab-d499-3a54-8862-afe4ea063a6d",
+          "ebucore:title": {
+            "fr": [
+              "baladeentreamis-loches-valdeloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Willy Gendron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-08-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89606573-023a-3066-b810-cd0afa2d100b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/baladeentreamis-loches-valdeloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0c200183-ac25-32da-91e7-8564f61b0ad9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9c5c4948-2260-3388-a9b8-baa8714088f4",
+          "ebucore:title": {
+            "fr": [
+              "forêt-loches-valdeloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Willy Gendron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-08-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/504d5383-da83-35a7-a502-8adae8f409d9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/foret-loches-valdeloire.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/35cceeed-8e39-3ec2-97ec-ae5ae0416a32",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/09b9d5ab-d499-3a54-8862-afe4ea063a6d",
+          "ebucore:title": {
+            "fr": [
+              "baladeentreamis-loches-valdeloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Willy Gendron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-08-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89606573-023a-3066-b810-cd0afa2d100b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/baladeentreamis-loches-valdeloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/45d6c6f0-6110-3fc5-b1f6-ddad082117fc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/37020f56-cfa0-3d79-bb3c-4de72f5fd4e9",
+          "ebucore:title": {
+            "fr": [
+              "trottinettes-loches-valdeloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Willy Gendron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-08-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7654f7f0-d990-363e-a2e9-ee35c76b3574",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/trottinettes-loches-valdeloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ea61ed5d-554e-3d90-a269-c3fb17eb9405",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/22ba751a-4061-392a-abf0-78ba2517136e",
+          "ebucore:title": {
+            "fr": [
+              "chapelleliget-loches-valdeloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Willy Gendron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2019-08-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/662f050e-26a8-3c9b-b3c6-7bf6271a8e04",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chapelleliget-loches-valdeloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Multisport",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Multisport"
+        ],
+        "fr": [
+          "Multisport"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a87916fe-89e8-366b-9a40-e58e429d5e43",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c8d71dd7-f727-312f-b4ac-2d25b0e45669",
+          "schema:addressLocality": "Sennevières",
+          "schema:postalCode": "37600",
+          "schema:streetAddress": [
+            "La Voisiniere"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37246",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sennevières"
+                ],
+                "fr": [
+                  "Sennevières"
+                ]
+              },
+              "insee": "37246",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/b1bf3d3a-0b15-385d-bba8-c630049be89b",
+        "schema:latitude": "47.094832",
+        "schema:longitude": "1.121172",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-09-08",
+  "lastUpdateDatatourisme": "2020-09-09T04:50:02.33Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/484013ff-7a56-3637-9e2c-17538f74232a",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1d4f8a85-c9fb-3f1d-bac2-424518f0d17f",
+          "schema:maxPrice": [
+            "35"
+          ],
+          "schema:minPrice": [
+            "25"
+          ],
+          "schema:price": "25",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Group",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Group rate"
+              ],
+              "fr": [
+                "Tarif Groupe"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/86677e3b-9dac-3d12-aee5-11ba43eeef98",
+          "schema:maxPrice": [
+            "40"
+          ],
+          "schema:minPrice": [
+            "30"
+          ],
+          "schema:price": "30",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

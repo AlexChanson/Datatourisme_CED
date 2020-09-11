@@ -1,0 +1,645 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c62c939c-6345-3d37-8343-b413407bed88",
+  "dc:identifier": "HLOCEN037FS002IO",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "À 4 km de Chenonceaux, dans un Moulin du XIXème en bord de Cher, chambres de prestige desservies par ascenseur avec vue exceptionnelle sur la rivière du Cher. Magnifique propriété arborée, agrémentée d’une piscine chauffée et de plein-air."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Héron - Le moulin du port"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "en",
+    "es"
+  ],
+  "creationDate": "2013-04-29",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/02dcc852-eb10-3e21-93e5-89241d4afe23",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c67e42bb-50bf-3016-94a7-30a4819460c0",
+          "schema:addressLocality": "Saint-Georges-sur-Cher",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "26 rue du Gué de l'Arche"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41211",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Georges-sur-Cher"
+                ],
+                "fr": [
+                  "Saint-Georges-sur-Cher"
+                ]
+              },
+              "insee": "41211",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@lemoulinduport.com"
+      ],
+      "schema:legalName": "Le Moulin du Port",
+      "schema:telephone": [
+        "+33 2 54 32 01 37",
+        "+33 6 63 06 71 25"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lemoulinduport.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/02dcc852-eb10-3e21-93e5-89241d4afe23",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c67e42bb-50bf-3016-94a7-30a4819460c0",
+          "schema:addressLocality": "Saint-Georges-sur-Cher",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "26 rue du Gué de l'Arche"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41211",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Georges-sur-Cher"
+                ],
+                "fr": [
+                  "Saint-Georges-sur-Cher"
+                ]
+              },
+              "insee": "41211",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@lemoulinduport.com"
+      ],
+      "schema:legalName": "Le Moulin du Port",
+      "schema:telephone": [
+        "+33 2 54 32 01 37",
+        "+33 6 63 06 71 25"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lemoulinduport.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5d6f7e5f-6903-3da6-9359-cfd3b84ec082",
+      "dc:description": {
+        "fr": [
+          "À 4 km de Chenonceaux, dans un Moulin du XIXème en bord de Cher, chambres de prestige desservies par ascenseur avec vue exceptionnelle sur la rivière du Cher. Magnifique propriété arborée, agrémentée d’une piscine chauffée et de plein-air."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "À 4 km de Chenonceaux, dans un Moulin du XIXème en bord de Cher, chambres de prestige desservies par ascenseur avec vue exceptionnelle sur la rivière du Cher. Magnifique propriété arborée, agrémentée d’une piscine chauffée et de plein-air."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d3e6c439-b59f-35dc-9306-73652f5c91f8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bb28fcd1-b230-351f-b498-25cf283a9455",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/46bf052e-7b36-3c7b-8a9a-278e99a91c84",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le_moulin_du_port"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©lemoulinduport"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c8f9c8b8-3c88-3750-b95e-eaef6d766ea3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Le-moulin-du-port-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bb28fcd1-b230-351f-b498-25cf283a9455",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/46bf052e-7b36-3c7b-8a9a-278e99a91c84",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le_moulin_du_port"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©lemoulinduport"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c8f9c8b8-3c88-3750-b95e-eaef6d766ea3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Le-moulin-du-port-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5bacbfde-9b33-324f-8629-59debe571827",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c67e42bb-50bf-3016-94a7-30a4819460c0",
+          "schema:addressLocality": "Saint-Georges-sur-Cher",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "26 rue du Gué de l'Arche"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41211",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Georges-sur-Cher"
+                ],
+                "fr": [
+                  "Saint-Georges-sur-Cher"
+                ]
+              },
+              "insee": "41211",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/eecf9040-8a81-31fe-84f3-bdcd95ace1e8",
+        "schema:latitude": "47.3309732",
+        "schema:longitude": "1.1287304",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-01-04",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.348Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e04742a3-0a05-384e-92d2-a7dc618357db",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2e99dc2e-f909-34c7-a68c-da7309fa8dce",
+          "schema:maxPrice": [
+            "1000"
+          ],
+          "schema:minPrice": [
+            "400"
+          ],
+          "schema:price": "400",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,925 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/37121f1e-2723-383b-a1ee-159b847d2563",
+  "dc:identifier": "HCOCEN037V504G58",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "GroupLodging",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Gîte de groupe situé au nord de la Touraine, en pleine campagne, dans un cadre calme.\nSalle à manger, salon, cuisine, 6 chambres individuelles avec salle de douche + wc, terrasse parc de 4000m², parc privé."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Gîte de la Chaponnerie"
+    ]
+  },
+  "allowedPersons": 15,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2015-03-19",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/5bbac63b-4cde-3c7c-bbe8-3519de4a5677",
+    "schema:legalName": "Tourisme en Gâtine et Pays de Racan",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a7ce8bb-ad95-3fd9-b92d-93bd304f29f5",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chaponnerie.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a7ce8bb-ad95-3fd9-b92d-93bd304f29f5",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chaponnerie.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3849558f-7f01-3165-b469-d9c8116626e8",
+      "schema:email": [
+        "gitedelachaponnerie@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 56 03 56",
+        "+33 6 10 64 22 62"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chaponnerie.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d5b48589-4e2e-3604-97a7-b1af963e8010",
+      "dc:description": {
+        "fr": [
+          "Gîte de groupe situé au nord de la Touraine, en pleine campagne, dans un cadre calme.\nSalle à manger, salon, cuisine, 6 chambres individuelles avec salle de douche + wc, terrasse parc de 4000m², parc privé."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Gîte de groupe situé au nord de la Touraine, en pleine campagne, dans un cadre calme.\nSalle à manger, salon, cuisine, 6 chambres individuelles avec salle de douche + wc, terrasse parc de 4000m², parc privé."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/13a0e51f-c52f-322a-b941-2a7532d147f3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BilliardOrPoolTable",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Billiard or pool table"
+            ],
+            "fr": [
+              "Billard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BoulesPitch",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Boules pitch"
+            ],
+            "fr": [
+              "Boulodrome, terrain de pétanque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CommunalKitchen",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Communal kitchen"
+            ],
+            "fr": [
+              "Cuisine collective"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Library"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LivingRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Living room"
+            ],
+            "fr": [
+              "Coin salon"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Park"
+            ],
+            "fr": [
+              "Parc"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shared washer"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bbd5f923-cea9-37e4-aa63-3a330700522a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/075334bb-9691-3d41-8343-2b0df256434f",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie01"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9a319fae-2da8-3580-9b1b-2bfa0d33d27b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie01.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0df7fa96-eb4a-398d-9048-6c59a9cdeb43",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b9a6f874-0567-30ec-a364-b92d62f1ab41",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie04"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6ac69ec2-c917-3fad-b788-64b0854008c3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie04.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3080c70b-05b0-3a0c-b2a7-327dadd7894f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a7173ddf-d8f5-32cd-8680-8a31cd310c4e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie02"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aa59e3eb-0815-3cd2-997a-39bd39d4374a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie02.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6228cc6f-49e4-3e7a-b033-0e1da3d46291",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/951b6cbd-3c3b-3bb2-9ef7-5f7f528288b6",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie07"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ffb235b4-ddc6-3940-bf24-93d8c62d5b08",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie07.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9f8bb92a-a608-3e71-b6bd-1a89b7ed5a89",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/58968bb5-b1f7-3d17-b3c1-b0efb542c2e7",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie06"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/13d1d79c-55d0-3e15-b68a-de89ff5d5b1d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie06.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b3afc86f-4e4a-3b29-8475-2b55f074734d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/423edae3-31de-3fa5-b354-c529d346af37",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie03"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f4e1efbf-d0d7-3c88-92a2-05205ff1b02c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie03.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bbd5f923-cea9-37e4-aa63-3a330700522a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/075334bb-9691-3d41-8343-2b0df256434f",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie01"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9a319fae-2da8-3580-9b1b-2bfa0d33d27b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie01.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cd256722-0c88-3362-9591-9b9bf7592657",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0df1d157-fffd-39ad-a6ba-5c7d77409e3b",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Gite-de-la-Chaponnerie05"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/620088bd-bf80-3eed-ac23-dbdd597c0bba",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Gite-de-la-Chaponnerie05.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/77ade6ba-1fe7-33c5-8b2f-77dc2d49c971",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_GitesDeFrance",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Gîtes de France"
+          ],
+          "fr": [
+            "Gîtes de France"
+          ]
+        },
+        "isCompliantWith": [
+          "Guesthouse",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2b5a3a9a-4b02-3507-bfb3-4ffeaaec4205",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c1ff3bb4-e94f-3f52-9a06-8bee8f8a6a39",
+          "schema:addressLocality": "Neuillé-Pont-Pierre",
+          "schema:postalCode": "37360",
+          "schema:streetAddress": [
+            "La chaponnerie"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37167",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Neuillé-Pont-Pierre"
+                ],
+                "fr": [
+                  "Neuillé-Pont-Pierre"
+                ]
+              },
+              "insee": "37167",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/75ccf824-f740-3470-b093-e64f5745391a",
+        "schema:latitude": "47.5401054",
+        "schema:longitude": "0.5800364",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-17",
+  "lastUpdateDatatourisme": "2020-08-06T23:49:02.263Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a9ec390c-4f64-3637-bf1b-e9564598617a",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/245c3e1c-a567-330d-a222-dddf77d12e6b",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Deux nuits et plus"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b0b42045-75d9-3d81-adc8-36a48b04f6f6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "du vendredi au vendredi"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

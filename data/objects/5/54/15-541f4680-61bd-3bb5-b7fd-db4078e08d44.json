@@ -1,0 +1,759 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/541f4680-61bd-3bb5-b7fd-db4078e08d44",
+  "dc:identifier": "HLOCEN0410003157",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "A week's stay in Val de Cher with on-board services and an itinerary that mixes visits with cruising."
+    ],
+    "fr": [
+      "Séjour d'une semaine en Val de Cher avec services d’équipage et itinéraire alternant croisière et visites."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Cruise on board the Nymphéa barge-hotel"
+    ],
+    "fr": [
+      "Croisière à bord de la péniche-hôtel Nymphéa"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04009f81-7558-32bd-991e-4e1f4a276db2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bb32eeb7-5ad8-3630-8455-2ffe804ac5c1",
+          "schema:addressLocality": "Montrichard Val de Cher",
+          "schema:postalCode": "41400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41151",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montrichard Val de Cher"
+                ],
+                "fr": [
+                  "Montrichard Val de Cher"
+                ]
+              },
+              "insee": "41151",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "nymbarge@aol.com"
+      ],
+      "schema:legalName": "Croisière à bord de la péniche-hôtel Nymphéa",
+      "schema:telephone": [
+        "+33 3 86 81 60 42",
+        "+33 6 82 67 21 58"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.loirebargecruise.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04009f81-7558-32bd-991e-4e1f4a276db2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bb32eeb7-5ad8-3630-8455-2ffe804ac5c1",
+          "schema:addressLocality": "Montrichard Val de Cher",
+          "schema:postalCode": "41400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41151",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montrichard Val de Cher"
+                ],
+                "fr": [
+                  "Montrichard Val de Cher"
+                ]
+              },
+              "insee": "41151",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "nymbarge@aol.com"
+      ],
+      "schema:legalName": "Croisière à bord de la péniche-hôtel Nymphéa",
+      "schema:telephone": [
+        "+33 3 86 81 60 42",
+        "+33 6 82 67 21 58"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.loirebargecruise.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/64422afe-41f1-337f-91f7-b970efe0780b",
+      "dc:description": {
+        "en": [
+          "A week's stay in Val de Cher with on-board services and an itinerary that mixes visits with cruising."
+        ],
+        "fr": [
+          "Séjour d'une semaine en Val de Cher en chambres à deux lits et pension complète (6 passagers maximum). Services de l’équipage (capitaine, cuisinière et femme de chambre). Itinéraire alternant croisière et visites (châteaux, caves viticoles…). Pont soleil et 6 vélos."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "A week's stay in Val de Cher with on-board services and an itinerary that mixes visits with cruising."
+        ],
+        "fr": [
+          "Séjour d'une semaine en Val de Cher avec services d’équipage et itinéraire alternant croisière et visites."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c6aaa6fe-fa1b-3f10-9290-cc295dc6070d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BikeLoan",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike loan"
+            ],
+            "fr": [
+              "Prêt de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f1789929-5b73-3f5c-a373-90f084115976",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c21e51c0-753e-38c0-bc2b-04f73ef94b4b",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Péniche-hôtel Le Nymphéa - Tourisme fluvial en Loir-et-Cher Val de Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©JF Souchard - www.imagesdeloire.fr"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/efb00966-02cb-34a0-b770-6e95cfa2dfe4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Peniche-hotel-Le-Nymphea---Tourisme-fluvial-en-Loir-et-Cher-Val-de-Loire--JF-Souchard---www.imagesdeloire.fr.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0ff81fca-715c-3b68-a8a5-cd16ba0ebe25",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3103d4c2-e795-37ca-ad12-80788fe91bcd",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Péniche-hôtel Le Nymphéa - Tourisme fluvial en Loir-et-Cher Val de Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Nymphéa"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/69cc9a9e-1e7a-3d1a-90b5-38b2acebb028",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Peniche-hotel-Le-Nymphea---Tourisme-fluvial-en-Val-de-Loire--Nymphea.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9beb4299-037c-3a1f-9fb2-631cefbce544",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c21e51c0-753e-38c0-bc2b-04f73ef94b4b",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Péniche-hôtel Le Nymphéa - Tourisme fluvial en Loir-et-Cher Val de Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©JF Souchard - www.imagesdeloire.fr"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/90d8bc92-e123-31b0-aee8-6adbc92c4723",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Peniche-hotel-Le-Nymphea---Tourisme-fluvial-en-Val-de-Loire--JF-Souchard---www.imagesdeloire.fr.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b7fa246a-ce3c-3832-a958-cab031dd6bc4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c21e51c0-753e-38c0-bc2b-04f73ef94b4b",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Péniche-hôtel Le Nymphéa - Tourisme fluvial en Loir-et-Cher Val de Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©JF Souchard - www.imagesdeloire.fr"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/20949a8c-fbe7-3591-abf2-54836e6e5cc2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Peniche-hotel-Le-Nymphea---Tourisme-fluvial-en-Val-de-Loire-Loir-et-Cher--JF-Souchard---www.imagesdeloire.fr.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f1789929-5b73-3f5c-a373-90f084115976",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c21e51c0-753e-38c0-bc2b-04f73ef94b4b",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Péniche-hôtel Le Nymphéa - Tourisme fluvial en Loir-et-Cher Val de Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©JF Souchard - www.imagesdeloire.fr"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/efb00966-02cb-34a0-b770-6e95cfa2dfe4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Peniche-hotel-Le-Nymphea---Tourisme-fluvial-en-Loir-et-Cher-Val-de-Loire--JF-Souchard---www.imagesdeloire.fr.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1665fbc7-d87f-33b7-9861-eb1304e07d18",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bb32eeb7-5ad8-3630-8455-2ffe804ac5c1",
+          "schema:addressLocality": "Montrichard Val de Cher",
+          "schema:postalCode": "41400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41151",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montrichard Val de Cher"
+                ],
+                "fr": [
+                  "Montrichard Val de Cher"
+                ]
+              },
+              "insee": "41151",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/2161eec3-d2f3-3e9a-80d5-7cd6dc943fd1",
+        "schema:latitude": "47.3435465",
+        "schema:longitude": "1.1840992",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true
+    }
+  ],
+  "lastUpdate": "2020-07-31",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.336Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b46bf065-c8f7-39b5-822c-f4e946b11338",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4b270e5b-55fa-3797-a4d5-b5462174c250",
+          "schema:minPrice": [
+            "3990"
+          ],
+          "schema:price": "3990",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9afeb311-5a48-3062-949d-a311542459ea",
+          "schema:minPrice": [
+            "1550"
+          ],
+          "schema:price": "1550",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ExtraCharge",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Extra charge"
+              ],
+              "fr": [
+                "Supplément"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

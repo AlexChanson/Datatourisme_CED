@@ -1,0 +1,421 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/905a7cef-5374-3b36-acdf-5c37d14113cd",
+  "dc:identifier": "HOTCEN0370000065",
+  "@type": [
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Economical hotel, ideally situated on the outskirts of Tours, with 80 bedrooms."
+    ],
+    "fr": [
+      "Hôtel économique idéalement situé, aux portes de Tours, et disposant de 80 chambres."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Hôtel F1 Tours Nord"
+    ],
+    "fr": [
+      "Hôtel F1 Tours Nord"
+    ]
+  },
+  "allowedPersons": 160,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2001-11-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/568d43d2-8427-3011-83d8-484504c09cec",
+      "schema:telephone": [
+        "+33 891 70 54 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hotelf1.com/fr/booking/advanced-search.shtml"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/568d43d2-8427-3011-83d8-484504c09cec",
+      "schema:telephone": [
+        "+33 891 70 54 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hotelf1.com/fr/booking/advanced-search.shtml"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a33bc7d3-6c1d-395b-9258-b6a71c4e98f2",
+      "schema:email": [
+        "h2366@accor.com"
+      ],
+      "schema:telephone": [
+        "+33 891 70 54 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hotelf1.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1faf33d2-d14b-30be-9142-d1bc68cc4a52",
+      "dc:description": {
+        "en": [
+          "Economical hotel, ideally situated on the outskirts of Tours, with 80 bedrooms."
+        ],
+        "fr": [
+          "Hôtel économique idéalement situé, aux portes de Tours, et disposant de 80 chambres.\nQue ce soit pour affaires ou loisirs, notre hotelF1 vous accueille 7j/7 à prix mini dans nos chambres DUO ou TRIO, espace « douches et toilettes » à l'extérieur de la chambre avec sèche-cheveux. L'hôtel est situé au coeur de la vallée de la Loire à proximité des châteaux de Blois, Amboise, Villandry et bien d'autres et à 1h du Zoo Parc de Beauval. Hôtel desservi directement par l'A10, à 15 mn de la gare SNCF et 5min de l'Aéroport de Tours. Parking et Wifi offerts. Petit-déjeuner en buffet à volonté."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Economical hotel, ideally situated on the outskirts of Tours, with 80 bedrooms."
+        ],
+        "fr": [
+          "Hôtel économique idéalement situé, aux portes de Tours, et disposant de 80 chambres."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72bcfc8d-598e-3dde-90f2-b0ef4adefe65",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/95fa19d8-e6a1-3e9b-ad43-02f54b37ab93",
+      "schema:value": "80",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b5aeee97-c905-350a-b47e-5eab8eddae3c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f38afe5f-580d-3a66-adb8-cfb842d346e5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/191f07b6-22fd-301c-8655-009a4c70d6c3",
+          "schema:addressLocality": "Parçay-Meslay",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "RN 10",
+            "Rue de l'Aviation"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37179",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Parçay-Meslay"
+                ],
+                "fr": [
+                  "Parçay-Meslay"
+                ]
+              },
+              "insee": "37179",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/04799fa8-611d-3b95-94f6-a9e0f7e0fc53",
+        "schema:latitude": "47.4380741",
+        "schema:longitude": "0.70924857",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-02",
+  "lastUpdateDatatourisme": "2020-07-07T07:58:20.926Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ed44e443-e04b-376f-827e-eeaf1d64fcc9",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

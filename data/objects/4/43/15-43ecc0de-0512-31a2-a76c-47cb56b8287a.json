@@ -1,0 +1,362 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/43ecc0de-0512-31a2-a76c-47cb56b8287a",
+  "dc:identifier": "FMACEN037V504859",
+  "schema:endDate": [
+    "2021-02-28"
+  ],
+  "schema:startDate": [
+    "2021-02-26"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:SaleEvent",
+    "EntertainmentAndEvent",
+    "FairOrShow",
+    "PointOfInterest",
+    "SaleEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Retrouvez tout l'univers du manga, les traditions Japonaises et la culture Geek lors d'un festival exceptionnel ! Un weekend au rythme du Soleil couchant, à ne pas manquer.\n\nLe plus grand salon de la Région, avec des animations et des concerts pour tous ainsi que des rencontres exceptionnelles !"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Japan Tours Festival"
+    ]
+  },
+  "creationDate": "2015-02-05",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5329f587-f646-3806-910b-6d99dfdf8205",
+      "schema:telephone": [
+        "+33 2 47 70 70 70"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.japantoursfestival.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1e87199d-6c83-34cd-b365-2986db438099",
+      "dc:description": {
+        "fr": [
+          "Retrouvez tout l'univers du manga, les traditions Japonaises et la culture Geek lors d'un festival exceptionnel ! Un weekend au rythme du Soleil couchant, à ne pas manquer.\n\nLe plus grand salon de la Région, avec des animations et des concerts pour tous ainsi que des rencontres exceptionnelles !"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Retrouvez tout l'univers du manga, les traditions Japonaises et la culture Geek lors d'un festival exceptionnel ! Un weekend au rythme du Soleil couchant, à ne pas manquer.\n\nLe plus grand salon de la Région, avec des animations et des concerts pour tous ainsi que des rencontres exceptionnelles !"
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a934a8aa-d8be-34a2-85c1-9c26957cae7f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dc7cd553-a855-39a5-b4a9-0678c9ee635b",
+          "schema:addressLocality": "Tours",
+          "schema:postalCode": "37000",
+          "schema:streetAddress": [
+            "Avenue Camille Chautemps"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37261",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tours"
+                ],
+                "fr": [
+                  "Tours"
+                ]
+              },
+              "insee": "37261",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/8443aedb-45be-37c9-ab62-f7236815f9db",
+        "schema:latitude": "47.3762017",
+        "schema:longitude": "0.7227924",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/422afbf8-110b-3858-a51b-323d3397584a",
+          "schema:closes": "20:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2021-02-26T00:00:00",
+          "schema:validThrough": "2021-02-28T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/756e4014-bf9b-3724-965d-f5b7bbeeea41",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2021-02-26T00:00:00",
+          "schema:validThrough": "2021-02-28T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0e1cea7-3ba6-3611-85e3-ff587a36a63a",
+          "schema:closes": "20:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2021-02-26T00:00:00",
+          "schema:validThrough": "2021-02-28T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-04-27",
+  "lastUpdateDatatourisme": "2020-07-07T04:01:02.405Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7d6ff579-408e-3da6-8d4e-7887c3a1b71e",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6af49ca9-458a-39f8-85fd-3552cfe73fd8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true,
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a764e939-358b-3d4f-af89-d6a09fdb337f",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-02-28",
+      "endTime": "18:00:00",
+      "startDate": "2021-02-26",
+      "startTime": "10:00:00"
+    }
+  ]
+}

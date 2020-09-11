@@ -1,0 +1,549 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/598edb64-e821-39ee-a2b7-9c65907f9fda",
+  "dc:identifier": "HLOCEN0410000610",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Between Chambord and Chenonceaux, cottage located on the route of the castles of the Loire and Cher, at 20 mn from the ZooParc de Beauval. Quiet in the countryside, the landscape consists of ponds, crops, vineyards and forest. It is an old farmhouse restored with a court. Ground floor: small cano..."
+    ],
+    "fr": [
+      "Entre Chambord et Chenonceaux, gîte situé sur la route des châteaux de la Loire et du Cher, à 20 mn du ZooParc de Beauval. À la campagne, le paysage se compose d'étangs, cultures, vignes et forêt. C'est une ancienne ferme restaurée avec une cour, un hangar dans un hameau à proximité d'autres mais..."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Gabrielle"
+    ],
+    "fr": [
+      "Gîte Gabrielle"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "en",
+    "es"
+  ],
+  "creationDate": "2018-01-12",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b03e5b50-4181-3121-94b6-26fc10925f22",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8ab9e084-062b-387e-b9d6-afc4fb414db6",
+          "schema:addressLocality": "Oisly",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "60 route de contres"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41166",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Oisly"
+                ],
+                "fr": [
+                  "Oisly"
+                ]
+              },
+              "insee": "41166",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "clavier_manu@yahoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 58 87 03",
+        "+33 6 10 89 26 11"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4713f0db-9585-356d-9fd3-434898882ea4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/802538be-72f5-326b-a5f6-f4304d132010",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "60 route de contres"
+          ],
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "clavier_manu@yahoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 58 87 03",
+        "+33 6 10 89 26 11"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b03e5b50-4181-3121-94b6-26fc10925f22",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8ab9e084-062b-387e-b9d6-afc4fb414db6",
+          "schema:addressLocality": "Oisly",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "60 route de contres"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41166",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Oisly"
+                ],
+                "fr": [
+                  "Oisly"
+                ]
+              },
+              "insee": "41166",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "clavier_manu@yahoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 58 87 03",
+        "+33 6 10 89 26 11"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/970847b9-c9d6-31f3-afd2-477785a91702",
+      "dc:description": {
+        "en": [
+          "Between Chambord and Chenonceaux, cottage located on the route of the castles of the Loire and Cher, at 20 mn from the ZooParc de Beauval. Quiet in the countryside, the landscape consists of ponds, crops, vineyards and forest. It is an old farmhouse restored with a court. Ground floor: small canopy good exposure, living, warm restored in authentic with studs. Kitchen, bathroom, 1 toilet, 1 large bedroom (1 bed 160). On the first floor: 1 bedroom (2 beds of 0.90 m), a booster Chair. Heating electric or chimney. Baths of solei. Bed linen: € 5/Grand bed and € 3 /petit bed."
+        ],
+        "fr": [
+          "Entre Chambord et Chenonceaux, gîte situé sur la route des châteaux de la Loire et du Cher, à 20 mn du ZooParc de Beauval. À la campagne, le paysage se compose d'étangs, cultures, vignes et forêt. C'est une ancienne ferme restaurée avec une cour, un hangar dans un hameau à proximité d'autres maisons de vacances Rez de chaussée : petite verrière de bonne exposition, séjour-salon chaleureux restauré à l'authentique avec colombage. Cuisine, salle d'eau, 1 wc, 1 grande chambre (1 lit 140). A l'étage : 1 chambre (2 lits de 0.90m), une chauffeuse d'appoint. Chauffage électrique inclus dans le tarif ou cheminée (avec supplément). Bains de soleil... Connexion wifi faible offerte. Chèques-Vacances acceptés pour les réservations faites par la Centrale de Réservation. En cas de présence d'un anima..."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Between Chambord and Chenonceaux, cottage located on the route of the castles of the Loire and Cher, at 20 mn from the ZooParc de Beauval. Quiet in the countryside, the landscape consists of ponds, crops, vineyards and forest. It is an old farmhouse restored with a court. Ground floor: small cano..."
+        ],
+        "fr": [
+          "Entre Chambord et Chenonceaux, gîte situé sur la route des châteaux de la Loire et du Cher, à 20 mn du ZooParc de Beauval. À la campagne, le paysage se compose d'étangs, cultures, vignes et forêt. C'est une ancienne ferme restaurée avec une cour, un hangar dans un hameau à proximité d'autres mais..."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d6701253-0020-348e-b2c0-79d3a5047d8b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/985693ef-e32d-39f8-8168-35a8f11041f6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ca24e70f-1720-35c0-a79e-d1c25dc1f0bc",
+          "schema:addressLocality": "Choussy",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "14 Chemin de la Richaudiere"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41054",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Choussy"
+                ],
+                "fr": [
+                  "Choussy"
+                ]
+              },
+              "insee": "41054",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/0bfaf95c-e59f-3b8d-85f1-9cb48f5672e9",
+        "schema:latitude": "47.377364",
+        "schema:longitude": "1.35182",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-28",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.349Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c12dd906-02ed-3a6c-86a0-09ff3b82df3a",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/52790c54-029e-36d8-a18f-02bf8c3364aa",
+          "schema:maxPrice": [
+            "500"
+          ],
+          "schema:minPrice": [
+            "320"
+          ],
+          "schema:price": "320",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be7f6627-21cd-36ee-baca-73335cfda42b",
+          "schema:minPrice": [
+            "250"
+          ],
+          "schema:price": "250",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e70777e1-5f2f-33e6-9aae-9088351f8fe2",
+          "schema:minPrice": [
+            "150"
+          ],
+          "schema:price": "150",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

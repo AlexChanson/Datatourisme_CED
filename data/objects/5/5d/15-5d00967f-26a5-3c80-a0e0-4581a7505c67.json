@@ -1,0 +1,886 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/5d00967f-26a5-3c80-a0e0-4581a7505c67",
+  "dc:identifier": "DEGCENCEN9991560",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:Product",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting",
+    "TastingProvider",
+    "WineCellar"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "La Cave Insolite proposes the wines of Domaine Chidaine and a good selection of Loire wines."
+    ],
+    "fr": [
+      "La Cave Insolite vous propose des vins du Domaine Chidaine ainsi qu'une belle sélection des vins de Loire."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "La Cave Insolite - François Chidaine"
+    ],
+    "fr": [
+      "La Cave Insolite - François Chidaine"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2007-06-06",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/435a0a39-b0a1-388f-9b3f-04f4548d0b75",
+    "schema:legalName": "Montlouis-Vouvray Touraine Val de Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f80bc2d5-8c62-3f47-b10e-22c74621a3c0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d97a9563-ff33-3997-b2a9-f50aee439b04",
+          "schema:addressLocality": "Montlouis-sur-Loire",
+          "schema:postalCode": "37270",
+          "schema:streetAddress": [
+            "30 quai Albert Baillet",
+            "Husseau"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37156",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montlouis-sur-Loire"
+                ],
+                "fr": [
+                  "Montlouis-sur-Loire"
+                ]
+              },
+              "insee": "37156",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@francois-chidaine.com"
+      ],
+      "schema:legalName": "Domaine François Chidaine",
+      "schema:telephone": [
+        "+33 2 47 45 19 14"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.cave-insolite-chidaine.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f80bc2d5-8c62-3f47-b10e-22c74621a3c0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d97a9563-ff33-3997-b2a9-f50aee439b04",
+          "schema:addressLocality": "Montlouis-sur-Loire",
+          "schema:postalCode": "37270",
+          "schema:streetAddress": [
+            "30 quai Albert Baillet",
+            "Husseau"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37156",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montlouis-sur-Loire"
+                ],
+                "fr": [
+                  "Montlouis-sur-Loire"
+                ]
+              },
+              "insee": "37156",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@francois-chidaine.com"
+      ],
+      "schema:legalName": "Domaine François Chidaine",
+      "schema:telephone": [
+        "+33 2 47 45 19 14"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.cave-insolite-chidaine.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9c31ae08-ecf5-398c-83f3-afbcef6448be",
+      "dc:description": {
+        "en": [
+          "La Cave Insolite proposes the wines of Domaine Chidaine and a good selection of Loire wines."
+        ],
+        "fr": [
+          "La Cave Insolite vous propose des vins du Domaine Chidaine ainsi qu'une belle sélection des vins de Loire."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "La Cave Insolite proposes the wines of Domaine Chidaine and a good selection of Loire wines."
+        ],
+        "fr": [
+          "La Cave Insolite vous propose des vins du Domaine Chidaine ainsi qu'une belle sélection des vins de Loire."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f686ad6d-f48c-334c-9bff-158c3b7d1b93",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9b72bf4e-b387-376d-a51f-3f931a14ad2f",
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab44a1c7-e3ce-3f95-ab14-6582e766e9af",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1d3b3d03-393a-39db-83ca-201e57aa97c0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/509d47a8-0db2-3444-9533-ac1336223a33",
+          "ebucore:title": {
+            "fr": [
+              "Vignes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Interloire"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4ea3ec50-2a5d-303c-8aa0-d91323a3ae69",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/2-vignes-patrimoine-Interloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1fb41e7a-6a07-3087-9157-09309dbea781",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/61d5b3a1-f61e-32ac-a9e2-2ffb95e96a61",
+          "ebucore:title": {
+            "fr": [
+              "5-toue-sur-la-loire_Interloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Interloire"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/79096b95-6191-3424-9e8a-6c6cb9d5137f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/5-toue-sur-la-loire-Interloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7e0a1edd-6721-34dd-92e3-edfe7544e915",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/612488dd-62c3-33ab-bdf8-fe203ee1729f",
+          "ebucore:title": {
+            "fr": [
+              "3-verres-vins-val-de-loire_Interloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Interloire"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/096f3ecb-95cc-3cbd-9e09-0080ac31aa5e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/3-verres-vins-val-de-loire-Interloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a742102b-9d0b-311e-bcd7-152c88d934e8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7f4b4cd8-3c6e-3bb7-a711-207d52297c09",
+          "ebucore:title": {
+            "fr": [
+              "6.vignes-brumes-loire_Interloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Interloire"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddf82dc6-7b0d-320b-9ca2-61a5e77ec3c5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/6.vignes-brumes-loire-Interloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/be5b544e-19e9-331e-8424-9d18ca5c51f2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d2036771-cee9-3665-aa3c-e66b69b28e17",
+          "ebucore:title": {
+            "fr": [
+              "4-vignes-au-crepuscule_Interloire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Interloire"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1c7ec516-e378-31de-b91d-82c45d34a436",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/4-vignes-au-crepuscule-Interloire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f686ad6d-f48c-334c-9bff-158c3b7d1b93",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9b72bf4e-b387-376d-a51f-3f931a14ad2f",
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab44a1c7-e3ce-3f95-ab14-6582e766e9af",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Cider",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Cider"
+        ],
+        "fr": [
+          "Cidre"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FruitJuice",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fruit juice"
+        ],
+        "fr": [
+          "Jus de fruits"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Spirits",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Spirits"
+        ],
+        "fr": [
+          "Alcools, spiritueux"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Syrup",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Syrup"
+        ],
+        "fr": [
+          "Sirops"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/52b34e25-24b7-3487-8de8-ad12496ff136",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/77308757-04d4-38b8-974d-c2eb4a711a25",
+          "schema:addressLocality": "Montlouis-sur-Loire",
+          "schema:postalCode": "37270",
+          "schema:streetAddress": [
+            "30 quai Albert Baillet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37156",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montlouis-sur-Loire"
+                ],
+                "fr": [
+                  "Montlouis-sur-Loire"
+                ]
+              },
+              "insee": "37156",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/be786ec1-bb2f-33ef-8b1e-af4739109576",
+        "schema:latitude": "47.3908441",
+        "schema:longitude": "0.83644562",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-01",
+  "lastUpdateDatatourisme": "2020-07-07T10:19:39.586Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b83f0899-995f-3eb0-91b6-e72573a51183",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

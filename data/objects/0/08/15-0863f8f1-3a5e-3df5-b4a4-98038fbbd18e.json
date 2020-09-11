@@ -1,0 +1,773 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/0863f8f1-3a5e-3df5-b4a4-98038fbbd18e",
+  "dc:identifier": "HLOCEN041V501PUP",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Nous serons heureux de vous accueillir dans notre gîte Le Paradis des Caves, maison indépendante blottie contre la roche, entièrement restaurée par nos soins. Nous sommes situés à 5 min du ZooParc de Beauval et au cœur des châteaux qui en période d'été, proposent de beaux spectacles."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Le paradis des caves"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2018-06-29",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/4b048d73-6668-3270-ac08-734e180cee93",
+    "schema:legalName": "OT Val de Cher Controis",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/eab212e8-6c54-3eef-8204-922b612c8ecd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/63f07a6d-5a12-3f5e-ac5d-5854b47026c5",
+          "schema:addressLocality": "Châteauvieux",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "23 route des Caves Nérault"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41042",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Châteauvieux"
+                ],
+                "fr": [
+                  "Châteauvieux"
+                ]
+              },
+              "insee": "41042",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "malbran-clement@orange.fr"
+      ],
+      "schema:legalName": "Le Paradis des Caves",
+      "schema:telephone": [
+        "+33 6 98 28 92 83"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d645dfd3-49dd-383e-b1a1-c460fddce031",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0425f5eb-ebac-35e7-97b5-4041e5b27c46",
+          "schema:addressLocality": "Châteauvieux",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "23 route des Caves Nérault"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41042",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Châteauvieux"
+                ],
+                "fr": [
+                  "Châteauvieux"
+                ]
+              },
+              "insee": "41042",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "malbran-clement@orange.fr"
+      ],
+      "schema:legalName": "Le Paradis des Caves",
+      "schema:telephone": [
+        "+33 6 98 28 92 83"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/eab212e8-6c54-3eef-8204-922b612c8ecd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/63f07a6d-5a12-3f5e-ac5d-5854b47026c5",
+          "schema:addressLocality": "Châteauvieux",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "23 route des Caves Nérault"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41042",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Châteauvieux"
+                ],
+                "fr": [
+                  "Châteauvieux"
+                ]
+              },
+              "insee": "41042",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "malbran-clement@orange.fr"
+      ],
+      "schema:legalName": "Le Paradis des Caves",
+      "schema:telephone": [
+        "+33 6 98 28 92 83"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e3d2d92e-8712-3b3b-9cdc-9505df9b6500",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Nous serons heureux de vous accueillir dans notre gîte Le Paradis des Caves, maison indépendante blottie contre la roche, entièrement restaurée par nos soins. Nous sommes situés à 5 min du ZooParc de Beauval et au cœur des châteaux qui en période d'été, proposent de beaux spectacles."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8fa84b90-f50a-31f9-9296-d6b41b70112f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b8e2eb4-839e-3f3f-bc12-266606cc2093",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fd05e39d-5962-3576-ac97-8fcd80efc7e4",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "20180628_153732"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Mireille Clément"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f91c55e-eaae-3ea6-b934-9291b5a0c88a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/20180628-153732.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b8e2eb4-839e-3f3f-bc12-266606cc2093",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fd05e39d-5962-3576-ac97-8fcd80efc7e4",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "20180628_153732"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Mireille Clément"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f91c55e-eaae-3ea6-b934-9291b5a0c88a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/20180628-153732.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f5dce38-2e8d-3eb4-882c-8c6614df18c2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d50f242e-19ea-382b-9ab1-f5d69d02d299",
+          "schema:addressLocality": "Châteauvieux",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "23 rue des Caves Nérault"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41042",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Châteauvieux"
+                ],
+                "fr": [
+                  "Châteauvieux"
+                ]
+              },
+              "insee": "41042",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f2469ac0-210a-3eed-9b6c-096d9750b839",
+        "schema:latitude": "47.2308684",
+        "schema:longitude": "1.3886574",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-02-21",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.338Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b2bee236-dcf9-3330-840b-51bc8d0aff2c",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d5cfb165-6d6c-3fb8-a4f7-2091105a1c72",
+          "schema:maxPrice": [
+            "550"
+          ],
+          "schema:minPrice": [
+            "350"
+          ],
+          "schema:price": "350",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

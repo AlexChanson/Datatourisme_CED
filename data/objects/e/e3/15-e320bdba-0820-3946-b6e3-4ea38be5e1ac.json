@@ -1,0 +1,1041 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/e320bdba-0820-3946-b6e3-4ea38be5e1ac",
+  "dc:identifier": "RESCEN0370000246",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "BrasserieOrTavern",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "A historic Paris-style brasserie in Tours. Specialising in fish and seafood."
+    ],
+    "fr": [
+      "Brasserie parisienne historique de Tours. Spécialités de poisson + Fruits de mer."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "La Chope"
+    ],
+    "fr": [
+      "La Chope"
+    ]
+  },
+  "allowedPersons": 130,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2002-04-23",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5223c855-afe4-3b2e-9328-e0e62f391569",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7b042d6c-09e3-3b4d-9549-bd1603503f68",
+          "schema:addressLocality": "Tours",
+          "schema:postalCode": "37000",
+          "schema:streetAddress": [
+            "25 bis avenue Grammont"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37261",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tours"
+                ],
+                "fr": [
+                  "Tours"
+                ]
+              },
+              "insee": "37261",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "la.chope37@orange.fr"
+      ],
+      "schema:legalName": "LA CHOPE",
+      "schema:telephone": [
+        "+33 2 47 20 15 15"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lachope.info/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2ae674c7-4ab0-33db-b3e2-77f108cecc2b",
+      "dc:description": {
+        "en": [
+          "A historic Paris-style brasserie in Tours. Specialising in fish and seafood."
+        ],
+        "fr": [
+          "Brasserie parisienne historique de Tours. Spécialités de poisson + Fruits de mer."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "A historic Paris-style brasserie in Tours. Specialising in fish and seafood."
+        ],
+        "fr": [
+          "Brasserie parisienne historique de Tours. Spécialités de poisson + Fruits de mer."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f8118ff-1978-3077-befa-f28061f6e0b9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/54391f68-3236-3b17-960b-c31cbb0eb3e3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6546b40b-4d20-328c-93ec-23c6331c06a7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b0887c7c-f82d-38c4-9ca8-a3095aea831e",
+      "schema:value": "130",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Covers",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Covers"
+            ],
+            "fr": [
+              "Couvert"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f224a5c7-43c7-374b-824b-b2d0b1325a26",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Baby chair"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b31c337-0c91-3802-bc25-7deb3122de59",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c005411e-b7ac-39fc-87a9-64be27ac0d4c",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "La Chope"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©La Chope"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9105a51-b4b3-3155-9606-fe0c3976fbfe",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/LaChope-07-40-OK.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2cb8c9d3-7c90-3af7-b0c4-e108b003c733",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/495c609e-547f-3882-a2ec-ad650cff42ce",
+          "ebucore:title": {
+            "fr": [
+              "Restaurant-la-chope--Tours-3"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "La Chope, Tours"
+          ],
+          "rightsEndDate": "2020-03-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aaab1cc2-3725-385b-a022-1b46fd1b29f6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Restaurant-la-chope--Tours-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b31c337-0c91-3802-bc25-7deb3122de59",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c005411e-b7ac-39fc-87a9-64be27ac0d4c",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "La Chope"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©La Chope"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9105a51-b4b3-3155-9606-fe0c3976fbfe",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/LaChope-07-40-OK.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a82ab451-688a-350c-9e80-52796dec6714",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2b29b833-23ef-37e2-9447-84c498b121cf",
+          "ebucore:title": {
+            "fr": [
+              "Restaurant-la-chope--Tours-1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "La Chope, Tours"
+          ],
+          "rightsEndDate": "2020-03-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1da55981-cf04-372d-b1df-0f5314ddb7d1",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Restaurant-la-chope--Tours-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b8965a29-7436-3e4b-a060-bd0f692975ec",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2dfb14d4-ce20-33cc-8dfd-c63068f8fd9f",
+          "ebucore:title": {
+            "fr": [
+              "La Chope"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©La Chope"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9105a51-b4b3-3155-9606-fe0c3976fbfe",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/LaChope-07-40-OK.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b9a3b31d-24f9-31a2-83df-dd9c4336baf5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/48d63b5c-a24c-3b4a-9c1d-4dd639254a55",
+          "ebucore:title": {
+            "fr": [
+              "Restaurant-la-chope--Tours-4"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "contacter imagedemarc@wanadoo.fr"
+          ],
+          "rightsEndDate": "2019-03-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8bcd2bb0-bc3c-3412-b952-270d9969334c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Restaurant-la-chope--Tours-4.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c2454e2b-ec1e-3979-83d5-c805f006efc5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2dfb14d4-ce20-33cc-8dfd-c63068f8fd9f",
+          "ebucore:title": {
+            "fr": [
+              "La Chope"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©La Chope"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/396d774e-e204-36be-96c9-77f170384739",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/LaChope-07-42-OK.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c2af272e-2b67-3386-9b62-5bdd82456a8b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/437b8aff-0ac1-388f-9673-0eb847d3a55c",
+          "ebucore:title": {
+            "fr": [
+              "Restaurant-la-chope--Tours-2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "La Chope, Tours"
+          ],
+          "rightsEndDate": "2020-03-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/47b00d5b-fee4-3b63-a36b-899d62c48b58",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Restaurant-la-chope--Tours-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1af39cb0-66a2-3672-8dd3-af3a4f30514f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_RestaurateurDeQualite",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Restaurateur de Qualité"
+          ],
+          "fr": [
+            "Restaurateur de Qualité"
+          ]
+        },
+        "isCompliantWith": [
+          "Restaurant"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:SeaFood",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Sea food"
+        ],
+        "fr": [
+          "Fruits de mer"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0db5b1e7-510c-3e0f-b885-abec2b35da0c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e7580581-f99e-396b-bd5d-dabeba8431c1",
+          "schema:addressLocality": "Tours",
+          "schema:postalCode": "37000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37261",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tours"
+                ],
+                "fr": [
+                  "Tours"
+                ]
+              },
+              "insee": "37261",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/75e62da7-6882-3604-b5c4-06cb1730f0b9",
+        "schema:latitude": "47.3867299",
+        "schema:longitude": "0.690065",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-12",
+  "lastUpdateDatatourisme": "2020-09-09T08:05:50.275Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89ee5f01-5a97-3c4c-8b5c-10050f7b74ee",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1fa98082-c70c-3f6d-80cd-1d8883488093",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6973d27c-e8de-3949-9c2d-5db51d243001",
+          "schema:minPrice": [
+            "19.95"
+          ],
+          "schema:price": "19.95",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": true,
+  "takeAway": true
+}

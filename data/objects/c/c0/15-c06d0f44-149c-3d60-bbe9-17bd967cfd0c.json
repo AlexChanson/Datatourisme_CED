@@ -1,0 +1,301 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c06d0f44-149c-3d60-bbe9-17bd967cfd0c",
+  "dc:identifier": "ACCCEN037V5072JK",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Aire de service et de stationnement"
+    ],
+    "fr": [
+      "Aire de service et de stationnement"
+    ]
+  },
+  "allowedPersons": 6,
+  "creationDate": "2015-11-04",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e8e48e33-81a1-3748-9bfc-15b3150ae3a9",
+      "schema:telephone": [
+        "+33 2 47 59 50 21"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f0e9ffb5-7d0e-3715-8ea0-b481594c830c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper service point"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Charging station"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChemicalToiletEmptying",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chemical toilets emptying"
+            ],
+            "fr": [
+              "Vidange toilettes chimiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Electrical connections"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d8423048-7f66-346d-8d06-49bfd63badb7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5ce68c23-8868-30ec-9ebb-8f3f82a5deb0",
+          "schema:addressLocality": "Genillé",
+          "schema:postalCode": "37460",
+          "schema:streetAddress": [
+            "Rue de l'Huilerie"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37111",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Genillé"
+                ],
+                "fr": [
+                  "Genillé"
+                ]
+              },
+              "insee": "37111",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/e63707b6-9ea6-37da-960f-7c99517dd684",
+        "schema:latitude": "47.185212",
+        "schema:longitude": "1.09251",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-03",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.785Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3944c122-9843-34eb-98be-7dc9153a499e",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9f79f3ef-c1b3-39f3-bb3a-0003ac28b9cf",
+          "schema:minPrice": [
+            "2"
+          ],
+          "schema:price": "2",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "l'eau"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

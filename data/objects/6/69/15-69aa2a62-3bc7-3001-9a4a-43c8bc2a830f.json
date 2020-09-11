@@ -1,0 +1,926 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/69aa2a62-3bc7-3001-9a4a-43c8bc2a830f",
+  "dc:identifier": "HCOCEN03700024",
+  "@type": [
+    "schema:Hostel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "GroupLodging",
+    "HolidayCentre",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Le centre Maurice Aquilon est situé à 800 m du centre ville de Loches. Ce majestueux bâtiment vous offre une capacité de 105 lits, répartis en chambres de 2 à 6 personnes."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Centre d'hébergement municipal Maurice Aquilon"
+    ],
+    "fr": [
+      "Centre d'hébergement municipal Maurice Aquilon"
+    ]
+  },
+  "allowedPersons": 105,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2011-01-13",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/08eefc9b-1ec9-3800-9272-7249956b6ee7",
+      "schema:email": [
+        "centreaquilon@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 59 10 17"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ville-loches.fr/pdf/centre-hebergement.pdf"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/08eefc9b-1ec9-3800-9272-7249956b6ee7",
+      "schema:email": [
+        "centreaquilon@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 59 10 17"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ville-loches.fr/pdf/centre-hebergement.pdf"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1b8ba140-830f-39de-880e-7713e54f5fd7",
+      "schema:email": [
+        "centreaquilon@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 59 10 17"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ville-loches.fr/hebergement-article-3-25-95.html"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3282a6d0-3f66-3ad4-8201-6e71ccb40c9f",
+      "dc:description": {
+        "fr": [
+          "Le centre Maurice Aquilon est situé à 800 m du centre ville de Loches. Ce majestueux bâtiment vous offre une capacité de 105 lits, répartis en chambres de 2 à 6 personnes. Ainsi, vous pourrez facilement découvrir le Donjon, le Logis Royal, et de nombreuses autres curiosités qui permettent à Loches de figurer parmi les \"plus beaux villages de France\" et d'être \"Ville d'Art et d'Histoire\"."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Le centre Maurice Aquilon est situé à 800 m du centre ville de Loches. Ce majestueux bâtiment vous offre une capacité de 105 lits, répartis en chambres de 2 à 6 personnes."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3901e79d-abfc-3c3e-9309-66ff24a26bba",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Meeting room"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Park"
+            ],
+            "fr": [
+              "Parc"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Playground"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateGarage",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private garage"
+            ],
+            "fr": [
+              "Garage privé"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Reception room"
+            ],
+            "fr": [
+              "Salle de réception"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SportsEquipmentLending",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sports equipment lending"
+            ],
+            "fr": [
+              "Prêt de matériel de sport"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TouristInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tourist information"
+            ],
+            "fr": [
+              "Informations touristiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/35bae38d-2372-3d49-9ee4-cd32a8279be3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d9ee03c-e634-3ce3-b785-aba65be17f4d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "HCO_Loches_Centre-maurice-Aquilon"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/00c81eaf-8360-32d3-81c1-62212383e55e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HCO-Loches-Centre-maurice-Aquilon.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/35bae38d-2372-3d49-9ee4-cd32a8279be3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d9ee03c-e634-3ce3-b785-aba65be17f4d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "HCO_Loches_Centre-maurice-Aquilon"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/00c81eaf-8360-32d3-81c1-62212383e55e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HCO-Loches-Centre-maurice-Aquilon.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/847edee5-ba0d-37bc-8fcd-70251c1f7a8e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0014544a-362c-30bb-8923-7d5d02366bb2",
+          "schema:addressLocality": "Loches",
+          "schema:postalCode": "37600",
+          "schema:streetAddress": [
+            "13 rue du Docteur Martinais"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37132",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loches"
+                ],
+                "fr": [
+                  "Loches"
+                ]
+              },
+              "insee": "37132",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d2bfd0d5-fadd-3f65-affb-2506048881da",
+        "schema:latitude": "47.129245",
+        "schema:longitude": "1.007155",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0b172f49-c751-38c7-bd52-95496485ccb5",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/14a22b3c-812d-3dfa-9de1-8a138105dfab",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/41855f19-3f8f-3b68-b167-8b0f2507a9f3",
+          "schema:closes": "17:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b9dc651-1bd9-3620-ae37-dcf782fcd373",
+          "schema:closes": "17:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Monday"
+                ],
+                "fr": [
+                  "Lundi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/66729c91-40b3-3acb-966a-151c7f3dc31b",
+          "schema:closes": "17:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7963ba9a-f7df-39d9-923f-f1e62d329c25",
+          "schema:closes": "17:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7f4272de-038b-33eb-8de5-cfa9bd855a8c",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/803f1c43-de04-32c5-b6fa-3a32dddb1cae",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Monday"
+                ],
+                "fr": [
+                  "Lundi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a4068152-d972-3c53-b0ec-f081012fdd01",
+          "schema:closes": "17:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bbd62963-c260-37bf-bbb9-74da51e851ca",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-16",
+  "lastUpdateDatatourisme": "2020-07-06T23:46:56.217Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/012c11ee-9038-3b99-9247-f98d3bf34ca1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b13051c3-d2b3-3442-a652-4e780445d521",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Nuit, petit déjeuner, déjeuner ou dîner"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b2dbc4a2-15c9-3703-877e-0b7051fb4cd9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Tarif avec ou sans viennoiserie"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b51a658b-73f9-3f78-9eaf-82060c9b385c",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Draps fournis par vos soins"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d0ee45e5-283b-37b1-a439-f4ae2d0a0134",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Option (forfait par semaine)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

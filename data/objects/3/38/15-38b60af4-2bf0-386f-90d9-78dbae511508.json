@@ -1,0 +1,791 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/38b60af4-2bf0-386f-90d9-78dbae511508",
+  "dc:identifier": "HOT41AAHOT100043",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Located on the outskirts of Blois, the hotel is strategically located on the road of the castles of the Loire (Chambord, Cheverny ...) and not far from the city of Blois and its historic center. It offers 48 comfortable and quiet rooms. Restaurant on site."
+    ],
+    "fr": [
+      "Installé en périphérie de Blois, l’hôtel, stratégiquement placé sur la route des châteaux de la Loire (Chambord, Cheverny...) et sur celle de la ville de Blois et de son centre historique, propose 48 chambres confortables et au calme. Restaurant sur place ouvert du lundi à jeudi de 19h00 à 21h00"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Inter-Hôtel Le Cosy"
+    ],
+    "fr": [
+      "Hôtel Le Cosy Blois Nord"
+    ]
+  },
+  "allowedPersons": 96,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0c6b24b2-36bc-3aaa-83db-d46b9e0c4ab2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b5398bee-da3d-31b7-8140-ed414d731d7e",
+          "schema:addressLocality": "Villebarou",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41276",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villebarou"
+                ],
+                "fr": [
+                  "Villebarou"
+                ]
+              },
+              "insee": "41276",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@lecosyhotel.fr"
+      ],
+      "schema:legalName": "Inter-Hôtel Le Cosy",
+      "schema:telephone": [
+        "+33 2 54 74 80 47"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hotelcosy-blois.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0c6b24b2-36bc-3aaa-83db-d46b9e0c4ab2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b5398bee-da3d-31b7-8140-ed414d731d7e",
+          "schema:addressLocality": "Villebarou",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41276",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villebarou"
+                ],
+                "fr": [
+                  "Villebarou"
+                ]
+              },
+              "insee": "41276",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@lecosyhotel.fr"
+      ],
+      "schema:legalName": "Inter-Hôtel Le Cosy",
+      "schema:telephone": [
+        "+33 2 54 74 80 47"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hotelcosy-blois.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7cecb2ea-42cf-3070-ae92-0b0218827ce8",
+      "dc:description": {
+        "en": [
+          "Located on the outskirts of Blois, Hotel, strategically located on the road of the castles of the Loire (Chambord, Cheverny ...) and that of the city of Blois and its historic center, offers 48 comfortable and quiet. Restaurant on site open from Monday at lunch to Friday at lunch ..."
+        ],
+        "fr": [
+          "Installé en périphérie de Blois, l’hôtel, stratégiquement placé sur la route des châteaux de la Loire (Chambord, Cheverny...) et sur celle de la ville de Blois et de son centre historique, propose 48 chambres confortables et au calme. Restaurant sur place ouvert du lundi à jeudi de 19h00 à 21h00"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Located on the outskirts of Blois, the hotel is strategically located on the road of the castles of the Loire (Chambord, Cheverny ...) and not far from the city of Blois and its historic center. It offers 48 comfortable and quiet rooms. Restaurant on site."
+        ],
+        "fr": [
+          "Installé en périphérie de Blois, l’hôtel, stratégiquement placé sur la route des châteaux de la Loire (Chambord, Cheverny...) et sur celle de la ville de Blois et de son centre historique, propose 48 chambres confortables et au calme. Restaurant sur place ouvert du lundi à jeudi de 19h00 à 21h00"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6546b40b-4d20-328c-93ec-23c6331c06a7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6d762816-db41-3ab9-9ab0-afb2d8471c87",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72bcfc8d-598e-3dde-90f2-b0ef4adefe65",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8715c676-ff3a-3961-844d-18605277b352",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b5aeee97-c905-350a-b47e-5eab8eddae3c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c2804440-db8c-3927-9f79-588c1a895b7a",
+      "schema:value": "48",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1a456ed2-72c7-3cde-b576-b58e701271a6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f16ae58d-f28a-3e35-90b1-31ba4f8ed288",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Inter-Hotel-Le-Cosy-Villebarou©Inter-Hotel-Le Cosy-Site-Web"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Inter-Hotel-Le Cosy-Site-Web"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d06193f9-f23c-312f-889e-0b68541ad97a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Inter-Hotel-Le-Cosy-Villebarou-Inter-Hotel-Le-Cosy-Site-Web.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "City outskirts"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1a456ed2-72c7-3cde-b576-b58e701271a6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f16ae58d-f28a-3e35-90b1-31ba4f8ed288",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Inter-Hotel-Le-Cosy-Villebarou©Inter-Hotel-Le Cosy-Site-Web"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Inter-Hotel-Le Cosy-Site-Web"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d06193f9-f23c-312f-889e-0b68541ad97a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Inter-Hotel-Le-Cosy-Villebarou-Inter-Hotel-Le-Cosy-Site-Web.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2455044a-2685-357a-a173-d13e0fba14d9",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "2 étoiles"
+          ],
+          "fr": [
+            "2 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "City outskirts"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2dc71503-8c54-36d2-a9bf-32b0a972e03a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a7c43f46-3f53-3b22-aec3-0ca73a58efdc",
+          "schema:addressLocality": "Villebarou",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "3 Avenue de Vendôme"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41276",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villebarou"
+                ],
+                "fr": [
+                  "Villebarou"
+                ]
+              },
+              "insee": "41276",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/45384021-7c43-3351-9ccb-39fc497bbc29",
+        "schema:latitude": "47.5952595",
+        "schema:longitude": "1.3285742",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-03",
+  "lastUpdateDatatourisme": "2020-08-23T07:52:34.774Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/27ab3d1e-a9d9-3c87-aafe-85d6cbb071b1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

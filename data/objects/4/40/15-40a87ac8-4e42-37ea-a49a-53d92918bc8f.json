@@ -1,0 +1,587 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/40a87ac8-4e42-37ea-a49a-53d92918bc8f",
+  "dc:identifier": "HLOCEN037FS0002C",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "2 bedrooms - 78 m². Annex building connected to the owners' house, situated in the Parc de Fontenay. Bike hire, billiards, table football on request. Free Wi-Fi access. Wine tasting available."
+    ],
+    "fr": [
+      "Le Gîte \"La Closerie\" peut accueillir de 4 à 6 personnes.\nCuisine équipée, séjour grand confort, 2 chambres, salon de jardin, BBQ.\nVélos, ping-pong, baby-foot, Piscine, Tennis, prestation de repas directement livrés en gîte.\nVisite des chais et dégustation des vins de la propriété."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Gîte \"La Closerie\""
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "de",
+    "en",
+    "es"
+  ],
+  "creationDate": "2009-11-04",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f29c6da8-5352-3c3f-9a28-e18ffd1e78b8",
+      "schema:email": [
+        "contact@leclosdefontenay.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 57 12 74"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lechateaudefontenay.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fc58195c-80f1-3356-a60c-e24ede1bc56d",
+      "dc:description": {
+        "en": [
+          "2 bedrooms - 78 m². Annex building connected to the owners' house, situated in the Parc de Fontenay. Bike hire, billiards, table football on request. Free Wi-Fi access. Wine tasting available."
+        ],
+        "fr": [
+          "Le Château de Fontenay vous propose 1 Gîte entièrement rénové et décoré avec raffinement. \nSituée dans le parc de 17 ha qui entoure le Château, une ancienne dépendance agricole a été aménagée pour recevoir de 4 à 6 personnes.\nLe linge de maison est fourni (cuisine, toilette, lit). Les lits sont faits à votre arrivée.\nLes 17 ha du parc du Château vous attendent pour des balades à pied ou à vélos qui sont mis gracieusement à votre disposition. Profitez également de la piscine extérieure chauffée.\nLe Château de Fontenay est aussi une propriété viticole. Nous vous proposons la visite des vignes, caves et la dégustation des vins de la propriété sur simple demande."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "2 bedrooms - 78 m². Annex building connected to the owners' house, situated in the Parc de Fontenay. Bike hire, billiards, table football on request. Free Wi-Fi access. Wine tasting available."
+        ],
+        "fr": [
+          "Le Gîte \"La Closerie\" peut accueillir de 4 à 6 personnes.\nCuisine équipée, séjour grand confort, 2 chambres, salon de jardin, BBQ.\nVélos, ping-pong, baby-foot, Piscine, Tennis, prestation de repas directement livrés en gîte.\nVisite des chais et dégustation des vins de la propriété."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/35f046ee-746a-34db-8426-bc26397a22de",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SportsEquipmentLending",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sports equipment lending"
+            ],
+            "fr": [
+              "Prêt de matériel de sport"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TennisCourt",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tennis court"
+            ],
+            "fr": [
+              "Court de tennis"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/17bf1d2d-3459-3022-a5e8-c41de66f0f3a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9e0733c-f13a-3efa-a59b-e55e74f51dc8",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Château de Fontenay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Château de Fontenay"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/25f2d0ad-f1af-3587-b4c3-51aac67e460c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chateau-de-Fontenay-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/17bf1d2d-3459-3022-a5e8-c41de66f0f3a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9e0733c-f13a-3efa-a59b-e55e74f51dc8",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Château de Fontenay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Château de Fontenay"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/25f2d0ad-f1af-3587-b4c3-51aac67e460c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chateau-de-Fontenay-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/526cd087-e7f8-3f9f-8e86-3f3d85b983d7",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_QualiteTourisme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Qualité Tourisme"
+          ],
+          "fr": [
+            "Qualité Tourisme"
+          ]
+        },
+        "isCompliantWith": [
+          "Arena",
+          "BarOrPub",
+          "CafeOrTearoom",
+          "CampingAndCaravanning",
+          "CollectiveAccommodation",
+          "CulturalSite",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "LeisurePlace",
+          "LocalTouristOffice",
+          "Marina",
+          "Practice",
+          "RealEstateAgent",
+          "Restaurant",
+          "Store",
+          "Visit"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6845194c-1995-3dac-9684-d1317bb87d43",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f84375b6-d82b-3e0d-b0ee-774a229a31f3",
+          "schema:addressLocality": "Bléré",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "5 Fontenay"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37027",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Bléré"
+                ],
+                "fr": [
+                  "Bléré"
+                ]
+              },
+              "insee": "37027",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/31a1d2fd-2cb1-378c-a13c-0b018113afc8",
+        "schema:latitude": "47.3297823",
+        "schema:longitude": "0.9611303",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-31",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.348Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a8e84ea0-665c-3f5c-958b-16a7df675bd5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/09fc2cc0-528d-3706-ac74-dc3164ba8e26",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/185aaa3f-7205-3314-9181-5d606b83b6e0",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1aa27526-8462-3340-b5db-eaca79baa1ab",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3258a284-2eb9-305e-8c3d-16be456523bd",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/69f55e25-5d74-3319-8db9-ad1209a456d5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a2ef67d6-7025-3127-bb1f-9688b2f71cf7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

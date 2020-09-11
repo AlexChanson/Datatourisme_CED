@@ -1,0 +1,384 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/6d987da2-ffc0-3a40-9372-713847f0e8e0",
+  "dc:identifier": "HLOCEN041V501FTY",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Chalet",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "\"Le gîte des Châteaux\" est un appartement de 2 pièces totalement indépendant au premier étage de notre grande maison. Il est accessible par un escalier intérieur. Possibilités de paniers repas sur place (à commander - plusieurs choix possible)."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Le gîte des châteaux"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2018-02-07",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a1854c8c-6eb8-34e9-9cf6-2c283fa1f9c9",
+      "schema:email": [
+        "contact@larossignolerie.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 33 41 73",
+        "+33 6 87 76 16 33"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.larossignolerie.com/gite-des-chateaux.html"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a1854c8c-6eb8-34e9-9cf6-2c283fa1f9c9",
+      "schema:email": [
+        "contact@larossignolerie.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 33 41 73",
+        "+33 6 87 76 16 33"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.larossignolerie.com/gite-des-chateaux.html"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e95c8ce0-01a8-3890-8717-cd38c44779a1",
+      "dc:description": {
+        "fr": [
+          "\"Le gîte des Châteaux\" est un appartement de 2 pièces totalement indépendant au premier étage de notre grande maison. Il est accessible par un escalier intérieur. Possibilités de paniers repas sur place (à commander - plusieurs choix possible)."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "\"Le gîte des Châteaux\" est un appartement de 2 pièces totalement indépendant au premier étage de notre grande maison. Il est accessible par un escalier intérieur. Possibilités de paniers repas sur place (à commander - plusieurs choix possible)."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da9f4ea3-3f14-3135-ba1b-ebb2208fd359",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasFloorSize": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9bdf8ec1-8991-30ce-98ff-2fda3c21bb95",
+      "schema:unitText": [
+        "M2"
+      ],
+      "@type": [
+        "schema:QuantitativeValue"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6fafc797-2bd8-3cfa-a422-0896c3bd30df",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a9aa196c-e690-3eb0-998e-70be3c453bde",
+          "schema:addressLocality": "Valloire-sur-Cisse",
+          "schema:postalCode": "41150",
+          "schema:streetAddress": [
+            "5 route de Villesavoir",
+            "Chouzy-sur-Cisse"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41055",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Valloire-sur-Cisse"
+                ],
+                "fr": [
+                  "Valloire-sur-Cisse"
+                ]
+              },
+              "insee": "41055",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/82e2d3ff-1a05-3d10-a037-1dfd91368ed9",
+        "schema:latitude": "47.5181298",
+        "schema:longitude": "1.23325639",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-03-10",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.328Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e32129e3-6d9e-3acd-8cc7-f79e58810514",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/25753f27-3e3b-3697-a73f-d218d1581b50",
+          "schema:minPrice": [
+            "40"
+          ],
+          "schema:price": "40",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ExtraCharge",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Extra charge"
+              ],
+              "fr": [
+                "Supplément"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/404f7b69-354a-3323-9c8f-394f1af62d6b",
+          "schema:maxPrice": [
+            "80"
+          ],
+          "schema:minPrice": [
+            "40"
+          ],
+          "schema:price": "40",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6bcd063c-dfd6-3502-be30-124a1067ddc4",
+          "schema:minPrice": [
+            "440"
+          ],
+          "schema:price": "440",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

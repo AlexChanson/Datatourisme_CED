@@ -1,0 +1,1093 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c40a361b-fcab-3495-92ae-54b1f336fbf3",
+  "dc:identifier": "HOTCEN0370000097",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "A lovely, warm stopover, not far from the Châteaux in the Loire Valley. Quality cuisine within the charm and comfort of an old hotel."
+    ],
+    "fr": [
+      "Une étape sympathique et chaleureuse au coeur des châteaux du Val de Loire. Cuisine de qualité avec le charme et le confort d'une vieille auberge."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Le Cheval Blanc"
+    ],
+    "fr": [
+      "Le Cheval Blanc"
+    ]
+  },
+  "allowedPersons": 16,
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2002-04-12",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a61491f-4f2b-30ee-9acd-ccd5a898b950",
+      "schema:email": [
+        "le.cheval.blanc.blere@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 30 30 14"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lechevalblancblere.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/88ef870a-28fc-3342-a5e3-6ab6e5d544a6",
+      "dc:description": {
+        "en": [
+          "A lovely, warm stopover, not far from the Châteaux in the Loire Valley. Quality cuisine within the charm and comfort of an old hotel."
+        ],
+        "fr": [
+          "Une étape sympathique et chaleureuse au coeur des châteaux du Val de Loire. Cuisine de qualité avec le charme et le confort d'une vieille auberge."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "A lovely, warm stopover, not far from the Châteaux in the Loire Valley. Quality cuisine within the charm and comfort of an old hotel."
+        ],
+        "fr": [
+          "Une étape sympathique et chaleureuse au coeur des châteaux du Val de Loire. Cuisine de qualité avec le charme et le confort d'une vieille auberge."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1bc367c6-64f9-3e41-9446-a40a8855c8fc",
+      "schema:value": "8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1d6b9823-8f0b-3dbd-8ac8-46034133a11f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BikeGarage",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike garage"
+            ],
+            "fr": [
+              "Garage à vélo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/20965f74-e323-3e7a-abba-634b63666ec6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Outdoor pool"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3649eae9-c4b2-3f23-94b4-c48ba67f7f03",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:LockedStorageRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Locked storage room"
+            ],
+            "fr": [
+              "Local matériel fermé"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/382a229e-6451-3361-b47e-3c1c0d682292",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Fax",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Fax"
+            ],
+            "fr": [
+              "Fax"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3902351d-f5f1-3c30-9958-9d3d8e2a6950",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Reception room"
+            ],
+            "fr": [
+              "Salle de réception"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6546b40b-4d20-328c-93ec-23c6331c06a7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6d762816-db41-3ab9-9ab0-afb2d8471c87",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6ed4a8ad-2f7d-36b5-b839-2b6800e38979",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:HeatedPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Heated pool"
+            ],
+            "fr": [
+              "Piscine chauffée"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72bcfc8d-598e-3dde-90f2-b0ef4adefe65",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8715c676-ff3a-3961-844d-18605277b352",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9b928b32-d477-30a7-b022-3d3a615782a7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Garden"
+            ],
+            "fr": [
+              "Jardin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b5aeee97-c905-350a-b47e-5eab8eddae3c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d5fd2d92-2713-3ff2-9961-813e8d8a7870",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/914e5f1c-16e6-3985-b2dc-63e5a784e0b5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c91feef7-3aed-3c67-9ea2-7e20d22c986a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hotel Le Cheval Blanc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©le cheval blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/110b1955-14b0-3063-bbe3-701319650d39",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Hotel-Le-Cheval-Blanc-2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/11f1e06a-50e6-359f-8a41-5be14893422f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4a275136-d853-3c7d-8fcc-f16e67e5d53c",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Cheval blanc chambre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Cheval blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6e232c3b-15fe-3352-a306-34ca63c7b88d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Cheval-blanc-chambre.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/268aec13-59c7-3d6a-8d2b-ca3f97f160ab",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f4d2ac8-ead1-35fa-9e26-285c7c31bc8d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hôtel le Cheval Blanc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Hôtel le Cheval Blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8a8c3bc0-1d37-3485-9f8c-44297335be1d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Hotel-Le-Cheval-Blanc-1-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2f86c620-16a3-3a2d-87aa-1310de3c56d9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f4d2ac8-ead1-35fa-9e26-285c7c31bc8d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hôtel le Cheval Blanc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Hôtel le Cheval Blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/17710f3b-8f7d-34cd-89bd-8103ebc5f19f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Hotel-Le-Cheval-Blanc-3-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/914e5f1c-16e6-3985-b2dc-63e5a784e0b5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c91feef7-3aed-3c67-9ea2-7e20d22c986a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hotel Le Cheval Blanc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©le cheval blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/110b1955-14b0-3063-bbe3-701319650d39",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Hotel-Le-Cheval-Blanc-2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f16be2d6-519e-3271-99f4-15f3758cc1c2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f4d2ac8-ead1-35fa-9e26-285c7c31bc8d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hôtel le Cheval Blanc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Hôtel le Cheval Blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e1544b90-e21e-350a-8bb9-aab11b32c427",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Hotel-Le-Cheval-Blanc-2-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f8ba9348-2b46-3dac-8468-851a72264070",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6f4d2ac8-ead1-35fa-9e26-285c7c31bc8d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hôtel le Cheval Blanc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Hôtel le Cheval Blanc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89494691-34f4-368e-b031-d4525e1457a7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Hotel-Le-Cheval-Blanc-4-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/526cd087-e7f8-3f9f-8e86-3f3d85b983d7",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_QualiteTourisme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Qualité Tourisme"
+          ],
+          "fr": [
+            "Qualité Tourisme"
+          ]
+        },
+        "isCompliantWith": [
+          "Arena",
+          "BarOrPub",
+          "CafeOrTearoom",
+          "CampingAndCaravanning",
+          "CollectiveAccommodation",
+          "CulturalSite",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "LeisurePlace",
+          "LocalTouristOffice",
+          "Marina",
+          "Practice",
+          "RealEstateAgent",
+          "Restaurant",
+          "Store",
+          "Visit"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dd996031-3686-39ea-84b7-38ab0d6ce698",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/92ec836f-05c4-308d-bfaa-005426d812e0",
+          "schema:addressLocality": "Bléré",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "5 place Charles Bidault"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37027",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Bléré"
+                ],
+                "fr": [
+                  "Bléré"
+                ]
+              },
+              "insee": "37027",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/5d3190a2-e87c-3cb5-803a-4dc420d74668",
+        "schema:latitude": "47.3276539",
+        "schema:longitude": "0.99203109",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-12",
+  "lastUpdateDatatourisme": "2020-07-07T07:58:20.923Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8d908af5-54c7-390c-b81b-df9c747bcb62",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

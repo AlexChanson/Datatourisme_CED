@@ -1,0 +1,832 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/356037ca-8b80-3b53-848b-6d6052f47b2b",
+  "dc:identifier": "DEG41AASOR100378",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:Product",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting",
+    "TastingProvider"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Discover a duck and chicken breeding and our processing laboratory where we produce Foie Gras and cooked meals. Guided visit and tasting, also meals prepared with our products (10 pers. mini. and on reservation). Farm shop on site."
+    ],
+    "fr": [
+      "Découverte d'un élevage de canards, de poulets de ferme, d'un labo de transformation où nous fabriquons du foie gras et des plats cuisinés. Visite guidée et dégustation, possibilité de repas élaboré avec notre gamme de produits (à partir de 10 pers. et sur réservation). Boutique sur place."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Faubonnière farm"
+    ],
+    "fr": [
+      "La Ferme de la Faubonnière"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9733782b-86fb-35f8-a7ee-bfb334d9947d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0adc9660-dd08-3f5b-a083-2611b2b8aaed",
+          "schema:addressLocality": "Chémery",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "La Faubonnière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41049",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chémery"
+                ],
+                "fr": [
+                  "Chémery"
+                ]
+              },
+              "insee": "41049",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@fermedelafaubonniere.com"
+      ],
+      "schema:legalName": "Ferme de la Faubonnière",
+      "schema:telephone": [
+        "+33 2 54 71 81 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.fermedelafaubonniere.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9733782b-86fb-35f8-a7ee-bfb334d9947d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0adc9660-dd08-3f5b-a083-2611b2b8aaed",
+          "schema:addressLocality": "Chémery",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "La Faubonnière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41049",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chémery"
+                ],
+                "fr": [
+                  "Chémery"
+                ]
+              },
+              "insee": "41049",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@fermedelafaubonniere.com"
+      ],
+      "schema:legalName": "Ferme de la Faubonnière",
+      "schema:telephone": [
+        "+33 2 54 71 81 77"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.fermedelafaubonniere.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/deb37dff-986f-3aa9-b7c6-b6e1dae5c8f3",
+      "dc:description": {
+        "en": [
+          "Discover a duck and chicken breeding and our processing laboratory where we produce Foie Gras and cooked meals. Guided visit and tasting, also meals prepared with our products (10 pers. mini. and on reservation). Farm shop on site."
+        ],
+        "fr": [
+          "Découverte d'un élevage de canards, de poulets de ferme, d'un labo de transformation où nous fabriquons du foie gras et des plats cuisinés. Visite guidée et dégustation, possibilité de repas élaboré avec notre gamme de produits (à partir de 10 pers. et sur réservation). Boutique sur place."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Discover a duck and chicken breeding and our processing laboratory where we produce Foie Gras and cooked meals. Guided visit and tasting, also meals prepared with our products (10 pers. mini. and on reservation). Farm shop on site."
+        ],
+        "fr": [
+          "Découverte d'un élevage de canards, de poulets de ferme, d'un labo de transformation où nous fabriquons du foie gras et des plats cuisinés. Visite guidée et dégustation, possibilité de repas élaboré avec notre gamme de produits (à partir de 10 pers. et sur réservation). Boutique sur place."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba2766a1-9c0d-341c-bbf2-f03be60f73a9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/72f788e8-debc-39ed-bc1f-327a8418ce5a",
+          "ebucore:title": {
+            "fr": [
+              "ferme-de-la-faubonniere-chemery-web(1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Ferme-de-le-faubonniere"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f6a3d09b-d199-3268-a117-634b60086e61",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ferme-de-la-faubonniere-chemery-Ferme-de-le-faubonniere-web-1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/968c6b7d-b388-3d67-91e2-310a97c9d1f9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3d93060c-ff6a-31c9-9801-776ccba4443e",
+          "ebucore:title": {
+            "fr": [
+              "ferme-de-la-faubonnière"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Ferme-de-le-faubonniere"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cfcdc23a-2f42-38aa-ac9b-abb86072ed39",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ferme-de-la-faubonniere.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b1141c07-c105-34a2-94e1-0b64ccc030fe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f6a68554-6a86-3d2b-a89b-df599231e590",
+          "ebucore:title": {
+            "fr": [
+              "ferme-de-la-faubonniere-chemery-web(3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Ferme-de-le-faubonniere"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9d6e147a-334d-3554-a85b-8ec8cf5f3831",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ferme-de-la-faubonniere-chemery-Ferme-de-le-faubonniere-web-3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba2766a1-9c0d-341c-bbf2-f03be60f73a9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/72f788e8-debc-39ed-bc1f-327a8418ce5a",
+          "ebucore:title": {
+            "fr": [
+              "ferme-de-la-faubonniere-chemery-web(1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Ferme-de-le-faubonniere"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f6a3d09b-d199-3268-a117-634b60086e61",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ferme-de-la-faubonniere-chemery-Ferme-de-le-faubonniere-web-1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d342b097-8e5d-35f3-bf03-6aafe2d1fc80",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2b216735-1bf8-3623-8dc3-52d0f3392f13",
+          "ebucore:title": {
+            "fr": [
+              "ferme-de-la-faubonniere"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Ferme-de-le-faubonniere"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d350844-012d-3a83-b4a9-c562d02bd990",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/page-11-ferme-faubonniere.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89ab7d1e-59f0-3c8d-ab2f-9875727b4fde",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_BienvenueaLaFerme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Bienvenue à la ferme"
+          ],
+          "fr": [
+            "Bienvenue à la ferme"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Guesthouse",
+          "Practice",
+          "Restaurant",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:FoieGras",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Foie gras"
+        ],
+        "fr": [
+          "Foie gras"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PoultryEggs",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Poultry - eggs"
+        ],
+        "fr": [
+          "Volailles - oeufs"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19281d2e-f828-31ea-a835-e1348c72a0a2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0adc9660-dd08-3f5b-a083-2611b2b8aaed",
+          "schema:addressLocality": "Chémery",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "La Faubonnière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41049",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chémery"
+                ],
+                "fr": [
+                  "Chémery"
+                ]
+              },
+              "insee": "41049",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d2c77de4-8fd4-3569-9539-41bad6e7b667",
+        "schema:latitude": "47.3406149",
+        "schema:longitude": "1.4638329",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-11",
+  "lastUpdateDatatourisme": "2020-08-12T08:00:05.717Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9d421e2c-9e64-348a-8269-9f3e130fbca3",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

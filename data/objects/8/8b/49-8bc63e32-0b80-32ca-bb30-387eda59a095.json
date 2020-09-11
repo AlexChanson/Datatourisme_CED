@@ -1,0 +1,554 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/8bc63e32-0b80-32ca-bb30-387eda59a095",
+  "dc:identifier": "DEGPDL072V50M5TA",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TastingProvider"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Le Cochon Zébré est une toute jeune ferme viticole dans la Vallée de la Dême qui produit aujourd'hui du vin et des jus de légumes. Le leitmotiv : des produits simples et sains au coeur d'un paysage préservé et riche."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE LE COCHON ZEBRÉ"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Français"
+  ],
+  "creationDate": "2019-12-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b0be5e8f-495a-364c-bcd1-3ad79de5b9d5",
+      "schema:email": [
+        "lecochonzebre@riseup.net"
+      ],
+      "schema:telephone": [
+        "+33 6 68 56 34 57"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://lecochonzebre.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/40f4d7b3-fd6c-35fa-acfb-f8f3e3b244b3",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Le Cochon Zébré est une toute jeune ferme viticole dans la Vallée de la Dême qui produit aujourd'hui du vin et des jus de légumes. Le leitmotiv : des produits simples et sains au coeur d'un paysage préservé et riche."
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9c31039d-a865-391f-8679-31dd2caed8ea",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_OrganicFarming",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Organic farming"
+          ],
+          "fr": [
+            "Agriculture Biologique"
+          ]
+        },
+        "isCompliantWith": [
+          "FoodEstablishment",
+          "MedicalPlace",
+          "Practice",
+          "Store",
+          "TastingProvider"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Cider",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Cider"
+        ],
+        "fr": [
+          "Cidre"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FruitJuice",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fruit juice"
+        ],
+        "fr": [
+          "Jus de fruits"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d7a8e9e7-1283-39e1-a59a-f9f4cb66cd03",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/42878c03-9971-317b-a09e-43d8e5f6b27d",
+          "schema:addressLocality": "Marçon",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "La Parerie"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72183",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Marçon"
+                ],
+                "fr": [
+                  "Marçon"
+                ]
+              },
+              "insee": "72183",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/67cb09f5-61be-3f11-93ef-edc57fedc535",
+        "schema:latitude": "47.703572",
+        "schema:longitude": "0.531666",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0553d21f-5121-3a19-9e85-cb16ecc447af",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2020-01-04T00:00:00",
+          "schema:validThrough": "2020-01-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1a271db5-c4fc-31a6-9e5b-62cb5c56366c",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2019-06-06T00:00:00",
+          "schema:validThrough": "2020-06-06T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/268eeab1-26aa-3973-a772-e5050263e860",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2019-07-04T00:00:00",
+          "schema:validThrough": "2020-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/45e03301-1a0d-3b42-aad6-fae0c88b6a70",
+          "schema:closes": "20:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2019-05-02T00:00:00",
+          "schema:validThrough": "2020-05-02T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9b50e7f0-cb1b-3f23-b4e1-02b147b0ded4",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2019-04-04T00:00:00",
+          "schema:validThrough": "2020-04-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d438cdb6-a4df-3b92-9f12-c9da4a088903",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2019-08-01T00:00:00",
+          "schema:validThrough": "2020-08-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dd9d7046-09a2-37a6-82d8-45ea153dc20f",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2019-02-01T00:00:00",
+          "schema:validThrough": "2020-02-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eee397a3-ad8a-381b-b3bf-ec4623d4031a",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:00:00",
+          "schema:validFrom": "2019-03-07T00:00:00",
+          "schema:validThrough": "2020-03-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-03-02",
+  "lastUpdateDatatourisme": "2020-07-07T03:53:45.061Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a82d8de9-e387-3d3b-a8be-93b2b87c0364",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesFoodProduct": [
+    {
+      "@id": "kb:Cider",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Cider"
+        ],
+        "fr": [
+          "Cidre"
+        ]
+      }
+    },
+    {
+      "@id": "kb:FruitJuice",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fruit juice"
+        ],
+        "fr": [
+          "Jus de fruits"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ]
+}

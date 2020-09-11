@@ -1,0 +1,975 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/6b8cbc22-1580-37e3-9e9a-e677397bb89b",
+  "dc:identifier": "HPACEN0370000007",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Camping",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "3-star campsite and caravan site on the edge of a beautiful body of water on the Cher River. We have a games room and games for children: slide, swings."
+    ],
+    "fr": [
+      "Camping-caravaning 3 étoiles au bord d'un magnifique plan d'eau sur le Cher. Nous vous proposons une salle de jeux et des jeux pour enfants : toboggan, balançoires."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Camping la gatine"
+    ],
+    "fr": [
+      "Camping onlycamp La Gâtine"
+    ]
+  },
+  "allowedPersons": 630,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2002-04-11",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a12c84f8-fb15-33a8-8697-70b6727dde90",
+      "schema:email": [
+        "contact@campinglagatine.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 57 92 60"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.onlycamp.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04142554-a33e-35c5-b5c9-b0ae72317722",
+      "dc:description": {
+        "en": [
+          "3-star campsite and caravan site on the edge of a beautiful body of water on the Cher River. We have a games room and games for children: slide, swings."
+        ],
+        "fr": [
+          "Camping-caravaning 3 étoiles au bord d'un magnifique plan d'eau sur le Cher. Nous vous proposons une salle de jeux et des jeux pour enfants : toboggan, balançoires."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "3-star campsite and caravan site on the edge of a beautiful body of water on the Cher River. We have a games room and games for children: slide, swings."
+        ],
+        "fr": [
+          "Camping-caravaning 3 étoiles au bord d'un magnifique plan d'eau sur le Cher. Nous vous proposons une salle de jeux et des jeux pour enfants : toboggan, balançoires."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3442a098-e5e0-3a99-a07e-dd7cc1a93cd3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bathing"
+            ],
+            "fr": [
+              "Baignade"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BikeGarage",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike garage"
+            ],
+            "fr": [
+              "Garage à vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BikeHire",
+          "@type": [
+            "CommonAmenity",
+            "RentalPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike hire"
+            ],
+            "fr": [
+              "Location de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Electrical connections"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SiteClosedAtNight",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Site closed at night"
+            ],
+            "fr": [
+              "Terrain fermé la nuit"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6eeda3da-8070-373f-a674-bc638ad13b9a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b33fe12-cc00-3a78-870e-f37788882c20",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Camping la Gâtine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f6c46d58-dd07-3654-b3a5-3eb465104cc3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-la-Gatine-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Lakeside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Lakeside"
+        ],
+        "fr": [
+          "Bord de lac ou de plan d'eau"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Near a river or stream"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6eeda3da-8070-373f-a674-bc638ad13b9a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b33fe12-cc00-3a78-870e-f37788882c20",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Camping la Gâtine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f6c46d58-dd07-3654-b3a5-3eb465104cc3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-la-Gatine-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/71a5a5f2-267f-3c59-92f4-422ff7d4f379",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b6341839-1b57-3625-b0d5-17e748ffee32",
+          "ebucore:title": {
+            "fr": [
+              "Camping la Gâtine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1e974158-55ce-37ab-b968-8e5675acbe13",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-la-Gatine.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8178f8b5-e6c2-314a-8080-f9a1de4dd34c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3be1f2dd-ef39-3dbc-bfb2-e650f9c6cb09",
+          "ebucore:title": {
+            "fr": [
+              "Camping_Blere (5)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b1948dcd-7400-334a-ad71-5f1a9a703f14",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Blere--5-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/85a5f93d-e260-37d3-b132-16a79e038b3a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b6341839-1b57-3625-b0d5-17e748ffee32",
+          "ebucore:title": {
+            "fr": [
+              "Camping la Gâtine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f6c46d58-dd07-3654-b3a5-3eb465104cc3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-la-Gatine-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8c977fa9-adeb-31e8-a346-09ccd29dcdcf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/455e22ae-d37e-3c68-8ea8-34ceda7c3a80",
+          "ebucore:title": {
+            "fr": [
+              "Camping_Blere (3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d8a34cf8-0d2d-31b0-82ed-18781812d04d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Blere--3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a9b58919-dc8c-3c5f-9edc-743c4292a233",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d0bfa79e-139b-3faa-bd68-f9df99c08932",
+          "ebucore:title": {
+            "fr": [
+              "Camping_Blere (2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a5dc1123-173b-36d6-87b2-dd10b52d4592",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Blere--2-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/abb9835b-d9e4-3e50-9ce1-45455d0a147f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/381420ea-ad30-3390-a7de-54631688c868",
+          "ebucore:title": {
+            "fr": [
+              "Camping_Blere (4)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ca79cc6e-f4ef-38be-808f-16d215c9e6c0",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Blere--4-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c35d18bc-48c4-32d6-870b-8bcbb0be6cba",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/684921ec-f99c-396c-9a42-c5421ac50eb5",
+          "ebucore:title": {
+            "fr": [
+              "Camping_Blere (1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0f0ceaee-dd06-3dbe-b0d1-3acbdf569cd3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Blere--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Lakeside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Lakeside"
+        ],
+        "fr": [
+          "Bord de lac ou de plan d'eau"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Near a river or stream"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/15fbf15d-9ea0-3243-92e4-6ab8ab369da3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/442e2e8d-3f17-3769-8f2a-d38a553dbfcd",
+          "schema:addressLocality": "Bléré",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "Rue du Commandant Lemaître"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37027",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Bléré"
+                ],
+                "fr": [
+                  "Bléré"
+                ]
+              },
+              "insee": "37027",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/a75f683d-15f3-3617-a5e2-770685c8ecb3",
+        "schema:latitude": "47.3282213",
+        "schema:longitude": "0.9949605",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-16",
+  "lastUpdateDatatourisme": "2020-07-06T13:01:32.354Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b7997c32-da67-3b07-b47c-db04ad53c6aa",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

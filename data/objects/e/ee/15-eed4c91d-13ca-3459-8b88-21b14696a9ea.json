@@ -1,0 +1,1183 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/eed4c91d-13ca-3459-8b88-21b14696a9ea",
+  "dc:identifier": "RESCEN037FS000FJ",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Traditional French cuisine in a contemporary setting."
+    ],
+    "fr": [
+      "Cuisine traditionnelle française dans un cadre contemporain."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Le Marché Gourmand"
+    ],
+    "fr": [
+      "Le Marché Gourmand"
+    ]
+  },
+  "allowedPersons": 80,
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2009-05-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/05f4f5be-e5c7-3277-80e9-98b824cc1998",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/afe792bc-1459-38d7-8ea4-1bddb40c07b2",
+          "schema:addressLocality": "Tours",
+          "schema:postalCode": "37000",
+          "schema:streetAddress": [
+            "27 rue du Grand Marché"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37261",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tours"
+                ],
+                "fr": [
+                  "Tours"
+                ]
+              },
+              "insee": "37261",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "mail@lemarchegourmand.fr"
+      ],
+      "schema:legalName": "LE MARCHE GOURMAND",
+      "schema:telephone": [
+        "+33 2 47 64 50 38",
+        "+33 6 09 70 70 47"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lemarchegourmand.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/db10bf85-b4d1-3490-a21f-07feb1f942c1",
+      "dc:description": {
+        "en": [
+          "Traditional French cuisine in a contemporary setting."
+        ],
+        "fr": [
+          "Cuisine traditionnelle française dans un cadre contemporain."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Traditional French cuisine in a contemporary setting."
+        ],
+        "fr": [
+          "Cuisine traditionnelle française dans un cadre contemporain."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f8118ff-1978-3077-befa-f28061f6e0b9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/581cd452-e676-329d-9fc3-91f206d3322f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:PrivateDiningRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private dining room"
+            ],
+            "fr": [
+              "Salle à manger privée"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72bcfc8d-598e-3dde-90f2-b0ef4adefe65",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f224a5c7-43c7-374b-824b-b2d0b1325a26",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Baby chair"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fda4fb64-ee66-3230-b383-28b9b10bfe17",
+      "schema:value": "80",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Covers",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Covers"
+            ],
+            "fr": [
+              "Couvert"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f4a0a4f1-659b-37ef-b227-77cb8f977dac",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e6c1205c-bcb2-3b74-a70e-05b7c02cbad5",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Marché Gourmand"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c1c05533-06f5-3bf5-9b82-9473e1d03a07",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Le-Marche-Gourmand.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b6aeb6e-6b95-3c03-a0f5-f1708a9108c2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1c8becd8-fc1a-3b03-b33d-bfbf89a7ea22",
+          "ebucore:title": {
+            "fr": [
+              "marché1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3350e360-e9f5-32f0-a35c-877a59e06b61",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/marche1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/518e48ae-6166-3784-960f-a867c561c3ba",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/716dcd0d-264c-30a4-bac0-6753f368aea4",
+          "ebucore:title": {
+            "fr": [
+              "marché2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8d22c69e-725c-33a0-8a9e-222eb3054b3c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/marche2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72a36635-25e2-3c33-9962-a6b3bf3dff46",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aad44fe5-7796-30ee-81f8-870c16819cde",
+          "ebucore:title": {
+            "fr": [
+              "Le Marché Gourmand"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c1c05533-06f5-3bf5-9b82-9473e1d03a07",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Le-Marche-Gourmand.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ce4d797f-27d8-35bb-98b7-e5baf4043fed",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aad44fe5-7796-30ee-81f8-870c16819cde",
+          "ebucore:title": {
+            "fr": [
+              "Le Marché Gourmand"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1701493e-c816-3225-b811-12b1067dca8a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Le-Marche-Gourmand-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ddf93900-4096-345e-bcac-3bbf0cba1307",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/63a60e49-56f7-36f3-913d-577165fcaccc",
+          "ebucore:title": {
+            "fr": [
+              "marché3"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c58c91e4-257c-3b7e-8831-a313459adc3b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/marche3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f4a0a4f1-659b-37ef-b227-77cb8f977dac",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e6c1205c-bcb2-3b74-a70e-05b7c02cbad5",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Marché Gourmand"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Droits réservés"
+          ],
+          "rightsEndDate": "2018-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c1c05533-06f5-3bf5-9b82-9473e1d03a07",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Le-Marche-Gourmand.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/27e191b3-9178-37b1-a5ce-636d88cbe4ec",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e7580581-f99e-396b-bd5d-dabeba8431c1",
+          "schema:addressLocality": "Tours",
+          "schema:postalCode": "37000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37261",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tours"
+                ],
+                "fr": [
+                  "Tours"
+                ]
+              },
+              "insee": "37261",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/dfcbdee3-bb38-3440-9c9f-847afee21105",
+        "schema:latitude": "47.3943406",
+        "schema:longitude": "0.6801664",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/18879f25-65cb-3ce1-97b1-a07a76b3c58a",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/812c95c5-c047-340c-b568-20f26f321a38",
+          "schema:closes": "13:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9f5e3cb4-fb35-3377-b07f-717aacb86f53",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9fa7121c-e455-3f60-9691-0f54269b4171",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ad877a10-4945-38b6-8caf-31d893bef260",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e5dace0e-2fd9-3fcc-9328-395a35281097",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eb2c7c7b-9abe-3d5e-b476-b020f8ae3105",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f22ff697-9e94-3954-9710-5692b1a0ec30",
+          "schema:closes": "13:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-08",
+  "lastUpdateDatatourisme": "2020-09-09T08:05:50.265Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3375a909-2df7-3792-8b9f-8f95258856a7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8919879-f89b-37fe-88a2-595ac8ebcfa3",
+          "schema:maxPrice": [
+            "21"
+          ],
+          "schema:minPrice": [
+            "16"
+          ],
+          "schema:price": "16",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cb294fe2-e496-3b20-a930-011727990f23",
+          "schema:minPrice": [
+            "27"
+          ],
+          "schema:price": "27",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}

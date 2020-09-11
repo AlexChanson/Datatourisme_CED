@@ -1,0 +1,282 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/7217bebc-9f01-3acb-b89f-dea2529f724f",
+  "dc:identifier": "HLOCEN041V5021X8",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "À 2h de Paris, le gîte \"À l'horizon des Champs\" est situé entre la vallée du Loir et la vallée de la Loire. Ancienne dépendance du Château, le gîte \"À l'horizon des Champs\", vous séduira par sa quiétude et ses grands espaces."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "A l'horizon des champs"
+    ]
+  },
+  "allowedPersons": 8,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2018-10-15",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fa5c28f9-2777-3409-af52-25aa866c5abc",
+      "schema:telephone": [
+        "+33 6 82 90 23 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fa5c28f9-2777-3409-af52-25aa866c5abc",
+      "schema:telephone": [
+        "+33 6 82 90 23 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/968cfa81-c8fb-3e27-adde-22d4b1588f2f",
+      "dc:description": {
+        "fr": [
+          "À 2h de Paris, le gîte \"À l'horizon des Champs\" est situé entre la vallée du Loir et la vallée de la Loire.Ancienne dépendance du Château, le gîte \"À l'horizon des Champs\", vous séduira par sa quiétude et ses grands espaces. Vous apprécierez un moment de détente autour de la cheminée en hiver, ou tout simplement en admirant l’océan des champs."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "À 2h de Paris, le gîte \"À l'horizon des Champs\" est situé entre la vallée du Loir et la vallée de la Loire. Ancienne dépendance du Château, le gîte \"À l'horizon des Champs\", vous séduira par sa quiétude et ses grands espaces."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da9f4ea3-3f14-3135-ba1b-ebb2208fd359",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a9cff44-4dd0-3741-9078-5de837f362c8",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "4 étoiles"
+          ],
+          "fr": [
+            "4 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0d4822aa-1434-3936-adfc-895cac4a0f1f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/01848992-5320-33a7-b37a-05bedcd5d13b",
+          "schema:addressLocality": "Maves",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "2 Rue de la Dîme",
+            "Villetard"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41130",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Maves"
+                ],
+                "fr": [
+                  "Maves"
+                ]
+              },
+              "insee": "41130",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/836616f1-0c8b-3937-aea5-6e7918967dac",
+        "schema:latitude": "47.7188934",
+        "schema:longitude": "1.3469242",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.336Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d6b92217-d8e3-361d-93f0-0ad44235a1df",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/59212451-7dd4-399a-89b5-299e9f44c8ee",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/d4d52ca9-4959-3bbd-9c59-46dce54fabdd",
+  "dc:identifier": "HOTCEN037FS0009P",
+  "@type": [
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Perfectly soundproofed and air-conditionned hotel, situated near the motorway for better movements.\nThere are spacious rooms for 1 to 4 persons, arranged with elegance (king-size beds, closet, screen flat TV, desk, free access WiFi).\nThe bathrooms are tiled with big shower and hair-dryer."
+    ],
+    "fr": [
+      "Etablissement parfaitement insonorisé et climatisé situé sur l'autoroute pour faciliter les déplacements."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Ace Motel Athée"
+    ],
+    "fr": [
+      "Ace Motel Athée"
+    ]
+  },
+  "allowedPersons": 60,
+  "availableLanguage": [
+    "en"
+  ],
+  "creationDate": "2010-05-06",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fda8c3be-7bd5-360b-8b23-eed08b683b86",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c13e6a70-ee90-3044-8dc6-f76d5c3738c2",
+          "schema:addressLocality": "Athée-sur-Cher",
+          "schema:postalCode": "37270",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37008",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Athée-sur-Cher"
+                ],
+                "fr": [
+                  "Athée-sur-Cher"
+                ]
+              },
+              "insee": "37008",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "athee@sighor.fr"
+      ],
+      "schema:legalName": "SIGHOR",
+      "schema:telephone": [
+        "+33 2 47 35 62 59"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ace-hotel.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/39820a4a-6873-3dad-b98e-4cc8a86ae5e2",
+      "dc:description": {
+        "fr": [
+          "Etablissement parfaitement insonorisé et climatisé situé sur l'autoroute pour faciliter les déplacements. Des chambres spacieuses pouvant accueillir de 1 à 4 personnes, aménagées avec élégance (lits grandes dimensions, porte bagage, penderie, bureau, TV écran plat, accès internet gratuit). De vraies salles de bains carrelées, grandes douches et sèche-cheveux."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Perfectly soundproofed and air-conditionned hotel, situated near the motorway for better movements.\nThere are spacious rooms for 1 to 4 persons, arranged with elegance (king-size beds, closet, screen flat TV, desk, free access WiFi).\nThe bathrooms are tiled with big shower and hair-dryer."
+        ],
+        "fr": [
+          "Etablissement parfaitement insonorisé et climatisé situé sur l'autoroute pour faciliter les déplacements."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/014b77a9-204d-3f59-96b7-73b8452d509f",
+      "schema:value": "30",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6d3489c3-3fc3-390c-8c2d-640a45afbb51",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TelephoneAccess",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Telephone access"
+            ],
+            "fr": [
+              "Point téléphone"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8715c676-ff3a-3961-844d-18605277b352",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2455044a-2685-357a-a173-d13e0fba14d9",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "2 étoiles"
+          ],
+          "fr": [
+            "2 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/92a2efd3-2dfe-38d9-9e98-7af4b6ffb2be",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ecde986-584f-3cb0-b5b2-41157e0a37e8",
+          "schema:addressLocality": "Athée-sur-Cher",
+          "schema:postalCode": "37270",
+          "schema:streetAddress": [
+            "Aire de service du Val de Cher",
+            "Autoroute A85"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37008",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Athée-sur-Cher"
+                ],
+                "fr": [
+                  "Athée-sur-Cher"
+                ]
+              },
+              "insee": "37008",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d060159d-6d46-3e3e-8df8-f0c025cd747a",
+        "schema:latitude": "47.302736",
+        "schema:longitude": "0.8730244",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2019-11-07",
+  "lastUpdateDatatourisme": "2020-07-07T07:58:20.921Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d4efc979-6632-3c60-80de-3df75274434a",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

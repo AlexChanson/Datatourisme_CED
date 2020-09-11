@@ -1,0 +1,703 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/774ca14b-bf6d-3573-a251-61784b7e9d68",
+  "dc:identifier": "RESCEN037V50DLQF",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Les Arpents"
+    ],
+    "fr": [
+      "Restaurant Les Arpents"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "allowedPersons": 59,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2018-06-15",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/e8d45b94-7ba3-3b34-95e2-24a98bc212ce",
+    "schema:legalName": "OFFICE AMBOISE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d3e7fdc6-cf6e-3d4c-86f6-55f829f3a006",
+      "schema:email": [
+        "contact@restaurant-lesarpents.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 36 20 92 44"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://restaurant-lesarpents.fr/"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72bcfc8d-598e-3dde-90f2-b0ef4adefe65",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b371599b-3c24-375d-a025-2811ffcfa693",
+      "schema:value": "59",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Covers",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Covers"
+            ],
+            "fr": [
+              "Couvert"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f224a5c7-43c7-374b-824b-b2d0b1325a26",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Baby chair"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6360ee93-a7f3-379f-b019-3fe2d7ad9520",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_MaitreRestaurateur",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Maître Restaurateur"
+          ],
+          "fr": [
+            "Maître Restaurateur"
+          ]
+        },
+        "isCompliantWith": [
+          "Restaurant"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:GourmetCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Gourmet cuisine"
+        ],
+        "fr": [
+          "Cuisine gastronomique"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8476ab10-056e-335b-be34-658ca341897d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/000b44b4-cbec-3ff7-9f3f-bf8a647924e5",
+          "schema:addressLocality": "Amboise",
+          "schema:postalCode": "37400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37003",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Amboise"
+                ],
+                "fr": [
+                  "Amboise"
+                ]
+              },
+              "insee": "37003",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/3e4f9d74-cd61-3f2f-9425-4f453fb69687",
+        "schema:latitude": "47.4121002",
+        "schema:longitude": "0.98413649",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/04ec1a68-861e-3572-8281-a97486bffb2d",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4a1df73f-8b81-3e11-be0a-cf6600ae4eda",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/541a9d35-a4d9-3b93-b33c-83983557c4dd",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/60f32cfb-e786-3d65-9db3-52a400cff0e9",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6b76a013-dbd6-3803-93ba-2efd920d8ab3",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8132c547-a4ed-30d8-b72f-082f42c8871c",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89f11a7e-16c1-3d0f-82e9-f5613c6eac49",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9a994d4a-cb8e-308e-91f0-dd9805e5e234",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c77ca5a0-9458-3a8b-9076-a84b853580f7",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eaa5aa7d-ef6b-3c49-9fb6-b9a71bfa755e",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-03-07T00:00:00",
+          "schema:validThrough": "2020-11-21T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-24",
+  "lastUpdateDatatourisme": "2020-09-09T08:05:50.286Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4995946e-9d63-35d6-8f3f-21c683a52eca",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f2f454d3-4a8d-3bb5-929e-94599111c57a",
+          "schema:maxPrice": [
+            "45.5"
+          ],
+          "schema:minPrice": [
+            "17.5"
+          ],
+          "schema:price": "17.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:GourmetCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Gourmet cuisine"
+        ],
+        "fr": [
+          "Cuisine gastronomique"
+        ]
+      }
+    }
+  ]
+}

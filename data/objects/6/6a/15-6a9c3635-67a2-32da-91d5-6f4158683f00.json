@@ -1,0 +1,718 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/6a9c3635-67a2-32da-91d5-6f4158683f00",
+  "dc:identifier": "SEMCEN0000001D",
+  "@type": [
+    "BusinessPlace",
+    "ConventionCentre",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "A seulement 15  km au sud de Blois, le Relais des Landes offre le cadre exceptionnel d'une gentilhommière du XVIIè siècle, au milieu d'un parc de 12 hectares. Un site de caractère, rempli de charme, aux portes de la Sologne."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Hôtel Le Relais des Landes"
+    ],
+    "fr": [
+      "Le Relais des Landes - Location de salle"
+    ]
+  },
+  "allowedPersons": 110,
+  "availableLanguage": [
+    "de",
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2008-07-17",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/16ff94c6-530f-3890-b062-ae6c1c96ee35",
+    "schema:legalName": "CRT Centre",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/17a179f3-e099-372f-957c-762be9d86ec1",
+      "schema:email": [
+        "info@relaisdeslandes.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 44 40 40",
+        "+33 6 68 61 61 03"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.relaisdeslandes.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04295d5f-c31a-3fc4-8bd0-448aedad31c4",
+      "dc:description": {
+        "fr": [
+          "A seulement 15  km au sud de Blois, le Relais des Landes offre le cadre exceptionnel d'une gentilhommière du XVIIè siècle, au milieu d'un parc de 12 hectares. Un site de caractère, rempli de charme, aux portes de la Sologne. Vous apprécierez ce subtil équilibre entre tradition et modernité pour votre plus grand confort, ainsi qu'une cuisine de terroir créative et soignée."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "A seulement 15  km au sud de Blois, le Relais des Landes offre le cadre exceptionnel d'une gentilhommière du XVIIè siècle, au milieu d'un parc de 12 hectares. Un site de caractère, rempli de charme, aux portes de la Sologne."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/686a0684-50e1-3dde-b8fa-31c2d01b301e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Park"
+            ],
+            "fr": [
+              "Parc"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Television"
+            ],
+            "fr": [
+              "Télévision"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f14f1108-3d25-33c7-ae76-f4ec20abc59d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/73f6080c-bc95-343d-a446-ac1bec761035",
+          "ebucore:title": {
+            "fr": [
+              "arrivée au relais des landes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "stephane parisis"
+          ],
+          "rightsEndDate": "2035-12-31",
+          "rightsStartDate": "2018-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c492e358-cd80-3dd0-b908-21d19ddb9303",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/arrivee-au-relais-des-landes-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0557bb09-3bc1-3181-a801-a812d752635c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ae17145f-441c-3082-8a57-2489796857e1",
+          "ebucore:title": {
+            "fr": [
+              "jardin piscine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "stephane parisis"
+          ],
+          "rightsEndDate": "2035-12-31",
+          "rightsStartDate": "2018-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/918a2d19-88e2-321e-92cd-76d1db5dc384",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/jardin-piscine-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3091c483-851e-3af6-b68c-8c224bbed1f8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/52855111-5479-3a70-91c5-d79bf1a3745e",
+          "ebucore:title": {
+            "fr": [
+              "Le Relais des Landes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Le Relais des Landes"
+          ],
+          "rightsEndDate": "2018-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5c6e6dd0-5b59-37a0-a3ef-a262b261c807",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Exterieur-Relais-des-Landes-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb2628f4-dce3-3f17-9657-5461e4662cb1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/52855111-5479-3a70-91c5-d79bf1a3745e",
+          "ebucore:title": {
+            "fr": [
+              "Le Relais des Landes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Le Relais des Landes"
+          ],
+          "rightsEndDate": "2018-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8bb3e394-95bb-3cc4-a566-835c9ba4513a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Piscine-Relais-des-Landes-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d60defa3-474c-3b0e-8132-fe63e4e996f9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/52855111-5479-3a70-91c5-d79bf1a3745e",
+          "ebucore:title": {
+            "fr": [
+              "Le Relais des Landes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Le Relais des Landes"
+          ],
+          "rightsEndDate": "2018-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8ddfade-7538-363d-bbe5-00ec6f7eff2e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/salle-seminaire-2-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f14f1108-3d25-33c7-ae76-f4ec20abc59d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/73f6080c-bc95-343d-a446-ac1bec761035",
+          "ebucore:title": {
+            "fr": [
+              "arrivée au relais des landes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "stephane parisis"
+          ],
+          "rightsEndDate": "2035-12-31",
+          "rightsStartDate": "2018-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c492e358-cd80-3dd0-b908-21d19ddb9303",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/arrivee-au-relais-des-landes-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fcde4090-5ab1-304c-844b-de6f92d969ce",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/52855111-5479-3a70-91c5-d79bf1a3745e",
+          "ebucore:title": {
+            "fr": [
+              "Le Relais des Landes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Le Relais des Landes"
+          ],
+          "rightsEndDate": "2018-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a3ca65ab-9e54-358b-898b-21863b7d7877",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-Relais-des-Landes-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19a3b68a-cb31-3c8a-b318-9c37a4143b30",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/04d4e9b8-e07f-36a7-98f1-290a9d10f5a1",
+          "schema:addressLocality": "Le Controis-en-Sologne",
+          "schema:postalCode": "41120",
+          "schema:streetAddress": [
+            "D7 lieu dit les landes (Ouchamps)"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41059",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Le Controis-en-Sologne"
+                ],
+                "fr": [
+                  "Le Controis-en-Sologne"
+                ]
+              },
+              "insee": "41059",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/0e13aba0-5c28-3454-a07e-92d925704942",
+        "schema:latitude": "47.4807476",
+        "schema:longitude": "1.3037197",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-04-15",
+  "lastUpdateDatatourisme": "2020-08-15T03:55:15.84Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/27ab3d1e-a9d9-3c87-aafe-85d6cbb071b1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

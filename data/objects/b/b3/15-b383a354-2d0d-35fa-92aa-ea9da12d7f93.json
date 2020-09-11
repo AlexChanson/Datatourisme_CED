@@ -1,0 +1,276 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/b383a354-2d0d-35fa-92aa-ea9da12d7f93",
+  "dc:identifier": "HLOCEN037V50DIGM",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Maison de Famille"
+    ],
+    "fr": [
+      "Maison de famille"
+    ]
+  },
+  "allowedPersons": 7,
+  "creationDate": "2018-06-07",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c60955af-790f-361e-a28a-e60b6ea32b43",
+      "schema:email": [
+        "jpmfgb@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 6 11 83 37 50"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.airbnb.fr/rooms/18344926"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f1f1bb16-6bf4-3f85-9a04-c7acb3cfa669",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7926ab01-c136-3002-9efd-6a750e91ced7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d6b4def3-88c1-3508-8f24-34d0eb067e04",
+          "schema:addressLocality": "Nouans-les-Fontaines",
+          "schema:postalCode": "37460",
+          "schema:streetAddress": [
+            "5 Les Vezardières"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37173",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Nouans-les-Fontaines"
+                ],
+                "fr": [
+                  "Nouans-les-Fontaines"
+                ]
+              },
+              "insee": "37173",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/25dbe8e1-3bbc-3d87-9572-193983d6c552",
+        "schema:latitude": "47.172179",
+        "schema:longitude": "1.2913969",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-04-01",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.356Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/49188b6e-42c4-3454-aa7b-309598e14b02",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/38a50c16-dc0e-392b-8649-b1f4b04027ec",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ExtraCharge",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Extra charge"
+              ],
+              "fr": [
+                "Supplément"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/41a2a927-1bc8-3fce-bacb-0b889ea2d644",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/de3a8d51-b465-3c3f-86f4-b7f09adcce9d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

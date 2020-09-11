@@ -1,0 +1,1109 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/53d6fd49-bd0a-3478-8ae2-275a35f1b5f1",
+  "dc:identifier": "HPACEN0370000004",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Camping",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "The campsite \"Onlycamp Le Sabot\" is 5 minutes away from the town centre and 300m from the Azay-le-Rideau castle. On the edge of the River Indre, it's a green area with flowers, near the Loire à Vélo and Indre à Vélo cycle tracks. \nSwimming pool accessible free to campers."
+    ],
+    "fr": [
+      "Camping situé à 5 mn du centre ville, et 300 m du château, au bord de l'Indre, dans un site fleuri et verdoyant. Au coeur d'une région touristique et gastronomique. Circuit Loire à Vélo, l'Indre à Vélo."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Onlycamp Le Sabot campsite"
+    ],
+    "fr": [
+      "Camping Onlycamp Le Sabot"
+    ]
+  },
+  "COVID19InOperationConfirmed": false,
+  "allowedPersons": 609,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2002-12-19",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/714e53c6-0d14-321e-b56f-d2c5121d242f",
+    "schema:legalName": "Azay-Chinon Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/77a2578a-5003-31ef-9769-10863354ecdf",
+      "schema:email": [
+        "contact@campinglesabot.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 45 42 72"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.onlycamp.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/64dd997a-dbd6-3170-92b9-0c449f6a06ca",
+      "dc:description": {
+        "en": [
+          "The campsite \"Onlycamp Le Sabot\" is 5 minutes away from the town centre and 300m from the Azay-le-Rideau castle. On the edge of the River Indre, it's a green area with flowers, near the Loire à Vélo and Indre à Vélo cycle tracks. \nSwimming pool accessible free to campers."
+        ],
+        "fr": [
+          "Camping situé à 5 mn du centre ville, et 300 m du château, au bord de l'Indre, dans un site fleuri et verdoyant. Au coeur d'une région touristique et gastronomique. Circuit Loire à Vélo, l'Indre à Vélo."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "The campsite \"Onlycamp Le Sabot\" is 5 minutes away from the town centre and 300m from the Azay-le-Rideau castle. On the edge of the River Indre, it's a green area with flowers, near the Loire à Vélo and Indre à Vélo cycle tracks. \nSwimming pool accessible free to campers."
+        ],
+        "fr": [
+          "Camping situé à 5 mn du centre ville, et 300 m du château, au bord de l'Indre, dans un site fleuri et verdoyant. Au coeur d'une région touristique et gastronomique. Circuit Loire à Vélo, l'Indre à Vélo."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/63535365-fa18-33fb-be7e-990af5e45361",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bathing"
+            ],
+            "fr": [
+              "Baignade"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BikeHire",
+          "@type": [
+            "CommonAmenity",
+            "RentalPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike hire"
+            ],
+            "fr": [
+              "Location de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BoulesPitch",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Boules pitch"
+            ],
+            "fr": [
+              "Boulodrome, terrain de pétanque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BungalowRental",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bungalow rental"
+            ],
+            "fr": [
+              "Location bungalow"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Electrical connections"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HeatedPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Heated pool"
+            ],
+            "fr": [
+              "Piscine chauffée"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Ice",
+          "@type": [
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Ice"
+            ],
+            "fr": [
+              "Dépôt de glace"
+            ]
+          }
+        },
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Outdoor pool"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paddling",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paddling"
+            ],
+            "fr": [
+              "Pataugeoire"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SiteClosedAtNight",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Site closed at night"
+            ],
+            "fr": [
+              "Terrain fermé la nuit"
+            ]
+          }
+        },
+        {
+          "@id": "kb:StorageArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Storage area"
+            ],
+            "fr": [
+              "Garage mort"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TelephoneAccess",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Telephone access"
+            ],
+            "fr": [
+              "Point téléphone"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TennisCourt",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tennis court"
+            ],
+            "fr": [
+              "Court de tennis"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89d186fa-651f-3d4c-a935-9f41af2ee689",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e9cec526-2e57-3cec-aa27-a4b82914be58",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ec6f21dd-318e-3dd8-a682-07ce2f416426",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Near a river or stream"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/009c12cd-19f8-374b-9fda-5cb840e73164",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/50e52e7b-c6c4-3513-ad0e-0ee0b2e1c04f",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Paddle"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Onlycamp"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/635e6c44-3914-32fa-a4b4-a0c3be356ece",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/camping-onlycamp-sabot-azay-le-rideau-paddle.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/078497d4-10c8-3a37-907c-eaa6937e8803",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d85670e-2c11-3dc9-aef6-0d354ff9697c",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/37d75d30-e724-3be4-a34f-ba0a8e29ca57",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--6-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3c5f90b3-8d16-3b7a-a361-8e3b5f57cde6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d85670e-2c11-3dc9-aef6-0d354ff9697c",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9e83711c-c7a8-3969-a192-d0614ff84eef",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--5-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89661519-65bb-3407-8c7b-ce05343ba92a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d85670e-2c11-3dc9-aef6-0d354ff9697c",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/01b8cb83-36a8-34a5-9993-4f549c858bdd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89d186fa-651f-3d4c-a935-9f41af2ee689",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e9cec526-2e57-3cec-aa27-a4b82914be58",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ec6f21dd-318e-3dd8-a682-07ce2f416426",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/94c155a5-7512-3a70-9634-de250c7eb0a1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d85670e-2c11-3dc9-aef6-0d354ff9697c",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/218d693f-820e-3784-9b30-df84eef706c5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--4-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dd8c6f51-1738-3b7a-97db-f1639e8cf3af",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d85670e-2c11-3dc9-aef6-0d354ff9697c",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "F Paillet"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ec6f21dd-318e-3dd8-a682-07ce2f416426",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Camping-Azay--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fb453d34-fc0e-3430-9f8c-ba2945ba8966",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9092af7c-e228-3d5e-b7de-4002f9245f78",
+          "ebucore:title": {
+            "fr": [
+              "Camping Onlycamp Le Sabot - Azay-le-Rideau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Onlycamp"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fc58d170-ece8-3e6d-9f4c-2b44661873d8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/camping-onlycamp-sabot-azay-le-rideau.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Near a river or stream"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/af2b626a-e0d6-3244-a657-e934e70c9651",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/81dbe5be-5fa7-34e2-9dd8-8120ffae7114",
+          "schema:addressLocality": "Azay-le-Rideau",
+          "schema:postalCode": "37190",
+          "schema:streetAddress": [
+            "1 rue du stade"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37014",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Azay-le-Rideau"
+                ],
+                "fr": [
+                  "Azay-le-Rideau"
+                ]
+              },
+              "insee": "37014",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/44dc7430-01ed-3619-bdbf-b1add7fad008",
+        "schema:latitude": "47.2601148",
+        "schema:longitude": "0.4702996",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-22",
+  "lastUpdateDatatourisme": "2020-08-22T13:07:15.075Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/59c2705a-0631-382b-bab4-eb3e2b2ff43f",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

@@ -1,0 +1,273 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/f0beb5bd-66f4-3e0a-a686-7b1626c4fd6d",
+  "dc:identifier": "ACCCEN000V5000FH",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Stationnement : sur place sur le parking. Services : vidange des eaux usées et recharge en eau potable."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de stationnement pour camping-cars - Place Michaux"
+    ]
+  },
+  "creationDate": "2013-10-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3ee2771e-90ec-3315-a223-2201b24b230c",
+      "schema:telephone": [
+        "+33 2 54 43 22 31"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3ee2771e-90ec-3315-a223-2201b24b230c",
+      "schema:telephone": [
+        "+33 2 54 43 22 31"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a1c783dc-81da-3f84-a435-821fdd2ad640",
+      "schema:email": [
+        "mairie.stlubin@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 43 22 31"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.saintlubinenvergonnois.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5137ed25-5136-32cc-bcbb-9a4e74c3f91c",
+      "dc:description": {
+        "fr": [
+          "Stationnement : sur place sur le parking. Services : vidange des eaux usées et recharge en eau potable."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Stationnement : sur place sur le parking. Services : vidange des eaux usées et recharge en eau potable."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/53e70121-92ad-36f1-8e09-4e5646a96df3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/00751055-8896-3000-83fd-04d7e14fea3f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ec60fb03-aab5-3466-ae41-66854b1d70a7",
+          "schema:addressLocality": "Saint-Lubin-en-Vergonnois",
+          "schema:postalCode": "41190",
+          "schema:streetAddress": [
+            "Place Michaux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41223",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Lubin-en-Vergonnois"
+                ],
+                "fr": [
+                  "Saint-Lubin-en-Vergonnois"
+                ]
+              },
+              "insee": "41223",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/a0cbdf04-4730-3be2-bcb4-8b12ef960fd4",
+        "schema:latitude": "47.61",
+        "schema:longitude": "1.23",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.784Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3bbdad6f-ab1e-3041-8622-51c31c2e2c84",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

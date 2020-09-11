@@ -1,0 +1,301 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/f1d7e20e-b1b8-3f66-b2b3-5034c1272b04",
+  "dc:identifier": "DEGCENBERV5006VN",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:Product",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Producer",
+    "Product",
+    "Tasting",
+    "TastingProvider"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Come and learn about our vegetables, grown and harvested on our farm."
+    ],
+    "fr": [
+      "Venez découvrir nos légumes cultivés, et récoltés sur notre exploitation."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Ferme de la Boutinière"
+    ],
+    "fr": [
+      "Ferme de la Boutinière"
+    ]
+  },
+  "creationDate": "2015-10-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/b8f30684-e032-3483-ba1a-f2911755c19a",
+    "schema:legalName": "BERRY",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e28e1741-2776-34b8-b97e-8b4355fb82a5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a1456240-0e39-3c7d-ac99-d9f1b29b3724",
+          "schema:addressLocality": "Écueillé",
+          "schema:postalCode": "36240",
+          "schema:streetAddress": [
+            "La Boutinière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36069",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Écueillé"
+                ],
+                "fr": [
+                  "Écueillé"
+                ]
+              },
+              "insee": "36069",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gorry.luc@orange.fr"
+      ],
+      "schema:legalName": "Ferme de la Boutinière",
+      "schema:telephone": [
+        "+33 6 08 03 45 49"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f464ba88-015d-3965-ab01-346208b3eb42",
+      "dc:description": {
+        "fr": [
+          "Ferme située en Boischaut Nord. Produits de la ferme : tomates russes, haricots verts, salades, aubergines, cardes, pommes de terre."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Come and learn about our vegetables, grown and harvested on our farm."
+        ],
+        "fr": [
+          "Venez découvrir nos légumes cultivés, et récoltés sur notre exploitation."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Fruit",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fruit"
+        ],
+        "fr": [
+          "Fruit"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Vegetable",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Vegetable"
+        ],
+        "fr": [
+          "Légume"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a4bc6fa-df37-3cb7-983c-b280eabef6b3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a1456240-0e39-3c7d-ac99-d9f1b29b3724",
+          "schema:addressLocality": "Écueillé",
+          "schema:postalCode": "36240",
+          "schema:streetAddress": [
+            "La Boutinière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36069",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Écueillé"
+                ],
+                "fr": [
+                  "Écueillé"
+                ]
+              },
+              "insee": "36069",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/b2bf45a0-231a-3355-908d-0fa59cd2b6a7",
+        "schema:latitude": "47.077352",
+        "schema:longitude": "1.377899",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-03-01",
+  "lastUpdateDatatourisme": "2020-07-07T10:19:39.576Z"
+}

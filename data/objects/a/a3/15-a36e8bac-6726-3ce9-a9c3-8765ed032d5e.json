@@ -1,0 +1,849 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a36e8bac-6726-3ce9-a9c3-8765ed032d5e",
+  "dc:identifier": "HCO41AAHEB100023",
+  "@type": [
+    "schema:Hostel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "YouthHostelAndInternationalCenter"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "The Blois Regional Youth and Sport Centre (CRJS) is located in a countryside setting on the edge of Blois Forest and Lac de la Pinçonnière, within a sporting complex just 5 min from the city centre and the train station."
+    ],
+    "fr": [
+      "Le Centre Régional Jeunesse et Sports (CRJS) de Blois est implanté dans un cadre de verdure, en lisière de la forêt domaniale de Blois et du lac de la Pinçonnière, au sein d’un complexe sportif situé à 10 mn du centre ville et de la gare SNCF."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Auberge de Jeunesse - CRJS de Blois"
+    ],
+    "fr": [
+      "Auberge de Jeunesse - Centre Régional Jeunesse et Sport de Blois"
+    ]
+  },
+  "allowedPersons": 100,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/12b89dda-5179-3c88-a645-546b2c054398",
+      "schema:email": [
+        "accueil@crjsblois.fr"
+      ],
+      "schema:legalName": "Centre Régional Jeunesse et Sports",
+      "schema:telephone": [
+        "+33 2 54 52 20 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/12b89dda-5179-3c88-a645-546b2c054398",
+      "schema:email": [
+        "accueil@crjsblois.fr"
+      ],
+      "schema:legalName": "Centre Régional Jeunesse et Sports",
+      "schema:telephone": [
+        "+33 2 54 52 20 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9b2fb629-6bfe-35ce-9e6e-67d47a367d99",
+      "schema:email": [
+        "accueil@crjsblois.fr"
+      ],
+      "schema:legalName": "Centre Régional Jeunesse et Sports",
+      "schema:telephone": [
+        "+33 2 54 52 20 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.crjs-blois.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/81468224-b85f-3799-9438-3da485f93d14",
+      "dc:description": {
+        "en": [
+          "The Blois Regional Youth and Sport Centre (CRJS) is located in a countryside setting on the edge of Blois Forest and Lac de la Pinçonnière, within a sporting complex just 5 min from the city centre and the train station."
+        ],
+        "fr": [
+          "Le Centre Régional Jeunesse et Sports (CRJS) de Blois est implanté dans un cadre de verdure, en lisière de la forêt domaniale de Blois et du lac de la Pinçonnière, au sein d’un complexe sportif situé à 10 mn du centre ville et de la gare SNCF. Capacité d’accueil : 91 à 100 pers. (24 ch. de 1 à 4 pers. avec douche - 2 ch. de 5 pers.). 4 salles de restauration (200 places) en self-service. 3 salles de travail ou de réunion équipées (pour 20 à 50 pers.). 1 salon commun."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "The Blois Regional Youth and Sport Centre (CRJS) is located in a countryside setting on the edge of Blois Forest and Lac de la Pinçonnière, within a sporting complex just 5 min from the city centre and the train station."
+        ],
+        "fr": [
+          "Le Centre Régional Jeunesse et Sports (CRJS) de Blois est implanté dans un cadre de verdure, en lisière de la forêt domaniale de Blois et du lac de la Pinçonnière, au sein d’un complexe sportif situé à 10 mn du centre ville et de la gare SNCF."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/346702e5-d30e-3f47-a794-ab5bbf4c1b92",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CommunalKitchen",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Communal kitchen"
+            ],
+            "fr": [
+              "Cuisine collective"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LivingRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Living room"
+            ],
+            "fr": [
+              "Coin salon"
+            ]
+          }
+        },
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Meeting room"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PostalService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Postal service"
+            ],
+            "fr": [
+              "Point courrier"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Reception room"
+            ],
+            "fr": [
+              "Salle de réception"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SelfService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Self service"
+            ],
+            "fr": [
+              "Self service"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TouristInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tourist information"
+            ],
+            "fr": [
+              "Informations touristiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/691ec31a-14ea-3dd9-94ff-a8f72c52887a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cfa93635-08c0-3432-9d89-dd2fa15dbb7a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "ext1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "crjs"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2017-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/51e10a03-95f1-3e03-90f4-8b5506d49f59",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ext1.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "City outskirts"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheForest",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the forest"
+        ],
+        "fr": [
+          "En forêt"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lakeside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Lakeside"
+        ],
+        "fr": [
+          "Bord de lac ou de plan d'eau"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Near a river or stream"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/691ec31a-14ea-3dd9-94ff-a8f72c52887a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cfa93635-08c0-3432-9d89-dd2fa15dbb7a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "ext1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "crjs"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2017-06-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/51e10a03-95f1-3e03-90f4-8b5506d49f59",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/ext1.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b84de87a-9653-382f-9877-8a2487a08fa6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/addf2de8-c2bf-384c-a16e-1157528f0ce6",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "entree"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "crjs"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a8e76704-7fcb-3f23-9ff6-dd1f57083b75",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/entree5.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dba2b73b-80bc-39a4-9481-233e13a131a1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0a1fa159-0c97-39cb-b55a-cedfbf3c4a09",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "chambre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "crjs"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/76d5ff4f-7bc8-35b4-bfc3-aeb536f8387c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/chb2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "City outskirts"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheForest",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the forest"
+        ],
+        "fr": [
+          "En forêt"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lakeside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Lakeside"
+        ],
+        "fr": [
+          "Bord de lac ou de plan d'eau"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Near a river or stream"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/38c3f65f-e438-3c64-b947-bf530e5dcb94",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/49ce7c94-18f6-38de-8f4b-926651f35921",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "Rue de la Taille aux Moines"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/25088b67-9e78-37eb-8510-4791c2b11839",
+        "schema:latitude": "47.5735122",
+        "schema:longitude": "1.3017762",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-07",
+  "lastUpdateDatatourisme": "2020-08-07T23:49:32.518Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/15652b2a-96d7-386b-a777-45742a9bc230",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2bafa824-f66e-37ec-8efd-74c5de096cd1",
+          "schema:maxPrice": [
+            "35"
+          ],
+          "schema:minPrice": [
+            "21"
+          ],
+          "schema:price": "21",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2bb43ab8-1fb5-3be3-818c-98c3ce386ba7",
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

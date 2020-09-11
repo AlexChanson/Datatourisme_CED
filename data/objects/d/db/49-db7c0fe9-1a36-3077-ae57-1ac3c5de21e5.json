@@ -1,0 +1,246 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/db7c0fe9-1a36-3077-ae57-1ac3c5de21e5",
+  "dc:identifier": "ASCPDL072V50DWXA",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Descente du loir en canoë ou  en kayak. Navigation accompagnée par un moniteur breveté d'état."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "DESCENTE DU LOIR ACCOMPAGNÉE EN CANOË-KAYAK"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais"
+  ],
+  "creationDate": "2017-07-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/146b1c7f-5831-3d68-a29d-de47ef3ce532",
+      "schema:email": [
+        "xavledru@laposte.net"
+      ],
+      "schema:telephone": [
+        "+33 6 22 74 50 26"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/67cc7d82-6a4a-3f05-a628-f8672b6bfb16",
+      "dc:description": {
+        "fr": [
+          "Nous vous accompagnons le temps d'une descente au fil du Loir.\nVous pourrez choisir de naviguer en monoplace ou en biplace, tester en sécurité différents courants. Plusieurs parcours sont proposés au départ de la Chartre sur le Loir de Ruillé sur Loir, de Troo d'une durée allant de 2h 15 jusqu'à la journée entière. Se renseigner au 06.22.74.50.23 en soirée ou laisser un SMS en journée. Nous proposons également des séances d'initiation ludiques pour enfants et adultes sur un plan d'eau le mardi et jeudi de 15h à 17h pour 7 €/personne.  \ncarte de 10 animations 55 €"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Descente du loir en canoë ou  en kayak. Navigation accompagnée par un moniteur breveté d'état."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CanoeingKayaking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Canoeing-kayaking"
+        ],
+        "fr": [
+          "Canoé kayak"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba8c89dc-6501-3d29-8e89-fb398f02b61a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6b196f83-ae4e-3d7b-acfa-484d88c711ca",
+          "schema:addressLocality": "Loir en Vallée",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "Plan d'eau de la Coudraie",
+            "Ruillé sur Loir"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72262",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loir en Vallée"
+                ],
+                "fr": [
+                  "Loir en Vallée"
+                ]
+              },
+              "insee": "72262",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ed6ee352-2365-3a4b-990d-c18801bd2c2a",
+        "schema:latitude": "47.7494129",
+        "schema:longitude": "0.62818179",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-04",
+  "lastUpdateDatatourisme": "2020-07-07T04:45:04.963Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c1e3fbe3-3d97-3aba-8bcf-b50d3cb6b2b0",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3811aac8-d297-3986-89fe-e0a3c4f253e3",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Les tarifs varient en fonction du nombre de personnes inscrites et de la durée de la descente. Se renseigner au 06 22 74 50 26"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

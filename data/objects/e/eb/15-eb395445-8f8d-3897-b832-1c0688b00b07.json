@@ -1,0 +1,274 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/eb395445-8f8d-3897-b832-1c0688b00b07",
+  "dc:identifier": "ACCCEN0370003G",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Aire de service et de stationnement"
+    ],
+    "fr": [
+      "Aire de service et de stationnement"
+    ]
+  },
+  "allowedPersons": 20,
+  "creationDate": "2009-10-23",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4c44426f-9d1c-3515-b024-0300e80355be",
+      "schema:email": [
+        "mairie-montresor@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 91 43 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da0c33fa-145b-3e05-af15-a7824888e7cf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper service point"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChemicalToiletEmptying",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chemical toilets emptying"
+            ],
+            "fr": [
+              "Vidange toilettes chimiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Container",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Container"
+            ],
+            "fr": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7402af1c-0b13-3cfb-8c46-32e2ef635b0e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b711a560-5a62-35ca-92ee-68c7b1e94cb0",
+          "schema:addressLocality": "Montrésor",
+          "schema:postalCode": "37460",
+          "schema:streetAddress": [
+            "rue du 8 mai"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37157",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montrésor"
+                ],
+                "fr": [
+                  "Montrésor"
+                ]
+              },
+              "insee": "37157",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4f55d485-d18e-3aad-947c-2095d1c527df",
+        "schema:latitude": "47.157122",
+        "schema:longitude": "1.202973",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-03",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.782Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3bbdad6f-ab1e-3041-8622-51c31c2e2c84",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

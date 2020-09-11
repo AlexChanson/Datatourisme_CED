@@ -1,0 +1,680 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/0ca55db3-28fa-321c-b1f4-cd74a9ddd40c",
+  "dc:identifier": "ASC41AAACT100758",
+  "@type": [
+    "schema:Product",
+    "FreePractice",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Marked out pedestrian circuits - More than 20 km of accessible paths all year long, in zone open to the public to go off to explore the flora and fauna. Plan of the walks available at the reception of the castle."
+    ],
+    "fr": [
+      "Plus de 20 kilomètres de sentiers pédestres sont accessibles toute l'année en zone ouverte au public pour partir à la découverte de la faune et la flore. Plan des promenades disponible à l'accueil du château."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Waymarked footpath circuits in Chambord"
+    ],
+    "fr": [
+      "Circuits pédestres balisés à Chambord"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5379fca-3160-36f2-afc7-f6bd1963635d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/59fbcaf1-17d3-3751-aba5-6a2d73ead039",
+          "schema:addressLocality": "Chambord",
+          "schema:postalCode": "41250",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41034",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chambord"
+                ],
+                "fr": [
+                  "Chambord"
+                ]
+              },
+              "insee": "41034",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservations@chambord.org"
+      ],
+      "schema:legalName": "Château de Chambord",
+      "schema:telephone": [
+        "+33 2 54 50 50 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chambord.org/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/45baf073-b6e3-3056-a958-f3be9ffcc0bd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5ba31d2d-d394-3b2d-8e21-0b852ee899ca",
+          "schema:postalCode": "41250",
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@chambord.org"
+      ],
+      "schema:legalName": "Château de Chambord",
+      "schema:telephone": [
+        "+33 2 54 50 40 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chambord.org/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5379fca-3160-36f2-afc7-f6bd1963635d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/59fbcaf1-17d3-3751-aba5-6a2d73ead039",
+          "schema:addressLocality": "Chambord",
+          "schema:postalCode": "41250",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41034",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chambord"
+                ],
+                "fr": [
+                  "Chambord"
+                ]
+              },
+              "insee": "41034",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservations@chambord.org"
+      ],
+      "schema:legalName": "Château de Chambord",
+      "schema:telephone": [
+        "+33 2 54 50 50 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chambord.org/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fda520d9-e4f7-3000-894a-2a0e8627c7ac",
+      "dc:description": {
+        "en": [
+          "Marked out pedestrian circuits - More than 20 km of accessible paths all year long, in zone open to the public to go off to explore the flora and fauna. Plan of the walks available at the reception of the castle."
+        ],
+        "fr": [
+          "Plus de 20 kilomètres de sentiers pédestres sont accessibles toute l'année en zone ouverte au public pour partir à la découverte de la faune et la flore. Plan des promenades disponible à l'accueil du château."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Marked out pedestrian circuits - More than 20 km of accessible paths all year long, in zone open to the public to go off to explore the flora and fauna. Plan of the walks available at the reception of the castle."
+        ],
+        "fr": [
+          "Plus de 20 kilomètres de sentiers pédestres sont accessibles toute l'année en zone ouverte au public pour partir à la découverte de la faune et la flore. Plan des promenades disponible à l'accueil du château."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ad9ff523-47c2-30da-ba04-9c15bf0898dc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d412b7f1-28a5-39bc-903b-97573e2bdef8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/692e9835-03c3-3772-8b7c-ed2129886cff",
+          "ebucore:title": {
+            "fr": [
+              "circuits-pedestre-balise-chambord©Leonard-de-Serres 07 13 (13)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Leonard-de-Serres"
+          ],
+          "rightsEndDate": "2026-12-31",
+          "rightsStartDate": "2017-05-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d0d65c6f-32f6-30e9-b208-474a1463b4f2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/circuits-pedestre-balise-chambord-Leonard-de-Serres-07-13--13-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1ac6ac58-a60e-3d4c-8d56-e5439183a731",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b7304419-fd7a-300d-99b9-09dc6cd984a5",
+          "ebucore:title": {
+            "fr": [
+              "SL-4174 © DnC - Photo Sophie Lloyd. Ts droits jusqu'à avril 2024"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "DNC - Sophie Lloyd"
+          ],
+          "rightsEndDate": "2024-01-01",
+          "rightsStartDate": "2018-06-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7641677f-9b22-3e56-97d3-5ffc233c5607",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/SL-4174---DnC---Photo-Sophie-Lloyd.-Ts-droits-jusqu-a-avril-2024-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d412b7f1-28a5-39bc-903b-97573e2bdef8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/692e9835-03c3-3772-8b7c-ed2129886cff",
+          "ebucore:title": {
+            "fr": [
+              "circuits-pedestre-balise-chambord©Leonard-de-Serres 07 13 (13)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Leonard-de-Serres"
+          ],
+          "rightsEndDate": "2026-12-31",
+          "rightsStartDate": "2017-05-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d0d65c6f-32f6-30e9-b208-474a1463b4f2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/circuits-pedestre-balise-chambord-Leonard-de-Serres-07-13--13-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Hiking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Hiking"
+        ],
+        "fr": [
+          "Randonnée"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7d1f0beb-0277-33a3-891d-d098d4287046",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0d8d028f-420d-3bcb-9739-5dfab18698f0",
+          "schema:addressLocality": "Chambord",
+          "schema:postalCode": "41250",
+          "schema:streetAddress": [
+            "Château de Chambord"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41034",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chambord"
+                ],
+                "fr": [
+                  "Chambord"
+                ]
+              },
+              "insee": "41034",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/73edfa02-90f6-348b-9c67-6fd0601701bb",
+        "schema:latitude": "47.616126",
+        "schema:longitude": "1.517218",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-09-07",
+  "lastUpdateDatatourisme": "2020-09-08T05:05:52.174Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37120d5c-1aba-3ce8-a107-4c3e312e83b4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

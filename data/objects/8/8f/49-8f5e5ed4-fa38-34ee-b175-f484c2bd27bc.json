@@ -1,0 +1,805 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/8f5e5ed4-fa38-34ee-b175-f484c2bd27bc",
+  "dc:identifier": "HLOPDL072V50FP45",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Retraite tranquille au coeur de la campagne en Pays de la Loire"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "GITE LA BERGERIE"
+    ]
+  },
+  "COVID19InOperationConfirmed": false,
+  "COVID19OpeningPeriodsConfirmed": false,
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "Anglais",
+    "Français",
+    "Italien"
+  ],
+  "creationDate": "2018-01-12",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9bf61285-9074-3269-b034-ca17608321bf",
+      "schema:email": [
+        "chateaudemarthe@yahoo.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 38 82 25"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6b0668c3-3514-3fa2-9de8-d4d6ddf9a537",
+      "dc:description": {
+        "fr": [
+          "\"La Bergerie\" est située dans le hameau de Marthe entre Dissay-Sous-Courcillon et St Pierre de Chevillé et à seulement 10 minutes en voiture de la sortie 26 de l'autoroute A28, 39 km de l'aéroport de Tours et 48 km du Mans.\nIl est situé sur une colline de 4ha de terrain du manoir connu localement sous le nom Le Petit Château de Marthe (anciennement appartenant à la famille Joffo, Josef étant le célèbre auteur de \"Le Sac de Billes\")."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Retraite tranquille au coeur de la campagne en Pays de la Loire"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f2c1201-f570-359a-be2e-b33dce2eb4b4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:IndoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Indoor pool"
+            ],
+            "fr": [
+              "Piscine couverte"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/346fde00-1f08-3ee0-b21a-b9abaf2eb109",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/35086226-ea2e-31a2-a289-84464a8fef27",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Garden"
+            ],
+            "fr": [
+              "Jardin"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3f4080d9-16b1-3538-8287-109f34db8be9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sheets and towels"
+            ],
+            "fr": [
+              "Draps et linges"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/423609bc-1aec-3621-8d25-984704c866fc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:FinalHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Final housekeeping"
+            ],
+            "fr": [
+              "Ménage en fin de séjour"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/42af5cd0-a7ef-357b-bb3e-e3ece4a227d1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Fireplace",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Fireplace, stove"
+            ],
+            "fr": [
+              "Cheminée, poële"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/55e61e7f-a885-3765-97ab-9ccb72d8d2f9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SeparateEntrance",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Separate entrance"
+            ],
+            "fr": [
+              "Entrée indépendante"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/678a93d0-981c-3ca8-ab13-f403defb2c16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Microwave",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Microwave"
+            ],
+            "fr": [
+              "Micro-ondes"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6ef9b1dd-a588-3dca-94c5-2245c8ee1adf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/82ee0dad-b4b3-32de-a9ce-18066f2a78cf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BikeHire",
+          "@type": [
+            "CommonAmenity",
+            "RentalPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike hire"
+            ],
+            "fr": [
+              "Location de vélo"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/987be94c-a822-35d1-8317-c5e9ead1c059",
+      "schema:value": "1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9d9afb75-18bb-34b4-b9a7-9f0af0457c6f",
+      "schema:value": "2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab5f36cb-7d88-3ea6-a4ec-f0f01e5330c6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e742c59b-b119-3f81-acf6-948aad9323b5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Washrooms",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Washrooms"
+            ],
+            "fr": [
+              "Sanitaires"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f987cbc7-97bc-34a4-a404-67fa5f2f1605",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:EnclosedLand",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Enclosed land"
+            ],
+            "fr": [
+              "Terrain clos"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f9f5d1e7-0e7e-3c52-91d8-a8e07e759bf8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SeparateToilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Separate toilets"
+            ],
+            "fr": [
+              "Toilettes séparées"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fc5857c2-6ad5-3883-af32-406c33074a99",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba8c832c-bee1-3df0-8aaa-5ed95839bc4e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eadf3c01-8064-3a1c-858a-1a454ce0d405",
+          "schema:addressLocality": "Dissay-sous-Courcillon",
+          "schema:postalCode": "72500",
+          "schema:streetAddress": [
+            "21 Route de Marthe"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72115",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Dissay-sous-Courcillon"
+                ],
+                "fr": [
+                  "Dissay-sous-Courcillon"
+                ]
+              },
+              "insee": "72115",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/85595482-c544-36a1-b14a-c4f09af6ff2d",
+        "schema:latitude": "47.6572338",
+        "schema:longitude": "0.44271349",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-02",
+  "lastUpdateDatatourisme": "2020-09-09T02:50:43.615Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b06a940a-106e-39c0-ae73-cb3d9a66bbdb",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/80964d16-a210-3aeb-9fac-e317a5238c92",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "DÉPÔT de 100 EURO fait sur réservation pour les clients séjournant 6 nuits et moins et 200 EURO pour les clients séjournant pour 7 nuits + / Le reste du prix à payer 4 semaines avant la date d'arrivée au plus tard./Paiements via PAYPAL & TRNSFR BANC."
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a304de97-0b2f-3ade-9915-aedd71596fd9",
+  "dc:identifier": "FMACEN037V50JMVW",
+  "schema:endDate": [
+    "2020-09-20"
+  ],
+  "schema:startDate": [
+    "2020-09-20"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:SaleEvent",
+    "EntertainmentAndEvent",
+    "FairOrShow",
+    "PointOfInterest",
+    "SaleEvent"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Foire de la Saint Mathieu"
+    ]
+  },
+  "creationDate": "2020-03-16",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/5bbac63b-4cde-3c7c-bbe8-3519de4a5677",
+    "schema:legalName": "Tourisme en Gâtine et Pays de Racan",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b7173bc9-0c12-3f6b-9ae2-dc6aeb2d439c",
+      "schema:telephone": [
+        "+33 2 47 56 60 13"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/236ff76f-8dee-351e-a727-fdb3ff61902f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/884e0deb-e8b1-30ba-bcb2-f61c6de7aafc",
+          "schema:addressLocality": "Rouziers-de-Touraine",
+          "schema:postalCode": "37360",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37204",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Rouziers-de-Touraine"
+                ],
+                "fr": [
+                  "Rouziers-de-Touraine"
+                ]
+              },
+              "insee": "37204",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/03d2bf47-9fa6-3abe-a7c7-7d84b1a0f9dc",
+        "schema:latitude": "47.527236",
+        "schema:longitude": "0.645618",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-03-16",
+  "lastUpdateDatatourisme": "2020-07-07T04:01:02.411Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37120d5c-1aba-3ce8-a107-4c3e312e83b4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5a94145-3663-3bf2-a33a-6820610dbee6",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-20",
+      "endTime": "18:00:00",
+      "startDate": "2020-09-20",
+      "startTime": "10:00:00"
+    }
+  ]
+}

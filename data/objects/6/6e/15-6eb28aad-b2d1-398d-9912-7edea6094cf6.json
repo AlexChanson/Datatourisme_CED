@@ -1,0 +1,969 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/6eb28aad-b2d1-398d-9912-7edea6094cf6",
+  "dc:identifier": "HLOCEN037FS002K8",
+  "@type": [
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Betty welcome you in a Touraine tipical farm. The breakfasts are always home-made (bread, jam and season fruits)."
+    ],
+    "fr": [
+      "A 500 m du château et 5 mm du Cher à vélo Gr 41. Propriété du XIXe  siècle à Chenonceaux : \nPetit déjeuner spécial vol en montgolfière (tôt le matin ) \"confitures maison \",  jardin calme en retrait du village.\nFrigo, four micro onde, sèche et lave linge sur demande.\n Abri pour vélos sécurisés."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Le Clos Mony"
+    ],
+    "fr": [
+      "Le Clos Mony"
+    ]
+  },
+  "allowedPersons": 8,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2013-06-07",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04686a8a-06f1-3fe5-ae80-a530420253f1",
+      "schema:email": [
+        "closmony@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 07 45 92 48"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gites-touraine.com/hebergement-G11421.html?ori=TRF"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04686a8a-06f1-3fe5-ae80-a530420253f1",
+      "schema:email": [
+        "closmony@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 07 45 92 48"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gites-touraine.com/hebergement-G11421.html?ori=TRF"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/29439aae-f120-369f-b3fd-125bb4fe12fe",
+      "schema:email": [
+        "closmony@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 30 26 10",
+        "+33 6 07 45 92 48"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.closmony.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5f4af51-f8c0-3f6d-8551-676d465827f6",
+      "dc:description": {
+        "en": [
+          "Betty welcome you in a Touraine tipical farm. The breakfasts are always home-made (bread, jam and season fruits)."
+        ],
+        "fr": [
+          "A 500 m du château et 5 mm du Cher à vélo Gr 41. Propriété du XIXe  siècle à Chenonceaux : \nPetit déjeuner spécial vol en montgolfière (tôt le matin) \"confitures maison\",  jardin calme en retrait du village.\nFrigo, four micro onde, sèche et lave linge sur demande.\n Abri pour vélos sécurisés."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Betty welcome you in a Touraine tipical farm. The breakfasts are always home-made (bread, jam and season fruits)."
+        ],
+        "fr": [
+          "A 500 m du château et 5 mm du Cher à vélo Gr 41. Propriété du XIXe  siècle à Chenonceaux : \nPetit déjeuner spécial vol en montgolfière (tôt le matin ) \"confitures maison \",  jardin calme en retrait du village.\nFrigo, four micro onde, sèche et lave linge sur demande.\n Abri pour vélos sécurisés."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6bad3e7f-7b01-3e8d-aa7b-efa3271dd7a6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BikeHire",
+          "@type": [
+            "CommonAmenity",
+            "RentalPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike hire"
+            ],
+            "fr": [
+              "Location de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Charging station"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/91146cc9-28ab-384a-8838-14a9f5d0dc12",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eb3ce0dd-46db-3afd-ba63-533ca9ce016e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/WP-20170610-13-09-54-Pro-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2837f038-6a14-3365-82df-3e7764b6c84f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/14df1fbb-883e-392e-951b-3d868940929c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-vigneronne.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/42d36d0d-809b-35e5-9a97-1375877b3183",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c8603462-dc62-3548-9f18-59559ec79da7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-vigneronne-sdb-1.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4dd9c8c6-5d7f-332b-93cb-f5df4e79bcff",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a211650f-e7e3-3ee4-b66e-61e6b5759be6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-vigneronne-bis.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/591ac0e4-1cba-3e7a-9d0e-98e18783c2b3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/db262da4-a70b-3c10-9108-a4665e8c4ce8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-romantique-2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5d29ac2b-7f0e-3a5a-b098-f5bc42efefcd",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7b350c5d-4fd4-34a4-8820-a32b085c20df",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/image1-4.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6274d63a-7af7-378e-aff6-626aa8e2dc8d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5ab9e2dc-7b14-3d0a-bf52-c6d88ad78abf",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-romantique-sdb.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8061f222-7ade-363e-b803-0584f6b01b0d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/74b33049-fa3a-3ce0-9f0a-c9ff47c029de",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-oceane.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/91146cc9-28ab-384a-8838-14a9f5d0dc12",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eb3ce0dd-46db-3afd-ba63-533ca9ce016e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/WP-20170610-13-09-54-Pro-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c9d7daf0-9108-3a61-9f04-80324f7d0522",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0c1987c7-5cf9-3286-9281-757dbac5514b",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/image0-2.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d14a3fac-87e5-3457-a9b8-88fb69a89e94",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bf7e68a8-cb9e-346d-8402-998835296f50",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambre-romantique-sdb-suite.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f085fd18-9adb-39db-b2a0-dc6a397286b0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d306c2f0-5476-3446-af4b-a2e7b0de849e",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Le Clos Mony - Chenonceaux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "©Clos Mony"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8fc9365b-65f3-3819-81ff-1c3af68b9d09",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/image8-3.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fe7c42d0-9b97-3de7-a8e0-2aba5468545b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b724b5a8-22c7-3829-936a-b745a7d8ed8c",
+          "schema:addressLocality": "Chenonceaux",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "6 rue des Bleuets"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37070",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chenonceaux"
+                ],
+                "fr": [
+                  "Chenonceaux"
+                ]
+              },
+              "insee": "37070",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/70de642d-b8ba-33a6-b8f1-0a44a2704185",
+        "schema:latitude": "47.3331855",
+        "schema:longitude": "1.0699303",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-04-01",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.343Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ef918db-412b-38a6-b575-968d040b9da7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/15841f64-b5ff-34e2-a179-62ff0cd223fb",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8170bf07-72e8-3c97-963d-c7aba1c7c2e7",
+          "schema:minPrice": [
+            "21"
+          ],
+          "schema:price": "21",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d086bfe7-58f3-3e5a-83c7-daf99d5f01ec",
+          "schema:minPrice": [
+            "69"
+          ],
+          "schema:price": "69",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f757ad1a-02ad-3078-b73b-fcf5a295d877",
+          "schema:minPrice": [
+            "72"
+          ],
+          "schema:price": "72",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

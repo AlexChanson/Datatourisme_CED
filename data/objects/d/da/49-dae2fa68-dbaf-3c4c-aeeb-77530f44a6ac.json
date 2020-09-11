@@ -1,0 +1,434 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/dae2fa68-dbaf-3c4c-aeeb-77530f44a6ac",
+  "dc:identifier": "HLOPDL072V50011Z",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Ferme rénovée authentique et chaleureuse de 150 m² sur 2 hectares."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "GITE LES COTEAUX DE BEAUMONT"
+    ]
+  },
+  "allowedPersons": 10,
+  "creationDate": "2012-06-27",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ef9c5459-c5b7-3ef2-bc7c-5e5e7db9fa80",
+      "schema:email": [
+        "famille.chirol@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 28 01 96 46"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gite-touraine-sarthe.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2b207e12-20f9-3db0-9b74-1b878f8f1669",
+      "dc:description": {
+        "fr": [
+          "Au milieu des prés et des bois, ancienne ferme avec salon cheminée, grande pièce de vie - cuisine, poutres apparentes, 3 chambres plus une en mezzanine, 2 salles d'eau, douche et baignoire , 2 WC, dépendances (salle de jeux et couchages supplémentaires). \n\nLocation possible à partir de 4/6 personnes jusqu'à 10 et quelques couchages d'appoints. A partir de deux nuits possible toute l'année. Idéal pour se retrouver en famille ou entre amis. \n\nGrands espaces de jeux extérieurs, large vue sur la vallée de la Dème, pour jouer avec les enfants, au foot, au ping-pong ... parfait pour la farniente à l'ombre des vieux arbres...le barbecue au grand air. Proximité du Lac de Marçon à 8 kms (baignade, planche à voile)"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Ferme rénovée authentique et chaleureuse de 150 m² sur 2 hectares."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04bbe60d-48b1-3cf4-b4b4-f6ce939787cd",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/da9c2172-db16-3bcb-9b1d-fc694edf7f40",
+          "schema:unitText": [
+            "m²"
+          ],
+          "schema:value": "170",
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f4874e9-d87e-340c-8149-629fabd640e6",
+      "schema:value": "3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/39ea7790-9074-39ec-a58a-f6c284ab3223",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SeparateGarden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Separate garden"
+            ],
+            "fr": [
+              "Jardin indépendant"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/42af5cd0-a7ef-357b-bb3e-e3ece4a227d1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Fireplace",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Fireplace, stove"
+            ],
+            "fr": [
+              "Cheminée, poële"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/55e61e7f-a885-3765-97ab-9ccb72d8d2f9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SeparateEntrance",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Separate entrance"
+            ],
+            "fr": [
+              "Entrée indépendante"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab5f36cb-7d88-3ea6-a4ec-f0f01e5330c6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/77ade6ba-1fe7-33c5-8b2f-77dc2d49c971",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_GitesDeFrance",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Gîtes de France"
+          ],
+          "fr": [
+            "Gîtes de France"
+          ]
+        },
+        "isCompliantWith": [
+          "Guesthouse",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5e630ffb-a71e-392f-bd1d-a27f58251b8e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f32d6c69-89c9-341d-a016-27afd90b07ae",
+          "schema:addressLocality": "Beaumont-sur-Dême",
+          "schema:postalCode": "72340",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72027",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Beaumont-sur-Dême"
+                ],
+                "fr": [
+                  "Beaumont-sur-Dême"
+                ]
+              },
+              "insee": "72027",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/fc4e9803-114c-3a7b-af18-63b815770e0a",
+        "schema:latitude": "47.69282",
+        "schema:longitude": "0.569199",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-01-04",
+  "lastUpdateDatatourisme": "2020-09-09T02:50:43.605Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0254c703-61a6-38bc-8ec5-d6d6f6d2144b",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

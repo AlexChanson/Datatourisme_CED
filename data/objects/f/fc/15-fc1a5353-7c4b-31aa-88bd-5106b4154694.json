@@ -1,0 +1,676 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/fc1a5353-7c4b-31aa-88bd-5106b4154694",
+  "dc:identifier": "HLOCEN000V501ZMT",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Gîte de charme en plein cœur de la Touraine à 15 minutes de Loches! Tout confort et piscine privative de 10mx5m"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Domaine des Pacauderies : Gite La Salamandre"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2019-01-09",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/d02b0367-e485-377f-adcc-7648169c34df",
+    "schema:legalName": "CRT_CENTRE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f02d547d-381d-3d1d-866e-8b27db50b7d4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e4245d52-8576-3217-ad3d-0b19662015fc",
+          "schema:postalCode": "37240",
+          "schema:streetAddress": [
+            "1 Les Pacauderies"
+          ],
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "option.44@live.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 19 00 41",
+        "+33 6 60 39 16 67"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5770ae87-395d-3e1e-8de3-d4b669bb6369",
+      "dc:description": {
+        "fr": [
+          "Aux portes de la ville royale de Loches, vous pourrez profiter de la région historique des châteaux de la Loire ainsi que des joies de l'écotourisme.\nVous pourrez également profiter de ce séjour pour une escapade au zoo de Beauval et au futuroscope de Poitiers.\nEn saison piscine privative 10mx5m close et sécurisée entièrement dédiée au Gîte, vélos, jeux pour enfants, balançoire, terrain de pétanque, parc de plus de 5000 m2 entièrement clos. Gite tout confort pouvant accueillir 6 personnes, plus lit bébé.\nLe gîte a été pensé comme notre propre maison, vous y trouverez tout le confort !\nLe gite de 120 m² est une dépendance de la propriété, situé dans un domaine de 4 hectares. \nNous vous proposons le drive afin de profiter dès votre arrivée de vos vacances"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Gîte de charme en plein cœur de la Touraine à 15 minutes de Loches! Tout confort et piscine privative de 10mx5m"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b267c989-5a96-38c6-9821-e4a149951471",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BikeLoan",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike loan"
+            ],
+            "fr": [
+              "Prêt de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SportsEquipmentLending",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sports equipment lending"
+            ],
+            "fr": [
+              "Prêt de matériel de sport"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b49967ae-2f03-3a74-a631-055bffaa1d58",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89e58c1e-235e-357a-94fd-02a2ff5d9a70",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gitelasalamandre-loches-valdeloire1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Marie Miquet"
+          ],
+          "rightsEndDate": "2024-12-31",
+          "rightsStartDate": "2020-01-21"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/19db7c49-ce18-30e2-a2cb-93896aea44a5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gitelasalamandre-loches-valdeloire1.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/38ab0898-1e5e-3580-a2dc-0da47279edd2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/69b4a7f6-96a7-3070-a6f2-389f9c3727b0",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gitelasalamandre-loches-valdeloire3"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Marie Miquet"
+          ],
+          "rightsEndDate": "2024-12-31",
+          "rightsStartDate": "2020-01-21"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be477c5e-36b1-304c-8e0d-5cf281ec8bc7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gitelasalamandre-loches-valdeloire3.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/63069db9-4188-3007-8836-a25856f318e7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d2a35bbc-53d4-369c-bb5e-759af41837cb",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gitelasalamandre-loches-valdeloire2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Marie Miquet"
+          ],
+          "rightsEndDate": "2024-12-31",
+          "rightsStartDate": "2020-01-21"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/64d6b4b7-cc95-37b8-994a-4299d4026a34",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gitelasalamandre-loches-valdeloire2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b49967ae-2f03-3a74-a631-055bffaa1d58",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89e58c1e-235e-357a-94fd-02a2ff5d9a70",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gitelasalamandre-loches-valdeloire1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Marie Miquet"
+          ],
+          "rightsEndDate": "2024-12-31",
+          "rightsStartDate": "2020-01-21"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/19db7c49-ce18-30e2-a2cb-93896aea44a5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gitelasalamandre-loches-valdeloire1.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/687f394f-a4b1-3d14-8583-bf0283230fe1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3dc04f7c-68ba-3016-ac55-088f8df595a6",
+          "schema:addressLocality": "Vou",
+          "schema:postalCode": "37240",
+          "schema:streetAddress": [
+            "1 Les Pacauderies"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37280",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vou"
+                ],
+                "fr": [
+                  "Vou"
+                ]
+              },
+              "insee": "37280",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/cc7ba3ac-260d-307c-a498-92d69dea5ab9",
+        "schema:latitude": "47.066743",
+        "schema:longitude": "0.839843",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-27",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.355Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b9fa72d0-2f86-3db4-b36a-8701bee575b7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/04d197b3-90e6-3a63-8d03-0422237f024f",
+          "schema:maxPrice": [
+            "50"
+          ],
+          "schema:minPrice": [
+            "50"
+          ],
+          "schema:price": "50",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ExtraCharge",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Extra charge"
+              ],
+              "fr": [
+                "Supplément"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cff629ba-a386-3afb-a539-a19466645076",
+          "schema:maxPrice": [
+            "100"
+          ],
+          "schema:minPrice": [
+            "75"
+          ],
+          "schema:price": "75",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d4908d63-5a8e-395c-ba44-086c9f21e59e",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

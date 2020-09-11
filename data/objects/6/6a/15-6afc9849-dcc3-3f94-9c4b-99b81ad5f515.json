@@ -1,0 +1,630 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/6afc9849-dcc3-3f94-9c4b-99b81ad5f515",
+  "dc:identifier": "RESCEN037FS0016Q",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "BrasserieOrTavern",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Ouvert toute l’année, l’établissement propose une cuisine traditionnelle ; il dispose d’une salle pouvant accueillir 60 couverts et une terrasse extérieure de 35 couverts."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "L'Ambacia"
+    ],
+    "fr": [
+      "L'Ambacia"
+    ]
+  },
+  "allowedPersons": 35,
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2013-08-05",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/e8d45b94-7ba3-3b34-95e2-24a98bc212ce",
+    "schema:legalName": "OFFICE AMBOISE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0a3f6dd1-4aeb-32df-8d1d-03d0907ca9ed",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/25daa069-9f75-34d4-9440-71724f381859",
+          "schema:addressLocality": "Amboise",
+          "schema:postalCode": "37400",
+          "schema:streetAddress": [
+            "12/14 place Michel Debré"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37003",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Amboise"
+                ],
+                "fr": [
+                  "Amboise"
+                ]
+              },
+              "insee": "37003",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "restaurantlambacia@yahoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 23 21 44",
+        "+33 6 66 77 88 02"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e07a3a1e-542f-3c4d-8fdb-cbc622b7e02b",
+      "dc:description": {
+        "fr": [
+          "Ouvert toute l’année, l’établissement propose une cuisine traditionnelle ; il dispose d’une salle pouvant accueillir 60 couverts et une terrasse extérieure de 35 couverts."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Ouvert toute l’année, l’établissement propose une cuisine traditionnelle ; il dispose d’une salle pouvant accueillir 60 couverts et une terrasse extérieure de 35 couverts."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f8118ff-1978-3077-befa-f28061f6e0b9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72bcfc8d-598e-3dde-90f2-b0ef4adefe65",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Terrace"
+            ],
+            "fr": [
+              "Terrasse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8fc9fea4-4d07-344a-8fe4-529f5596ee3d",
+      "schema:value": "35",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Covers",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Covers"
+            ],
+            "fr": [
+              "Couvert"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f224a5c7-43c7-374b-824b-b2d0b1325a26",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Baby chair"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f08cf9a7-a60e-37b4-ad7f-ae5368b9e583",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f48cf9f0-da22-348e-b91a-58ba54aa8726",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "L'Ambacia"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "L'Ambacia"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e78f1f83-118c-3035-a1cc-28d11236ac3f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/L-Ambacia.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/def01f6b-7e5c-356d-8af6-c01d21d8acfa",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8ba3bbd4-5d6e-3968-a7b7-142109c531f5",
+          "ebucore:title": {
+            "fr": [
+              "L'Ambacia"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "L'Ambacia"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e78f1f83-118c-3035-a1cc-28d11236ac3f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/L-Ambacia.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f08cf9a7-a60e-37b4-ad7f-ae5368b9e583",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f48cf9f0-da22-348e-b91a-58ba54aa8726",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "L'Ambacia"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "L'Ambacia"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e78f1f83-118c-3035-a1cc-28d11236ac3f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/L-Ambacia.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/93be2aab-46b2-3429-8164-e9dcf4e96bed",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/000b44b4-cbec-3ff7-9f3f-bf8a647924e5",
+          "schema:addressLocality": "Amboise",
+          "schema:postalCode": "37400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37003",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Amboise"
+                ],
+                "fr": [
+                  "Amboise"
+                ]
+              },
+              "insee": "37003",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/fc1b0f4b-82da-321b-bd05-087a6428c986",
+        "schema:latitude": "47.4127927",
+        "schema:longitude": "0.9847586",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-04-06",
+  "lastUpdateDatatourisme": "2020-07-07T10:30:44.229Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a5556a18-a8d3-39b9-afd6-5cf80dc82569",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": true
+}

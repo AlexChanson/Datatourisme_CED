@@ -1,0 +1,607 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/5040b55b-766f-3771-b130-b36ceb4822ca",
+  "dc:identifier": "ASCCEN041V5000RZ",
+  "@type": [
+    "schema:Product",
+    "Course",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Claire Glatigny organises workshops for all audiences to learn how to make pastries: 8- to 12-year-olds (1 hour and 30 minutes) and adults (2 hours and 30 minutes). Booking is by e-mail."
+    ],
+    "fr": [
+      "Pour apprendre à mieux faire les pâtisseries, Claire Glatigny propose des ateliers destinés à tous publics : enfants de 8 à 12 ans (1 h 30) et adultes (2 h 30). Les inscriptions se font par mail. \nNouveauté : pâtisserie bio."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Blois cookery workshop"
+    ],
+    "fr": [
+      "Claire Glatigny - Atelier culinaire Blois"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2014-07-17",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/85bb6a79-ac88-3c64-835a-2daa6e1839d6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0dae80c-6294-37a3-a301-d1f65e982e2d",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "cglatigny@sfr.fr"
+      ],
+      "schema:legalName": "Claire Glatigny - Atelier culinaire Blois",
+      "schema:telephone": [
+        "+33 6 50 71 28 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.traiteur-glatigny.fr/page/ateliers"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/85bb6a79-ac88-3c64-835a-2daa6e1839d6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0dae80c-6294-37a3-a301-d1f65e982e2d",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "cglatigny@sfr.fr"
+      ],
+      "schema:legalName": "Claire Glatigny - Atelier culinaire Blois",
+      "schema:telephone": [
+        "+33 6 50 71 28 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.traiteur-glatigny.fr/page/ateliers"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3e408c38-c9b8-355e-bf7c-26055ba126f0",
+      "dc:description": {
+        "en": [
+          "Claire Glatigny organises workshops for all audiences to learn how to make pastries: 8- to 12-year-olds (1 hour and 30 minutes) and adults (2 hours and 30 minutes). Booking is by e-mail to cglatigny@sfr.fr"
+        ],
+        "fr": [
+          "Pour apprendre à mieux faire les pâtisseries, Claire Glatigny propose des ateliers destinés à tous publics : enfants de 8 à 12 ans (1 h 30) et adultes (2 h 30). Conditions générales : Claire Glatigny se réserve le droit d'annuler un atelier en cas d'un nombre insuffisant d'inscriptions (mini. 2). Nouveauté : pâtisserie bio."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Claire Glatigny organises workshops for all audiences to learn how to make pastries: 8- to 12-year-olds (1 hour and 30 minutes) and adults (2 hours and 30 minutes). Booking is by e-mail."
+        ],
+        "fr": [
+          "Pour apprendre à mieux faire les pâtisseries, Claire Glatigny propose des ateliers destinés à tous publics : enfants de 8 à 12 ans (1 h 30) et adultes (2 h 30). Les inscriptions se font par mail. \nNouveauté : pâtisserie bio."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fcfedd68-5e1f-3d63-9024-b2827456e6a7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dd6ad9c9-8f47-38d1-8806-f70659241865",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fa8fdb1a-7b00-3736-bf37-190282de1357",
+          "ebucore:title": {
+            "fr": [
+              "claire-glatigny-atelier-culinaire-blois"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Claire-Glatigny-Atelier-Culinaire-Blois"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2017-05-22"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b82b4aee-9d5a-3634-8f2e-98173b8e53f5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/claire-glatigny-atelier-culinaire-blois.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dd6ad9c9-8f47-38d1-8806-f70659241865",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fa8fdb1a-7b00-3736-bf37-190282de1357",
+          "ebucore:title": {
+            "fr": [
+              "claire-glatigny-atelier-culinaire-blois"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Claire-Glatigny-Atelier-Culinaire-Blois"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2017-05-22"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b82b4aee-9d5a-3634-8f2e-98173b8e53f5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/claire-glatigny-atelier-culinaire-blois.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Crafts",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Crafts"
+        ],
+        "fr": [
+          "Métiers"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Gastronomy",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Gastronomy"
+        ],
+        "fr": [
+          "Gastronomie"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fcaeb909-1679-3e16-a3b2-789485fb036a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1b7256be-3a7a-3d37-b88f-31d0113229ce",
+          "schema:addressLocality": "La Chaussée-Saint-Victor",
+          "schema:postalCode": "41260",
+          "schema:streetAddress": [
+            "28 rue saint lazare"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41047",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Chaussée-Saint-Victor"
+                ],
+                "fr": [
+                  "La Chaussée-Saint-Victor"
+                ]
+              },
+              "insee": "41047",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/11abe30b-d83d-32b5-8d74-debc40205da8",
+        "schema:latitude": "47.6084575",
+        "schema:longitude": "1.3506333",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-09-09T04:50:02.329Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f953296f-e0b9-322e-ba16-6a7020cd7152",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/556ab752-623c-3388-be73-b5b5479a0c05",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6af49ca9-458a-39f8-85fd-3552cfe73fd8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

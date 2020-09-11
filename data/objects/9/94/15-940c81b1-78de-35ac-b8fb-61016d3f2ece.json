@@ -1,0 +1,247 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/940c81b1-78de-35ac-b8fb-61016d3f2ece",
+  "dc:identifier": "FMACEN037V50KP8B",
+  "schema:endDate": [
+    "2020-09-16"
+  ],
+  "schema:startDate": [
+    "2020-09-16"
+  ],
+  "@type": [
+    "schema:Event",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Zébulon est un jeune dragon aussi attachant que maladroit qui aspire à devenir le meilleur élève de son école. Il devra montrer une grande ténacité et traverser beaucoup d’épreuves, comme réussir à capturer une princesse…"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "1,2, 3 Ciné : Zébulon le dragon"
+    ]
+  },
+  "creationDate": "2020-08-25",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/c89d354e-38ed-3d7f-88cc-fdcfa85ab097",
+    "schema:legalName": "ADT 37",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7ad1901e-f394-3568-b883-af4e0c7f4d78",
+      "schema:telephone": [
+        "+33 2 47 73 83 54"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.laparenthese-ballanmire.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b07e6fe3-1b01-33e9-97c9-13968ae84825",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Zébulon est un jeune dragon aussi attachant que maladroit qui aspire à devenir le meilleur élève de son école. Il devra montrer une grande ténacité et traverser beaucoup d’épreuves, comme réussir à capturer une princesse…"
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/795e6c08-8bbe-36ef-9ee2-336bce69babb",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/851c03ff-296c-39f3-9bd2-759724c15630",
+          "schema:addressLocality": "Ballan-Miré",
+          "schema:postalCode": "37510",
+          "schema:streetAddress": [
+            "14 Boulevard Léo Lagrange"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Ballan-Miré"
+                ],
+                "fr": [
+                  "Ballan-Miré"
+                ]
+              },
+              "insee": "37018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/5bf6d424-d1f9-311a-b491-1d1c4239ac70",
+        "schema:latitude": "47.4103692",
+        "schema:longitude": "0.6963525",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b5003e1f-bbae-3b48-86e6-59f681dff76d",
+          "schema:closes": "17:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-09-16T00:00:00",
+          "schema:validThrough": "2020-09-16T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-08-25",
+  "lastUpdateDatatourisme": "2020-08-26T03:59:37.188Z",
+  "reducedMobilityAccess": true,
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/53c1b9a0-6fce-35a5-bd55-0dd3a6b69db2",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-16",
+      "endTime": "17:00:00",
+      "startDate": "2020-09-16",
+      "startTime": "16:00:00"
+    }
+  ]
+}

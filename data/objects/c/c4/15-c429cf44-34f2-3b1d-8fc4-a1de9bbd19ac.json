@@ -1,0 +1,352 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c429cf44-34f2-3b1d-8fc4-a1de9bbd19ac",
+  "dc:identifier": "FMACEN037V50K8DY",
+  "schema:endDate": [
+    "2020-09-19"
+  ],
+  "schema:startDate": [
+    "2020-09-19"
+  ],
+  "@type": [
+    "schema:Event",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Balade au fil du coteau animée par Marie-Claire Bouin.\nLaissez-vous conter l’histoire des troglos et partez à la découverte des rues les plus insolites et charmantes de Loches. RDV : parking Val Touraine Habitat. Port du masque obligatoire."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Les Troglos Dévoilés"
+    ]
+  },
+  "creationDate": "2020-07-26",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/aff2dabb-4f3b-34ce-8729-2b832d94f70b",
+      "schema:email": [
+        "theatre.du.rossignolet@hotmail.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 36 57 66 14"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba7be519-7c5f-352b-8b78-6a66fb73a0af",
+      "dc:description": {
+        "fr": [
+          "Balade au fil du coteau animée par Marie-Claire Bouin.\nLaissez-vous conter l’histoire des troglos et partez à la découverte des rues les plus insolites et charmantes de Loches, sous le charme d’un éclairage nocturne qui révélera le coteau et ses architectures de pierre. Vous visiterez à cette occasion des troglos cachés ou oubliés, ainsi que le Théâtre du Rossignolet, véritable joyau de l’habitat troglodytique. RDV : parking Val Touraine Habitat. Port du masque obligatoire."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Balade au fil du coteau animée par Marie-Claire Bouin.\nLaissez-vous conter l’histoire des troglos et partez à la découverte des rues les plus insolites et charmantes de Loches. RDV : parking Val Touraine Habitat. Port du masque obligatoire."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/159c41d4-0e59-384f-b337-5f650d9cb3d1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/372bd5cf-ab58-3232-83cf-ad0c762a406c",
+          "schema:addressLocality": "Loches",
+          "schema:postalCode": "37600",
+          "schema:streetAddress": [
+            "Vauchignard"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37132",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loches"
+                ],
+                "fr": [
+                  "Loches"
+                ]
+              },
+              "insee": "37132",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/5a209a8e-a0ae-37fb-84df-13d65fba3d4d",
+        "schema:latitude": "47.135098",
+        "schema:longitude": "0.997806",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-19",
+  "lastUpdateDatatourisme": "2020-08-20T03:57:51.643Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5282e6e-a37c-397c-8962-ebd0f4d42aa3",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9cf5d63c-4935-3f7a-aefa-4e970187629a",
+          "schema:maxPrice": [
+            "6"
+          ],
+          "schema:minPrice": [
+            "6"
+          ],
+          "schema:price": "6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false,
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/448c492a-2918-36bb-8d40-48f168b8431e",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-19",
+      "endTime": "22:00:00",
+      "startDate": "2020-09-19",
+      "startTime": "20:30:00"
+    }
+  ]
+}

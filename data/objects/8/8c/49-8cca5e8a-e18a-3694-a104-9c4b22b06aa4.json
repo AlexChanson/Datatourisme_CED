@@ -1,0 +1,213 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/8cca5e8a-e18a-3694-a104-9c4b22b06aa4",
+  "dc:identifier": "DEGPDL072V500317",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TastingProvider"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Jasnières et Coteaux du Loir."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE DES TUFFIERES"
+    ]
+  },
+  "creationDate": "2012-11-14",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c10c6fbd-3e7e-314b-a814-c6cbf5cd736b",
+      "schema:email": [
+        "bidluetclara@hotmail.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 85 80 93 66"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/33571a7a-6bce-3027-a97a-a4a2da2f224b",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Jasnières et Coteaux du Loir."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f31617a5-a948-35fd-a779-43479615f416",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/448a3ade-cb74-3c81-a3e7-d6ab5ccab1f1",
+          "schema:addressLocality": "Lhomme",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "Les Tuffières"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72161",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lhomme"
+                ],
+                "fr": [
+                  "Lhomme"
+                ]
+              },
+              "insee": "72161",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/abc2a47f-d95d-3cbd-b5a5-d2655c2a3939",
+        "schema:latitude": "47.754394",
+        "schema:longitude": "0.58326899",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-02-07",
+  "lastUpdateDatatourisme": "2020-07-07T03:53:45.103Z",
+  "providesFoodProduct": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ]
+}

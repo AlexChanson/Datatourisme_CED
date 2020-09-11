@@ -1,0 +1,493 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/17d39239-08e5-3edf-bd69-50d3b81a419d",
+  "dc:identifier": "DEGCENBERV500TGI",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:Product",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Producer",
+    "Product",
+    "Tasting",
+    "TastingProvider",
+    "WineCellar"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Winemakers with 2 appellations (Valençay and Touraine AOCs). Production of white, rosé and red wines using traditional methods."
+    ],
+    "fr": [
+      "Vignerons sur 2 appellations (AOC Valençay et AOC Touraine). Production en vins blancs, rosés, rouges et méthode traditionnelle."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Domaine Malet Frères"
+    ],
+    "fr": [
+      "Domaine Malet Frères"
+    ]
+  },
+  "creationDate": "2017-11-15",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/b8f30684-e032-3483-ba1a-f2911755c19a",
+    "schema:legalName": "BERRY",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e79a4625-dff7-308f-ba46-cdcfd057239f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/44e52ea5-5120-3b37-be86-c20e63ee09d5",
+          "schema:addressLocality": "Lye",
+          "schema:postalCode": "36600",
+          "schema:streetAddress": [
+            "3 rue Pointeau"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36107",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lye"
+                ],
+                "fr": [
+                  "Lye"
+                ]
+              },
+              "insee": "36107",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:legalName": "Domaine Malet Frères",
+      "schema:telephone": [
+        "+33 2 54 41 05 36"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ef65a4a-ca1b-323f-a61b-61b2b4a350af",
+      "dc:description": {
+        "fr": [
+          "Vignerons sur 2 appellations (AOC Valençay et AOC Touraine). Production en vins blancs, rosés, rouges et méthode traditionnelle."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Winemakers with 2 appellations (Valençay and Touraine AOCs). Production of white, rosé and red wines using traditional methods."
+        ],
+        "fr": [
+          "Vignerons sur 2 appellations (AOC Valençay et AOC Touraine). Production en vins blancs, rosés, rouges et méthode traditionnelle."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/78a10307-f8e5-33d8-bb6b-12aaba581830",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/33dd3458-5168-3d69-8bff-ce375cb81922",
+          "ebucore:title": {
+            "fr": [
+              "Vignoble Valençay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Association de Développement et Promotion des vins et fromage d'appellation Valençay"
+          ],
+          "rightsEndDate": "2050-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f1f73b0f-811a-3f30-9837-f8e9efae229f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vignoble-Valencay---Asso-vins-et-fromages-de-Valencay.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3a68a4eb-539f-3d5d-b065-6916d74fa072",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6021a1ad-659d-3f61-a112-6412cb59cbf8",
+          "ebucore:title": {
+            "fr": [
+              "AOC Valençay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Association Vins et Fromages d'Appellation Valençay"
+          ],
+          "rightsEndDate": "2050-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/98867671-2683-3cc9-bd3d-af14ada328e9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/AOC-Valencay.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/78a10307-f8e5-33d8-bb6b-12aaba581830",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/33dd3458-5168-3d69-8bff-ce375cb81922",
+          "ebucore:title": {
+            "fr": [
+              "Vignoble Valençay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Association de Développement et Promotion des vins et fromage d'appellation Valençay"
+          ],
+          "rightsEndDate": "2050-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f1f73b0f-811a-3f30-9837-f8e9efae229f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vignoble-Valencay---Asso-vins-et-fromages-de-Valencay.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/912dfb94-243a-3433-831b-9ff08b470832",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7ea8d0b4-fb1d-359c-81e4-45292b6f658a",
+          "ebucore:title": {
+            "fr": [
+              "Fromage et vin de Valençay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "ADTI"
+          ],
+          "rightsEndDate": "2050-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/18c98e52-f19f-39d5-884d-1df96a8d4e06",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Produits-Valencay-ADTI.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0c244ebf-0c63-3f5b-b239-02271b2451ac",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/44e52ea5-5120-3b37-be86-c20e63ee09d5",
+          "schema:addressLocality": "Lye",
+          "schema:postalCode": "36600",
+          "schema:streetAddress": [
+            "3 rue Pointeau"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36107",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lye"
+                ],
+                "fr": [
+                  "Lye"
+                ]
+              },
+              "insee": "36107",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/351fce1d-7a01-3f8c-8f41-572fed00f789",
+        "schema:latitude": "47.2379665",
+        "schema:longitude": "1.4745044",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-07-19T07:45:47.677Z"
+}

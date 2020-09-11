@@ -1,0 +1,981 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/335f1e5d-6632-35d9-85fb-399f9265360a",
+  "dc:identifier": "FMA41AAEVE100014",
+  "schema:endDate": [
+    "2021-08-15"
+  ],
+  "schema:startDate": [
+    "2021-08-10"
+  ],
+  "@type": [
+    "schema:DanceEvent",
+    "schema:Event",
+    "schema:Festival",
+    "schema:MusicEvent",
+    "Concert",
+    "CulturalEvent",
+    "DanceEvent",
+    "EntertainmentAndEvent",
+    "Festival",
+    "PointOfInterest",
+    "ShowEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Lieu de rencontre des peuples et des cultures, le Festival 2021 sera le 48ème."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Dances and musics of the world"
+    ],
+    "fr": [
+      "Festival de Montoire : Danses et musiques du monde"
+    ]
+  },
+  "COVID19InOperationConfirmed": false,
+  "creationDate": "2010-01-01",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2b9b4eb7-f19e-3bcd-a085-163df2586fa8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/12a12a4a-9019-3f54-9079-9a63d16f85e1",
+          "schema:addressLocality": "Montoire-sur-le-Loir",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "Espace de l'Europe"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41149",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montoire-sur-le-Loir"
+                ],
+                "fr": [
+                  "Montoire-sur-le-Loir"
+                ]
+              },
+              "insee": "41149",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "festival.montoire@orange.fr"
+      ],
+      "schema:legalName": "Les folklores du monde",
+      "schema:telephone": [
+        "+33 2 54 85 35 16"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.festival-montoire.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2b9b4eb7-f19e-3bcd-a085-163df2586fa8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/12a12a4a-9019-3f54-9079-9a63d16f85e1",
+          "schema:addressLocality": "Montoire-sur-le-Loir",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "Espace de l'Europe"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41149",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montoire-sur-le-Loir"
+                ],
+                "fr": [
+                  "Montoire-sur-le-Loir"
+                ]
+              },
+              "insee": "41149",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "festival.montoire@orange.fr"
+      ],
+      "schema:legalName": "Les folklores du monde",
+      "schema:telephone": [
+        "+33 2 54 85 35 16"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.festival-montoire.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e52618d1-d7af-3f2c-a7b8-9f84cd8e295f",
+      "dc:description": {
+        "fr": [
+          "Festival regroupant des groupes venus du monde entier autour de la musique, de la danse et du folklore. Au programme chaque année, des spectacles, concerts, expositions, conférences, contes, dîners traditionnels… qui dépayseront le spectateur."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Lieu de rencontre des peuples et des cultures, le Festival 2021 sera le 48ème."
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cfbf0634-d7af-364a-b8c6-2d2d5ea991f7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/31d6a6b9-22fe-312c-bbce-d5d1e7187fb4",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "agenda-festival-montoire-2Bouddha-a-mille-bras©Conseil-Departemental41"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "CD41"
+          ],
+          "rightsStartDate": "2020-05-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1b6b540b-2d4b-39fe-a41d-9228d9382b01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/agenda-festival-montoire-2Bouddha-a-mille-bras-Conseil-Departemental41.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/31be5554-e5bf-3b70-be64-927fe1c941f8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0833ea51-2693-3bb0-97fe-0547b9e72ba8",
+          "ebucore:title": {
+            "fr": [
+              "Festival de Montoire-sur-le Loir"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Vendôme Tourisme"
+          ],
+          "rightsEndDate": "2020-08-31",
+          "rightsStartDate": "2020-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2dc166aa-11cd-31da-b731-196521db5003",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/DSCN3921.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37ae96e2-88f1-35f0-ab56-aa783467cdf1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0833ea51-2693-3bb0-97fe-0547b9e72ba8",
+          "ebucore:title": {
+            "fr": [
+              "Festival de Montoire-sur-le Loir"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Vendôme Tourisme"
+          ],
+          "rightsEndDate": "2020-08-31",
+          "rightsStartDate": "2020-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be9067dc-dd25-307d-b7d0-6e11a536c12a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Festival-2017-ElodiePleuvry--10-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a0d0aff5-b920-306d-b777-b0c817f153e5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0833ea51-2693-3bb0-97fe-0547b9e72ba8",
+          "ebucore:title": {
+            "fr": [
+              "Festival de Montoire-sur-le Loir"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Vendôme Tourisme"
+          ],
+          "rightsEndDate": "2020-08-31",
+          "rightsStartDate": "2020-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8e4964e2-4429-333e-9413-65e585264351",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Festival-2017-ElodiePleuvry--38-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c443800d-4b85-3abd-b205-2b2c2d201a1b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0833ea51-2693-3bb0-97fe-0547b9e72ba8",
+          "ebucore:title": {
+            "fr": [
+              "Festival de Montoire-sur-le Loir"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Vendôme Tourisme"
+          ],
+          "rightsEndDate": "2020-08-31",
+          "rightsStartDate": "2020-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/18f66724-3e1f-3db1-ab30-e13744c32b3d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/DSCN3911.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cfbf0634-d7af-364a-b8c6-2d2d5ea991f7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/31d6a6b9-22fe-312c-bbce-d5d1e7187fb4",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "agenda-festival-montoire-2Bouddha-a-mille-bras©Conseil-Departemental41"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "CD41"
+          ],
+          "rightsStartDate": "2020-05-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1b6b540b-2d4b-39fe-a41d-9228d9382b01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/agenda-festival-montoire-2Bouddha-a-mille-bras-Conseil-Departemental41.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cfdf31cb-573d-3363-895d-a0f7222ca241",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5f4f296a-359f-38ae-a774-1f0b5f1173b6",
+          "ebucore:title": {
+            "fr": [
+              "agenda-festival-montoire-2Bouddha-a-mille-bras©Conseil-Departemental41"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "CD41"
+          ],
+          "rightsStartDate": "2020-05-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1b6b540b-2d4b-39fe-a41d-9228d9382b01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/agenda-festival-montoire-2Bouddha-a-mille-bras-Conseil-Departemental41.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d7a79ec9-4783-3564-b1e8-f81a341b11f3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0833ea51-2693-3bb0-97fe-0547b9e72ba8",
+          "ebucore:title": {
+            "fr": [
+              "Festival de Montoire-sur-le Loir"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Vendôme Tourisme"
+          ],
+          "rightsEndDate": "2020-08-31",
+          "rightsStartDate": "2020-03-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e9e6847b-9fd3-3734-a5e0-91dc97566e9d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Festival-2017-ElodiePleuvry--46-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0e7231bd-de2f-31da-9a69-c27a3a3dfc47",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b28096eb-4df7-332e-ba27-32ec558f4398",
+          "schema:addressLocality": "Montoire-sur-le-Loir",
+          "schema:postalCode": "41800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41149",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montoire-sur-le-Loir"
+                ],
+                "fr": [
+                  "Montoire-sur-le-Loir"
+                ]
+              },
+              "insee": "41149",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4a8bbbd0-c7ed-3eae-a272-340c8388191a",
+        "schema:latitude": "47.7516054",
+        "schema:longitude": "0.86121855",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-22",
+  "lastUpdateDatatourisme": "2020-08-29T03:50:19.597Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/238a5361-eacd-3790-83fa-04982e1b11c5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/556ab752-623c-3388-be73-b5b5479a0c05",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6af49ca9-458a-39f8-85fd-3552cfe73fd8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e118ba6a-b716-3921-8ef9-89666f92a2a4",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-08-15",
+      "startDate": "2021-08-10"
+    }
+  ]
+}

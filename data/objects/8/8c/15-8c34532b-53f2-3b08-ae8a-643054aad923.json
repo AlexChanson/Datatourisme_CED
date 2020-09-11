@@ -1,0 +1,339 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/8c34532b-53f2-3b08-ae8a-643054aad923",
+  "dc:identifier": "FMACEN037V50JEMS",
+  "schema:endDate": [
+    "2020-12-31"
+  ],
+  "schema:startDate": [
+    "2020-06-05"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:ExhibitionEvent",
+    "CulturalEvent",
+    "EntertainmentAndEvent",
+    "Exhibition",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Venez découvrir cet espace présentant des thématiques de l’histoire de la ville de Tours : les paysages ligériens, la demeure urbaine ou encore Tours ville royale, le tout avec des dispositifs numériques immersifs et innovants."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Le Logis : Centre d'Interprétation de l'Architecture et du Patrimoine"
+    ]
+  },
+  "creationDate": "2020-01-11",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f94d3762-f2bf-3c2f-b5c0-9087d543f273",
+      "schema:email": [
+        "animation-patrimoine@ville-tours.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 21 61 88"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/02362187-3cb6-37a4-9ce5-c8921732f8c2",
+      "dc:description": {
+        "fr": [
+          "Venez découvrir cet espace présentant des thématiques de l’histoire de la ville de Tours : les paysages ligériens, la demeure urbaine ou encore Tours ville royale, le tout avec des dispositifs numériques immersifs et innovants."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Venez découvrir cet espace présentant des thématiques de l’histoire de la ville de Tours : les paysages ligériens, la demeure urbaine ou encore Tours ville royale, le tout avec des dispositifs numériques immersifs et innovants."
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4fb775b1-ca08-3650-8fb4-8343d5ec12e6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3844f894-0b1f-3a7e-b132-27f154d41533",
+          "schema:addressLocality": "Tours",
+          "schema:postalCode": "37000",
+          "schema:streetAddress": [
+            "15 place Châteauneuf"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37261",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tours"
+                ],
+                "fr": [
+                  "Tours"
+                ]
+              },
+              "insee": "37261",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/c2f93efd-d9fb-34d9-bba3-c79e1e7202ec",
+        "schema:latitude": "47.3937425",
+        "schema:longitude": "0.6827025",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1cf322bd-c612-30b0-8a24-043d6eecfae2",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "15:00:00",
+          "schema:validFrom": "2020-06-05T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3c6f14b9-0ff3-3ef9-9494-bbb97005048c",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "15:00:00",
+          "schema:validFrom": "2020-06-05T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d1f1a9f-2add-3021-b9a5-b59910f2146e",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "15:00:00",
+          "schema:validFrom": "2020-06-05T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-05-27",
+  "lastUpdateDatatourisme": "2020-07-24T04:11:35.577Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37120d5c-1aba-3ce8-a107-4c3e312e83b4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f3b8ef00-141b-3d44-acca-ded625e9b1c9",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-12-31",
+      "endTime": "18:00:00",
+      "startDate": "2020-06-05",
+      "startTime": "15:00:00"
+    }
+  ]
+}

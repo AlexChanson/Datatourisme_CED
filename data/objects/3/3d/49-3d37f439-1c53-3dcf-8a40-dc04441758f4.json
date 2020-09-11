@@ -1,0 +1,268 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/3d37f439-1c53-3dcf-8a40-dc04441758f4",
+  "dc:identifier": "ITIPDL072V50LTY9",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "RANDONNEE PEDESTRE - ESCAPADE AUTOUR DU JASNIERES"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LHOMME - ESCAPADE AUTOUR DU JASNIÈRES"
+    ]
+  },
+  "creationDate": "2019-10-24",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8d035265-902d-3bb0-8de3-61607e178f77",
+      "schema:email": [
+        "info@vallee-du-loir.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 38 16 60"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d876c343-a179-3f2d-95fc-4f2e21881bdc",
+      "dc:description": {
+        "fr": [
+          "Jolie petite commune rurale, Lhomme est le berceau du vin blanc de Jasnières, qui bénéficie de l’appellation d’origine contrôlée (AOC) depuis 1937."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "RANDONNEE PEDESTRE - ESCAPADE AUTOUR DU JASNIERES"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2e728e43-9999-3c54-977c-171df84fecba",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6a5afb7a-7bb5-3816-bdb8-7911bcf9ec90",
+          "ebucore:title": {
+            "fr": [
+              "GPX MODIF LHOMME"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "otvl"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/612c35bf-1474-3671-8b6e-5e3b270fb760",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Fichier GPX"
+                ]
+              },
+              "rdfs:label": [
+                "application/gpx+xml"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://cdt72.media.tourinsoft.eu/upload/GPX-MODIF-LHOMME.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Pedestrian"
+        ],
+        "fr": [
+          "Pédestre"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Loop itinerary"
+        ],
+        "fr": [
+          "En boucle"
+        ]
+      }
+    }
+  ],
+  "highDifference": "124.0",
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4ff5bdb5-4aca-3066-b7d6-03a984c9807b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/95af5935-d639-3d36-84f9-649b4ff3464b",
+          "schema:addressLocality": "Lhomme",
+          "schema:postalCode": "72340",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72161",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lhomme"
+                ],
+                "fr": [
+                  "Lhomme"
+                ]
+              },
+              "insee": "72161",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/cc6b3250-5b91-32d8-8b07-6844ea347ae7",
+        "schema:latitude": "47.74304",
+        "schema:longitude": "0.55785",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-06-18",
+  "lastUpdateDatatourisme": "2020-07-07T02:53:23.67Z",
+  "tourDistance": "12500.0"
+}

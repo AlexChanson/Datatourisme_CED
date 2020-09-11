@@ -1,0 +1,640 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/d2f4754b-b3be-3b41-bd1a-94c2c94366aa",
+  "dc:identifier": "RESPDL072V50NHOK",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "PETIT  BENEHARD"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "COVID19OpeningPeriodsConfirmed": true,
+  "availableLanguage": [
+    "Anglais",
+    "Italien"
+  ],
+  "creationDate": "2020-06-02",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/86ba4d95-5014-3282-b278-2164fc06601b",
+      "schema:email": [
+        "petit-benehard@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 44 03 02"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.petitbenehard.fr/"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/278e5279-1d77-3b2f-aaf8-8f3bd1661b7d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4fe7f812-f8d1-371e-b0ba-6dde84e763a8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/585304a0-06bb-31c9-ae77-8f455f7ee8b3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Seminar",
+          "@type": [
+            "AccommodationAmenity",
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Seminar"
+            ],
+            "fr": [
+              "Séminaire"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fc5857c2-6ad5-3883-af32-406c33074a99",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f552c826-78ac-3965-bebf-b612b87ddf3e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/17a604ae-03c5-31f1-ab35-687861b77b42",
+          "schema:addressLocality": "La Chartre-sur-le-Loir",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "3/5 place de la république"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72068",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Chartre-sur-le-Loir"
+                ],
+                "fr": [
+                  "La Chartre-sur-le-Loir"
+                ]
+              },
+              "insee": "72068",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ac12a00f-05c1-302a-9bca-1e9059303589",
+        "schema:latitude": "47.7276305",
+        "schema:longitude": "0.5755496",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/08bc8fd9-5a54-367c-92c7-0f2924e03301",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/29c2a10a-cfbd-3ee5-bf3e-e55655d58bdc",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Monday"
+                ],
+                "fr": [
+                  "Lundi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/48aef4bb-c10d-308b-83d3-030fa3c2f006",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/525a14fa-0ef6-3a3b-ad72-4875021308d3",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7ce37b75-05a9-3a73-a392-220177eeb86e",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a8caeb10-08c8-347f-9596-af15c9a8b2d4",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b263425f-980a-3dc8-8245-7352e1b65a7d",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "17:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dfee98cc-f3bb-37cd-8d28-5e5ed4774d10",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "17:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fb2e3f9d-f6ee-364d-9fcb-866fd1878893",
+          "schema:closes": "22:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "17:00:00",
+          "schema:validFrom": "2020-06-02T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-21",
+  "lastUpdateDatatourisme": "2020-09-09T01:11:36.257Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/655743b2-cf95-309e-b9f9-0a5322fd5434",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5479fbf4-362a-3387-a1df-3cd61380c1d0",
+          "schema:maxPrice": [
+            "24.9"
+          ],
+          "schema:minPrice": [
+            "18"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5d7b65e4-ae97-3bdf-a3bb-670ad7b2864e",
+          "schema:maxPrice": [
+            "17.9"
+          ],
+          "schema:minPrice": [
+            "14.9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/f53d9890-9da9-300a-9c99-4b086a33df91",
+  "dc:identifier": "SEMCEN03700026",
+  "@type": [
+    "BusinessPlace",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Caves de la Bonne Dame"
+    ]
+  },
+  "allowedPersons": 300,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2009-04-02",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/435a0a39-b0a1-388f-9b3f-04f4548d0b75",
+    "schema:legalName": "Montlouis-Vouvray Touraine Val de Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7cc8d18f-aaa2-38ab-9d6a-70e510cecb4e",
+      "schema:email": [
+        "mairie@vouvray.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 52 70 48"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.vouvray37.fr/"
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f83b3a80-cdd8-3a86-8568-8dc870ef5771",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/877c66c8-21e0-3714-930f-92414cbc7077",
+          "ebucore:title": {
+            "fr": [
+              "Cave Bonne Dame"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Syndicat-des-Vins-de-Vouvray"
+          ],
+          "rightsEndDate": "2018-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/342f8242-c0cc-3d09-809f-25e49257d4d8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Cave-Bonne-Dame.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f83b3a80-cdd8-3a86-8568-8dc870ef5771",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/877c66c8-21e0-3714-930f-92414cbc7077",
+          "ebucore:title": {
+            "fr": [
+              "Cave Bonne Dame"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Syndicat-des-Vins-de-Vouvray"
+          ],
+          "rightsEndDate": "2018-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/342f8242-c0cc-3d09-809f-25e49257d4d8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Cave-Bonne-Dame.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/674709df-917f-33ec-a14c-cedc8036d333",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/136c2c39-2594-3802-b04d-0ec12b233b62",
+          "schema:addressLocality": "Vouvray",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "20 rue de la Bonne Dame"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37281",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vouvray"
+                ],
+                "fr": [
+                  "Vouvray"
+                ]
+              },
+              "insee": "37281",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/2062141b-6bf4-3df6-bcea-edd156546e2a",
+        "schema:latitude": "47.4173664",
+        "schema:longitude": "0.7963146",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-04-01",
+  "lastUpdateDatatourisme": "2020-07-07T03:29:53.11Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a82d8de9-e387-3d3b-a8be-93b2b87c0364",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,920 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/af0fdf41-78f6-3584-bf1b-3cc9407fcc74",
+  "dc:identifier": "PCU41AASOR100205",
+  "@type": [
+    "Abbey",
+    "Church",
+    "Cloister",
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "ReligiousSite"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "The church spire rises above the old town and its facades and is one of the major creations of flamboyant Gothic architecture. It is attributed to Jean Texier known as Jean de Beauce, the \"master of works\" in the Chartres Cathedral."
+    ],
+    "fr": [
+      "La Trinité et ses secrets... Découvrez l’histoire et l’architecture de cette ancienne abbaye bénédictine du 11e au 18e siècle qui devint une caserne militaire au 19e siècle."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Eglise abbatiale de la Trinité"
+    ],
+    "fr": [
+      "Visite guidée de l'église abbatiale de la Trinité"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "fr": [
+      "Infos COVID : L’adoption de bonnes pratiques assurent les meilleures conditions pour un moment de découverte partagé.\nLe faible nombre de visiteurs est un gage de confort d’écoute et de bon moment partagé, dans des conditions exceptionnelles et au grand air…\nPaiement en ligne conseillé. Paiement possible sur place à l’accueil de l’Office de Tourisme dans la limite des places disponibles\nLes visiteurs sont invités à porter un masque pendant la visite.\nUn parcours en extérieur essentiellement dans les nombreux parcs et jardins publics de Vendôme, pour voir les monuments et interagir avec une ou un guide qui sera à votre écoute et vous fera partager sa passion pour le patrimoine de la ville.\nVisière adoptée par les guides conférenciers."
+    ]
+  },
+  "availableLanguage": [
+    "de",
+    "fr",
+    "it",
+    "nl"
+  ],
+  "creationDate": "2010-01-01",
+  "hasArchitecturalStyle": [
+    {
+      "@id": "kb:Gothic",
+      "@type": [
+        "ArchitecturalStyle"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Gothic"
+        ],
+        "fr": [
+          "Gothique"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Roman",
+      "@type": [
+        "ArchitecturalStyle"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Roman"
+        ],
+        "fr": [
+          "Roman"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dac629da-e795-32d6-884d-0412e1413dba",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fc886a76-c7ec-3944-97a1-ee6a9eb3bbee",
+          "schema:addressLocality": "Vendôme",
+          "schema:postalCode": "41100",
+          "schema:streetAddress": [
+            "Rue de l'Abbaye"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41269",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vendôme"
+                ],
+                "fr": [
+                  "Vendôme"
+                ]
+              },
+              "insee": "41269",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "ot.vendome@wanadoo.fr"
+      ],
+      "schema:legalName": "Eglise abbatiale de la Trinité",
+      "schema:telephone": [
+        "+33 2 54 77 05 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.vendome-tourisme.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dac629da-e795-32d6-884d-0412e1413dba",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fc886a76-c7ec-3944-97a1-ee6a9eb3bbee",
+          "schema:addressLocality": "Vendôme",
+          "schema:postalCode": "41100",
+          "schema:streetAddress": [
+            "Rue de l'Abbaye"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41269",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vendôme"
+                ],
+                "fr": [
+                  "Vendôme"
+                ]
+              },
+              "insee": "41269",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "ot.vendome@wanadoo.fr"
+      ],
+      "schema:legalName": "Eglise abbatiale de la Trinité",
+      "schema:telephone": [
+        "+33 2 54 77 05 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.vendome-tourisme.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f44fa7ed-91da-381f-a8d6-675489905f95",
+      "dc:description": {
+        "en": [
+          "Church from the 11th-14th centuries, one of the most beautiful monuments illustrating the architecture of the Middle Ages in France with a powerful abbey and an exceptional Romanesque bell tower, it also holds many other beauties for you to discover: a flamboyant faÃ§ade (early 16th century, completed in 1506, attributed to Jean de Beauce, and a decor sculpted with great finesse), stalls (late 15th - early 16th centuries) and stained-glass window (one of the oldest in France - Madonna and Child from 1140).  Also one of the major sites of the Loir Valley and the Perche VendÃ´mois region in terms of frescoes and wall paintings, the Trinity Abbey Church has frescoes produced a fresco (late 11th century) in the chapter house of the old abbey, including The Miraculous Draught of Fishes, particu"
+        ],
+        "fr": [
+          "La Trinité et ses secrets... Découvrez l’histoire et l’architecture de cette ancienne abbaye bénédictine du 11e au 18e siècle qui devint une caserne militaire au 19e siècle.\nTous les jeudis (sauf jeudis 2 ; 9 et 23 juillet ; 20 août),  vendredis (sauf vendredi 3 et 17 juillet) ; dimanches à 16h (sauf dimanches 5 juillet et 2 août)  et lundi 31 août\n16h RV : Office de tourisme."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "The church spire rises above the old town and its facades and is one of the major creations of flamboyant Gothic architecture. It is attributed to Jean Texier known as Jean de Beauce, the \"master of works\" in the Chartres Cathedral."
+        ],
+        "fr": [
+          "La Trinité et ses secrets... Découvrez l’histoire et l’architecture de cette ancienne abbaye bénédictine du 11e au 18e siècle qui devint une caserne militaire au 19e siècle."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6292ee26-58e5-3d9e-b480-5d11f4215f88",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d6870b3-88e8-3953-8b28-321adb515547",
+          "ebucore:title": {
+            "fr": [
+              "Abbaye-Trinite-Vendome-Loir-et-Cher"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f244341e-0ff7-353d-80ce-33fc797980e5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vendome-Loir-et-Cher-Studio-Mir-17-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/27ff3753-6a11-3a88-abed-75d34dea51a2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/11f7dedb-948e-361c-9572-a1ecb5de6310",
+          "ebucore:title": {
+            "fr": [
+              "Abbaye-on-ice-Vendome-Loir-et-Cher-Studio-Mir-20-800x600"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9fec4f82-c81b-3415-b079-d004989b1224",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vendome-Loir-et-Cher-Studio-Mir-20-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6292ee26-58e5-3d9e-b480-5d11f4215f88",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d6870b3-88e8-3953-8b28-321adb515547",
+          "ebucore:title": {
+            "fr": [
+              "Abbaye-Trinite-Vendome-Loir-et-Cher"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f244341e-0ff7-353d-80ce-33fc797980e5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vendome-Loir-et-Cher-Studio-Mir-17-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8c09bab4-0ca1-3d27-a310-1f1732ef2cfe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e2c25c72-80d5-36a1-87fd-670dbb1849fa",
+          "ebucore:title": {
+            "fr": [
+              "BD - 3_juilletAout_DSCN3612Trinite_facade (002)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "DSCN3612Trinite_facade"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-06-09"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/afa67fc4-c919-3734-a81e-fbc4a4e53887",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/BD---3-juilletAout-DSCN3612Trinite-facade--002-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a6ef80ba-ce9d-316d-9a7c-89ee58d610ff",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aca91d0c-5788-35da-8f24-560adfd9b79b",
+          "ebucore:title": {
+            "fr": [
+              "Abbaye-Vendome-Loir-et-Cher"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f81ee0c9-525e-3e00-996b-a144f47bbc94",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vendome-Loir-et-Cher-Studio-Mir-18-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cfb23ce6-ccef-35a7-8454-5e593b28e79d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/97221571-eff2-3c6f-b8ae-a1378b57b2d3",
+          "ebucore:title": {
+            "fr": [
+              "BD - 3_juillet_ANGES_STALLES_Trinite_anges nord (8) (002)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Service Patrimoine"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-06-09"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b6543d72-2b0b-3d24-a346-6fa1ec11560c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/BD---3-juillet-ANGES-STALLES-Trinite-anges-nord--8---002-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Gothic",
+      "@type": [
+        "ArchitecturalStyle"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Gothic"
+        ],
+        "fr": [
+          "Gothique"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Roman",
+      "@type": [
+        "ArchitecturalStyle"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Roman"
+        ],
+        "fr": [
+          "Roman"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/24eb9ea3-49d5-3c39-9a50-f5b649fc440d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fc886a76-c7ec-3944-97a1-ee6a9eb3bbee",
+          "schema:addressLocality": "Vendôme",
+          "schema:postalCode": "41100",
+          "schema:streetAddress": [
+            "Rue de l'Abbaye"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41269",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vendôme"
+                ],
+                "fr": [
+                  "Vendôme"
+                ]
+              },
+              "insee": "41269",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/6892100f-1dfe-358c-b7e1-879f3c52ba53",
+        "schema:latitude": "47.791377",
+        "schema:longitude": "1.067744",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-07",
+  "lastUpdateDatatourisme": "2020-08-31T14:02:17.045Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f9fa95e8-39d4-3973-8d32-b601048d952f",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/347ed161-c07e-342e-b843-603b27b10af6",
+          "schema:minPrice": [
+            "5.45"
+          ],
+          "schema:price": "5.45",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/49c20078-b2e0-3992-a137-c0d3efc2aa6f",
+          "schema:minPrice": [
+            "3.5"
+          ],
+          "schema:price": "3.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "+ 20 pers.\nDe 1 -> 19 pers - visite guidée forfait à 56,00 €"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4eff5df2-7e92-3682-be38-e1cf1b5716bd",
+          "schema:minPrice": [
+            "18"
+          ],
+          "schema:price": "18",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Passeport patrimoine qui permet de suivre gratuitement toutes les visites, en vente à l'OT."
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dd6e3437-3a39-3a2d-be19-ca42ce6e1a75",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "- de 11 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fbb81d7d-54ba-37e7-bcd5-0e7849882c46",
+          "schema:minPrice": [
+            "2.25"
+          ],
+          "schema:price": "2.25",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "11 à 20 ans et pers. à mobilité réduite"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

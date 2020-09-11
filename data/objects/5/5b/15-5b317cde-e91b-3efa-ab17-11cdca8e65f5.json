@@ -1,0 +1,435 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/5b317cde-e91b-3efa-ab17-11cdca8e65f5",
+  "dc:identifier": "ACCCEN000V5000BK",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Stationnement (5 emplacements) limité à 24 h par étape. Accueil sous conditions. Pour pouvoir stationner en ces lieux, il est obligatoire d'être adhérent au réseau France Passion et avoir, par conséquent, une invitation personnelle ainsi qu'un macaron de l'année en cours apposé sur le pare-brise."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de stationnement pour camping-cars - EARL Badin"
+    ]
+  },
+  "allowedPersons": 5,
+  "creationDate": "2013-10-17",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/67c67a1a-fb55-3b10-9248-9920b049a404",
+      "schema:email": [
+        "cavebadin@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 2 54 44 23 43",
+        "+33 6 85 34 77 81"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.francepassion.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4615683d-85be-3e74-8ecf-f5e96dd48c38",
+      "dc:description": {
+        "fr": [
+          "Exploitation viticole avec pressoir à l'entrée. - Stationnement (5 emplacements) limité à 24 h par étape. Accueil sous conditions. Pour pouvoir stationner en ces lieux, il est obligatoire d'être adhérent au réseau France Passion et avoir, par conséquent, une invitation personnelle ainsi qu'un macaron de l'année en cours apposé sur le pare-brise."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Stationnement (5 emplacements) limité à 24 h par étape. Accueil sous conditions. Pour pouvoir stationner en ces lieux, il est obligatoire d'être adhérent au réseau France Passion et avoir, par conséquent, une invitation personnelle ainsi qu'un macaron de l'année en cours apposé sur le pare-brise."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d1a32ff1-b71b-3ee1-80a8-bde9466923dc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Container",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Container"
+            ],
+            "fr": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3664348b-2468-3371-91c4-1818dd4c15c0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9e76a071-a0e9-3579-8ec7-5eac87950ed2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "vigne"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "EARL Badin"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-06-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b6ea81ca-6883-3b33-bca4-76db9abbdbce",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vigne.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3664348b-2468-3371-91c4-1818dd4c15c0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9e76a071-a0e9-3579-8ec7-5eac87950ed2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "vigne"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "EARL Badin"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-06-28"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b6ea81ca-6883-3b33-bca4-76db9abbdbce",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vigne.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dd58d270-4fd0-3141-893f-fd64319ac301",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aecdfed1-beba-3247-8e3d-fd8a1b6a8043",
+          "schema:addressLocality": "Cormeray",
+          "schema:postalCode": "41120",
+          "schema:streetAddress": [
+            "Cave de l'Aubras",
+            "L'Aubras"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41061",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Cormeray"
+                ],
+                "fr": [
+                  "Cormeray"
+                ]
+              },
+              "insee": "41061",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/1ba60e58-aaf3-3f30-ab26-1f7096e23548",
+        "schema:latitude": "47.5",
+        "schema:longitude": "1.4",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-08",
+  "lastUpdateDatatourisme": "2020-07-09T02:34:43.302Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e082f057-2e92-39f2-a3b1-ea60f9024aed",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

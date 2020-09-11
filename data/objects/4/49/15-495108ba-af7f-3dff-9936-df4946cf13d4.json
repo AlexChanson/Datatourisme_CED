@@ -1,0 +1,930 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/495108ba-af7f-3dff-9936-df4946cf13d4",
+  "dc:identifier": "LOI41AAACT100703",
+  "@type": [
+    "schema:GolfCourse",
+    "GolfCourse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "9-hole course on the banks of the Loire (2,947m with white markers, PAR 36), 16 bunkers and 2 water hazards. Driving range with 6 covered and 13 uncovered stations, putting green, practice putting green etc. Pitch and putt (6 compact holes). On-site accommodation, swimming pool and restaurant."
+    ],
+    "fr": [
+      "Sur les bords de Loire, parcours de 9 trous (2 947 m aux repères blancs, PAR 36), 16 bunkers et 2 obstacles d'eau. Practice avec 6 postes couverts et 12 extérieurs, practice sur herbe, green d'approche, putting green... Pitch and putt (9 trous compacts). Hébergement, restaurant et piscine sur place."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Golf of La Carte"
+    ],
+    "fr": [
+      "Golf de La Carte"
+    ]
+  },
+  "availableLanguage": [
+    "de",
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2b2c662-0435-3c92-9ac9-9aa3d19ca67e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1d60eefb-efc7-3485-a62e-96dd097b37c6",
+          "schema:addressLocality": "Valloire-sur-Cisse",
+          "schema:postalCode": "41150",
+          "schema:streetAddress": [
+            "Domaine de La Carte",
+            "RD-952"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41055",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Valloire-sur-Cisse"
+                ],
+                "fr": [
+                  "Valloire-sur-Cisse"
+                ]
+              },
+              "insee": "41055",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reception@golf-hotel-la-carte.fr"
+      ],
+      "schema:legalName": "Golf de La Carte",
+      "schema:telephone": [
+        "+33 2 54 20 49 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.golf-hotel-la-carte.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/76fc0f20-ecb6-3e70-9d44-23cd15596c5a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1d60eefb-efc7-3485-a62e-96dd097b37c6",
+          "schema:addressLocality": "Valloire-sur-Cisse",
+          "schema:postalCode": "41150",
+          "schema:streetAddress": [
+            "Domaine de La Carte",
+            "RD-952"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41055",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Valloire-sur-Cisse"
+                ],
+                "fr": [
+                  "Valloire-sur-Cisse"
+                ]
+              },
+              "insee": "41055",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reception@golf-hotel-la-carte.fr"
+      ],
+      "schema:legalName": "Golf de La Carte",
+      "schema:telephone": [
+        "+33 2 54 20 49 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2b2c662-0435-3c92-9ac9-9aa3d19ca67e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1d60eefb-efc7-3485-a62e-96dd097b37c6",
+          "schema:addressLocality": "Valloire-sur-Cisse",
+          "schema:postalCode": "41150",
+          "schema:streetAddress": [
+            "Domaine de La Carte",
+            "RD-952"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41055",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Valloire-sur-Cisse"
+                ],
+                "fr": [
+                  "Valloire-sur-Cisse"
+                ]
+              },
+              "insee": "41055",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reception@golf-hotel-la-carte.fr"
+      ],
+      "schema:legalName": "Golf de La Carte",
+      "schema:telephone": [
+        "+33 2 54 20 49 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.golf-hotel-la-carte.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/57d092d1-2e90-3c79-8778-35aacf4838f5",
+      "dc:description": {
+        "en": [
+          "9-hole course on the banks of the Loire (2,947m with white markers, PAR 36), 16 bunkers et 2 water hazards. Driving range with 6 covered et 13 uncovered stations, grass driving range, putting green, practice putting green etc. Pitch and putt (6 compact holes). On-site accommodation, swimming pool and restaurant."
+        ],
+        "fr": [
+          "Le golf de La Carte est situé en bord de Loire, sur la RD-952, dans un environnement privilégié. A 3 km du château de Chaumont-sur-Loire et 12 km de Blois. Parcours de 9 trous (2 947 m aux repères blancs, PAR 36), 16 bunkers et 2 obstacles d'eau. Practice avec 6 postes couverts et 12 postes extérieurs, green d'approches, putting green, pitch and put (9 trous compact)...Equipements et services proposés : hébergement (hôtel***, 30 chambres, appartements ou duplex) et restaurant sur place, club house, bar, pro-shop, piscine, tennis, vestiaires, sanitaires/toilettes, location de matériel (clubs, chariots, voiturettes). Cours individuels ou collectifs, stages."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "9-hole course on the banks of the Loire (2,947m with white markers, PAR 36), 16 bunkers and 2 water hazards. Driving range with 6 covered and 13 uncovered stations, putting green, practice putting green etc. Pitch and putt (6 compact holes). On-site accommodation, swimming pool and restaurant."
+        ],
+        "fr": [
+          "Sur les bords de Loire, parcours de 9 trous (2 947 m aux repères blancs, PAR 36), 16 bunkers et 2 obstacles d'eau. Practice avec 6 postes couverts et 12 extérieurs, practice sur herbe, green d'approche, putting green... Pitch and putt (9 trous compacts). Hébergement, restaurant et piscine sur place."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/05fecadc-d36b-384c-8141-0da064b94e83",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EquippedMeetingRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Equipped meeting room"
+            ],
+            "fr": [
+              "Salle de réunion équipée"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Toilets"
+            ],
+            "fr": [
+              "Toilettes"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/01657b30-aa72-3497-a243-e7f1c9b524b4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cf8d7e72-13b1-3f4e-bda9-35eee51c829b",
+          "ebucore:title": {
+            "fr": [
+              "Golf"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©CDT41"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-18"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e8ce48c6-fd03-37bc-b6f1-8fa5af8b7ffb",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/41AAACT100703-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/01657b30-aa72-3497-a243-e7f1c9b524b4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cf8d7e72-13b1-3f4e-bda9-35eee51c829b",
+          "ebucore:title": {
+            "fr": [
+              "Golf"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©CDT41"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-18"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e8ce48c6-fd03-37bc-b6f1-8fa5af8b7ffb",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/41AAACT100703-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Golf",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Golf"
+        ],
+        "fr": [
+          "Golf"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/882c5239-5eac-32b3-8c0b-201d669cecb8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/96c59af5-ea39-3a60-9171-fc13cb61ebdf",
+          "schema:addressLocality": "Valloire-sur-Cisse",
+          "schema:postalCode": "41150",
+          "schema:streetAddress": [
+            "Domaine de La Carte"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41055",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Valloire-sur-Cisse"
+                ],
+                "fr": [
+                  "Valloire-sur-Cisse"
+                ]
+              },
+              "insee": "41055",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/63aee28a-7b91-30a2-8f58-39dc09b3b690",
+        "schema:latitude": "47.501688",
+        "schema:longitude": "1.2315275",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-05",
+  "lastUpdateDatatourisme": "2020-08-06T10:47:32.33Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/94773789-e122-3585-9237-1b26107d415d",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/81ccc09e-43fc-32e1-9e6a-3b48532675a6",
+          "schema:maxPrice": [
+            "42"
+          ],
+          "schema:minPrice": [
+            "32"
+          ],
+          "schema:price": "32",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b1a51f7a-8499-36ac-b666-b8893223cd17",
+          "schema:maxPrice": [
+            "22"
+          ],
+          "schema:minPrice": [
+            "16"
+          ],
+          "schema:price": "16",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

@@ -1,0 +1,215 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/f080f02c-ace1-3862-9045-56e0d1c35027",
+  "dc:identifier": "HLOCEN037V50KRJH",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Sur un parc de 10 hectares, dans un environnement équestre le gîte situé à l'étage de notre maison vous accueille pour un séjour au calme (entrée indépendante et jardin privatif, piscine). Possibilité  équitation et hébergement de votre cheval."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "L'Écrin de la Martinière 2"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2020-08-31",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/c89d354e-38ed-3d7f-88cc-fdcfa85ab097",
+    "schema:legalName": "ADT 37",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/40fcea92-9561-3e44-a18a-d6a95bebc2fc",
+      "schema:email": [
+        "contact@ecrindelamartiniere.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 63 26 12 36"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ecrindelamartiniere.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/16fab14f-19eb-34e1-aeba-7f7afc160057",
+      "dc:description": {
+        "fr": [
+          "Sur un parc de 10 hectares, dans un environnement équestre, le gîte situé à l'étage de notre maison vous accueille pour un séjour au calme (entrée indépendante et jardin privatif). Détente dans la piscine. Le gîte sera le point de départ idéal pour la découverte de la Touraine, ses châteaux et ses vignobles. Et au nord la vallée du Loir, le Lude et le zoo de La Flèche. Le Zoo de Beauval et le BioParc de Doué-la-Fontaine sont à 1h de route et le Futuroscope de Poitiers à 1h30.\nSur place équitation (cours, stages, balades), hébergement de votre cheval (label cheval étape)"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Sur un parc de 10 hectares, dans un environnement équestre le gîte situé à l'étage de notre maison vous accueille pour un séjour au calme (entrée indépendante et jardin privatif, piscine). Possibilité  équitation et hébergement de votre cheval."
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/50877d43-0356-3f59-8645-d2679f975701",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "1 étoile"
+          ],
+          "fr": [
+            "1 étoile"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/17a04b15-9e80-3102-93ba-e55dc0223c53",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aee93f84-8739-321c-8b01-ef8be63b1ee0",
+          "schema:addressLocality": "Brèches",
+          "schema:postalCode": "37330",
+          "schema:streetAddress": [
+            "La Basse Martinière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37037",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Brèches"
+                ],
+                "fr": [
+                  "Brèches"
+                ]
+              },
+              "insee": "37037",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ff2fc634-ed17-3352-8101-807f90124198",
+        "schema:latitude": "47.5491089",
+        "schema:longitude": "0.399965",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-08-31",
+  "lastUpdateDatatourisme": "2020-09-01T02:26:18.914Z",
+  "reducedMobilityAccess": false
+}

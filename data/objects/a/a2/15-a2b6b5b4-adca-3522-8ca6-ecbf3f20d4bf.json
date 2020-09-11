@@ -1,0 +1,787 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a2b6b5b4-adca-3522-8ca6-ecbf3f20d4bf",
+  "dc:identifier": "HLOCEN037FS000MF",
+  "@type": [
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Moulin des Landes"
+    ]
+  },
+  "allowedPersons": 15,
+  "availableLanguage": [
+    "en"
+  ],
+  "creationDate": "2012-08-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/435a0a39-b0a1-388f-9b3f-04f4548d0b75",
+    "schema:legalName": "Montlouis-Vouvray Touraine Val de Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5bb7eefd-f6d0-3d9b-9691-2a10661d0641",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/72000cb6-1dd5-38ae-93fe-c513b876fc8a",
+          "schema:addressLocality": "Vernou-sur-Brenne",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "10 rue Aristide Briand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37270",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vernou-sur-Brenne"
+                ],
+                "fr": [
+                  "Vernou-sur-Brenne"
+                ]
+              },
+              "insee": "37270",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@moulindeslandes.com"
+      ],
+      "schema:legalName": "Moulin des Landes",
+      "schema:telephone": [
+        "+33 7 68 57 99 84"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.moulindeslandes.com/"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e33ac7d6-e7a4-378c-bd95-2864471ca8f3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Charging station"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/32d6964a-c7f1-38e8-9e97-09702a540633",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b47aecf-239f-3e8f-a64a-69c245c3a6f1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Moulin des Landes Vernou"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Florence Lezeau"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/92ee99a9-b9f6-3472-8b69-a74e44a1f3e2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Moulin-des-Landes-Vernou-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/32d6964a-c7f1-38e8-9e97-09702a540633",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b47aecf-239f-3e8f-a64a-69c245c3a6f1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Moulin des Landes Vernou"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Florence Lezeau"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/92ee99a9-b9f6-3472-8b69-a74e44a1f3e2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Moulin-des-Landes-Vernou-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/73560370-4138-3a43-bb08-0c9fa628fcdf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b47aecf-239f-3e8f-a64a-69c245c3a6f1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Moulin des Landes Vernou"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Florence Lezeau"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b4cb8a22-d56f-3531-b8aa-ea1d16880df0",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Moulin-des-Landes-Vernou-3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b44df9e5-156a-3232-b163-40f6c4cdd6df",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b47aecf-239f-3e8f-a64a-69c245c3a6f1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Moulin des Landes Vernou"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Florence Lezeau"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aa0cbebf-c29d-340c-8c62-362f8c44ec98",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Moulin-des-Landes-Vernou-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f4070573-5a62-3298-b41b-342d07d8da18",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b47aecf-239f-3e8f-a64a-69c245c3a6f1",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Moulin des Landes Vernou"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Florence Lezeau"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2018-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b2081fcd-17d2-31bc-b2ff-c983434bc4a6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Moulin-des-Landes-Vernou.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cf748b70-c2a6-3368-a12f-3d42a7323f50",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/72000cb6-1dd5-38ae-93fe-c513b876fc8a",
+          "schema:addressLocality": "Vernou-sur-Brenne",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "10 rue Aristide Briand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37270",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vernou-sur-Brenne"
+                ],
+                "fr": [
+                  "Vernou-sur-Brenne"
+                ]
+              },
+              "insee": "37270",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/45f06f97-0968-3608-a9b1-f6fffb657400",
+        "schema:latitude": "47.4221201",
+        "schema:longitude": "0.84259293",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-09-08",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.333Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/abd1de98-8e28-3771-bbde-bbd4d2b37afb",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/64379fc4-75b0-36a4-957b-9bb4f90d2aef",
+          "schema:maxPrice": [
+            "80"
+          ],
+          "schema:minPrice": [
+            "75"
+          ],
+          "schema:price": "75",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/74432a31-e570-304c-b2b2-f269638c880d",
+          "schema:maxPrice": [
+            "160"
+          ],
+          "schema:minPrice": [
+            "150"
+          ],
+          "schema:price": "150",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7c5090b5-0911-3fb4-9f2d-347c6d0e6fbe",
+          "schema:maxPrice": [
+            "160"
+          ],
+          "schema:minPrice": [
+            "150"
+          ],
+          "schema:price": "150",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9105f68d-b24c-32d2-b30d-6d03ce32e6cd",
+          "schema:minPrice": [
+            "35"
+          ],
+          "schema:price": "35",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a95d91dc-1ca5-3667-a396-287c98777f66",
+          "schema:maxPrice": [
+            "95"
+          ],
+          "schema:minPrice": [
+            "90"
+          ],
+          "schema:price": "90",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab0cd610-787b-3bf4-ada0-e9dcb3413227",
+          "schema:minPrice": [
+            "0.8"
+          ],
+          "schema:price": "0.8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b99b29b1-b268-3597-9759-4408330155d0",
+          "schema:maxPrice": [
+            "160"
+          ],
+          "schema:minPrice": [
+            "150"
+          ],
+          "schema:price": "150",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ca6f40be-b59b-3b62-a1dd-6b0db66133bf",
+          "schema:maxPrice": [
+            "105"
+          ],
+          "schema:minPrice": [
+            "100"
+          ],
+          "schema:price": "100",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cca44628-0733-3a40-b496-dae2eac2ae93",
+          "schema:maxPrice": [
+            "105"
+          ],
+          "schema:minPrice": [
+            "100"
+          ],
+          "schema:price": "100",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

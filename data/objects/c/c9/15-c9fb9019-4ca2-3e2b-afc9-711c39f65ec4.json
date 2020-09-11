@@ -1,0 +1,952 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c9fb9019-4ca2-3e2b-afc9-711c39f65ec4",
+  "dc:identifier": "HPACEN037FS0004F",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Camping",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "We are based in leafy Chisseaux in the heart of the “golden triangle” 3km from Château de Chenonceau and 10km from Château d’Amboise. Pamper yourself in the peace and quiet of this relaxing site with natural surroundings. Non-therapeutic massages are available."
+    ],
+    "fr": [
+      "Carole et Christophe vous accueillent dans un esprit familial et convivial sur leur domaine de 12 hectares avec vue sur la prairie, les bois, les animaux, dans un cadre idyllique composé de logements insolites et confortables et d'un espace bien-être. Nous sommes situés à 10 minutes de Chenonceaux."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Yurt and Spa"
+    ],
+    "fr": [
+      "Yourte and Spa"
+    ]
+  },
+  "allowedPersons": 69,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2012-03-29",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/64c4e923-6e28-353e-b903-fe8bcf3ea15a",
+    "schema:legalName": "OFFICE CHENONCEAUX BLERE VAL DE CHER",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1519820e-ac86-34ef-84fb-470a04b813af",
+      "schema:email": [
+        "contact@yourte-and-spa.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 30 29 62"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.yourte-and-spa.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4137adc6-94ad-33e4-bb6d-49613a1cc043",
+      "dc:description": {
+        "en": [
+          "We are based in leafy Chisseaux in the heart of the “golden triangle” 3km from Château de Chenonceau and 10km from Château d’Amboise. Pamper yourself in the peace and quiet of this relaxing site with natural surroundings. Non-therapeutic massages are available."
+        ],
+        "fr": [
+          "Carole et Christophe vous accueillent dans un esprit familial et convivial sur leur domaine de 12 hectares avec vue sur la prairie, les bois, les animaux, dans un cadre idyllique composé de logements insolites et confortables et d'un espace bien-être. Nous sommes situés à 10 minutes de Chenonceaux, 20 minutes d'Amboise, 1/2 heure du ZooParc de Beauval, de Loches et 20 minutes de Chaumont-sur-Loire Chambord et Villandry sont à 3/4 d'heure de notre domaine. En couple, en famille ou entre amis, prenez de la hauteur dans une cabane perchée, dormez sous une yourte ou dans une roulotte gitane et repartez avec des souvenir inoubliables......"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "We are based in leafy Chisseaux in the heart of the “golden triangle” 3km from Château de Chenonceau and 10km from Château d’Amboise. Pamper yourself in the peace and quiet of this relaxing site with natural surroundings. Non-therapeutic massages are available."
+        ],
+        "fr": [
+          "Carole et Christophe vous accueillent dans un esprit familial et convivial sur leur domaine de 12 hectares avec vue sur la prairie, les bois, les animaux, dans un cadre idyllique composé de logements insolites et confortables et d'un espace bien-être. Nous sommes situés à 10 minutes de Chenonceaux."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f069b1dc-fbc0-3913-b792-3a7f80d785ca",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BoulesPitch",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Boules pitch"
+            ],
+            "fr": [
+              "Boulodrome, terrain de pétanque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Jacuzzi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Spa, jacuzzi or outdoor jacuzzi"
+            ],
+            "fr": [
+              "Spa, bain à remous, jacuzzi"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Massages",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Massages"
+            ],
+            "fr": [
+              "Massages"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Sauna",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Sauna"
+            ],
+            "fr": [
+              "Sauna"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TVRoomArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "TV room or area"
+            ],
+            "fr": [
+              "Salle ou coin TV"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5c0f7a89-b6c5-3d7e-b008-bf5652580f5c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/941795cc-060b-3f8d-ab5c-695f5d29394f",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-3t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Christophe Moutailler"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d22d308a-8d4a-34c9-b9b2-f80aa415208f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-3t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1daa1ca2-d5ed-38d2-895a-f85d30f79ce3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ed77b132-9458-3be8-af68-e750302cb585",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-5t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Yourte and spa"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/61e10ced-3d72-32f1-9987-14103c0be607",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-5t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/24334745-520b-33af-a41e-2849fa0dd0cc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/43b959b0-06a0-3fd8-b78d-a1474a2d84f6",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-4t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Yourte and spa"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c6b11ec3-6c94-3683-a1d1-61699a3e8bec",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-4t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5c0f7a89-b6c5-3d7e-b008-bf5652580f5c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/941795cc-060b-3f8d-ab5c-695f5d29394f",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-3t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Christophe Moutailler"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d22d308a-8d4a-34c9-b9b2-f80aa415208f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-3t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9321829d-339b-387a-81c5-34fe7adda92d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/854ff5b2-f6e9-3a2f-89ea-468f4d4ab30b",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-2t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Yourte and spa"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1fb40e9e-0dad-37ab-a173-1b2407aa5b24",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-2t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/94c4a601-03f8-3b76-be8c-847ed7cdf0c3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b7652bf6-5bf4-314e-985c-c25f1920e975",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-3t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Christophe Moutailler"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d22d308a-8d4a-34c9-b9b2-f80aa415208f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-3t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9d736955-b8c8-31fc-bda1-c38c9015523a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4d178f34-8431-39dd-9c90-568eb265a27c",
+          "ebucore:title": {
+            "fr": [
+              "yourte and spa 2015-1t"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Yourte and spa"
+          ],
+          "rightsEndDate": "2019-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7337fe60-ee21-3dce-95cd-74f565c7157b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/yourte-and-spa-2015-1t.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d5994ed2-e530-3812-97ad-bf917cd0f4df",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/abeb9cdf-0cba-3a72-b2e1-4ea9661c1716",
+          "schema:addressLocality": "Chisseaux",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "La Buissonnière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37073",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chisseaux"
+                ],
+                "fr": [
+                  "Chisseaux"
+                ]
+              },
+              "insee": "37073",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/c0fd8fbb-4607-36eb-af9e-76bc4f490399",
+        "schema:latitude": "47.343255",
+        "schema:longitude": "1.106943",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3c402453-1e46-3fe2-9a8b-00e608e58ba8",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/518d6c28-7790-3d0f-986a-349a977091bd",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/69b8da82-6a56-3412-be64-86419b7a951b",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/824b3ac2-e073-383e-b98a-ebc2eeae29f0",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c78af759-38a9-3ebd-b625-8148455325d7",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f38499f2-dbee-3bfe-b830-c8cc9b4843e3",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f8fe41d3-24dd-3274-a0f5-796ee755a290",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Monday"
+                ],
+                "fr": [
+                  "Lundi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:00:00",
+          "schema:validFrom": "2020-03-27T00:00:00",
+          "schema:validThrough": "2020-10-17T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-12",
+  "lastUpdateDatatourisme": "2020-07-06T13:01:32.359Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f66878ca-c002-3649-bef0-6d70db9fb400",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

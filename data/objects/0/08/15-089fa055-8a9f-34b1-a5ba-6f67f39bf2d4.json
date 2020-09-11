@@ -1,0 +1,322 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/089fa055-8a9f-34b1-a5ba-6f67f39bf2d4",
+  "dc:identifier": "FMACEN037V50746Z",
+  "schema:endDate": [
+    "2020-12-31"
+  ],
+  "schema:startDate": [
+    "2020-01-01"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:SaleEvent",
+    "EntertainmentAndEvent",
+    "Market",
+    "PointOfInterest",
+    "SaleEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Marché du terroir tous les mardis entre 9h et 13h sur la place de la Mairie"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Marché"
+    ]
+  },
+  "creationDate": "2015-11-20",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/5bbac63b-4cde-3c7c-bbe8-3519de4a5677",
+    "schema:legalName": "Tourisme en Gâtine et Pays de Racan",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/eb567f35-abb5-3962-af35-52a2493b832f",
+      "schema:email": [
+        "secretariat.npp@wanadoo.fr"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3b2e58ab-0f49-38a6-8588-ba636b5f4b46",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Marché du terroir tous les mardis entre 9h et 13h sur la place de la Mairie"
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b83f8592-cbc8-3936-97af-8f31bdf921bf",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/db6234c5-70e6-3cf6-b9b7-4a5c70681cc9",
+          "schema:addressLocality": "Neuillé-Pont-Pierre",
+          "schema:postalCode": "37360",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37167",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Neuillé-Pont-Pierre"
+                ],
+                "fr": [
+                  "Neuillé-Pont-Pierre"
+                ]
+              },
+              "insee": "37167",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4c5af4ef-591c-39c4-842a-a2310b7b1985",
+        "schema:latitude": "47.547414",
+        "schema:longitude": "0.546587",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/09ba78a3-c176-35dc-918e-a1b65794eeb3",
+          "schema:closes": "13:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Tuesday"
+                ],
+                "fr": [
+                  "Mardi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-02-24",
+  "lastUpdateDatatourisme": "2020-07-28T03:59:49.146Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6603fd73-990e-31a7-bdd1-c601746d0254",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f41df8e6-063a-354a-a76d-6c32a500cacf",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-12-31",
+      "startDate": "2020-01-01"
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/2c64820d-e815-39af-89a4-cbca801e01c9",
+  "dc:identifier": "HOT41AAHOT100036",
+  "@type": [
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Located near the entrance to the A10 motorway, the hotel offers 43 rooms, including 24 air-conditioned. It is strategically located on the road of the castles of the Loire (Chambord, Cheverny...). Video-monitored parking."
+    ],
+    "fr": [
+      "Situé près de l'accès à l'autoroute A10, l'hôtel propose 43 chambres. Il est stratégiquement placé sur la route des châteaux de la Loire (Chambord, Cheverny, Chaumont, Amboise…) et sur celle de la vieille ville de Blois (château royal, maison de la Magie…). Parking privé. Wifi gratuit."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Balladins Blois nord"
+    ],
+    "fr": [
+      "Balladins Blois nord"
+    ]
+  },
+  "allowedPersons": 86,
+  "availableLanguage": [
+    "de",
+    "en",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1206c33e-b57a-3fd9-abc1-6a49244bac97",
+      "schema:email": [
+        "blois.nord@balladins.com"
+      ],
+      "schema:legalName": "Hôtel Balladins Blois nord",
+      "schema:telephone": [
+        "+33 2 54 56 21 90"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.balladins-blois.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1206c33e-b57a-3fd9-abc1-6a49244bac97",
+      "schema:email": [
+        "blois.nord@balladins.com"
+      ],
+      "schema:legalName": "Hôtel Balladins Blois nord",
+      "schema:telephone": [
+        "+33 2 54 56 21 90"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.balladins-blois.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1d5b350f-9a99-350b-b5fd-1802b1df0720",
+      "dc:description": {
+        "en": [
+          "Located near the entrance to the A10 motorway, the hotel offers 43 rooms, including 24 air-conditioned. It is strategically located on the road of the castles of the Loire (Chambord, Cheverny ...) and that of the old town of Blois (Royal Castle, home of the Magic ...). Video-monitored parking.<br>"
+        ],
+        "fr": [
+          "Situé près de l'accès à l'autoroute A10, l'hôtel propose 43 chambres. Il est stratégiquement placé sur la route des châteaux de la Loire (Chambord, Cheverny, Chaumont, Amboise…) et sur celle de la vieille ville de Blois (château royal, maison de la Magie…). Parking privé. Wifi gratuit."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Located near the entrance to the A10 motorway, the hotel offers 43 rooms, including 24 air-conditioned. It is strategically located on the road of the castles of the Loire (Chambord, Cheverny...). Video-monitored parking."
+        ],
+        "fr": [
+          "Situé près de l'accès à l'autoroute A10, l'hôtel propose 43 chambres. Il est stratégiquement placé sur la route des châteaux de la Loire (Chambord, Cheverny, Chaumont, Amboise…) et sur celle de la vieille ville de Blois (château royal, maison de la Magie…). Parking privé. Wifi gratuit."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/32f142da-e2c9-3ecb-8917-61cc552594a7",
+      "schema:value": "43",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3902351d-f5f1-3c30-9958-9d3d8e2a6950",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Reception room"
+            ],
+            "fr": [
+              "Salle de réception"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8715c676-ff3a-3961-844d-18605277b352",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0cbf8ae3-dd8e-3cbb-96a4-dd7fe1086c0f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6d95eab7-f9d6-3fb0-b562-77fadb82ad90",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hotel BALLADINS Blois Nord. Blois, France. 8 avril 2015."
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Laurent Guichardon, all rights reserved"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c32d20c7-096f-3c9f-9b97-744a7118e281",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Photo-Acc-balladins.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "City outskirts"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0cbf8ae3-dd8e-3cbb-96a4-dd7fe1086c0f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6d95eab7-f9d6-3fb0-b562-77fadb82ad90",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Hotel BALLADINS Blois Nord. Blois, France. 8 avril 2015."
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Laurent Guichardon, all rights reserved"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c32d20c7-096f-3c9f-9b97-744a7118e281",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Photo-Acc-balladins.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2455044a-2685-357a-a173-d13e0fba14d9",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "2 étoiles"
+          ],
+          "fr": [
+            "2 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "City outskirts"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5a3fce5-1639-334c-97bf-fa577b9680af",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a4395145-dca6-38a5-b398-31a78e83f146",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "7 Rue des Onze Arpents"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/172c2acc-527b-3966-ab30-fce3a19a51dd",
+        "schema:latitude": "47.613891",
+        "schema:longitude": "1.336476",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-07",
+  "lastUpdateDatatourisme": "2020-08-08T08:13:20.14Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/870dbd76-970d-303a-8e1d-0925644ff3d8",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

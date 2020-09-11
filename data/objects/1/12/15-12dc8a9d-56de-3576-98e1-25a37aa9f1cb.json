@@ -1,0 +1,986 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/12dc8a9d-56de-3576-98e1-25a37aa9f1cb",
+  "dc:identifier": "PCU41AASOR100600",
+  "@type": [
+    "schema:Landform",
+    "schema:LocalBusiness",
+    "schema:Museum",
+    "ArcheologicalSite",
+    "CaveSinkholeOrAven",
+    "CityHeritage",
+    "Collegiate",
+    "CulturalSite",
+    "DefenceSite",
+    "FortifiedSet",
+    "Museum",
+    "NaturalHeritage",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "ReligiousSite",
+    "Ruins",
+    "TechnicalHeritage"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Discover the picturesque alleyways (the rock of Saint-Gabriel, the fountain...) and walk up and down the countless stairways between the different levels. Saint-Martin collegiate church, the speaking well and the lazaret of Sainte-Catherine are other features of the visit."
+    ],
+    "fr": [
+      "Découvrez ses ruelles pittoresques (le rocher Saint-Gabriel, la fontaine...) et empruntez les innombrables escaliers pour passer d’un niveau à l’autre. La collégiale Saint-Martin, le puits qui parle ou la maladrerie Sainte-Catherine complètent la promenade."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Visit of the village of Trôo (a troglodytic site)"
+    ],
+    "fr": [
+      "Visite du village de Trôo (cité troglodytique)"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a0c72c1b-bc32-3779-8733-48d72d3f50b2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/851115fe-848b-3347-8e93-c24b32273a2c",
+          "schema:addressLocality": "Troo",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41265",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Troo"
+                ],
+                "fr": [
+                  "Troo"
+                ]
+              },
+              "insee": "41265",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "tourisme.troo@gmail.com"
+      ],
+      "schema:legalName": "Visite du village de Trôo (cité troglodytique)",
+      "schema:telephone": [
+        "+33 2 54 72 87 50"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.trootourisme.jimdo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a0c72c1b-bc32-3779-8733-48d72d3f50b2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/851115fe-848b-3347-8e93-c24b32273a2c",
+          "schema:addressLocality": "Troo",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41265",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Troo"
+                ],
+                "fr": [
+                  "Troo"
+                ]
+              },
+              "insee": "41265",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "tourisme.troo@gmail.com"
+      ],
+      "schema:legalName": "Visite du village de Trôo (cité troglodytique)",
+      "schema:telephone": [
+        "+33 2 54 72 87 50"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.trootourisme.jimdo.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8390d01a-5eef-3495-81be-fd7a6c2e6146",
+      "dc:description": {
+        "en": [
+          "A picturesque ensemble built on the hillside overlooking the Loir and its valley, the troglodyte town of TrÃ´o is a classified site that you can discover through a maze of small, superimposed paths and streets. Today a refuge for many artists who come to enjoy the beauty and charm of this countryside, a never-ending source of inspiration, a haven of peace, quiet and relaxing, perfect for tourist strolls. Not to be missed: the troglodyte homes on several levels, the pathways, the pedestrian streets, the stairways, St Martin's Collegiate Church (12th century), the petrifying cave, the 45-m deep talking well (echo phenomenon), located in the upper part of the village, the Romanesque church and a photo exhibit in the old train station, etc. Self and free access permanently (except the petrifyi"
+        ],
+        "fr": [
+          "Grotte pétrifiante et Musée de la Vigne et des objets anciens. Trôo , village troglodytique, l'un des plus jolis, curieux et insolites de France. Des terrasses étagées, grottes,  vous emmènent d'un lieu à l'autre. Le village possède 7 monuments classés au titre des monuments historiques et son paysage du haut de la butte est classé par les beaux arts. Visites commentées de 2h par un bénévole de l'association TrôoTourisme  le 1er dimanche de mai, juin et sept. Pour les groupes : visites commentées possibles toute l'année sur RDV. Grotte pétrifiante, musée de la vigne et des objets anciens de la vie quotidienne et son restaurant troglodytique, ResTrôo de la cave du vigneron, expositions à la maison des métiers d'art et des artistes. Animations annuelles : nuit des lumières..."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Discover the picturesque alleyways (the rock of Saint-Gabriel, the fountain...) and walk up and down the countless stairways between the different levels. Saint-Martin collegiate church, the speaking well and the lazaret of Sainte-Catherine are other features of the visit."
+        ],
+        "fr": [
+          "Découvrez ses ruelles pittoresques (le rocher Saint-Gabriel, la fontaine...) et empruntez les innombrables escaliers pour passer d’un niveau à l’autre. La collégiale Saint-Martin, le puits qui parle ou la maladrerie Sainte-Catherine complètent la promenade."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2b090d31-9a87-34c9-a02f-c06958fac429",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Picnic area"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/63793d9d-c068-38fc-97c9-0e587f026306",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/21113b26-9c44-39de-8cc9-f6b5728ef334",
+          "ebucore:title": {
+            "fr": [
+              "Trôo"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "DR"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2017-07-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2e98a8af-ce87-39e9-99d3-c53103d99161",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/15202708-10154744933216057-3575084301196660959-n-1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3493447f-8cd0-3ee5-883d-b5fbaa9e6d2c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3eff9699-7bb8-3910-afab-da39e0dd5cb1",
+          "ebucore:title": {
+            "fr": [
+              "Village de Trôo"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©CG41-mlartigue"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/969f4107-ebf7-3873-90fa-f6807a636551",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/troo-CG41-mlartigue--6-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3d76915f-f2f6-37ce-83e9-322cc3c8f747",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be3f36b3-f9c5-3f16-be86-b1241e2986b8",
+          "ebucore:title": {
+            "fr": [
+              "Village de Trôo"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "troo©CG41-mlartigue"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/469ef153-d291-3f0b-9b55-c2d00735f159",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/troo-CG41-mlartigue--3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/63793d9d-c068-38fc-97c9-0e587f026306",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/21113b26-9c44-39de-8cc9-f6b5728ef334",
+          "ebucore:title": {
+            "fr": [
+              "Trôo"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "DR"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2017-07-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2e98a8af-ce87-39e9-99d3-c53103d99161",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/15202708-10154744933216057-3575084301196660959-n-1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/80f20835-bc63-3b50-8ec0-cb6c67e499d0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/21113b26-9c44-39de-8cc9-f6b5728ef334",
+          "ebucore:title": {
+            "fr": [
+              "Trôo"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "DR"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2017-07-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/52a933a7-5e48-34a1-afa7-9ecdc478ac59",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/20160515-163300.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c41e0e04-59fa-3067-8474-3c227413a64b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fb270c93-6e75-3755-8bfd-5974aaec7d8d",
+          "ebucore:title": {
+            "fr": [
+              "Village de Trôo"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "ADT41 - JPh-tESSON"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9f71ca95-fde2-3b96-b453-bf950cda25df",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/village-de-troo-ADT41-JPh-Tesson.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:EcoMuseum",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Eco museum"
+        ],
+        "fr": [
+          "Eco musée"
+        ]
+      }
+    },
+    {
+      "@id": "kb:History",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "History"
+        ],
+        "fr": [
+          "Histoire"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Nature and environment"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5f64bebe-d70e-3307-b731-98cbc4717899",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9b23838-f804-3739-8edb-61190e81f012",
+          "schema:addressLocality": "Troo",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "39 rue Auguste Arnault"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41265",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Troo"
+                ],
+                "fr": [
+                  "Troo"
+                ]
+              },
+              "insee": "41265",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d1af9d50-ee9e-3d13-9086-ce487fa097a5",
+        "schema:latitude": "47.77",
+        "schema:longitude": "0.79",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-05",
+  "lastUpdateDatatourisme": "2020-08-19T14:02:47.393Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8e507993-cae6-334b-92bf-7eead26957d6",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2bb43ab8-1fb5-3be3-818c-98c3ce386ba7",
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/43967d0e-220c-3327-b2c5-13f5998de4c9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "- 10 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8f4c357b-4535-37f1-be90-38437121c036",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "1 gratuité pour 20 pers."
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/986c3bf6-34cd-3126-ba38-a491a518717f",
+          "schema:minPrice": [
+            "7"
+          ],
+          "schema:price": "7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "entrée grotte pétrifiante comprise avec éco-musée"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

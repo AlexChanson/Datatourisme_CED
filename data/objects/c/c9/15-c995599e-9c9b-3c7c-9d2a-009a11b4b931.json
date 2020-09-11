@@ -1,0 +1,260 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c995599e-9c9b-3c7c-9d2a-009a11b4b931",
+  "dc:identifier": "FMACEN037V50K6CC",
+  "schema:endDate": [
+    "2020-09-20"
+  ],
+  "schema:startDate": [
+    "2020-09-09"
+  ],
+  "@type": [
+    "schema:Event",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Exposition d'aquarelles, en présence de l'artiste le samedi 19 septembre. Accès libre. Masque obligatoire."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Exposition \"Loire Touraine en 20 tableaux\""
+    ]
+  },
+  "creationDate": "2020-07-22",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19bf68d1-fee7-3d85-aef2-766930589124",
+      "schema:email": [
+        "patrimoine@mairieloches.com"
+      ],
+      "schema:telephone": [
+        "+33 2 47 59 48 21"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0308d1bd-95ad-3fe5-bf39-5da65b71be4d",
+      "dc:description": {
+        "fr": [
+          "Exposition d'aquarelles, en présence de l'artiste le samedi 19 septembre. Accès libre. Masque obligatoire."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Exposition d'aquarelles, en présence de l'artiste le samedi 19 septembre. Accès libre. Masque obligatoire."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2e96c7e0-7d5b-37e3-9bfb-d8b1db99db49",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eb038dea-10d0-3085-a8d1-c2b46cd19446",
+          "schema:addressLocality": "Loches",
+          "schema:postalCode": "37600",
+          "schema:streetAddress": [
+            "24 Avenue des Bas Clos"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37132",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loches"
+                ],
+                "fr": [
+                  "Loches"
+                ]
+              },
+              "insee": "37132",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/c5b64d21-88bd-3a7c-b4c8-5c883f22b3ae",
+        "schema:latitude": "47.124056",
+        "schema:longitude": "0.992001",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-09-07",
+  "lastUpdateDatatourisme": "2020-09-08T04:08:41.305Z",
+  "reducedMobilityAccess": true,
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c9db35d5-f2a8-379f-9240-de1d167d6fbf",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-20",
+      "endTime": "17:30:00",
+      "startDate": "2020-09-09",
+      "startTime": "14:00:00"
+    }
+  ]
+}

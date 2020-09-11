@@ -1,0 +1,250 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/892a7b71-0e5b-3c02-8739-7edaf4c4b81c",
+  "dc:identifier": "DEGPDL072V50LKMT",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TastingProvider"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Amandine FRESNEAU, oenologue du Domaine de Cézin vous reçoit pour une découverte sensorielle et gustative des vins de la Vallée du Loir."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "INITIATION A LA DEGUSTATION AU DOMAINE DE CEZIN"
+    ]
+  },
+  "creationDate": "2019-09-26",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7eff616a-caaf-3277-846c-57561bddf62d",
+      "schema:email": [
+        "earl.francois.fresneau@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 44 13 70"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.fresneau.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/09093100-087b-3941-8668-357ad756e778",
+      "dc:description": {
+        "fr": [
+          "Au programme : étapes de la dégustation, description des arômes du vin, description de votre ressenti et dégustation accompagnée de petits toasts. Tout ceci de manière ludique... A faire en famille car même les enfants peuvent participer ... sans goutter bien sûr!!! (initiation ludique avec jus de raisin)."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Amandine FRESNEAU, oenologue du Domaine de Cézin vous reçoit pour une découverte sensorielle et gustative des vins de la Vallée du Loir."
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89ab7d1e-59f0-3c8d-ab2f-9875727b4fde",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_BienvenueaLaFerme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Bienvenue à la ferme"
+          ],
+          "fr": [
+            "Bienvenue à la ferme"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Guesthouse",
+          "Practice",
+          "Restaurant",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/edc38e0b-7030-355e-95f1-2196387db62d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0addb140-dd9d-3371-a886-7edea4114f49",
+          "schema:addressLocality": "Marçon",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "Rue de Cézin"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72183",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Marçon"
+                ],
+                "fr": [
+                  "Marçon"
+                ]
+              },
+              "insee": "72183",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d425b640-b7e1-38d1-b22a-a9febeb62429",
+        "schema:latitude": "47.7134974",
+        "schema:longitude": "0.52024911",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-04-06",
+  "lastUpdateDatatourisme": "2020-09-05T03:43:47.429Z",
+  "providesFoodProduct": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ]
+}

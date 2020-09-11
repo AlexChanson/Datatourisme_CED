@@ -1,0 +1,256 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/48f67cf6-c1d1-34ed-8b3f-99cc3fe412c3",
+  "dc:identifier": "HPAPDL072V5027ML",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Camping",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Au bord du Loir."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "CAMPING LES CHAINTRES"
+    ]
+  },
+  "availableLanguage": [
+    "Français"
+  ],
+  "creationDate": "2013-10-08",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/469276de-5263-3887-af3b-021df61ef8a1",
+      "schema:email": [
+        "accueil@ruillesurloir.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 44 44 25"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ef3b98e6-8e62-39e2-b080-32004bc0fa7d",
+      "dc:description": {
+        "fr": [
+          "Possibilité de pêcher. Jeux pour enfants. Vidange pour campings cars. Proche du bourg (1 km). Aire de jeux à proximité 300m : city stade+ skatepark+ piste VTT+ terrain tennis+ jeux enfants, tables ping-pong, pique nique..."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Au bord du Loir."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cd2c954a-03e8-30f8-a56c-253a8655d97b",
+      "schema:value": "18",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Pitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Pitch"
+            ],
+            "fr": [
+              "Emplacement"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a00351e3-4fd4-385b-9d6e-5692acda527a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ff6e9e54-df6f-3bf2-b138-b0b34e1997d6",
+          "schema:addressLocality": "Loir en Vallée",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "La grande pré",
+            "Ruillé sur Loir"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72262",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loir en Vallée"
+                ],
+                "fr": [
+                  "Loir en Vallée"
+                ]
+              },
+              "insee": "72262",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/74039e2d-bfd4-345f-a0cb-e4e05a98272b",
+        "schema:latitude": "47.7433005",
+        "schema:longitude": "0.61886574",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-20",
+  "lastUpdateDatatourisme": "2020-08-14T02:56:05.511Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0254c703-61a6-38bc-8ec5-d6d6f6d2144b",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/77fa70b2-e7ce-30c6-ab83-6930368592a6",
+  "dc:identifier": "HLOCEN0370037453",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "A mi-chemin entre le Zoo de Beauval, le Futuroscope et les châteaux de la Loire, ce grand gite de 120 m² est la promesse d'un séjour en Indre et Loire réussi. Outre sa situation géographique qui offre une multitude de sites à visiter, il invite à d'agréables moments de détente que ce soit avec la..."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Gite des Coteaux"
+    ],
+    "fr": [
+      "Grand Gite des Coteaux"
+    ]
+  },
+  "allowedPersons": 7,
+  "creationDate": "2017-06-15",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/d02b0367-e485-377f-adcc-7648169c34df",
+    "schema:legalName": "CRT_CENTRE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f9f456b2-0959-30a1-bf93-dacdedba509c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a15da88b-48d2-3db8-b95e-c1df8ec33030",
+          "schema:addressLocality": "Sainte-Maure-de-Touraine",
+          "schema:postalCode": "37800",
+          "schema:streetAddress": [
+            "3 route des Côteaux",
+            "SARL des Côteaux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37226",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sainte-Maure-de-Touraine"
+                ],
+                "fr": [
+                  "Sainte-Maure-de-Touraine"
+                ]
+              },
+              "insee": "37226",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gitesdescoteaux@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 85 13 37 28"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ea2f4695-6b1d-3189-9285-c68bdbac8cfa",
+      "schema:email": [
+        "gitesdescoteaux@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 85 13 37 28"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f9f456b2-0959-30a1-bf93-dacdedba509c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a15da88b-48d2-3db8-b95e-c1df8ec33030",
+          "schema:addressLocality": "Sainte-Maure-de-Touraine",
+          "schema:postalCode": "37800",
+          "schema:streetAddress": [
+            "3 route des Côteaux",
+            "SARL des Côteaux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37226",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sainte-Maure-de-Touraine"
+                ],
+                "fr": [
+                  "Sainte-Maure-de-Touraine"
+                ]
+              },
+              "insee": "37226",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gitesdescoteaux@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 85 13 37 28"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/200b86eb-1662-3d22-96e2-37c434d42b2e",
+      "dc:description": {
+        "fr": [
+          "A mi-chemin entre le Zoo de Beauval, le Futuroscope et les châteaux de la Loire, ce grand gite de 120 m² est la promesse d'un séjour en Indre et Loire réussi. Outre sa situation géographique qui offre une multitude de sites à visiter, il invite à d'agréables moments de détente que ce soit avec la piscine extérieure chauffée en période estivale ou du côté de l'espace bien-être où vous pouvez réserver une séance privative de SPA ! Parc arboré et fleuri avec terrain de pétanque. Piscine à partager sécurisée par une bâche à barres et une alarme."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "A mi-chemin entre le Zoo de Beauval, le Futuroscope et les châteaux de la Loire, ce grand gite de 120 m² est la promesse d'un séjour en Indre et Loire réussi. Outre sa situation géographique qui offre une multitude de sites à visiter, il invite à d'agréables moments de détente que ce soit avec la..."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ee54094e-861b-3220-b200-e5c36a4ffdd6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Swimming pool"
+            ],
+            "fr": [
+              "Piscine"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5267e543-64f3-37b9-9a28-ad20205bd92a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "3 étoiles"
+          ],
+          "fr": [
+            "3 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cc97c61e-ac2a-383a-b28e-51c7b9a391ff",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4e35ad40-9ad5-3dfe-b0ad-e5569b2e1d8a",
+          "schema:addressLocality": "Sainte-Maure-de-Touraine",
+          "schema:postalCode": "37800",
+          "schema:streetAddress": [
+            "3 route des Coteaux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37226",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sainte-Maure-de-Touraine"
+                ],
+                "fr": [
+                  "Sainte-Maure-de-Touraine"
+                ]
+              },
+              "insee": "37226",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/732cdb1c-0137-33c4-a2c1-459bfd70ab13",
+        "schema:latitude": "47.1085887",
+        "schema:longitude": "0.6234615",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-11",
+  "lastUpdateDatatourisme": "2020-07-07T02:41:51.261Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e885db49-41cc-3d9d-b937-d0583f3e57c3",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

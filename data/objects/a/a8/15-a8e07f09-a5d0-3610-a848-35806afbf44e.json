@@ -1,0 +1,701 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a8e07f09-a5d0-3610-a848-35806afbf44e",
+  "dc:identifier": "HLOCENBERV500OD1",
+  "@type": [
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "You will find peace and quiet and all required comfort for an enjoyable break close to the Loire Valley châteaux, Valençay château and Beauval Zoo."
+    ],
+    "fr": [
+      "Au coeur du village, vous séjournerez dans un ancien presbytère du XIXème situé face à la vieille église romane du XIIème. Venez vous y reposer, vous détendre... oubliez le stress avec un bon livre, un jeu de cartes ou de société qui remplaceront largement un téléviseur... mais bien sûr le wifi e…"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "LES VOLETS VERTS"
+    ],
+    "fr": [
+      "Les Volets Verts"
+    ]
+  },
+  "allowedPersons": 7,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2017-04-19",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/b8f30684-e032-3483-ba1a-f2911755c19a",
+    "schema:legalName": "BERRY",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/635f7eb7-7f18-3b98-8fc3-dc5fe9b9ce8a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/02fcd140-5ef1-385e-aa2a-3ef7b25c9f56",
+          "schema:addressLocality": "Écueillé",
+          "schema:postalCode": "36240",
+          "schema:streetAddress": [
+            "29 rue de la Vieille Eglise",
+            "Les Volets verts"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36069",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Écueillé"
+                ],
+                "fr": [
+                  "Écueillé"
+                ]
+              },
+              "insee": "36069",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "chambresdhoteslesvoletsverts@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 2 18 05 10 67",
+        "+33 6 84 26 84 37"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chambresdhoteslesvoletsverts.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/635f7eb7-7f18-3b98-8fc3-dc5fe9b9ce8a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/02fcd140-5ef1-385e-aa2a-3ef7b25c9f56",
+          "schema:addressLocality": "Écueillé",
+          "schema:postalCode": "36240",
+          "schema:streetAddress": [
+            "29 rue de la Vieille Eglise",
+            "Les Volets verts"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36069",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Écueillé"
+                ],
+                "fr": [
+                  "Écueillé"
+                ]
+              },
+              "insee": "36069",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "chambresdhoteslesvoletsverts@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 2 18 05 10 67",
+        "+33 6 84 26 84 37"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chambresdhoteslesvoletsverts.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da21dfda-9dbb-3924-96e9-f63153a2075a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/16837173-eb81-35f3-9b76-f4a7e158d119",
+          "schema:postalCode": "36240",
+          "schema:streetAddress": [
+            "29 rue de la Vieille Eglise",
+            "Les Volets verts"
+          ],
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "chambresdhoteslesvoletsverts@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 2 18 05 10 67",
+        "+33 6 84 26 84 37"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chambresdhoteslesvoletsverts.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8ec358f5-68c9-3ec6-aa34-2a935af7c41f",
+      "dc:description": {
+        "en": [
+          "Two guest rooms (2 double beds) in a family suite with bathroom (large Italian shower) and WC on the first floor. Breakfats served in the dining-room, kitchen or garden. Guest meals on request. Small second-hand shop on site. Weekly rate: €440. €60 rate from the third night."
+        ],
+        "fr": [
+          "Au 1er étage, chambre \"Côté Jardin\" (1 lit de 2 personnes et un lit simple), coin salon et salle d'eau/wc (grande douche à l'italienne). \nLa chambre \"Vert Véronèse\" avec poêle à bois et salle de bain/wc privée pour deux personnes.\nLa  chambre \"Bleu Persan\"  lits de 2 personnes, une salle de bain/wc.\nPetits-déjeuners servis dans la salle à manger ou encore dans le jardin.  boutique de brocante et antiquitées sur place."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "You will find peace and quiet and all required comfort for an enjoyable break close to the Loire Valley châteaux, Valençay château and Beauval Zoo."
+        ],
+        "fr": [
+          "Au coeur du village, vous séjournerez dans un ancien presbytère du XIXème situé face à la vieille église romane du XIIème. Venez vous y reposer, vous détendre... oubliez le stress avec un bon livre, un jeu de cartes ou de société qui remplaceront largement un téléviseur... mais bien sûr le wifi e…"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0a5a89ef-fdbe-3aa5-9771-59d21b583868",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9822487c-f630-35b2-88c2-b76486ed7641",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d390912-da70-3cb3-aca5-fc5615a19338",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Les Volets Verts"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© M. Thomas"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3be74bb-fb3e-3809-bf20-d3c2d74ed859",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HLOCENBERV500OD1-Les-Volets-Verts.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9822487c-f630-35b2-88c2-b76486ed7641",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d390912-da70-3cb3-aca5-fc5615a19338",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Les Volets Verts"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© M. Thomas"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e3be74bb-fb3e-3809-bf20-d3c2d74ed859",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/HLOCENBERV500OD1-Les-Volets-Verts.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/715e3c46-42d5-3a3e-a0de-52704e3ecc17",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fa1f2fb8-77ea-3f9d-b993-9d2a72565791",
+          "schema:addressLocality": "Écueillé",
+          "schema:postalCode": "36240",
+          "schema:streetAddress": [
+            "29 rue de la Vieille Eglise"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36069",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Écueillé"
+                ],
+                "fr": [
+                  "Écueillé"
+                ]
+              },
+              "insee": "36069",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/3f66ef43-320e-3b32-bacf-46a46a6ce4eb",
+        "schema:latitude": "47.085839",
+        "schema:longitude": "1.3482487",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-01-05",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.351Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/507e0235-1126-314f-bd3a-b8ecad47bb93",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2858c6be-f9da-3044-a9c9-9169ceda3bc4",
+          "schema:minPrice": [
+            "95"
+          ],
+          "schema:price": "95",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2a4877bf-2c92-3cdb-b6cc-d98c66678ff7",
+          "schema:minPrice": [
+            "85"
+          ],
+          "schema:price": "85",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4fa117d7-0248-3699-b0b8-760b18d3fd0c",
+          "schema:minPrice": [
+            "35"
+          ],
+          "schema:price": "35",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ecc99971-7392-386a-b90a-6e500414ec24",
+          "schema:minPrice": [
+            "105"
+          ],
+          "schema:price": "105",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f49dbab1-2b99-3d3e-9fa7-a5ef237768c6",
+          "schema:maxPrice": [
+            "105"
+          ],
+          "schema:minPrice": [
+            "85"
+          ],
+          "schema:price": "85",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

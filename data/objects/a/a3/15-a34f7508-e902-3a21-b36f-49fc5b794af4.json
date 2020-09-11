@@ -1,0 +1,306 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a34f7508-e902-3a21-b36f-49fc5b794af4",
+  "dc:identifier": "STRCENCEN9991743",
+  "@type": [
+    "schema:TouristInformationCenter",
+    "LocalTouristOffice",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TouristInformationCenter"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "L'Office de Tourisme vous accueille d'avril à fin septembre, vous apporte toutes les informations sur les activités, les sites à visiter et vous propose une gamme de services pour agrémenter et faciliter votre séjour"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Luynes Tourist Office"
+    ],
+    "fr": [
+      "Office de Tourisme Tours val de Loire - Antenne de Luynes"
+    ]
+  },
+  "COVID19InOperationConfirmed": false,
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2007-10-25",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6f3a2289-6fc9-3fe5-abf7-b76f7c9cbeb1",
+      "schema:email": [
+        "luynes@tours-tourisme.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 55 77 14"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tours-tourisme.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/24391b77-5add-31af-8cc4-4ddc95127122",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "L'Office de Tourisme vous accueille d'avril à fin septembre, vous apporte toutes les informations sur les activités, les sites à visiter et vous propose une gamme de services pour agrémenter et faciliter votre séjour"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9c2d2073-cafa-3210-9fda-22d4e87a6b3f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f787d749-8d83-32d0-abf5-30fc391a5d93",
+          "schema:addressLocality": "Luynes",
+          "schema:postalCode": "37230",
+          "schema:streetAddress": [
+            "9 rue Alfred Baugé"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37139",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Luynes"
+                ],
+                "fr": [
+                  "Luynes"
+                ]
+              },
+              "insee": "37139",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4840f2fc-1252-3f5a-96b0-1ada1891590a",
+        "schema:latitude": "47.3817988",
+        "schema:longitude": "0.5560862",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-05-22",
+  "lastUpdateDatatourisme": "2020-07-06T23:44:18.46Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6b807c1d-7446-36eb-b3e2-1e9e31b0fddf",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

@@ -1,0 +1,519 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a05e78f3-0f9d-30af-97ce-c6d1a10835da",
+  "dc:identifier": "ASCCEN0360011774",
+  "@type": [
+    "schema:CivicStructure",
+    "PlaceOfInterest",
+    "PlayArea",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Located on the banks of the Loir-et-Cher River, on site activities include swimming, tennis and  fishing and a playground. Families are welcome."
+    ],
+    "fr": [
+      "Aux confins du Loir-et-Cher, venez en famille : activités sur place, baignade, tennis, aire de jeux pour les enfants, piste de BMX, parcours de santé et pêche pour les amateurs."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Pêche, baignade, aire de jeux, tennis aux étangs de la Planche Baron"
+    ],
+    "fr": [
+      "Pêche, baignade, aire de jeux, tennis aux étangs de la Planche Baron"
+    ]
+  },
+  "creationDate": "2008-01-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/38ddce87-47eb-3603-bcb7-d1ce9b61697f",
+    "schema:legalName": "ADT INDRE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3adc636a-f4df-3b33-806a-7399efa20368",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/55aa8545-0778-3ef9-a3cf-985ee9a0e9f9",
+          "schema:addressLocality": "Villentrois-Faverolles-en-Berry",
+          "schema:postalCode": "36600",
+          "schema:streetAddress": [
+            "6 Rue Delalande",
+            "Mairie"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36244",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villentrois-Faverolles-en-Berry"
+                ],
+                "fr": [
+                  "Villentrois-Faverolles-en-Berry"
+                ]
+              },
+              "insee": "36244",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "mairievillentrois@wanadoo.fr"
+      ],
+      "schema:legalName": "Pêche aux étangs de la Planche Baron",
+      "schema:telephone": [
+        "+33 2 54 41 03 70"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d3a01213-714c-3bbc-9b0a-2df221a7813b",
+      "dc:description": {
+        "fr": [
+          "Aux confins du Loir-et-Cher, venez en famille : activités sur place, baignade, tennis, aire de jeux pour les enfants, piste de BMX, parcours de santé et pêche pour les amateurs."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Located on the banks of the Loir-et-Cher River, on site activities include swimming, tennis and  fishing and a playground. Families are welcome."
+        ],
+        "fr": [
+          "Aux confins du Loir-et-Cher, venez en famille : activités sur place, baignade, tennis, aire de jeux pour les enfants, piste de BMX, parcours de santé et pêche pour les amateurs."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da4801da-524c-320b-bdf1-72bf281bd471",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Picnic area"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Toilets"
+            ],
+            "fr": [
+              "Toilettes"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4bb14e09-b3f1-33b2-812c-32aa3f7dfd27",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9830e54c-bd4a-3e61-b707-e7a176cc33a3",
+          "ebucore:title": {
+            "fr": [
+              "Plan d'eau Villentrois - 1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Mairie Villentrois"
+          ],
+          "rightsEndDate": "2030-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c26c37ad-b7a0-3385-8f2f-c7522a97fbfa",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Plan-d-eau-Villentrois-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4bb14e09-b3f1-33b2-812c-32aa3f7dfd27",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9830e54c-bd4a-3e61-b707-e7a176cc33a3",
+          "ebucore:title": {
+            "fr": [
+              "Plan d'eau Villentrois - 1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Mairie Villentrois"
+          ],
+          "rightsEndDate": "2030-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c26c37ad-b7a0-3385-8f2f-c7522a97fbfa",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Plan-d-eau-Villentrois-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ed9f262a-931f-3613-8677-2a602ecd4035",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/548575b5-54e3-3d64-894c-d9c1c2f72773",
+          "ebucore:title": {
+            "fr": [
+              "Plan d'eau Villentrois -2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Mairie Villentrois"
+          ],
+          "rightsEndDate": "2030-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/05ce395d-d2c5-3e6d-bb95-73cafa3056e1",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Plan-d-eau-Villentrois-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4ee3f6a1-7069-3a6e-bb55-4f89f091a84b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/779352d4-6c7e-3bbe-afdf-d4e101948a74",
+          "schema:addressLocality": "Villentrois-Faverolles-en-Berry",
+          "schema:postalCode": "36600",
+          "schema:streetAddress": [
+            "Route de Luçay-le-Mâle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36244",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villentrois-Faverolles-en-Berry"
+                ],
+                "fr": [
+                  "Villentrois-Faverolles-en-Berry"
+                ]
+              },
+              "insee": "36244",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4c571d13-1e5b-3d93-af88-5d810b2d8a49",
+        "schema:latitude": "47.18483",
+        "schema:longitude": "1.44881",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-05-29",
+  "lastUpdateDatatourisme": "2020-07-07T12:05:24.903Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a82d8de9-e387-3d3b-a8be-93b2b87c0364",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

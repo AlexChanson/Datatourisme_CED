@@ -1,0 +1,635 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/2fb4bb18-b554-3f95-9cc7-c8689b200693",
+  "dc:identifier": "HCOCEN041V500EUH",
+  "@type": [
+    "schema:Hostel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "YouthHostelAndInternationalCenter"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Valoria is a new hotel residence opened to the public since January 2016. It has 128 beds distributed in 76 apartments for 1 and/or 2 persons."
+    ],
+    "fr": [
+      "Valoria est une  résidence sociale hôtelière ouverte au public depuis janvier 2016. Elle dispose de 100 couchages distribués par 76 studios 1, 2 ou 3 personnes."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Résidence Valoria"
+    ],
+    "fr": [
+      "Résidence Valoria"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "allowedPersons": 100,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2016-04-29",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/310b2472-154c-30cd-aaea-28960076deeb",
+      "schema:email": [
+        "direction@residence-valoria.fr"
+      ],
+      "schema:legalName": "Valoria Résidence Sociale Hôtelière",
+      "schema:telephone": [
+        "+33 2 54 78 55 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ac343e05-cfde-3db3-9f8d-cc0075e709f0",
+      "schema:email": [
+        "direction@residence-valoria.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 78 55 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/310b2472-154c-30cd-aaea-28960076deeb",
+      "schema:email": [
+        "direction@residence-valoria.fr"
+      ],
+      "schema:legalName": "Valoria Résidence Sociale Hôtelière",
+      "schema:telephone": [
+        "+33 2 54 78 55 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ac343e05-cfde-3db3-9f8d-cc0075e709f0",
+      "schema:email": [
+        "direction@residence-valoria.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 78 55 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/60257b07-6810-314f-8e5f-e77ebabb1cbc",
+      "dc:description": {
+        "en": [
+          "Valoria is a new hotel residence opened to the public since January 2016. It has 128 beds distributed in 76 apartments for 1 and/or 2 persons."
+        ],
+        "fr": [
+          "Valoria est une  résidence sociale hôtelière ouverte au public depuis janvier 2016. Elle dispose de 100 couchages distribués par 76 studios 1, 2 ou 3 personnes."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Valoria is a new hotel residence opened to the public since January 2016. It has 128 beds distributed in 76 apartments for 1 and/or 2 persons."
+        ],
+        "fr": [
+          "Valoria est une  résidence sociale hôtelière ouverte au public depuis janvier 2016. Elle dispose de 100 couchages distribués par 76 studios 1, 2 ou 3 personnes."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4cf7a5a3-b56e-36c1-80f4-7a6cad47ad07",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Elevator",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Elevator"
+            ],
+            "fr": [
+              "Ascenseur"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Garden"
+            ],
+            "fr": [
+              "Jardin"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LockedStorageRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Locked storage room"
+            ],
+            "fr": [
+              "Local matériel fermé"
+            ]
+          }
+        },
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Meeting room"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Private parking"
+            ],
+            "fr": [
+              "Parking privé"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TouristInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tourist information"
+            ],
+            "fr": [
+              "Informations touristiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fa9664b9-fed3-3aa7-936f-da7039918a62",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9554da11-5056-3ae1-af2d-76c4d6ce14a7",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Vue-générale©Valoria-Residence"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Valoria-Residence"
+          ],
+          "rightsEndDate": "2017-06-30",
+          "rightsStartDate": "2016-10-17"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0a032008-92c6-3ed9-930d-f2e202f30f26",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vue-generale-Valoria-Residence.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fa9664b9-fed3-3aa7-936f-da7039918a62",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9554da11-5056-3ae1-af2d-76c4d6ce14a7",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Vue-générale©Valoria-Residence"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Valoria-Residence"
+          ],
+          "rightsEndDate": "2017-06-30",
+          "rightsStartDate": "2016-10-17"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0a032008-92c6-3ed9-930d-f2e202f30f26",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Vue-generale-Valoria-Residence.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fb3a7af1-2742-3cbb-bbd4-4d510f53eae8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/68a6f442-0c23-306c-8a3c-f096c271a134",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "21 rue bernard darada"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d87814a2-1e88-3cc2-8d39-6234be51d7e9",
+        "schema:latitude": "47.6092892",
+        "schema:longitude": "1.3194969",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-26",
+  "lastUpdateDatatourisme": "2020-07-06T23:46:56.217Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c6a9d4d6-a6fa-3b29-bdb1-327bbfd62cc9",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/64038b80-8305-31c8-9388-c2b22f136614",
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:price": "45",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "chambre triple"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a4e02942-5884-3a17-ba28-db4084c19428",
+          "schema:minPrice": [
+            "30"
+          ],
+          "schema:price": "30",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "chambre single"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b5497882-a85d-3128-bb7d-98bf3872a721",
+          "schema:minPrice": [
+            "40"
+          ],
+          "schema:price": "40",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "chambre double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c9c76178-3dfa-3bcd-89a1-cdf22e329d6d",
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(Par personne et par nuit)"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/bea9c881-a697-3c77-92e6-1694b3fc9446",
+  "dc:identifier": "RES879001223",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Plats à emporter et à livrer. Cuisine familiale et de saison cuisinée avec les produits de notre terroir."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LES MERES COCOTTES"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Espagnol",
+    "Français"
+  ],
+  "creationDate": "2012-02-17",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0a5b828f-8b4a-32a2-a1b0-755f79dd3d34",
+      "schema:email": [
+        "lesmerescocottes@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 46 80 52"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lesmerescocottes.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/915f1bb0-9c87-38ab-a8c6-aa5368fa887e",
+      "dc:description": {
+        "fr": [
+          "Bar-épicerie de village ouverte du mercredi au au dimanche de 9h à 12h. Nouveauté : Cave à vin et vente  de vins \"locaux\" et \"nature\" à emporter."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Plats à emporter et à livrer. Cuisine familiale et de saison cuisinée avec les produits de notre terroir."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2e8ba729-3c24-36ad-a0e3-291554e4a275",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6f409342-5771-3e69-aae6-af61a5fb5353",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c38b6c5a-7ea7-381c-b4a7-90009ddd15b1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:MealDelivery",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Meal delivery"
+            ],
+            "fr": [
+              "Livraison de repas"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fb044c3d-c9f7-3a34-bb21-485f74b89ea5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Caterer",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Caterer"
+            ],
+            "fr": [
+              "Traiteur"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fc5857c2-6ad5-3883-af32-406c33074a99",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/527ae001-dac2-3eb7-933d-bbda64afdc0d",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_VignoblesDecouvertes",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Vignobles & Découvertes"
+          ],
+          "fr": [
+            "Vignobles & Découvertes"
+          ]
+        },
+        "isCompliantWith": [
+          "Accommodation",
+          "BistroOrWineBar",
+          "Cellar",
+          "CulturalSite",
+          "EntertainmentAndEvent",
+          "LocalTouristOffice",
+          "NaturalHeritage",
+          "Practice",
+          "Restaurant",
+          "Visit"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8cfb18a2-06ff-3d4f-bc01-2daaeacfa6ee",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dadd2cc7-e3c5-3469-bd0f-eceef5a13406",
+          "schema:addressLocality": "Beaumont-sur-Dême",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "9 rue Alexis de Tocqueville"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72027",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Beaumont-sur-Dême"
+                ],
+                "fr": [
+                  "Beaumont-sur-Dême"
+                ]
+              },
+              "insee": "72027",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d340cc8c-4565-382d-be90-10701966e7a0",
+        "schema:latitude": "47.6942838",
+        "schema:longitude": "0.569151",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1812d6d1-1503-3517-9dc4-bf5054e89886",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Thursday"
+                ],
+                "fr": [
+                  "Jeudi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/50e99bb7-ffd7-3ccd-b49c-012e1f8741f8",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6fa42097-298f-39bf-999b-439d88273bcb",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7135c877-3283-383d-a146-31cf2887c337",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Wednesday"
+                ],
+                "fr": [
+                  "Mercredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8917e63e-36f2-3eeb-bc51-2047fd2b1a4a",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8a24e271-4400-3767-ae23-9acaaf110df7",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d641ce5a-5516-3d1d-afbc-3779748be323",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2020-01-13T00:00:00",
+          "schema:validThrough": "2020-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-05-04",
+  "lastUpdateDatatourisme": "2020-09-09T01:11:36.248Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0236ccd8-8a43-3fa9-8bf3-489a3016bb7d",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/35bb0526-b32e-3c26-8650-31984699565a",
+          "schema:maxPrice": [
+            "18"
+          ],
+          "schema:minPrice": [
+            "10"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "en": [
+          "French traditional cuisine"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ]
+      }
+    }
+  ],
+  "takeAway": true
+}

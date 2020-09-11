@@ -1,0 +1,216 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/2205d041-cb92-3551-ab33-db994172f7c3",
+  "dc:identifier": "LOIPDL072V505Z17",
+  "@type": [
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Pêcher sur l'Anille au pied d'un ancien moulin..."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "PECHER SUR L'ANILLE"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "COVID19OpeningPeriodsConfirmed": false,
+  "creationDate": "2015-06-16",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dba1e045-6a30-312b-8eef-88f38d4862b7",
+      "schema:email": [
+        "payscalaisien@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 35 82 95"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.officedetourisme-payscalaisien.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1efd81a4-f48a-3b02-a8b2-3e544a8e7859",
+      "dc:description": {
+        "fr": [
+          "Dans le village de la Chapelle-Huon, venez pêcher sur l'Anille, rivière de 1ère catégorie. Ce lieu sera apprécié des pêcheurs en solitaire et des familles ! \nAu pied d'un moulin dénommé \"Le Moulin Guillaume\", vous découvrez ce lieu pittoresque.\nVous pouvez stationner facilement à proximité."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Pêcher sur l'Anille au pied d'un ancien moulin..."
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/47947463-c6db-3495-95c1-b50153947a9d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8fae6a2c-c53d-3a17-a45d-df4ea2a2916f",
+          "schema:addressLocality": "La Chapelle-Huon",
+          "schema:postalCode": "72310",
+          "schema:streetAddress": [
+            "Le Moulin guillaume"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72064",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Chapelle-Huon"
+                ],
+                "fr": [
+                  "La Chapelle-Huon"
+                ]
+              },
+              "insee": "72064",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f5279183-d22a-3296-a327-57d7af26357a",
+        "schema:latitude": "47.8473892",
+        "schema:longitude": "0.75925676",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-06-25",
+  "lastUpdateDatatourisme": "2020-07-07T04:45:04.997Z"
+}

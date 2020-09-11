@@ -1,0 +1,265 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/93e40cbc-7eb5-3b11-9223-9b19af519de3",
+  "dc:identifier": "ITIPDL072V50EZGI",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "RANDONNÉE PÉDESTRE : CIRCUIT DE VAUPERON"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "DISSAY SOUS COURCILLON - CIRCUIT DE VAUPERON"
+    ]
+  },
+  "creationDate": "2017-10-04",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8d035265-902d-3bb0-8de3-61607e178f77",
+      "schema:email": [
+        "info@vallee-du-loir.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 38 16 60"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dbe2d367-2117-3cb1-8d7f-edfe167c8902",
+      "dc:description": {
+        "fr": [
+          "Suivez la vallée du Long et découvrez le château de Courcillon qui donna au village, son nom actuel."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "RANDONNÉE PÉDESTRE : CIRCUIT DE VAUPERON"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/11194d94-a21a-3e27-8a46-a5e73ac20d16",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6b1ef8a8-f30d-38e1-b01b-bb19c70ace57",
+          "ebucore:title": {
+            "fr": [
+              "TracesGPS-Dissay"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b2c37d4c-4987-30ff-80c6-12fff73ff197",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Fichier GPX"
+                ]
+              },
+              "rdfs:label": [
+                "application/gpx+xml"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://cdt72.media.tourinsoft.eu/upload/TracesGPS-Dissay.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Pedestrian"
+        ],
+        "fr": [
+          "Pédestre"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Loop itinerary"
+        ],
+        "fr": [
+          "En boucle"
+        ]
+      }
+    }
+  ],
+  "highDifference": "126.0",
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1502558b-cd60-3939-84c8-bd625ec1f8f9",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b5aebf69-f856-38ea-bfa3-807389795cbb",
+          "schema:addressLocality": "Dissay-sous-Courcillon",
+          "schema:postalCode": "72500",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72115",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Dissay-sous-Courcillon"
+                ],
+                "fr": [
+                  "Dissay-sous-Courcillon"
+                ]
+              },
+              "insee": "72115",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/e448ec7b-3fa5-3789-bae0-c7f845fc39ac",
+        "schema:latitude": "47.6647314",
+        "schema:longitude": "0.47500837",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-06-18",
+  "lastUpdateDatatourisme": "2020-07-07T02:53:23.689Z",
+  "tourDistance": "9500.0"
+}

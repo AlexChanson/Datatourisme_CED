@@ -1,0 +1,265 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/a0820865-c13f-3e6a-b7cf-1ff3470045c4",
+  "dc:identifier": "ITIPDL072V50EZ25",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Randonnée pédestre : A travers le vignoble"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "MARCON - RANDONNEE A TRAVERS LE VIGNOBLE"
+    ]
+  },
+  "creationDate": "2017-10-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8d035265-902d-3bb0-8de3-61607e178f77",
+      "schema:email": [
+        "info@vallee-du-loir.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 38 16 60"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2578e6eb-7d34-3ea5-ab78-ce74ecccefba",
+      "dc:description": {
+        "fr": [
+          "Au départ du village de Marçon, partez à la découverte du vignoble de la Vallée du Loir sur ce circuit créé par les résidents du foyer de vie ANAIS, implanté sur la commune."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Randonnée pédestre : A travers le vignoble"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0c09a4e5-9e43-33e7-97f4-be2dea5fe15f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0ae6c455-4179-3101-b582-e96b008bf2ea",
+          "ebucore:title": {
+            "fr": [
+              "TracesGPS-Marçon"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a0b41967-8b6f-3c2a-94d9-4012b1164a85",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Fichier GPX"
+                ]
+              },
+              "rdfs:label": [
+                "application/gpx+xml"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://cdt72.media.tourinsoft.eu/upload/TracesGPS-Marcon.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Pedestrian"
+        ],
+        "fr": [
+          "Pédestre"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Loop itinerary"
+        ],
+        "fr": [
+          "En boucle"
+        ]
+      }
+    }
+  ],
+  "highDifference": "117.0",
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d73a8d16-ebfd-37ce-88f8-b555ea0070c1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2d18c61e-5112-368b-91a3-96b7924bb0bd",
+          "schema:addressLocality": "Marçon",
+          "schema:postalCode": "72340",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72183",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Marçon"
+                ],
+                "fr": [
+                  "Marçon"
+                ]
+              },
+              "insee": "72183",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/7ab58e36-c0da-32e6-98a7-ed9ef6d2b3dc",
+        "schema:latitude": "47.71043",
+        "schema:longitude": "0.50972",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-06-18",
+  "lastUpdateDatatourisme": "2020-07-07T02:53:23.686Z",
+  "tourDistance": "8000.0"
+}

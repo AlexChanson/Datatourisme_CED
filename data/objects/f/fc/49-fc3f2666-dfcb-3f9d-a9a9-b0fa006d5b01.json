@@ -1,0 +1,241 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/fc3f2666-dfcb-3f9d-a9a9-b0fa006d5b01",
+  "dc:identifier": "DEGPDL072V508NOH",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TastingProvider"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Exploitation de chèvres avec visite et vente de fromages"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LES CAPRINES FROMAGERES"
+    ]
+  },
+  "creationDate": "2016-02-18",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/854968d2-ea36-3891-a20c-642fed71b2a1",
+      "schema:email": [
+        "marie.richard28@sfr.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 79 05 41"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/604e1d3d-0379-3ea0-bb39-88cafc3e3e89",
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Exploitation de chèvres avec visite et vente de fromages"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Cheese",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Cheese"
+        ],
+        "fr": [
+          "Fromage"
+        ]
+      }
+    },
+    {
+      "@id": "kb:DairyProducts",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Dairy products"
+        ],
+        "fr": [
+          "Produits laitiers"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9249208e-8e42-34ec-9bfc-d4af999a03b7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a9ced595-4f36-3134-ae75-1241b3fd700f",
+          "schema:addressLocality": "Marçon",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "La Champagne"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72183",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Marçon"
+                ],
+                "fr": [
+                  "Marçon"
+                ]
+              },
+              "insee": "72183",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/e74f5b2c-e260-3f63-882e-415b7293cf08",
+        "schema:latitude": "47.714473",
+        "schema:longitude": "0.50971",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-06-03",
+  "lastUpdateDatatourisme": "2020-08-02T03:53:14.114Z",
+  "providesFoodProduct": [
+    {
+      "@id": "kb:Cheese",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Cheese"
+        ],
+        "fr": [
+          "Fromage"
+        ]
+      }
+    },
+    {
+      "@id": "kb:DairyProducts",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Dairy products"
+        ],
+        "fr": [
+          "Produits laitiers"
+        ]
+      }
+    }
+  ]
+}

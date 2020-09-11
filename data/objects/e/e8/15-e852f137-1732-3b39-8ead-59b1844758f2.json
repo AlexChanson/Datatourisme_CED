@@ -1,0 +1,980 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/e852f137-1732-3b39-8ead-59b1844758f2",
+  "dc:identifier": "FMACENBERV505J6X",
+  "schema:endDate": [
+    "2020-12-13",
+    "2021-01-31",
+    "2021-02-28",
+    "2021-03-14",
+    "2021-03-28",
+    "2021-04-11",
+    "2021-04-25",
+    "2021-05-09"
+  ],
+  "schema:startDate": [
+    "2020-12-12",
+    "2021-01-31",
+    "2021-02-28",
+    "2021-03-14",
+    "2021-03-28",
+    "2021-04-11",
+    "2021-04-24",
+    "2021-05-08"
+  ],
+  "@type": [
+    "schema:Event",
+    "CulturalEvent",
+    "EntertainmentAndEvent",
+    "PointOfInterest",
+    "ShowEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Pour les fêtes, offrez-vous une bonne tranche de rire. Texte et mise en scène Jean-Christian Fraiscinet avec Jean-Christian Fraiscinet ou Vincent Fraiscinet ou Maxime Couton, Christèle Chappat ou Pauline Ymonet ou Mélissa Chatelet, Bertrand Duris ou Sébastien Fraiscinet."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Repas-spectacle  \"Tournée générale Spécial Fêtes\""
+    ]
+  },
+  "creationDate": "2019-09-09",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/b8f30684-e032-3483-ba1a-f2911755c19a",
+    "schema:legalName": "BERRY",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/051a8823-26b5-3e1b-8fd8-1d6890cee3e7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/618f3ab5-063c-3c21-8f93-55b02771ae22",
+          "schema:addressLocality": "Valençay",
+          "schema:postalCode": "36600",
+          "schema:streetAddress": [
+            "27 rue du four à plâtre"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36228",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Valençay"
+                ],
+                "fr": [
+                  "Valençay"
+                ]
+              },
+              "insee": "36228",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@cameleonproduction.fr"
+      ],
+      "schema:legalName": "Caméléon Production",
+      "schema:telephone": [
+        "+33 2 54 05 10 83"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.cameleonproduction.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cd3ef086-55c3-398e-a3b1-84d1380b5e43",
+      "dc:description": {
+        "fr": [
+          "Imaginez-vous, attablés dans un bistrot de campagne, un bon vieux petit bistrot comme on en fait plus... Vous y serez accueillis par Babette, la patronne, et vous y croiserez, à coup sûr, bon nombre d’habitués qui auront certainement des choses à raconter... Vous n’aurez qu’à tendre l’oreille et vous en apprendrez de belles !!! Au menu : Brèves de comptoir, coups de gueule et éclats de rire !!!"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "isDedicatedTo": [
+        {
+          "@id": "kb:Families",
+          "@type": [
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Families"
+            ],
+            "fr": [
+              "Familles"
+            ]
+          }
+        }
+      ],
+      "shortDescription": {
+        "fr": [
+          "Pour les fêtes, offrez-vous une bonne tranche de rire. Texte et mise en scène Jean-Christian Fraiscinet avec Jean-Christian Fraiscinet ou Vincent Fraiscinet ou Maxime Couton, Christèle Chappat ou Pauline Ymonet ou Mélissa Chatelet, Bertrand Duris ou Sébastien Fraiscinet."
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/aed42e88-d858-35d6-a6a4-5bff1947b714",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/11a45c82-0150-39ca-b420-8539fb0d4cab",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Tournée Générale"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Cie Caméléon Production"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6cb6e491-2083-3099-9114-44414ee568b8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Tournee-generale.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/18e46bd8-a38a-3426-9a2c-b611dcf06722",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cb8703fc-d3d8-3753-be5d-0e8fdcaea59b",
+          "ebucore:title": {
+            "fr": [
+              "Tournée Générale"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Cie Caméléon Production"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6cb6e491-2083-3099-9114-44414ee568b8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Tournee-generale.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/aed42e88-d858-35d6-a6a4-5bff1947b714",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/11a45c82-0150-39ca-b420-8539fb0d4cab",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Tournée Générale"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "© Cie Caméléon Production"
+          ],
+          "rightsEndDate": "2020-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6cb6e491-2083-3099-9114-44414ee568b8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Tournee-generale.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/538e23b1-dd8a-323a-9c75-103ac1196740",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2c1e5099-d108-3602-9baf-b37ed07ad3cb",
+          "schema:addressLocality": "Villentrois-Faverolles-en-Berry",
+          "schema:postalCode": "36600",
+          "schema:streetAddress": [
+            "Ferme théâtre de Bellevue"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36244",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villentrois-Faverolles-en-Berry"
+                ],
+                "fr": [
+                  "Villentrois-Faverolles-en-Berry"
+                ]
+              },
+              "insee": "36244",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/872d3f34-4c84-3b63-a72f-ddc0c199f8c8",
+        "schema:latitude": "47.179219",
+        "schema:longitude": "1.429735",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/171b4344-1dcd-3303-a0b1-3d0ccfd75868",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-03-14T00:00:00",
+          "schema:validThrough": "2021-03-14T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/198709f6-9442-3a92-88ed-570ef403cf9c",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-01-31T00:00:00",
+          "schema:validThrough": "2021-01-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/240694b2-aa4c-3159-bec9-04a8943a99ee",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-12-12T00:00:00",
+          "schema:validThrough": "2020-12-13T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/275a2046-5481-35b6-baaf-4c11a75a7754",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-03-28T00:00:00",
+          "schema:validThrough": "2021-03-28T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2f94eb37-04ce-3166-9b9e-5eba9c8e4660",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-05-08T00:00:00",
+          "schema:validThrough": "2021-05-09T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/35463027-4bd1-36ac-91ae-a28883672968",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-02-28T00:00:00",
+          "schema:validThrough": "2021-02-28T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3e1b4fb8-a500-30cc-a6a1-8d954548c011",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2021-05-08T00:00:00",
+          "schema:validThrough": "2021-05-09T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3e991dd0-139c-384f-8aca-2102d1b76996",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-04-11T00:00:00",
+          "schema:validThrough": "2021-04-11T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5f4e743d-7083-3b95-ad43-43e104b02aa3",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2020-12-12T00:00:00",
+          "schema:validThrough": "2020-12-13T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/82c5bd7f-177e-384b-9932-9749842208d0",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:30:00",
+          "schema:validFrom": "2021-04-24T00:00:00",
+          "schema:validThrough": "2021-04-25T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e0fc4c75-9911-3952-ae2b-7ebfc19b9c8e",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saturday"
+                ],
+                "fr": [
+                  "Samedi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2021-04-24T00:00:00",
+          "schema:validThrough": "2021-04-25T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-06-20",
+  "lastUpdateDatatourisme": "2020-07-07T04:01:02.382Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a238ac5-1ffb-3dd3-a08c-ccd60967df68",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/28b19525-1664-3a75-abbe-213b31aef9d4",
+          "schema:minPrice": [
+            "57"
+          ],
+          "schema:price": "57",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Group",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Group rate"
+              ],
+              "fr": [
+                "Tarif Groupe"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4073d764-4de3-396f-b563-c3c920f57d02",
+          "schema:minPrice": [
+            "59"
+          ],
+          "schema:price": "59",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8926f5ee-0c1f-346e-820f-796f85b1311c",
+          "schema:minPrice": [
+            "30"
+          ],
+          "schema:price": "30",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1e9218b6-f6ce-3bff-81d6-6d2a85cbd223",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-05-09",
+      "startDate": "2021-05-08"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/20391c5e-5939-3fb0-944f-3c9528eebff7",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-02-28",
+      "startDate": "2021-02-28",
+      "startTime": "12:30:00"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2aaf9bfc-e560-39bd-bb11-b874c830a046",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-12-13",
+      "startDate": "2020-12-12"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6a7ed4a3-3174-3992-8071-6b2fec84e7eb",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-03-14",
+      "startDate": "2021-03-14",
+      "startTime": "12:30:00"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8b810451-89fe-3001-9ed3-1a5b58d05078",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-03-28",
+      "startDate": "2021-03-28",
+      "startTime": "12:30:00"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c9f11c4f-e667-3f25-b47f-ee7eddf84f18",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-01-31",
+      "startDate": "2021-01-31",
+      "startTime": "12:30:00"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c9f8e433-4c49-39ca-bb71-d3ef44525606",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-04-11",
+      "startDate": "2021-04-11",
+      "startTime": "12:30:00"
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dbdbb216-cae1-3ee4-b5a1-534c695e1795",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2021-04-25",
+      "startDate": "2021-04-24"
+    }
+  ]
+}

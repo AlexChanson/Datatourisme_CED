@@ -1,0 +1,325 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/7656a79c-70a6-3509-beed-1627f4e31108",
+  "dc:identifier": "ACCCEN041V500ITK",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Voici 12 emplacements réservés aux camping-cars sur un terrain stabilisé et plat. Chaque emplacement dispose d'une aire pour disposer un coin repas (Chaises et table), une prise d'électricité. Une borne de service EURORELAIS est à disposition."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de camping-cars de Saint-Georges-sur-Cher"
+    ]
+  },
+  "allowedPersons": 12,
+  "creationDate": "2016-08-24",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/021cfb94-76d7-385b-af1c-811907eb8c60",
+      "schema:email": [
+        "mairie.st.georges41@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 32 64 42"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.saintgeorgessurcher.net/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/021cfb94-76d7-385b-af1c-811907eb8c60",
+      "schema:email": [
+        "mairie.st.georges41@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 32 64 42"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.saintgeorgessurcher.net/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/07da4e82-962c-3fe6-9adf-8ca47a32763c",
+      "schema:email": [
+        "mairie.st.georges41@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 32 30 19"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.saintgeorgessurcher.net/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ee0e0188-dfc1-38e1-be63-9e10150d3907",
+      "dc:description": {
+        "fr": [
+          "Voici 12 emplacements réservés aux camping-cars sur un terrain stabilisé et plat. Chaque emplacement dispose d'une aire pour disposer un coin repas (Chaises et table), une prise d'électricité. Une borne de service EURORELAIS est à disposition. Les jetons pour cette borne de services sont à prendre chez les commerçants ou à la Mairie. Il y a un éclairage de sécurité pendant la nuit."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Voici 12 emplacements réservés aux camping-cars sur un terrain stabilisé et plat. Chaque emplacement dispose d'une aire pour disposer un coin repas (Chaises et table), une prise d'électricité. Une borne de service EURORELAIS est à disposition."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2dcf9928-aaf4-3b60-bc4e-ebaa81bf2d7c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper service point"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChemicalToiletEmptying",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chemical toilets emptying"
+            ],
+            "fr": [
+              "Vidange toilettes chimiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Container",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Container"
+            ],
+            "fr": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Electrical connections"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/70d5a131-503c-3a65-8052-019bff52470b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/99f7c960-c60d-3004-a505-1fc1cdc1b321",
+          "schema:addressLocality": "Saint-Georges-sur-Cher",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "rue de Verdun"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41211",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Georges-sur-Cher"
+                ],
+                "fr": [
+                  "Saint-Georges-sur-Cher"
+                ]
+              },
+              "insee": "41211",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/6c7ba27e-6b34-305b-85d9-a895ff2c970a",
+        "schema:latitude": "47.3260609",
+        "schema:longitude": "1.1237861",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-03-31",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.782Z"
+}

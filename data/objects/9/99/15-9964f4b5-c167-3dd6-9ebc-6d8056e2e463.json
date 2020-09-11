@@ -1,0 +1,994 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/9964f4b5-c167-3dd6-9ebc-6d8056e2e463",
+  "dc:identifier": "LOI41AAACT100715",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SightseeingBoat",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Fun cruises on the river for an environmenttaly-conscious and authentic experience of the Loire, with its flora and fauna, its whims and eccentricities, its history and its legacy for the centuries of men and women that have sailed its water. Departure from Amboise and Chaumont-sur-Loire."
+    ],
+    "fr": [
+      "Promenades conviviales sur la Loire en bateaux traditionnels (embarcations de 12 personnes). Rencontre authentique avec le fleuve, sa nature et son histoire. Départs de Chaumont-sur-Loire et Amboise."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Traditional boat outings from Chaumont or Amboise to discover the River Loire"
+    ],
+    "fr": [
+      "Balade en bateau traditionnel sur la Loire avec Millière Raboton"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3f0bd453-cba6-37b8-a4ba-c6861134407c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e02692b2-baa4-3269-8f6b-fc248bcec8b5",
+          "schema:addressLocality": "Chaumont-sur-Loire",
+          "schema:postalCode": "41150",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41045",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chaumont-sur-Loire"
+                ],
+                "fr": [
+                  "Chaumont-sur-Loire"
+                ]
+              },
+              "insee": "41045",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@milliere-raboton.net"
+      ],
+      "schema:telephone": [
+        "+33 6 88 76 57 14"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.milliere-raboton.net/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3f0bd453-cba6-37b8-a4ba-c6861134407c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e02692b2-baa4-3269-8f6b-fc248bcec8b5",
+          "schema:addressLocality": "Chaumont-sur-Loire",
+          "schema:postalCode": "41150",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41045",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chaumont-sur-Loire"
+                ],
+                "fr": [
+                  "Chaumont-sur-Loire"
+                ]
+              },
+              "insee": "41045",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@milliere-raboton.net"
+      ],
+      "schema:telephone": [
+        "+33 6 88 76 57 14"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.milliere-raboton.net/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7053d92d-06b9-32b4-b29a-42ef5f996a6b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e02692b2-baa4-3269-8f6b-fc248bcec8b5",
+          "schema:addressLocality": "Chaumont-sur-Loire",
+          "schema:postalCode": "41150",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41045",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chaumont-sur-Loire"
+                ],
+                "fr": [
+                  "Chaumont-sur-Loire"
+                ]
+              },
+              "insee": "41045",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@milliere-raboton.net"
+      ],
+      "schema:legalName": "Découverte de la Loire en bateau traditionnel au départ de Chaumont",
+      "schema:telephone": [
+        "+33 6 88 76 57 14"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.milliere-raboton.net/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b6adf41f-6733-3279-a522-0a61961f380c",
+      "dc:description": {
+        "en": [
+          "Fun cruises on the river for an environmenttaly-conscious and authentic experience of the Loire, with its flora and fauna, its whims and eccentricities, its history and its legacy for the centuries of men and women that have sailed its water. Departure from Amboise and Chaumont-sur-Loire."
+        ],
+        "fr": [
+          "Promenades conviviales sur la Loire en bateaux traditionnels (embarcations de 12 personnes). Rencontre authentique avec le fleuve, sa nature et son histoire. Départs de Chaumont-sur-Loire et Amboise. Promenade-découverte (1 h 30) ; Promenade à l'aube et en soirée au crépuscule ; sortie privée à usage exclusif du bateau (12 passagers et le pilote). Suppl. 30 % avant 9 h et après 19 h."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Fun cruises on the river for an environmenttaly-conscious and authentic experience of the Loire, with its flora and fauna, its whims and eccentricities, its history and its legacy for the centuries of men and women that have sailed its water. Departure from Amboise and Chaumont-sur-Loire."
+        ],
+        "fr": [
+          "Promenades conviviales sur la Loire en bateaux traditionnels (embarcations de 12 personnes). Rencontre authentique avec le fleuve, sa nature et son histoire. Départs de Chaumont-sur-Loire et Amboise."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d6701253-0020-348e-b2c0-79d3a5047d8b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3190e1c3-8f3e-3fe4-a96f-a74cc0877e93",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89107946-699b-349b-bd77-b601f65ea168",
+          "ebucore:title": {
+            "fr": [
+              "Balade-Bateau-Ass-Raboton-Chaumont"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2023-12-31",
+          "rightsStartDate": "2020-08-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/44eb2b05-948b-3647-b1dd-f1b1792a5b9b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balade-Bateau-Ass-Raboton-Chaumont-Laurent-Alvarez-ADT41--43-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3190e1c3-8f3e-3fe4-a96f-a74cc0877e93",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89107946-699b-349b-bd77-b601f65ea168",
+          "ebucore:title": {
+            "fr": [
+              "Balade-Bateau-Ass-Raboton-Chaumont"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2023-12-31",
+          "rightsStartDate": "2020-08-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/44eb2b05-948b-3647-b1dd-f1b1792a5b9b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balade-Bateau-Ass-Raboton-Chaumont-Laurent-Alvarez-ADT41--43-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/594f7fc0-e771-33a8-a129-6f3e0d066dd1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89107946-699b-349b-bd77-b601f65ea168",
+          "ebucore:title": {
+            "fr": [
+              "Balade-Bateau-Ass-Raboton-Chaumont"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2023-12-31",
+          "rightsStartDate": "2020-08-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8f8c7065-b1e0-36c1-8c38-aa76029e0dcd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balade-Bateau-Ass-Raboton-Chaumont-Laurent-Alvarez-ADT41--25-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6d337864-73d5-3eb7-9fb4-51af1f6593cf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89107946-699b-349b-bd77-b601f65ea168",
+          "ebucore:title": {
+            "fr": [
+              "Balade-Bateau-Ass-Raboton-Chaumont"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2023-12-31",
+          "rightsStartDate": "2020-08-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c9d05cc3-6458-3542-b3c5-98d198c4fa84",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balade-Bateau-Ass-Raboton-Chaumont-Laurent-Alvarez-ADT41--26-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/914b0d72-dfa2-3fd9-b368-8ff975cffc37",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b826cd60-eba1-3039-9262-d5286749b1f4",
+          "ebucore:title": {
+            "fr": [
+              "Balade-Bateau-Ass-Raboton-Chaumont-sur-Loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Studio-Mir-ADT41"
+          ],
+          "rightsEndDate": "2023-12-31",
+          "rightsStartDate": "2020-08-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9e72c177-f08c-3ff6-bf40-c5fd3c130cca",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balade-Bateau-Ass-Raboton-Chaumont-sur-Loire-Studio-Mir-ADT41--15-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c0b1d9bf-c148-3157-a084-eed2c3eec2fb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/89107946-699b-349b-bd77-b601f65ea168",
+          "ebucore:title": {
+            "fr": [
+              "Balade-Bateau-Ass-Raboton-Chaumont"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2023-12-31",
+          "rightsStartDate": "2020-08-12"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ce027090-50a9-36f3-99ed-0f3572fc62f5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balade-Bateau-Ass-Raboton-Chaumont-Laurent-Alvarez-ADT41--21-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7b1a39ff-1286-3561-a06f-1aa9f98420cb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_AccueilVelo",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Accueil Vélo"
+          ],
+          "fr": [
+            "Accueil Vélo"
+          ]
+        },
+        "isCompliantWith": [
+          "PlaceOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:PleasureBoating",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Pleasure boating"
+        ],
+        "fr": [
+          "Bateau promenade"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2f662eec-ca62-3634-9317-1dfb9fe436cd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e02692b2-baa4-3269-8f6b-fc248bcec8b5",
+          "schema:addressLocality": "Chaumont-sur-Loire",
+          "schema:postalCode": "41150",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41045",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chaumont-sur-Loire"
+                ],
+                "fr": [
+                  "Chaumont-sur-Loire"
+                ]
+              },
+              "insee": "41045",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ba0b598f-1c7a-3ec6-b42e-9176aa21df7c",
+        "schema:latitude": "47.480012",
+        "schema:longitude": "1.182876",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-12",
+  "lastUpdateDatatourisme": "2020-08-13T09:00:52.743Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6d07d753-9cc2-3f20-9fe4-23f572290168",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3f4c1152-bdda-3b0e-b4c7-6a6d3c32966a",
+          "schema:maxPrice": [
+            "20"
+          ],
+          "schema:minPrice": [
+            "12"
+          ],
+          "schema:price": "12",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/48ade562-7813-3462-afcd-a62881d019de",
+          "schema:maxPrice": [
+            "48"
+          ],
+          "schema:minPrice": [
+            "20"
+          ],
+          "schema:price": "20",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/91793f26-a7c7-3fcd-bf0d-8fffb2554776",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Group",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Group rate"
+              ],
+              "fr": [
+                "Tarif Groupe"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,866 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c095ba95-3bb7-3ea2-adcf-637fdbbb3e24",
+  "dc:identifier": "PCU41AASOR100042",
+  "@type": [
+    "CityHeritage",
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Discover this picturesque village in the Loire valley, with typical houses. It is the former port of Chambord."
+    ],
+    "fr": [
+      "Découvrez ce village pittoresque des bords de Loire, ses maisons typiques et l'ancien port de Chambord."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Visit of the village of Saint-Dyé-sur-Loire"
+    ],
+    "fr": [
+      "Visite du village de Saint-Dyé-sur-Loire"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0118163b-23bd-360e-b27c-f56983745a0a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be3fcca4-3a57-3606-a672-5d23c1539ef6",
+          "schema:addressLocality": "Saint-Dyé-sur-Loire",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "73 Rue Nationale"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41207",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Dyé-sur-Loire"
+                ],
+                "fr": [
+                  "Saint-Dyé-sur-Loire"
+                ]
+              },
+              "insee": "41207",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@maisondeloire41.fr"
+      ],
+      "schema:legalName": "Visite du village de Saint-Dyé-sur-Loire",
+      "schema:telephone": [
+        "+33 2 54 81 68 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.maisondeloire41.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0118163b-23bd-360e-b27c-f56983745a0a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be3fcca4-3a57-3606-a672-5d23c1539ef6",
+          "schema:addressLocality": "Saint-Dyé-sur-Loire",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "73 Rue Nationale"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41207",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Dyé-sur-Loire"
+                ],
+                "fr": [
+                  "Saint-Dyé-sur-Loire"
+                ]
+              },
+              "insee": "41207",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@maisondeloire41.fr"
+      ],
+      "schema:legalName": "Visite du village de Saint-Dyé-sur-Loire",
+      "schema:telephone": [
+        "+33 2 54 81 68 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.maisondeloire41.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9fbae3ec-dfad-3567-a224-372f75e0503e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be3fcca4-3a57-3606-a672-5d23c1539ef6",
+          "schema:addressLocality": "Saint-Dyé-sur-Loire",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "73 Rue Nationale"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41207",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Dyé-sur-Loire"
+                ],
+                "fr": [
+                  "Saint-Dyé-sur-Loire"
+                ]
+              },
+              "insee": "41207",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "helene.marchiset@maisondeloire41.fr"
+      ],
+      "schema:legalName": "Visite du village de Saint-Dyé-sur-Loire",
+      "schema:telephone": [
+        "+33 2 54 81 68 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.maisondeloire41.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b7af042e-ecb8-37ef-b818-bb2cc00d2121",
+      "dc:description": {
+        "en": [
+          "The small fortified village of St-Dye-sur-Loire (950 inhabitants) is without any doubt one of the most charming villages on the banks of the Loire.  It has conserved its rich heritage of active port (the materials used to construct Chambord arrived here), its 15th, 16th, and 17th century houses, as well as a large portion of its fortifications: eight round towers (out of fifteen), and the ramparts which defended yesteryear the town, and the rectangular enclosed area with its four entries (towards Blois, Orleans, Chambord, and the Loire). All year round, free access any time.<br><br>Also: <br>- Guided visit.<br>- Pedestrian circuit discovered."
+        ],
+        "fr": [
+          "Au détour de ses ruelles, le petit village de Saint-Dyé vous fait découvrir son patrimoine architectural et ses bords de Loire. Il a conservé de son passé florissant de port actif (où les matériaux de construction de Chambord arrivaient), de jolies maisons des XVe, XVIe et XVIIe s., ainsi qu'une partie importante de ses fortifications : six tours d'angle circulaires (sur quinze) et les remparts qui défendaient autrefois le bourg, l'enceinte rectangulaire avec ses trois entrées."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Discover this picturesque village in the Loire valley, with typical houses. It is the former port of Chambord."
+        ],
+        "fr": [
+          "Découvrez ce village pittoresque des bords de Loire, ses maisons typiques et l'ancien port de Chambord."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ccb6fbe2-7515-3198-9fb6-447320812a73",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BikeHire",
+          "@type": [
+            "CommonAmenity",
+            "RentalPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bike hire"
+            ],
+            "fr": [
+              "Location de vélo"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Picnic area"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/76e19096-844e-3246-ae24-603fd5f18d24",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a7b4573e-65af-3225-a2d8-558f57f23f32",
+          "ebucore:title": {
+            "fr": [
+              "Balades-Rando-St-Dye©Laurent-Alvarez-ADT41-(3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2022-12-31",
+          "rightsStartDate": "2019-08-08"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f607d682-71fa-3cff-9c66-e239f89e7e9b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balades-Rando-St-Dye-Laurent-Alvarez-ADT41--3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/46687df9-0805-3474-a957-0d8666de0485",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3fe7cecc-b62a-3c6f-8d65-6accab0ad496",
+          "ebucore:title": {
+            "fr": [
+              "sologne-eglise-saint-dye-sur-loire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "adt41"
+          ],
+          "rightsEndDate": "2023-03-09",
+          "rightsStartDate": "2018-03-09"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d9b67f70-2850-3ddf-9a96-3e4dbc115ad4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/sologne-eglise-saint-dye-sur-loire.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/76e19096-844e-3246-ae24-603fd5f18d24",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a7b4573e-65af-3225-a2d8-558f57f23f32",
+          "ebucore:title": {
+            "fr": [
+              "Balades-Rando-St-Dye©Laurent-Alvarez-ADT41-(3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2022-12-31",
+          "rightsStartDate": "2019-08-08"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f607d682-71fa-3cff-9c66-e239f89e7e9b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balades-Rando-St-Dye-Laurent-Alvarez-ADT41--3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f0ac3a9d-4101-38f6-86b3-74bed9a10152",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e84d16b0-264f-337d-b7fb-e7577889d7dc",
+          "ebucore:title": {
+            "fr": [
+              "Balades-Rando-St-Dye©Laurent-Alvarez-ADT41-(2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Laurent-Alvarez-ADT41"
+          ],
+          "rightsEndDate": "2022-12-31",
+          "rightsStartDate": "2019-08-08"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2bd24327-aa17-33a0-8c1e-aa63617ae245",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Balades-Rando-St-Dye-Laurent-Alvarez-ADT41--2-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7968c38c-594e-330b-82a7-4dd452ac78ee",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be3fcca4-3a57-3606-a672-5d23c1539ef6",
+          "schema:addressLocality": "Saint-Dyé-sur-Loire",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "73 Rue Nationale"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41207",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Dyé-sur-Loire"
+                ],
+                "fr": [
+                  "Saint-Dyé-sur-Loire"
+                ]
+              },
+              "insee": "41207",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/df10f762-76e2-3258-aeb3-245933fdcbdc",
+        "schema:latitude": "47.65",
+        "schema:longitude": "1.48",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-10",
+  "lastUpdateDatatourisme": "2020-09-09T14:01:26.836Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/435ffd92-8258-3897-b272-520cc15430c4",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2bb43ab8-1fb5-3be3-818c-98c3ce386ba7",
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4d416a7c-82ca-3bc4-9b28-58ad7a523fa0",
+          "schema:minPrice": [
+            "6"
+          ],
+          "schema:price": "6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d32536c2-67b9-3fb7-a5d6-7468c906dd70",
+          "schema:maxPrice": [
+            "180"
+          ],
+          "schema:minPrice": [
+            "110"
+          ],
+          "schema:price": "110",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(Visite guidée)"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

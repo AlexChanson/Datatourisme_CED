@@ -1,0 +1,836 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/01fd92a0-dea2-38ac-a301-42d5ee38872b",
+  "dc:identifier": "HLOCEN041V5005N0",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Chalet",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Come and sleep in a barrel facing the vines! Equipped with all modern comforts, such as Diogenes, you will experience the experience of roundness. Loved in your alcove, you will not tire of contemplating the vineyard that faces you. Then, go to the cellar for a tasting of our cuvées."
+    ],
+    "fr": [
+      "Venez dormir dans un tonneau posé face aux vignes ! Equipé de tout le confort moderne, vous profiterez d'une immersion totale au sein de notre domaine viticole. Visite du chai à combiner avec une dégustation de nos vins!"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Coup de Foudre"
+    ],
+    "fr": [
+      "Coup de Foudre"
+    ]
+  },
+  "allowedPersons": 3,
+  "availableLanguage": [
+    "en",
+    "fr",
+    "it"
+  ],
+  "creationDate": "2015-09-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/39272670-44bb-36fa-b2f6-0ea575ea2289",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f36abde7-0939-3760-afed-cf2ad872baf9",
+          "schema:addressLocality": "Cheverny",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41050",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Cheverny"
+                ],
+                "fr": [
+                  "Cheverny"
+                ]
+              },
+              "insee": "41050",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@domaine-de-montcy.com"
+      ],
+      "schema:legalName": "Coup de Foudre",
+      "schema:telephone": [
+        "+33 2 54 44 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.domaine-de-montcy.com/?page_id=5353"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/39272670-44bb-36fa-b2f6-0ea575ea2289",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f36abde7-0939-3760-afed-cf2ad872baf9",
+          "schema:addressLocality": "Cheverny",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41050",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Cheverny"
+                ],
+                "fr": [
+                  "Cheverny"
+                ]
+              },
+              "insee": "41050",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@domaine-de-montcy.com"
+      ],
+      "schema:legalName": "Coup de Foudre",
+      "schema:telephone": [
+        "+33 2 54 44 20 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.domaine-de-montcy.com/?page_id=5353"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab8f4577-2978-31cb-b28e-31fd616ad897",
+      "dc:description": {
+        "en": [
+          "Come and sleep in a barrel facing the vines! Equipped with all modern comforts, such as Diogenes, you will experience the experience of roundness. Loved in your alcove, you will not tire of contemplating the vineyard that faces you. Then, go to the cellar for a tasting of our cuvées."
+        ],
+        "fr": [
+          "Venez dormir dans un tonneau posé face aux vignes ! Equipé de tout le confort moderne, tel Diogène, vous vivrez l’expérience de la rotondité. Lovés dans votre alcôve, vous ne vous lasserez pas de contempler le vignoble qui vous fait face. Ensuite, rendez-vous au chai pour une dégustation de nos cuvées."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Come and sleep in a barrel facing the vines! Equipped with all modern comforts, such as Diogenes, you will experience the experience of roundness. Loved in your alcove, you will not tire of contemplating the vineyard that faces you. Then, go to the cellar for a tasting of our cuvées."
+        ],
+        "fr": [
+          "Venez dormir dans un tonneau posé face aux vignes ! Equipé de tout le confort moderne, vous profiterez d'une immersion totale au sein de notre domaine viticole. Visite du chai à combiner avec une dégustation de nos vins!"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da9f4ea3-3f14-3135-ba1b-ebb2208fd359",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasFloorSize": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1ab43d16-06a4-3a63-a514-7f7073e16b83",
+      "schema:unitText": [
+        "M2"
+      ],
+      "schema:value": "18",
+      "@type": [
+        "schema:QuantitativeValue"
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/93022020-2a06-3dda-9f41-4ece511f56b1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0eed6321-a062-3973-96e6-96ffe9dba2ef",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Meuble-coup-de-foudre-domaine-de-montcy-cheverny (1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Domaine de Montcy"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e4557b66-23e2-3ee3-81f5-ff436380eae4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Meuble-coup-de-foudre-domaine-de-montcy-cheverny--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/435faaf6-db0b-359f-b040-ddd1edb001c3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/15509e1d-3423-3d6b-84b1-ac0a676e6370",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Meuble-coup-de-foudre-domaine-de-montcy-cheverny (4)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Domaine de Montcy"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a1422dcb-93b4-33dd-a497-2c70e48cc95c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Meuble-coup-de-foudre-domaine-de-montcy-cheverny--4-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/591bbbd5-e0d7-385f-bcb7-336ac8ab75d8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3e8cc696-1a01-3ffe-a275-80c3fa772cf5",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Meuble-coup-de-foudre-domaine-de-montcy-cheverny (3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Domaine de Montcy"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/18375118-a054-3bad-b23e-5952063eb602",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Meuble-coup-de-foudre-domaine-de-montcy-cheverny--3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/93022020-2a06-3dda-9f41-4ece511f56b1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0eed6321-a062-3973-96e6-96ffe9dba2ef",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Meuble-coup-de-foudre-domaine-de-montcy-cheverny (1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Domaine de Montcy"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e4557b66-23e2-3ee3-81f5-ff436380eae4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Meuble-coup-de-foudre-domaine-de-montcy-cheverny--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d4778450-0b84-392a-8fa6-ec3b99c7b06e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/38e659b7-8f06-34d9-bdcc-1449df25930b",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Meuble-coup-de-foudre-domaine-de-montcy-cheverny (2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Domaine de Montcy"
+          ],
+          "rightsEndDate": "2017-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e7a23c2a-a019-30f4-96a8-725bd7a9cb0a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Meuble-coup-de-foudre-domaine-de-montcy-cheverny--2-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/50877d43-0356-3f59-8645-d2679f975701",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "1 étoile"
+          ],
+          "fr": [
+            "1 étoile"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/085f2949-a309-36e9-a37d-a8faa0ea9372",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2fd0813e-08c6-3caf-9293-9e56121d0b68",
+          "schema:addressLocality": "Cheverny",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "32 route de Fougères",
+            "Domaine de Montcy"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41050",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Cheverny"
+                ],
+                "fr": [
+                  "Cheverny"
+                ]
+              },
+              "insee": "41050",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/97f45ab7-1c5e-3844-baca-8ab415d8a213",
+        "schema:latitude": "47.4825827",
+        "schema:longitude": "1.4237594",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-07",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.344Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f1e4d3be-f374-3803-b68b-7df377de09bc",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/701e454a-448f-3e83-aa84-adcc5c8d0f64",
+          "schema:minPrice": [
+            "125"
+          ],
+          "schema:price": "125",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bad99f11-101c-3f97-b041-2ea5a072dff5",
+          "schema:maxPrice": [
+            "500"
+          ],
+          "schema:minPrice": [
+            "450"
+          ],
+          "schema:price": "450",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,324 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/2a639d9b-a5e8-324d-b2eb-99eb6a7351ee",
+  "dc:identifier": "ORGCEN037FS001EI",
+  "@type": [
+    "schema:TouristInformationCenter",
+    "LocalTouristOffice",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TouristInformationCenter"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "L'Office de Tourisme vous accueille d'avril à fin septembre, vous apporte toutes les informations sur les activités, les sites à visiter et vous propose une gamme de services pour agrémenter et faciliter votre séjour."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Rochecorbon Tourist Office"
+    ],
+    "fr": [
+      "Office de tourisme Tours Val de Loire - Antenne de Rochecorbon"
+    ]
+  },
+  "COVID19InOperationConfirmed": false,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2009-05-17",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2930dd7-1039-35f5-933e-6a724440cae7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1b9ca062-da1b-39e8-b0f2-61a7a181f9e9",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "Place de la Lanterne"
+          ],
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "rochecorbon@tours-tourisme.fr"
+      ],
+      "schema:legalName": "Office de Tourisme de Rochecorbon Tours Val de Loire",
+      "schema:telephone": [
+        "+33 2 47 39 36 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tours-tourisme.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3090e751-500c-3a71-96e5-9a14059860e5",
+      "dc:description": {
+        "fr": [
+          "L'Office de Tourisme vous accueille d'avril à fin septembre, vous apporte toutes les informations sur les activités, les sites à visiter et vous propose une gamme de services pour agrémenter et faciliter votre séjour."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "L'Office de Tourisme vous accueille d'avril à fin septembre, vous apporte toutes les informations sur les activités, les sites à visiter et vous propose une gamme de services pour agrémenter et faciliter votre séjour."
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/16719381-d0ff-3d4f-8614-22ab9b92cc0c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b975020d-16f4-3b57-b128-d1497ad22203",
+          "schema:addressLocality": "Rochecorbon",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "56 quai de la Loire"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37203",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Rochecorbon"
+                ],
+                "fr": [
+                  "Rochecorbon"
+                ]
+              },
+              "insee": "37203",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/536c53a0-61a3-3600-a199-d02e27ac26f4",
+        "schema:latitude": "47.4087203",
+        "schema:longitude": "0.75739256",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-06-24",
+  "lastUpdateDatatourisme": "2020-07-06T23:44:18.459Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6b807c1d-7446-36eb-b3e2-1e9e31b0fddf",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

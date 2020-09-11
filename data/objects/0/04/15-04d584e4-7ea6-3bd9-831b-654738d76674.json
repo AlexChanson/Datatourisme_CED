@@ -1,0 +1,225 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/04d584e4-7ea6-3bd9-831b-654738d76674",
+  "dc:identifier": "ACCCEN000V5000EH",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Situation : parking de la salle des fêtes. - Stationnement (3 emplacements) gratuit."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de stationnement pour camping-cars - Montlivault"
+    ]
+  },
+  "allowedPersons": 3,
+  "creationDate": "2013-10-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/85e6ce1c-3dca-338f-984a-da5cd227360e",
+      "schema:telephone": [
+        "+33 2 54 20 62 18"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/85e6ce1c-3dca-338f-984a-da5cd227360e",
+      "schema:telephone": [
+        "+33 2 54 20 62 18"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b62a4482-0932-3022-bbe1-15f64c9f515a",
+      "schema:email": [
+        "mairie.montlivault@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 20 62 18"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/31ffb59c-2969-3cc2-84b6-a48e12d21e69",
+      "dc:description": {
+        "fr": [
+          "Situation : parking de la salle des fêtes. - Stationnement (3 emplacements) gratuit."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Situation : parking de la salle des fêtes. - Stationnement (3 emplacements) gratuit."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19633ebc-34c8-3148-aed9-91e9827adee2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f24dec68-2683-3f14-b398-18090f922740",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7ccec1fa-35cc-3ccc-a4e5-3ccfb38cab4c",
+          "schema:addressLocality": "Montlivault",
+          "schema:postalCode": "41350",
+          "schema:streetAddress": [
+            "Grande rue"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41148",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montlivault"
+                ],
+                "fr": [
+                  "Montlivault"
+                ]
+              },
+              "insee": "41148",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/bfc6ddd7-704f-3684-bff9-b4a1fd26853d",
+        "schema:latitude": "47.63",
+        "schema:longitude": "1.44",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2018-01-02",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.781Z"
+}

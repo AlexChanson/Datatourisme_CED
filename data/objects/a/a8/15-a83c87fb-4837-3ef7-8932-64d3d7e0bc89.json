@@ -1,0 +1,786 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a83c87fb-4837-3ef7-8932-64d3d7e0bc89",
+  "dc:identifier": "ASCCEN0410011524",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Nature discovery trips as scheduled by the “Instants de Nature” activities calendar : discovery wildlife, reserve of Malzone in Millançay, Maison de la Chasse et de la Nature at Montrieux-en-Sologne (with a trail of waterbirds, a glazed educational pond). Ideal for groups."
+    ],
+    "fr": [
+      "Balades découverte nature en Loir-et-Cher selon le calendrier d’animations “Instants de Nature” : rencontres avec la faune (brame...), balades nature, réserve de Malzoné (Millançay), Maison de la Chasse et de la Nature à Montrieux-en-Sologne (découverte des oiseaux d'eau, mare pédagogique vitrée)."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Nature outings in the Loir-et-Cher"
+    ],
+    "fr": [
+      "Balades découverte nature en Loir-et-Cher - \"Instants de Nature\""
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ca3bbaaf-9ed4-381e-ade6-47604799cbc0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5900698d-bb0a-3f1e-89d8-df61d5e60036",
+          "schema:addressLocality": "Vineuil",
+          "schema:postalCode": "41350",
+          "schema:streetAddress": [
+            "36, rue des Laudières",
+            "Fédération Départementale des Chasseurs de Loir-et-Cher (FDC41)"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41295",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vineuil"
+                ],
+                "fr": [
+                  "Vineuil"
+                ]
+              },
+              "insee": "41295",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "animation.environnement.fdc41@orange.fr"
+      ],
+      "schema:legalName": "Balades découverte nature en Loir-et-Cher",
+      "schema:telephone": [
+        "+33 6 81 66 56 09"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chasseursducentrevaldeloire.fr/fdc41"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6994e1d1-3161-37b7-badf-e3f2a6082dc9",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c7830a7a-3891-302d-b15b-321452f73a73",
+          "schema:addressLocality": "Vineuil",
+          "schema:postalCode": "41350",
+          "schema:streetAddress": [
+            "36, rue des Laudières",
+            "Fédération Départementale des Chasseurs de Loir-et-Cher (FDC41)"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41295",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vineuil"
+                ],
+                "fr": [
+                  "Vineuil"
+                ]
+              },
+              "insee": "41295",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "animation.environnement.fdc41@orange.fr"
+      ],
+      "schema:legalName": "Balades découverte nature en Loir-et-Cher",
+      "schema:telephone": [
+        "+33 6 81 66 56 09"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chasseursducentrevaldeloire.fr/fdc41"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ca3bbaaf-9ed4-381e-ade6-47604799cbc0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5900698d-bb0a-3f1e-89d8-df61d5e60036",
+          "schema:addressLocality": "Vineuil",
+          "schema:postalCode": "41350",
+          "schema:streetAddress": [
+            "36, rue des Laudières",
+            "Fédération Départementale des Chasseurs de Loir-et-Cher (FDC41)"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41295",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vineuil"
+                ],
+                "fr": [
+                  "Vineuil"
+                ]
+              },
+              "insee": "41295",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "animation.environnement.fdc41@orange.fr"
+      ],
+      "schema:legalName": "Balades découverte nature en Loir-et-Cher",
+      "schema:telephone": [
+        "+33 6 81 66 56 09"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chasseursducentrevaldeloire.fr/fdc41"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/706286ff-07b6-3808-a9d4-346dab0b955a",
+      "dc:description": {
+        "en": [
+          "Nature discovery trips as scheduled by the “Instants de Nature” activities calendar. Maison de la Chasse et de la Nature at Montrieux-en-Sologne (an estate of 14 hectares with a lake and typical Sologne building). Water birds discovery trail. Ideal for groups."
+        ],
+        "fr": [
+          "Balades découverte nature sur tout le département, selon le calendrier d’animations “Instants de Nature” : rencontres avec la faune, rendez-vous gourmands, Réserve de Malzoné à Millançay. Balades nature pour tous. Maison de la Chasse et de la Nature à Montrieux-en-Sologne (espace de 14 ha avec un étang et un bâtiment typiquement solognot). Parc pédagogique \"De Plumes & d'Eau\" : découverte des oiseaux d’eau, mare pédagogique vitrée. Lieu favorable à l’accueil des groupes sur le terrain ou en ateliers."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Nature discovery trips as scheduled by the “Instants de Nature” activities calendar : discovery wildlife, reserve of Malzone in Millançay, Maison de la Chasse et de la Nature at Montrieux-en-Sologne (with a trail of waterbirds, a glazed educational pond). Ideal for groups."
+        ],
+        "fr": [
+          "Balades découverte nature en Loir-et-Cher selon le calendrier d’animations “Instants de Nature” : rencontres avec la faune (brame...), balades nature, réserve de Malzoné (Millançay), Maison de la Chasse et de la Nature à Montrieux-en-Sologne (découverte des oiseaux d'eau, mare pédagogique vitrée)."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/019c1834-0f85-3047-9088-dc914b62d071",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/deda23aa-f3ee-3264-829b-5cdd7f144ac7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2de69285-a633-30f6-90e8-36012b19c2df",
+          "ebucore:title": {
+            "fr": [
+              "De Plumes & d'Eau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "FDC41"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-12-14"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/577694f7-fcf4-3e21-b57f-0b96bc586b11",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-1641-2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3ac0f170-d19f-3a12-b170-e478d5da85c3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/571a41e1-f9e7-33fa-93a7-dbb655bc5833",
+          "ebucore:title": {
+            "fr": [
+              "Etang-de-Malzoné"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Aurélien Charron"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-12-14"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8f746c0a-7637-31e6-b654-a0fe0e7b6a8d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Etang-malzone-39.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/deda23aa-f3ee-3264-829b-5cdd7f144ac7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2de69285-a633-30f6-90e8-36012b19c2df",
+          "ebucore:title": {
+            "fr": [
+              "De Plumes & d'Eau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "FDC41"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-12-14"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/577694f7-fcf4-3e21-b57f-0b96bc586b11",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-1641-2.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Hiking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Hiking"
+        ],
+        "fr": [
+          "Randonnée"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5d56ebff-e7f9-32e1-91d2-789866a0bb56",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/149bb70b-62a9-3648-a725-10be07534f83",
+          "schema:addressLocality": "Vineuil",
+          "schema:postalCode": "41350",
+          "schema:streetAddress": [
+            "36 rue des Laudières"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41295",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Vineuil"
+                ],
+                "fr": [
+                  "Vineuil"
+                ]
+              },
+              "insee": "41295",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/5482d1f5-6753-3274-9e37-628df46a88e9",
+        "schema:latitude": "47.5677188",
+        "schema:longitude": "1.3804596",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-15",
+  "lastUpdateDatatourisme": "2020-09-09T04:50:02.33Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/749f5ba3-5972-32b0-b1fe-b79a53018f0d",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b2a9d295-606f-30bc-a400-7006012afda4",
+          "schema:maxPrice": [
+            "15"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ed9df791-eb2e-38d4-bd60-f8a41a7f83a9",
+          "schema:maxPrice": [
+            "25"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

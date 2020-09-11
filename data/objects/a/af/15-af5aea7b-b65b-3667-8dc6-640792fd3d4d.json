@@ -1,0 +1,223 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/af5aea7b-b65b-3667-8dc6-640792fd3d4d",
+  "dc:identifier": "FMACEN037V50KO1S",
+  "schema:endDate": [
+    "2020-09-19"
+  ],
+  "schema:startDate": [
+    "2020-09-19"
+  ],
+  "@type": [
+    "schema:Event",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Visite commentée de la mairie de 10h à 12h.\nSieste contée à 13h30 au Jardin du presbytère par L.Toyer et  S.Husson.\nVisite commentée de l'église de 10h à 12h.\nVisite du Château de Sepmes à 15h30.\nApportez vos souvenirs, photos, cartes postales à 16h30 au château pour un  verre de l'amitié."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "(Re)découvrez l'histoire de Sepmes !"
+    ]
+  },
+  "creationDate": "2020-08-22",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8a918023-47be-3e83-9099-27afb735b472",
+      "schema:email": [
+        "mairie.sepmes@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 55 44 56"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.mairiedesepmes.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1d661b4b-ebfc-37a6-9ccf-76dceb108628",
+      "dc:description": {
+        "fr": [
+          "Visite commentée de la mairie avec exposition du cadastre napoléonien de 10h à 12h  (RDV dans le hall de la mairie), suivi de la sieste contée à 13h30 au Jardin du presbytère par Louise Toyer et Sarah Husson.\nRendez vous à 14h30  pour la visite guidée de l'église (12ème siècle) avec exposition sur les récents travaux de restauration.\nVisite commentée du Château de Sepmes (16ème siècle) à 15h30.\nPour terminer cette journée, venez partager l'histoire de Sepmes avec les jeunes d'hier en apportant vos souvenirs, archives, photos, cartes postales vers 16h30.\nSuivi d'un verre de l'amitié et de l'apprentissage de la Chanson de Sepmes."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Visite commentée de la mairie de 10h à 12h.\nSieste contée à 13h30 au Jardin du presbytère par L.Toyer et  S.Husson.\nVisite commentée de l'église de 10h à 12h.\nVisite du Château de Sepmes à 15h30.\nApportez vos souvenirs, photos, cartes postales à 16h30 au château pour un  verre de l'amitié."
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/86430aaa-499a-3d2f-bc69-206dcfc0f328",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9a4e6809-2ac8-3123-8463-70bb56f36a05",
+          "schema:addressLocality": "Sepmes",
+          "schema:postalCode": "37800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37247",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sepmes"
+                ],
+                "fr": [
+                  "Sepmes"
+                ]
+              },
+              "insee": "37247",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f6560904-1c50-3481-b7a5-fc8b5e560cdc",
+        "schema:latitude": "47.068025",
+        "schema:longitude": "0.674727",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-08-22",
+  "lastUpdateDatatourisme": "2020-08-23T03:46:22.8Z",
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a0a2cc4f-ee15-3879-8e3b-94669ad4ef24",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-19",
+      "endTime": "17:00:00",
+      "startDate": "2020-09-19",
+      "startTime": "10:00:00"
+    }
+  ]
+}

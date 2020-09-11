@@ -1,0 +1,484 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/a0e966f0-2cc2-3547-8d80-c926dd2e074e",
+  "dc:identifier": "HLOCEN041V500H5R",
+  "@type": [
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Ancienne ferme de 1860 entièrement restaurée  dans un esprit d'authenticité, de nature et de confort. Au cœur du village de Pontlevoy, charmante  longère  chaleureuse et confortablement restaurée, avec sa terrasse pour l'été Tourangeau. 5 chambres : Bambou, Rose, Fraise, Cassis et Pomme."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Ferme d'Ô"
+    ]
+  },
+  "allowedPersons": 11,
+  "availableLanguage": [
+    "cs",
+    "en",
+    "es",
+    "fr",
+    "zh"
+  ],
+  "creationDate": "2016-07-26",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/47eb1756-4a39-351e-b1a0-bc1876d172df",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8f63412f-2d88-36b9-9bd8-4e28b0ad05cb",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "10 rue du Paradis"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@ferme-do.com"
+      ],
+      "schema:legalName": "Ferme d'Ô",
+      "schema:telephone": [
+        "+33 2 54 32 58 07",
+        "+33 6 99 01 39 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ferme-do.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/47eb1756-4a39-351e-b1a0-bc1876d172df",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8f63412f-2d88-36b9-9bd8-4e28b0ad05cb",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "10 rue du Paradis"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@ferme-do.com"
+      ],
+      "schema:legalName": "Ferme d'Ô",
+      "schema:telephone": [
+        "+33 2 54 32 58 07",
+        "+33 6 99 01 39 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ferme-do.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9b985ac1-9d28-3cac-ad0f-ac720061612a",
+      "dc:description": {
+        "fr": [
+          "Ancienne ferme de 1860 entièrement restaurée  dans un esprit d'authenticité, de nature et de confort. Au cœur du village de Pontlevoy, charmante  longère  chaleureuse et confortablement restaurée, avec sa terrasse pour l'été Tourangeau. 5 chambres : Bambou, Rose, Fraise, Cassis et Pomme."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Ancienne ferme de 1860 entièrement restaurée  dans un esprit d'authenticité, de nature et de confort. Au cœur du village de Pontlevoy, charmante  longère  chaleureuse et confortablement restaurée, avec sa terrasse pour l'été Tourangeau. 5 chambres : Bambou, Rose, Fraise, Cassis et Pomme."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/abb15529-52cb-3d97-8385-2c712cdaa62a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bd96186b-2348-347a-87e1-965ebad95d64",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8f63412f-2d88-36b9-9bd8-4e28b0ad05cb",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "10 rue du Paradis"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/03afb14b-8194-38db-bb4b-b979678dbd98",
+        "schema:latitude": "47.3919944",
+        "schema:longitude": "1.254082",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.339Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/94fed65b-46cd-3f81-8508-86633ee414d9",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/65513434-4be0-3de6-9dde-9be21f9dd6aa",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a33fe328-2221-33d9-ad05-af3a5c47886e",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

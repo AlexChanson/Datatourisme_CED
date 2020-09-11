@@ -1,0 +1,788 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/10a337d5-db35-3d0e-92d0-60c44ad16b30",
+  "dc:identifier": "PCU41AASOR100184",
+  "@type": [
+    "CityHeritage",
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Explore the city centre, its medieval streets and townhouses, accompanied by a guide approved by the Ministry of Culture."
+    ],
+    "fr": [
+      "Partez à la découverte du centre-ville, de ses rues médiévales et de ses hôtels particuliers en compagnie d’un guide conférencier agréé par le ministère de la Culture."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Guided visit of the old quarters of Blois"
+    ],
+    "fr": [
+      "Visite guidée du vieux Blois"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da4d0795-e8f3-3413-8bd9-17cf1b46429f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0dae80c-6294-37a3-a301-d1f65e982e2d",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservation.chateau@blois.fr"
+      ],
+      "schema:legalName": "Visite guidée du vieux Blois",
+      "schema:telephone": [
+        "+33 2 54 90 33 32"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chateaudeblois.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6445c2ab-5d12-3ab1-b837-c17b12a8c4c5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0dae80c-6294-37a3-a301-d1f65e982e2d",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@chateaudeblois.fr"
+      ],
+      "schema:legalName": "Visite guidée du vieux Blois",
+      "schema:telephone": [
+        "+33 2 54 90 33 32"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chateaudeblois.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/da4d0795-e8f3-3413-8bd9-17cf1b46429f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0dae80c-6294-37a3-a301-d1f65e982e2d",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservation.chateau@blois.fr"
+      ],
+      "schema:legalName": "Visite guidée du vieux Blois",
+      "schema:telephone": [
+        "+33 2 54 90 33 32"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chateaudeblois.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/73959508-b562-3ba9-92e8-37dc3500cfac",
+      "dc:description": {
+        "en": [
+          "Blois is listed as a City of Art and History and since 2001, City of Character. Royal city, rich with a prestigious past, former home of the kings of France and his court in the 16th century, Blois is a captivating city. Tucked into the very heart of the city, the chÃ¢teau unites 4 centuries of history and architecture, from the 13th to 17th century. Around the chateau, the city invites you to wander and discover the medieval and renaissance streets, its religious heritage, its poetic gardens... Guided visit for groups only and with reservation.<br>"
+        ],
+        "fr": [
+          "Blois, ville d'Art et d'Histoire (depuis 2001), et Ville et Cité de Caractère. Cité royale riche d'un passé prestigieux, ancien lieu de séjour des rois de France à la cour au XVIe siècle. Visite guidée pour les individuels tous les jours en juillet/août (+ programmations spéciales dans l'année) et visite guidée pour les groupes sur réservation : découverte du centre ville, des rues médiévales aux hôtels particuliers (1h30 à 2h) en compagnie d'un guide conférencier agrée par le Ministère de la Culture. Egalement, possibilité de billet combiné avec l'entrée du château."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Explore the city centre, its medieval streets and townhouses, accompanied by a guide approved by the Ministry of Culture."
+        ],
+        "fr": [
+          "Partez à la découverte du centre-ville, de ses rues médiévales et de ses hôtels particuliers en compagnie d’un guide conférencier agréé par le ministère de la Culture."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b4d34df0-944a-3f99-821f-61f43bd7d73c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bd80dab9-ce98-3a25-a74c-fcb4b4e5127b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b7c38e17-668f-3648-b91b-a2451e96c4ec",
+          "ebucore:title": {
+            "fr": [
+              "Les rues secrètes autour du château royal de Blois"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©CDT41 - 468media - JP Tesson"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2017-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/20e098b3-1b1f-302d-8b70-5b4d6c24f96e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/-13-rue-vieux-blois-CDT41-468media-jptesson.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bd80dab9-ce98-3a25-a74c-fcb4b4e5127b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b7c38e17-668f-3648-b91b-a2451e96c4ec",
+          "ebucore:title": {
+            "fr": [
+              "Les rues secrètes autour du château royal de Blois"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©CDT41 - 468media - JP Tesson"
+          ],
+          "rightsEndDate": "2018-12-31",
+          "rightsStartDate": "2017-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/20e098b3-1b1f-302d-8b70-5b4d6c24f96e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/-13-rue-vieux-blois-CDT41-468media-jptesson.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/881e3fd7-34e0-3fb7-85ff-825f150f2e63",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f0dae80c-6294-37a3-a301-d1f65e982e2d",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ecb4d94a-b185-3503-bf5e-b6ee3e67cf40",
+        "schema:latitude": "47.5859993",
+        "schema:longitude": "1.33171124",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-03",
+  "lastUpdateDatatourisme": "2020-09-09T14:01:26.835Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d99f4c16-7c74-31e4-a1f3-84e8e8b682b1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0a4888a7-e500-3a26-866f-ababd8b751fb",
+          "schema:minPrice": [
+            "5"
+          ],
+          "schema:price": "5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(visite guidée)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4097436c-1cf7-320c-b704-f3865d6f3254",
+          "schema:minPrice": [
+            "110"
+          ],
+          "schema:price": "110",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(visite guidée sur demande). 35 pers. maxi./groupe."
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5d5da9b3-320e-3908-a03d-9eeadbd1d147",
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(visite guidée) - étudiant, dem. d'emploi, ad. fam. nomb. & enseignants en visite individuelle."
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6b1d900a-1362-34fa-b128-6acc9c721033",
+          "schema:minPrice": [
+            "3"
+          ],
+          "schema:price": "3",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(visite guidée) (6 - 17 ans)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c115d51f-a2e5-3c09-a8f8-7a447e2e6d7b",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "- 6 ans."
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

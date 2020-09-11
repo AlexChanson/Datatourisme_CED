@@ -1,0 +1,237 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/3da6924b-887b-3889-9430-4ac5fbe9604d",
+  "dc:identifier": "ACCCEN000V5000F0",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Stationnement (4 emplacements) limité à 24 h par étape. Accueil sous conditions. Pour pouvoir stationner en ces lieux, il est obligatoire d'être adhérent au réseau France Passion et avoir, par conséquent, une invitation personnelle ainsi qu'un macaron de l'année en cours apposé sur le pare-brise."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de stationnement pour camping-cars - Domaine des Pierrettes"
+    ]
+  },
+  "allowedPersons": 4,
+  "creationDate": "2013-10-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/093823d4-05b1-39ed-8871-dfdc8a78ac45",
+      "schema:email": [
+        "contact@domainedespierrettes.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 20 98 44"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.francepassion.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2b73d7bd-3716-32ad-9c48-4a65ce4aea64",
+      "dc:description": {
+        "fr": [
+          "Stationnement (4 emplacements) limité à 24 h par étape. Accueil sous conditions. Pour pouvoir stationner en ces lieux, il est obligatoire d'être adhérent au réseau France Passion et avoir, par conséquent, une invitation personnelle ainsi qu'un macaron de l'année en cours apposé sur le pare-brise."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Stationnement (4 emplacements) limité à 24 h par étape. Accueil sous conditions. Pour pouvoir stationner en ces lieux, il est obligatoire d'être adhérent au réseau France Passion et avoir, par conséquent, une invitation personnelle ainsi qu'un macaron de l'année en cours apposé sur le pare-brise."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/47485794-3359-332b-9697-1db159894b71",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Container",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Container"
+            ],
+            "fr": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4eea6842-f297-3883-bb59-4a4dcf241efe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c6e2eaf2-0f81-3908-979e-7300e2c3347c",
+          "schema:addressLocality": "Rilly-sur-Loire",
+          "schema:postalCode": "41150",
+          "schema:streetAddress": [
+            "Le Meunet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41189",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Rilly-sur-Loire"
+                ],
+                "fr": [
+                  "Rilly-sur-Loire"
+                ]
+              },
+              "insee": "41189",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d9fb68cf-9307-3ed8-ab89-cfa12f985f39",
+        "schema:latitude": "47.468668",
+        "schema:longitude": "1.152514",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.783Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3bbdad6f-ab1e-3041-8622-51c31c2e2c84",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

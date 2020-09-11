@@ -1,0 +1,796 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/fed66162-dc0d-36a4-ad7d-44636ac64c3a",
+  "dc:identifier": "PCUCEN0410009026",
+  "@type": [
+    "CityHeritage",
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "At the crossroads between Touraine, Blois and Sologne, Pontlevoy has preserved many vestiges of its history. The 25 information panels that make up the \"Street Museum\" present daily life at the beginning of the 20th century."
+    ],
+    "fr": [
+      "Au carrefour de la Touraine, du Blésois et de la Sologne, Pontlevoy a su préserver les témoignages de son histoire. Les 25 panneaux du “Musée dans la rue” présentent la vie quotidienne au début du XXe s. D'autres expositions temporaires vous sont proposées dans le village."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Visits to the village of Pontlevoy"
+    ],
+    "fr": [
+      "Visite du village de Pontlevoy"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/29b16dbd-6c4c-3e75-9738-4850e816827a",
+      "schema:email": [
+        "jnouaille@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 6 07 96 48 39"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://samppontlevoy.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bec368b0-4680-3669-a03a-0996c5dbbf1d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/353ee59f-5dfb-387d-91b9-f88b9fbe8c01",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "secretariat@mairie-pontlevoy.fr"
+      ],
+      "schema:legalName": "Visite du village de Pontlevoy",
+      "schema:telephone": [
+        "+33 2 54 71 60 70"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.mairie-pontlevoy.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/29b16dbd-6c4c-3e75-9738-4850e816827a",
+      "schema:email": [
+        "jnouaille@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 6 07 96 48 39"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://samppontlevoy.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bec368b0-4680-3669-a03a-0996c5dbbf1d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/353ee59f-5dfb-387d-91b9-f88b9fbe8c01",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "secretariat@mairie-pontlevoy.fr"
+      ],
+      "schema:legalName": "Visite du village de Pontlevoy",
+      "schema:telephone": [
+        "+33 2 54 71 60 70"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.mairie-pontlevoy.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c4e019c1-952d-301c-8d72-07113ef18e54",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/353ee59f-5dfb-387d-91b9-f88b9fbe8c01",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "secretariat@mairie-pontlevoy.fr"
+      ],
+      "schema:legalName": "Visite du village de Pontlevoy",
+      "schema:telephone": [
+        "+33 2 54 71 60 70",
+        "+33 6 07 96 48 39"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.mairie-pontlevoy.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d219dd9a-20f4-3b9a-a016-3169d4711f8e",
+      "dc:description": {
+        "en": [
+          "Visit <b> Pontlevoy </ b> is to explore a rich natural and built heritage and panels 25 Museum on the street revealing the daily life of the village in the early twentieth century through Clergeau selection of photographs. In addition, 18 other panels located on the site of the abbey (open to the public from May to October), and an exhibition space of the College invite to extend a thorough visit this mecca of culture and history. Free visit.<br><br>- The site of Pierre de Minuit is the subject of a circular walk of 4.5 km.<br>- By prior arrangement with the Departmental Committee for Protection of Nature and Environment (CDPNE - 02 54 51 56 70): possibility of guided tour of the site's geological and paleontological of Four Ã  chaux and the career of stone Pontlevoy used for many building"
+        ],
+        "fr": [
+          "Nous vous proposons une promenade de 2 à 3 heures, à la découverte d'un riche patrimoine naturel et bâti (pastilles jaunes sur plan) et des vingt-cinq panneaux du \"Musée dans la rue\" dévoilant la vie quotidienne à Pontlevoy au début du XXème siècle, grâce à une sélection de la Collection Clergeau, photographe pontilévien. De plus plusieurs expositions en plein-air agrémentent votre visite :  \"Sport et culture à Pontlevoy au début du XXème siècle\" - reproductions d'un peintre naïf, Ferdinand Desnos -  reproductions de chromos Poulain.\nVous pourrez aussi visiter le site géologique et paléonthologique de la carrière des Faluns et de la carrière de «pierre de Pontlevoy». Le site du dolmen \"la Pierre de Minuit\" fait quant à lui l'objet d'un circuit de randonnée."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "At the crossroads between Touraine, Blois and Sologne, Pontlevoy has preserved many vestiges of its history. The 25 information panels that make up the \"Street Museum\" present daily life at the beginning of the 20th century."
+        ],
+        "fr": [
+          "Au carrefour de la Touraine, du Blésois et de la Sologne, Pontlevoy a su préserver les témoignages de son histoire. Les 25 panneaux du “Musée dans la rue” présentent la vie quotidienne au début du XXe s. D'autres expositions temporaires vous sont proposées dans le village."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e7548575-5fc4-3851-8982-d2d813c17aae",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Library"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Picnic area"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/eed96b39-f9a8-3cb6-b1be-e5b8bc360d56",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/40d3db18-8e74-32b3-8d6e-3aebf082d4ae",
+          "ebucore:title": {
+            "fr": [
+              "village-de-pontlevoy©Mairie-Pontlevoy"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Collection privée"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c984a2c4-d8c9-326e-8ad5-c95cf17bcc12",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/village-de-pontlevoy-Mairie-Pontlevoy.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/eed96b39-f9a8-3cb6-b1be-e5b8bc360d56",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/40d3db18-8e74-32b3-8d6e-3aebf082d4ae",
+          "ebucore:title": {
+            "fr": [
+              "village-de-pontlevoy©Mairie-Pontlevoy"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Collection privée"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-30"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c984a2c4-d8c9-326e-8ad5-c95cf17bcc12",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/village-de-pontlevoy-Mairie-Pontlevoy.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fa959ed5-9153-34bf-9b8e-a7b904fe90f5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/038c946f-1ef6-35c3-a859-c741fad22a40",
+          "schema:addressLocality": "Pontlevoy",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "2 Rue du Colonel Filloux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41180",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Pontlevoy"
+                ],
+                "fr": [
+                  "Pontlevoy"
+                ]
+              },
+              "insee": "41180",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/7791ff3f-ee0a-3320-b650-7afb9d281b10",
+        "schema:latitude": "47.390516",
+        "schema:longitude": "1.254531",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-06-13",
+  "lastUpdateDatatourisme": "2020-07-06T14:01:31.994Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/737912bd-fedd-36dd-b277-0d0dd437d9fb",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/98d59c42-8337-35a0-8ef7-7a27d256dde6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "visite libre"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

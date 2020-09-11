@@ -1,0 +1,153 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/42575467-1359-3b99-973c-4cfd138406d4",
+  "dc:identifier": "HLOCEN037V50KQSM",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Gîte du Belvédère"
+    ]
+  },
+  "creationDate": "2020-08-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/c89d354e-38ed-3d7f-88cc-fdcfa85ab097",
+    "schema:legalName": "ADT 37",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6b8e645d-5e9d-3b33-a4b9-dbd75e41c017",
+      "schema:email": [
+        "angad.touraine@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 6 09 45 28 73"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/60e12112-44bb-3b1d-9d93-b97802860d16",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ef8c789a-0fec-3476-ade7-bb2887aca1a5",
+          "schema:addressLocality": "Nazelles-Négron",
+          "schema:postalCode": "37530",
+          "schema:streetAddress": [
+            "34 Rue du Coteau de la Bardouillere"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37163",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Nazelles-Négron"
+                ],
+                "fr": [
+                  "Nazelles-Négron"
+                ]
+              },
+              "insee": "37163",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/246b9f77-9061-3290-98d8-007f161edead",
+        "schema:latitude": "47.4281972",
+        "schema:longitude": "0.9341841",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-09-07",
+  "lastUpdateDatatourisme": "2020-09-08T02:51:09.473Z"
+}

@@ -1,0 +1,278 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/1ace51b7-c305-3e2e-8fcf-e9a07e7b1c6d",
+  "dc:identifier": "PCUCEN037FS000E4",
+  "@type": [
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Visit the ruins of the Lavaré Priory. The priory was founded in 1110 by Geoffroy de Preully, the lords of Maillé and Geoffroy de la Tour."
+    ],
+    "fr": [
+      "Sur la commune de Fondettes, non loin de la Membrolle, se voient les restes de l’ancien prieuré de Lavaré qui fut fondé vers 1110 par Geoffroy de Preully, par les seigneurs de Maillé et par Geoffroy de la Tour."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Prieuré de Lavaray"
+    ],
+    "fr": [
+      "Prieuré de Lavaray"
+    ]
+  },
+  "creationDate": "2012-11-22",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9bd63d4c-a328-3a08-b9dc-99b96dbd7c8a",
+      "schema:email": [
+        "contact@prieure-de-lavaray.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 09 08 47 80"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.prieure-de-lavaray.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/50d00fe1-93d7-3655-9ad4-d49ce0428004",
+      "dc:description": {
+        "fr": [
+          "Sur la commune de Fondettes, non loin de la Membrolle, se voient les restes de l’ancien prieuré de Lavaré qui fut fondé vers 1110 par Geoffroy de Preully, par les seigneurs de Maillé et par Geoffroy de la Tour."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Visit the ruins of the Lavaré Priory. The priory was founded in 1110 by Geoffroy de Preully, the lords of Maillé and Geoffroy de la Tour."
+        ],
+        "fr": [
+          "Sur la commune de Fondettes, non loin de la Membrolle, se voient les restes de l’ancien prieuré de Lavaré qui fut fondé vers 1110 par Geoffroy de Preully, par les seigneurs de Maillé et par Geoffroy de la Tour."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/47c71d53-b0e1-3a15-9d00-47c6de31ecf0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c3e90974-9b5b-3557-a16b-440cc6ce95a6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6742c551-4a67-34b3-b34e-8d84636be60d",
+          "schema:addressLocality": "Fondettes",
+          "schema:postalCode": "37230",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37109",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Fondettes"
+                ],
+                "fr": [
+                  "Fondettes"
+                ]
+              },
+              "insee": "37109",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ee14c3f0-daea-3e33-a8b8-56c587524a1d",
+        "schema:latitude": "47.404813",
+        "schema:longitude": "0.599971",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-09-09T14:01:26.832Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/327f0ddf-92f7-32ae-8b2c-56d73c291297",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/36fd69f6-ab6a-3600-9701-66ec31bc2282",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "-18ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/80591f04-1dbd-3a24-aa5c-6e0af6b95710",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "-10 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f1767fca-cfa3-3068-b7a6-e6332b64bb04",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "visite guidée"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

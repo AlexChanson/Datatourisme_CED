@@ -1,0 +1,724 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/f827875b-cbc5-3709-9e96-917ed3010c75",
+  "dc:identifier": "ASCCEN041V5036VT",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "EquipmentRental",
+    "EquipmentRentalShop",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental",
+    "ServiceProvider",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Rent a bike for a ride along the Loire by the hour, half a day or a day. Possibility of coupled offers."
+    ],
+    "fr": [
+      "Louer un vélo pour une balade en bord de Loire à l'heure, à la demie-journée ou à la journée. Possibilité d'offres couplées."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Bike rental with l'Observatoire Loire"
+    ],
+    "fr": [
+      "Location de vélo avec l'Observatoire Loire"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2020-04-08",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/aaaa0616-717b-3181-89e0-fb56183883da",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c2856842-8378-38f0-8cca-759321893ace",
+          "schema:addressLocality": "La Chaussée-Saint-Victor",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41047",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Chaussée-Saint-Victor"
+                ],
+                "fr": [
+                  "La Chaussée-Saint-Victor"
+                ]
+              },
+              "insee": "41047",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@observatoireloire.fr"
+      ],
+      "schema:legalName": "Circuits pédestres découverte autour de la Loire",
+      "schema:telephone": [
+        "+33 2 54 56 09 24",
+        "+33 6 24 74 27 87"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.observatoireloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/aaaa0616-717b-3181-89e0-fb56183883da",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c2856842-8378-38f0-8cca-759321893ace",
+          "schema:addressLocality": "La Chaussée-Saint-Victor",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41047",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Chaussée-Saint-Victor"
+                ],
+                "fr": [
+                  "La Chaussée-Saint-Victor"
+                ]
+              },
+              "insee": "41047",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@observatoireloire.fr"
+      ],
+      "schema:legalName": "Circuits pédestres découverte autour de la Loire",
+      "schema:telephone": [
+        "+33 2 54 56 09 24",
+        "+33 6 24 74 27 87"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.observatoireloire.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/254ecfee-e8a3-30c0-a961-82f09afad92d",
+      "dc:description": {
+        "en": [
+          "Rent a bike for a ride along the Loire by the hour, half a day or a day. Possibility of coupled offers."
+        ],
+        "fr": [
+          "Louer un vélo , à l'heure, à la demie-journée ou à la journée, pour une balade en bord de Loire sur la piste sécurisée de la Loire à vélo . Paysages, oiseaux, ponts,ports, vestiges ... Possibilité d'offres couplées."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Rent a bike for a ride along the Loire by the hour, half a day or a day. Possibility of coupled offers."
+        ],
+        "fr": [
+          "Louer un vélo pour une balade en bord de Loire à l'heure, à la demie-journée ou à la journée. Possibilité d'offres couplées."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c170d6ca-e88a-3c1f-a030-327b595ab9c7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2b5b0c1-a4cf-3946-9d30-a9599b9f3c68",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ae9d68f4-d3c3-32bd-a557-1acc4a89f6fe",
+          "ebucore:title": {
+            "fr": [
+              "mvelomenarsint"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Observatoire Loire"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/abf8983b-fdea-3a81-9b88-a376a938a9ef",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/mvelomenarsint.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/55b6f067-422b-3d68-98c4-2f5c298e40d0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/07b513db-a9e7-3f6b-9a45-b53115c0923a",
+          "ebucore:title": {
+            "fr": [
+              "20181010-140723"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Observatoire loire"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2020-04-10"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7a8678a9-d669-3a98-b19e-75f48467ea39",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/20181010-140723.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2b5b0c1-a4cf-3946-9d30-a9599b9f3c68",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ae9d68f4-d3c3-32bd-a557-1acc4a89f6fe",
+          "ebucore:title": {
+            "fr": [
+              "mvelomenarsint"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Observatoire Loire"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/abf8983b-fdea-3a81-9b88-a376a938a9ef",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/mvelomenarsint.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:BicycleTouring",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Bicycle touring"
+        ],
+        "fr": [
+          "Cyclotourisme"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5e65e849-09e2-3fbd-9ef3-3e66f95bafca",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1f911a0f-48e9-33fc-8fcb-5647b6d57130",
+          "schema:addressLocality": "La Chaussée-Saint-Victor",
+          "schema:postalCode": "41260",
+          "schema:streetAddress": [
+            "Observatoire Loire"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41047",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Chaussée-Saint-Victor"
+                ],
+                "fr": [
+                  "La Chaussée-Saint-Victor"
+                ]
+              },
+              "insee": "41047",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/00b99eb9-e6a5-3977-b0da-f55e9372a7ee",
+        "schema:latitude": "47.5987706",
+        "schema:longitude": "1.3573514",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-03",
+  "lastUpdateDatatourisme": "2020-08-04T05:22:27.04Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/846e6767-57f4-377c-9cc7-bf640d304fa0",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/eb5caf95-f74b-36da-b77d-52ee48a49474",
+          "schema:maxPrice": [
+            "15"
+          ],
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f208bd71-3fef-395e-9e33-1e10e39381a9",
+          "schema:maxPrice": [
+            "15"
+          ],
+          "schema:minPrice": [
+            "4"
+          ],
+          "schema:price": "4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,828 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/3a774fb4-d63b-3478-a138-6670e567a82f",
+  "dc:identifier": "FMA41AAEVE100029",
+  "schema:endDate": [
+    "2020-11-11"
+  ],
+  "schema:startDate": [
+    "2020-06-02"
+  ],
+  "@type": [
+    "schema:Event",
+    "CulturalEvent",
+    "EntertainmentAndEvent",
+    "PointOfInterest",
+    "ShowEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Laissez-vous emporter par l'envol de plus de 500 oiseaux dans un feu d'artifice de couleurs tout en plumes. Ou bien prenez place auprès du bassin au centre du parc, où d'espiègles otaries évoluent dans un prodigieux ballet aquatique."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "“Maîtres des airs” and “Odysée des lions de mer” shows"
+    ],
+    "fr": [
+      "Spectacles Les maîtres des airs et L'Odyssée des lions de mer au ZooParc de Beauval"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8f1b504a-06cc-30ff-9829-6c8fcb39d8e4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f9448fee-5881-337b-a08e-ea1878d1c6fb",
+          "schema:addressLocality": "Saint-Aignan",
+          "schema:postalCode": "41110",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41198",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Aignan"
+                ],
+                "fr": [
+                  "Saint-Aignan"
+                ]
+              },
+              "insee": "41198",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "infos@zoobeauval.com"
+      ],
+      "schema:legalName": "Spectacles d'Oiseaux \"Les Maîtres des Airs\" et d'Otaries \"L'Odyssée des Lions de mer\" au ZooParc de Beauval",
+      "schema:telephone": [
+        "+33 2 54 75 50 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.zoobeauval.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8f1b504a-06cc-30ff-9829-6c8fcb39d8e4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f9448fee-5881-337b-a08e-ea1878d1c6fb",
+          "schema:addressLocality": "Saint-Aignan",
+          "schema:postalCode": "41110",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41198",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Aignan"
+                ],
+                "fr": [
+                  "Saint-Aignan"
+                ]
+              },
+              "insee": "41198",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "infos@zoobeauval.com"
+      ],
+      "schema:legalName": "Spectacles d'Oiseaux \"Les Maîtres des Airs\" et d'Otaries \"L'Odyssée des Lions de mer\" au ZooParc de Beauval",
+      "schema:telephone": [
+        "+33 2 54 75 50 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.zoobeauval.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d7251ff0-a696-33ef-a707-fda044d7529f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a5f38833-7f37-337d-b129-1b40c9a93a51",
+          "schema:postalCode": "41110",
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "infos@zoobeauval.com"
+      ],
+      "schema:legalName": "Spectacles d'Oiseaux \"Les Maîtres des Airs\" et d'Otaries \"L'Odyssée des Lions de mer\" au ZooParc de Beauval",
+      "schema:telephone": [
+        "+33 2 54 75 50 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.zoobeauval.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/363f7b8e-cb3d-3fc9-8ce6-253e1ed022ac",
+      "dc:description": {
+        "fr": [
+          "Spectacles Les maîtres des airs et l'Odyssée des lions de mer au ZooParc de Beauval.\"Les Maîtres des Airs\" prennent à nouveau leur envol ! Au cœur d’un vaste théâtre de verdure, 500 oiseaux évoluent au-dessus des têtes des spectateurs, rassemblés dans un hémicycle de 3 000 places. Chouettes, grues, pélicans, cigognes, ibis et marabouts se joignent au ballet aérien des rapaces pour présenter un spectacle inoubliable au final éblouissant ! Un spectacle de grande envergure à Beauval...  Dans le cadre magique de l’amphithéâtre aquatique, des otaries agiles et joueuses rivalisent d’adresse et d’équilibre au cours du spectacle \"L’Odyssée des Lions de mer\" ! Sur terre, dans les airs, sous l’eau… Un véritable festival de performances, ponctué de musiques entraînantes !"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Laissez-vous emporter par l'envol de plus de 500 oiseaux dans un feu d'artifice de couleurs tout en plumes. Ou bien prenez place auprès du bassin au centre du parc, où d'espiègles otaries évoluent dans un prodigieux ballet aquatique."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3f0463a6-281a-3885-97c0-e0baa87d2b92",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Toilets"
+            ],
+            "fr": [
+              "Toilettes"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7034b1f3-0317-37f5-b708-c3204cec6663",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/af7b4f08-59fb-35b1-afda-456ed025c654",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "spectacle-otaries-zooparc-de-beauval-10"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "ZooParc de Beauval - Spectacle d'Otaries"
+          ],
+          "rightsEndDate": "2023-07-16",
+          "rightsStartDate": "2018-07-16"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a5ac3d3d-47ec-3e39-9f63-c026882d2cab",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/spectacle-otaries-zooparc-de-beauval-10.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1c89973b-def2-3694-88a8-6cfff5ac6598",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9b9e30c1-064a-3963-9d4c-b44105cf480c",
+          "ebucore:title": {
+            "fr": [
+              "spectacle-maitres-des-airs"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "ZooParc de Beauval"
+          ],
+          "rightsEndDate": "2023-07-16",
+          "rightsStartDate": "2018-07-16"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b3965124-7eae-3ddd-876d-87dea521de5c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/spectacle-maitres-des-airs-zooParc-de-Beauval.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/29e7516e-6a5a-39a1-8a0a-6c90c3ad3442",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f81c6f5a-1c10-363e-9619-307ab50394af",
+          "ebucore:title": {
+            "fr": [
+              "Spectacle - Otarie4_ZooParc_de_Beauval"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©ZooParc-de-Beauval"
+          ],
+          "rightsEndDate": "2023-12-17",
+          "rightsStartDate": "2018-04-06"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f2f3a4b5-2a77-350e-b337-15b3ec40061e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Spectacle-odyssee-otarie-ZooParc-de-Beauval.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7034b1f3-0317-37f5-b708-c3204cec6663",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/af7b4f08-59fb-35b1-afda-456ed025c654",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "spectacle-otaries-zooparc-de-beauval-10"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "ZooParc de Beauval - Spectacle d'Otaries"
+          ],
+          "rightsEndDate": "2023-07-16",
+          "rightsStartDate": "2018-07-16"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a5ac3d3d-47ec-3e39-9f63-c026882d2cab",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/spectacle-otaries-zooparc-de-beauval-10.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ca36b761-e2e1-3136-a1c6-53813ec82b7f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5f4c369c-6f9b-37d7-bfe8-9e5b22cf4f0f",
+          "ebucore:title": {
+            "fr": [
+              "spectacle-maitres-des-airs"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "ZooParc de Beauval"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e18458a5-ed1d-3e41-a432-a0155111cced",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/spectacle-maitres-des-airs-2-zooparc-de-Beauval.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e02d8333-46d7-3112-b5a1-5d9621e6e9fc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1a6d31b1-8ac0-337b-94fb-95a89d472351",
+          "ebucore:title": {
+            "fr": [
+              "spectacle-otaries-zooparc-de-beauval-10"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "ZooParc de Beauval - Spectacle d'Otaries"
+          ],
+          "rightsEndDate": "2023-07-16",
+          "rightsStartDate": "2018-07-16"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a5ac3d3d-47ec-3e39-9f63-c026882d2cab",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/spectacle-otaries-zooparc-de-beauval-10.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/21f3bb41-a795-3f13-acf2-c76492e85447",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/caabe4ec-9c96-34f9-9038-bf0c8e8928ec",
+          "schema:addressLocality": "Saint-Aignan",
+          "schema:postalCode": "41110",
+          "schema:streetAddress": [
+            "Beauval"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41198",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Aignan"
+                ],
+                "fr": [
+                  "Saint-Aignan"
+                ]
+              },
+              "insee": "41198",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/5b416f0e-6a19-36be-a524-8d325db02649",
+        "schema:latitude": "47.2475972",
+        "schema:longitude": "1.3533545",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-09-07",
+  "lastUpdateDatatourisme": "2020-09-08T04:08:41.305Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/290effe2-cbde-35f9-b7b0-f008432161e0",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3e524622-1ac7-3d7c-b40b-75aca5e78b16",
+          "schema:minPrice": [
+            "34"
+          ],
+          "schema:price": "34",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fdabf248-1968-30ff-bc53-b48eb295664d",
+          "schema:minPrice": [
+            "27"
+          ],
+          "schema:price": "27",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true,
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/34c545cc-81de-37a4-9ad4-d0a537069ac8",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-11-11",
+      "startDate": "2020-06-02"
+    }
+  ]
+}

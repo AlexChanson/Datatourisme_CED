@@ -1,0 +1,226 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/ad4904c1-aa9b-3975-bf31-9cb798914ca8",
+  "dc:identifier": "ASCCENBERV505JNT",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Robert Ansel vous proposent 2 rencontres sur le thème : Où, quand, comment photographier les cervidés en Brenne"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Rencontre autour de la photo animalière"
+    ]
+  },
+  "creationDate": "2019-09-10",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/50ea4523-d6cb-3927-8621-6bf7604b0aeb",
+    "schema:legalName": "Destination Brenne",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fadd7c97-afd1-3572-ad56-65a17d333781",
+      "schema:email": [
+        "robertansel@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 38 03 27"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19b694d2-d791-3267-9441-4c469b65e867",
+      "dc:description": {
+        "fr": [
+          "Robert Ansel vous fera part de mon expérience personnelle dans ce domaine."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Robert Ansel vous proposent 2 rencontres sur le thème : Où, quand, comment photographier les cervidés en Brenne"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:FaunaFlora",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fauna - flora"
+        ],
+        "fr": [
+          "Faune - flore"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/268a8e44-918b-3fe6-9292-44e664f9e8ba",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/61ecd2e8-f2cc-3a90-89ef-5477f7977889",
+          "schema:addressLocality": "Azay-le-Ferron",
+          "schema:postalCode": "36290",
+          "schema:streetAddress": [
+            "Médiathèque d'Azay-le -Ferron"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:36010",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Azay-le-Ferron"
+                ],
+                "fr": [
+                  "Azay-le-Ferron"
+                ]
+              },
+              "insee": "36010",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2436",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre"
+                    ],
+                    "fr": [
+                      "Indre"
+                    ]
+                  },
+                  "insee": "36",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/5d9c5e82-99ec-33a8-ab6f-0ecf02dfa133",
+        "schema:latitude": "47.26177",
+        "schema:longitude": "0.46574",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-07-07T05:23:06.121Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37120d5c-1aba-3ce8-a107-4c3e312e83b4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

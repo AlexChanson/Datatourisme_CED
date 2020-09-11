@@ -1,0 +1,1356 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/2cc8fdb8-fabe-3eba-bc9e-d19ee888f353",
+  "dc:identifier": "HLOCEN041V5002RY",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Big holiday cottage for 15 people, with a large living-room, a fireplace and bay windows, terrace where you can have lunch or dinner. Ideal to gather families, friends, the groups of horsemen or bikers."
+    ],
+    "fr": [
+      "Grand gite confortable pour 15 personnes, avec un beau salon pour recevoir 40 personnes, doté d’une cheminée et de grandes baies vitrées, terrasse ombragée permettant de déjeuner ou dîner dehors. Idéal pour rassembler les familles, les amis, les groupes de cavaliers ou de randonneurs à vélo."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "La Crapaudière"
+    ],
+    "fr": [
+      "Grand gîte de la Crapaudière"
+    ]
+  },
+  "allowedPersons": 15,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2014-11-25",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0d11c1cd-aa6a-32de-b11c-a04daf35eb92",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/58d250e4-de1b-340b-be4c-4d2ae62bdcdd",
+          "schema:addressLocality": "Neuvy",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41160",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Neuvy"
+                ],
+                "fr": [
+                  "Neuvy"
+                ]
+              },
+              "insee": "41160",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gitelacrapaudiere@gmail.com"
+      ],
+      "schema:legalName": "Grand gîte de la Crapaudière",
+      "schema:telephone": [
+        "+33 2 54 78 21 28",
+        "+33 6 07 02 71 08"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gitelacrapaudiere.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0d11c1cd-aa6a-32de-b11c-a04daf35eb92",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/58d250e4-de1b-340b-be4c-4d2ae62bdcdd",
+          "schema:addressLocality": "Neuvy",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41160",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Neuvy"
+                ],
+                "fr": [
+                  "Neuvy"
+                ]
+              },
+              "insee": "41160",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gitelacrapaudiere@gmail.com"
+      ],
+      "schema:legalName": "Grand gîte de la Crapaudière",
+      "schema:telephone": [
+        "+33 2 54 78 21 28",
+        "+33 6 07 02 71 08"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gitelacrapaudiere.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e143b6d2-91af-37ac-952e-92b83348aaa5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5f9f6a7d-a0ce-332d-8fa9-62c9052ae054",
+          "schema:addressLocality": "Neuvy",
+          "schema:postalCode": "41250",
+          "schema:streetAddress": [
+            "D 923 Route de Neung-sur-Beuvron",
+            "La Crapaudière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41160",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Neuvy"
+                ],
+                "fr": [
+                  "Neuvy"
+                ]
+              },
+              "insee": "41160",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gitelacrapaudiere@gmail.com"
+      ],
+      "schema:legalName": "Grand gîte de la Crapaudière",
+      "schema:telephone": [
+        "+33 2 54 78 21 28",
+        "+33 6 07 02 71 08"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://gitelacrapaudiere.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c79e7b19-0d1e-31d1-8b01-9128760d7150",
+      "dc:description": {
+        "en": [
+          "Big holiday cottage for 15 people, with a large living-room, a fireplace and bay windows, terrace where you can have lunch or dinner. Ideal to gather families, friends, the groups of horsemen or bikers."
+        ],
+        "fr": [
+          "Grand gite confortable pour 15 personnes, avec un beau salon pour recevoir 40 personnes, doté d’une cheminée et de grandes baies vitrées, terrasse ombragée permettant de déjeuner ou dîner dehors. Idéal pour rassembler les familles, les amis, les groupes de cavaliers ou de randonneurs à vélo, qui ont accès direct au château de chambord par la foret ! Proche du zooparc de Beauval et du parc équestre de Lamotte Beuvron."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Big holiday cottage for 15 people, with a large living-room, a fireplace and bay windows, terrace where you can have lunch or dinner. Ideal to gather families, friends, the groups of horsemen or bikers."
+        ],
+        "fr": [
+          "Grand gite confortable pour 15 personnes, avec un beau salon pour recevoir 40 personnes, doté d’une cheminée et de grandes baies vitrées, terrasse ombragée permettant de déjeuner ou dîner dehors. Idéal pour rassembler les familles, les amis, les groupes de cavaliers ou de randonneurs à vélo."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ffb07c0c-7b51-37b1-aa64-104bdb32cb5c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4a79195e-870b-30f4-9831-795627e7c06b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7037cce2-24fa-3903-9e55-119fb5a415d3",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e1910f6f-8e12-3efa-a53b-b2774577803a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--1--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0119a9ca-2242-3000-ae12-a69c80fd6149",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fc539aab-2666-3d9b-bc03-80b80dbb8b83",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/be5df40d-2513-3c45-b508-266d8f9e8a4f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/015cd332-1f69-3358-9b85-c96e32ff91e1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/709e0ebd-1b3c-3245-9270-11bc9041ad61",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(4)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3906b899-916d-3504-a13b-7e2fd98c074d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--4--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/29cd3840-b884-3cf0-85ff-a4eada7c4e02",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/154e3da9-a934-3a2d-9d77-1acd16649276",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/697d09ec-7bf9-3d89-86d3-ca24c0e27a6a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--3--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4a79195e-870b-30f4-9831-795627e7c06b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7037cce2-24fa-3903-9e55-119fb5a415d3",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e1910f6f-8e12-3efa-a53b-b2774577803a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--1--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/599c8ad4-3641-3d7f-98e7-5275c68228a4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b7ec7452-20ca-35d5-8df5-bcedc8dfd8ac",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(8)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/91658352-5d74-3b9c-ac6f-13d92ecf9a1d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--8--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7995813b-179e-333f-9100-e96baa16fe9d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/74841666-d12d-3a20-bee6-4970d5140805",
+          "ebucore:isCoveredBy": "oui",
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab44a1c7-e3ce-3f95-ab14-6582e766e9af",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7dfa4117-f10f-3bd8-876f-b2d5f7961c7d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/75a0958b-208e-34fe-9890-22dbc7aee548",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ec6ce82-4a01-3e15-89f4-8d0bcc41c834",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--2--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/817e7277-638e-3cc3-81c8-de1ce3f60568",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3bede5af-bfd8-3e12-83ed-b34055727788",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(10)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/847ee9a8-1493-34a4-a5ef-3ff01211c031",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--10--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ac27994a-dd7d-3955-a267-3f055a3dead7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f712bacc-6dfd-3b22-b99e-6e1afbafaae6",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(12)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bb6c810f-5778-3b02-9b57-58d718eea7aa",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--12-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b341ab75-9674-3975-9849-302b39ed533c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b90674b-4521-3b08-be2f-8ad6ee43fc77",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(7)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/03d9c331-ec7a-3dfb-afbb-f7de1e25b247",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--7--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c2ab6ec3-7147-3f7f-925e-f93de18aeb9c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0bec71b8-f41f-379f-9350-bf80fb9650f4",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "sologne-gite-crapeaudiere-neuvy"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2027-09-25",
+          "rightsStartDate": "2017-09-25"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/01a9f105-3458-3740-bb1e-8f5b36001688",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/sologne-gite-crapeaudiere-neuvy.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c5117734-af72-3e79-96f0-bc13c3a87c8a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/47ca3460-5e77-360e-8a14-a4e40cb29985",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "gite-la-crapaudiere-neuvy©GIte-de-la-Crapaudiere-(9)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©GIte-de-la-Crapaudiere-(1)"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/92e00712-cfdf-3d45-8715-be50884525d6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/gite-la-crapaudiere-neuvy-GIte-de-la-Crapaudiere--9--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a9cff44-4dd0-3741-9078-5de837f362c8",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "4 étoiles"
+          ],
+          "fr": [
+            "4 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bbb0e59c-aa71-3226-b132-0f31c47f5139",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0bc0d434-b8a4-3d25-b2ac-254882c75014",
+          "schema:addressLocality": "Neuvy",
+          "schema:postalCode": "41250",
+          "schema:streetAddress": [
+            "D 923 Route de Neung-sur-Beuvron",
+            "La Crapaudière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41160",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Neuvy"
+                ],
+                "fr": [
+                  "Neuvy"
+                ]
+              },
+              "insee": "41160",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/489e0a4d-0618-3baa-9167-273509272778",
+        "schema:latitude": "47.560017",
+        "schema:longitude": "1.6138917",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-02",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.345Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9e0f5ce9-ec32-3eed-953c-edafcd0f39a2",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/67843eb4-ae48-3ca0-b71f-2c63b7b8f4de",
+          "schema:minPrice": [
+            "1075"
+          ],
+          "schema:price": "1075",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dd1e3dc1-078f-30e6-8e94-28f15ef49e03",
+          "schema:minPrice": [
+            "2300"
+          ],
+          "schema:price": "2300",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

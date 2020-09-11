@@ -1,0 +1,487 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/199ae2d7-a28d-3463-98ce-492678ee21b4",
+  "dc:identifier": "HCOLLPDL072V501KZK",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "GroupLodging",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Accueil de groupe pendant les vacances scolaires et les week-ends. Parc paysagé. Nombreuses salles, environnement calme."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LPP NAZARETH"
+    ]
+  },
+  "allowedPersons": 158,
+  "availableLanguage": [
+    "Français"
+  ],
+  "creationDate": "2013-07-22",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2c4c1cfc-fbde-3dcf-8596-d1a58c6f6d96",
+      "schema:email": [
+        "francoise.guerin@lppnazareth.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 44 44 30"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.locationnazareth.jimdo.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/14d349e5-1a0c-3f3e-b868-607bffba4f94",
+      "dc:description": {
+        "fr": [
+          "Accueil de groupes pendant les vacances scolaires et les week-ends dans un environnement calme. Parc paysagé 3ha. Nombreuses salles. Hébergement clos.\nPour vous accueillir en groupe, famille, séminaire, colonie de vacances, cousinade, association, conseil d'administration, 67 chambres cloisonnées par box de 12. Chambres individuelles et doubles 56.  Salle de théâtre (60 pers) - Equipement audio-vidéo et informatique, cuisine professionnelle, salle de réception (150 pers), un bureau avec équipement informatique et internet, aire de jeux avec terrain de basket et foot, rocher d'escalade - VTT\nActivités culturelles et sportives à proximités (élevage d'autruches - d'escargots), souffleur de verre, citée troglodyte, musée des instruments de musique, lac et activités nautiques, centre équestre à 15 mn, piscine à 10 mn, dégustation de Jasnières."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Accueil de groupe pendant les vacances scolaires et les week-ends. Parc paysagé. Nombreuses salles, environnement calme."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/423609bc-1aec-3621-8d25-984704c866fc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:FinalHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Final housekeeping"
+            ],
+            "fr": [
+              "Ménage en fin de séjour"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4c8b579f-5618-354e-8fca-008db33d8b63",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Reception room"
+            ],
+            "fr": [
+              "Salle de réception"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/54af2241-d729-3452-896e-283e55a35bda",
+      "schema:value": "60",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bedroom"
+            ],
+            "fr": [
+              "Chambre"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5c0ea6a9-9b77-3218-bf05-454cb0503c25",
+      "schema:value": "70",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Dormitory",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Dormitory"
+            ],
+            "fr": [
+              "Dortoir"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/72e5a06d-f741-3d42-b2f7-7974fc493bd5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7b3cddbb-cbbe-3d41-8019-ca3f0f88006b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab5f36cb-7d88-3ea6-a4ec-f0f01e5330c6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c9c62a98-1338-336b-85e5-aebddce75025",
+      "schema:value": "158",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f987cbc7-97bc-34a4-a404-67fa5f2f1605",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:EnclosedLand",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Enclosed land"
+            ],
+            "fr": [
+              "Terrain clos"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+          "schema:unitText": [
+            "m²"
+          ],
+          "@type": [
+            "schema:QuantitativeValue"
+          ]
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8ee1e205-1d5b-371f-baa6-0da0fac6dbcf",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e8121b6e-9710-3983-97ad-cb342765e8d7",
+          "schema:addressLocality": "Loir en Vallée",
+          "schema:postalCode": "72340",
+          "schema:streetAddress": [
+            "17 rue Abbé Dujarié",
+            "BP 10102",
+            "Ruillé sur Loir"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72262",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Loir en Vallée"
+                ],
+                "fr": [
+                  "Loir en Vallée"
+                ]
+              },
+              "insee": "72262",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/3473761a-e732-3e60-be87-c36f3065d38b",
+        "schema:latitude": "47.7516938",
+        "schema:longitude": "0.6201634",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2019-03-25",
+  "lastUpdateDatatourisme": "2020-09-09T02:50:43.556Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0254c703-61a6-38bc-8ec5-d6d6f6d2144b",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

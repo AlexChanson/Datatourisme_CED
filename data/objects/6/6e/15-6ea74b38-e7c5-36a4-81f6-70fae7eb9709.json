@@ -1,0 +1,415 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/6ea74b38-e7c5-36a4-81f6-70fae7eb9709",
+  "dc:identifier": "ACCCEN0000001R",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Situation : centre bourg, près de l'église, derrière la salle polyvalente (traverser un petit pont) - 20 emplacements- Services (sauf période de gel) incluant 100 l d'eau et l'électricité. Jetons en vente : à la mairie, auprès du gardien ou à l'épicerie du village."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de stationnement et de service camping-cars - Le Bourg"
+    ]
+  },
+  "allowedPersons": 20,
+  "creationDate": "2009-02-23",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8634fc83-7de6-385d-8bce-ca3bd9f6744c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/df0cb9b0-d753-3a4a-aabd-e292703bb6d7",
+          "schema:addressLocality": "Angé",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "Mairie"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41002",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Angé"
+                ],
+                "fr": [
+                  "Angé"
+                ]
+              },
+              "insee": "41002",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:telephone": [
+        "+33 2 54 32 59 24"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.mairie-ange.com/tourisme/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/08d3e791-b19f-330e-9c7e-434f727e24b0",
+      "dc:description": {
+        "fr": [
+          "Situation : centre bourg, près de l'église, derrière la salle polyvalente (traverser un petit pont) - 20 emplacements- Services (sauf période de gel) incluant 100 l d'eau et l'électricité. Jetons en vente : à la mairie, auprès du gardien ou à l'épicerie du village."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Situation : centre bourg, près de l'église, derrière la salle polyvalente (traverser un petit pont) - 20 emplacements- Services (sauf période de gel) incluant 100 l d'eau et l'électricité. Jetons en vente : à la mairie, auprès du gardien ou à l'épicerie du village."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1e34e4e7-181c-3a8d-a2d4-2f70fa6219cf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper service point"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Electrical connections"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Washrooms",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Washrooms"
+            ],
+            "fr": [
+              "Sanitaires"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/16e92e14-508c-36b2-a3fd-0a68ce4c92ef",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/638545ad-0c4d-3c5d-9611-ada81e48daa1",
+          "schema:addressLocality": "Angé",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "Le bourg"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41002",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Angé"
+                ],
+                "fr": [
+                  "Angé"
+                ]
+              },
+              "insee": "41002",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/622dc43c-c792-3191-9555-93faf9590484",
+        "schema:latitude": "47.33",
+        "schema:longitude": "1.24",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.784Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/adcda050-5908-3bfe-906e-987d8099b03e",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1c59091d-60c9-3d9b-b2d1-a1c68eae52bb",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Stationnement mois"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/424584eb-3086-3e1f-8e74-3644a67aec14",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Stationnement journée"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a83d89de-b483-3c1e-8f62-f69d7acc1006",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Stationnement demi-journée"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bc4b27b3-3585-3c62-95e8-76719a91cf42",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Stationnement semaine"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

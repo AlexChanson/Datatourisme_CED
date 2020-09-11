@@ -1,0 +1,674 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/7d860fe6-06d4-3a14-8fd1-15bb74601f7d",
+  "dc:identifier": "HLOCEN037V50GCO5",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Welcome to the Gite de la Poulinière, a former nursery carefully restored, for a smooth and immersive stay. Two large bedrooms including a master suite in an environment of choice.\nThe Domaine des Cyclamens is a large traditional hamlet, restored, privatizable with Le Four à Pain (capacity 8p)."
+    ],
+    "fr": [
+      "Joli hameau de pierre de Touraine restauré pour un séjour en immersion"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "La poulinière du domaine des Cyclamens"
+    ],
+    "fr": [
+      "La Poulinière du Domaine des Cyclamens"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "allowedPersons": 5,
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2019-03-04",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2186262-3a3b-32f0-8f3f-3a826334f5ca",
+      "schema:email": [
+        "contact@domainedescyclamens.com"
+      ],
+      "schema:legalName": "DOMAINE DES CYCLAMENS",
+      "schema:telephone": [
+        "+33 7 67 40 80 06"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.domainedescyclamens.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/45580bd8-ac15-300f-b111-757d6c65849a",
+      "schema:email": [
+        "contact@domainedescyclamens.com"
+      ],
+      "schema:telephone": [
+        "+33 7 67 40 80 06"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.domainedescyclamens.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f2186262-3a3b-32f0-8f3f-3a826334f5ca",
+      "schema:email": [
+        "contact@domainedescyclamens.com"
+      ],
+      "schema:legalName": "DOMAINE DES CYCLAMENS",
+      "schema:telephone": [
+        "+33 7 67 40 80 06"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.domainedescyclamens.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/94420313-27fa-32b7-9d08-aaae2d7beef7",
+      "dc:description": {
+        "en": [
+          "Welcome to the Gite de la Poulinière, a former nursery carefully restored, for a smooth and immersive stay. Two large bedrooms including a master suite in an environment of choice.\nThe Domaine des Cyclamens is a large traditional hamlet, restored, privatizable with Le Four à Pain (capacity 8p)."
+        ],
+        "fr": [
+          "Bienvenue au Gite de la Poulinière, ancienne nurserie restaurée avec soin, pour un séjour en douceur et en immersion. Deux grandes chambres dont une suite parentale dans un environnement de choix.\nLe Domaine des Cyclamens est un grand hameau traditionnel, restauré, privatisable avec Le Four à Pain (capacité 8p)"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Welcome to the Gite de la Poulinière, a former nursery carefully restored, for a smooth and immersive stay. Two large bedrooms including a master suite in an environment of choice.\nThe Domaine des Cyclamens is a large traditional hamlet, restored, privatizable with Le Four à Pain (capacity 8p)."
+        ],
+        "fr": [
+          "Joli hameau de pierre de Touraine restauré pour un séjour en immersion"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/db086bc5-6b39-3d62-865a-dd64c19f6b1e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Charging station"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cf8f4614-4e0f-3dab-b0dd-839d961d3a14",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5bebddd9-75b2-32ad-a617-1831b9e2a3b2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "la-pouliniere-domainedescyclamens-loches-valdeloire2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Adeline PROT"
+          ],
+          "rightsEndDate": "2021-08-30",
+          "rightsStartDate": "2019-09-29"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/17e01d93-459a-3154-80d0-cefdd62d9c5c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/la-pouliniere-domainedescyclamens-loches-valdeloire2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/03f5b530-67c5-333e-b00e-62adde95a940",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/212e0026-23dc-3d67-8634-8522d672842a",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "la-pouliniere-domainedescyclamens-loches-valdeloire3"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Adeline PROT"
+          ],
+          "rightsEndDate": "2021-08-30",
+          "rightsStartDate": "2019-09-29"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/691c7363-529e-3a5e-956a-d4cdbee7c615",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/la-pouliniere-domainedescyclamens-loches-valdeloire3.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6f952e56-1ca2-3416-b335-c721a0b58c95",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e0ae80b2-4577-3a01-9370-d66686b593e0",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "la-pouliniere-domainedescyclamens-loches-valdeloire1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Adeline PROT"
+          ],
+          "rightsEndDate": "2021-08-30",
+          "rightsStartDate": "2019-09-29"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8e983686-2ce8-30bd-8c5e-f5a5fdc42af1",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/la-pouliniere-domainedescyclamens-loches-valdeloire1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cf8f4614-4e0f-3dab-b0dd-839d961d3a14",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5bebddd9-75b2-32ad-a617-1831b9e2a3b2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "la-pouliniere-domainedescyclamens-loches-valdeloire2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Adeline PROT"
+          ],
+          "rightsEndDate": "2021-08-30",
+          "rightsStartDate": "2019-09-29"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/17e01d93-459a-3154-80d0-cefdd62d9c5c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/la-pouliniere-domainedescyclamens-loches-valdeloire2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2a9cff44-4dd0-3741-9078-5de837f362c8",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "4 étoiles"
+          ],
+          "fr": [
+            "4 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3252fd78-1499-3a71-8134-2f50f0558d49",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/289b6cd3-799f-3b67-aabf-31abfbad436d",
+          "schema:addressLocality": "Verneuil-sur-Indre",
+          "schema:postalCode": "37600",
+          "schema:streetAddress": [
+            "8-9 La Pinçonnière",
+            "Domaine des Cyclamens"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37269",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Verneuil-sur-Indre"
+                ],
+                "fr": [
+                  "Verneuil-sur-Indre"
+                ]
+              },
+              "insee": "37269",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/170b6100-8734-3f24-8012-2b7c6504a07a",
+        "schema:latitude": "47.06376",
+        "schema:longitude": "1.064393",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-16",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.354Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/36325671-bc9b-38f1-95f6-3b8d777f17aa",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5bf22036-ba76-38cc-b555-942839f0b9e3",
+          "schema:maxPrice": [
+            "336"
+          ],
+          "schema:minPrice": [
+            "214"
+          ],
+          "schema:price": "214",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab047fa7-4d91-3466-8b7d-e87801048dc3",
+          "schema:maxPrice": [
+            "1176"
+          ],
+          "schema:minPrice": [
+            "749"
+          ],
+          "schema:price": "749",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

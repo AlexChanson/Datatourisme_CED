@@ -1,0 +1,203 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/3d043d7e-075a-3aa3-9ad7-3ec53324bd6a",
+  "dc:identifier": "ACCCEN000V5000FA",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Stationnement gratuit. Services (électricité uniquement)."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de stationnement pour camping-cars - rue du Moulin"
+    ]
+  },
+  "allowedPersons": 4,
+  "creationDate": "2013-10-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2f56e67b-363a-36e0-8488-217b8a26f32e",
+      "schema:telephone": [
+        "+33 2 54 46 53 80"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.grandchambord.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3d6e1dc3-602d-3d57-984a-3221fae9d25a",
+      "dc:description": {
+        "fr": [
+          "Stationnement gratuit. Services (électricité uniquement)."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Stationnement gratuit. Services (électricité uniquement)."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19633ebc-34c8-3148-aed9-91e9827adee2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2e05cb7a-b318-3f6e-8595-44495b8747e6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d63b7e94-ec98-3177-aeff-280dc05f3d3a",
+          "schema:addressLocality": "Saint-Claude-de-Diray",
+          "schema:postalCode": "41350",
+          "schema:streetAddress": [
+            "Rue du Moulin"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41204",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Claude-de-Diray"
+                ],
+                "fr": [
+                  "Saint-Claude-de-Diray"
+                ]
+              },
+              "insee": "41204",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/a0643642-b640-31a1-9ea1-07f0a43afd74",
+        "schema:latitude": "47.611619",
+        "schema:longitude": "1.412328",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2018-01-02",
+  "lastUpdateDatatourisme": "2020-07-13T02:53:06.943Z"
+}

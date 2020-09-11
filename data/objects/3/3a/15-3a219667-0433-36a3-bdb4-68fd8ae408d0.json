@@ -1,0 +1,934 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/3a219667-0433-36a3-bdb4-68fd8ae408d0",
+  "dc:identifier": "ASCCEN041V500062",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Visit of the Nature reserve by bus. Accompanied with a guide, the group penetrates with its own coach at the heart of the reserve usually closed to the public."
+    ],
+    "fr": [
+      "Accompagné d’un guide, le groupe pénètre avec son propre autocar au cœur de la réserve habituellement fermée au public."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Nature outings in Chambord"
+    ],
+    "fr": [
+      "Visite de la Réserve de Chambord en car"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2014-04-11",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/323c5fa5-adfb-3f41-8346-efaf7216c26e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/59fbcaf1-17d3-3751-aba5-6a2d73ead039",
+          "schema:addressLocality": "Chambord",
+          "schema:postalCode": "41250",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41034",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chambord"
+                ],
+                "fr": [
+                  "Chambord"
+                ]
+              },
+              "insee": "41034",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservations@chambord.org"
+      ],
+      "schema:legalName": "Château de Chambord",
+      "schema:telephone": [
+        "+33 2 54 50 50 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.chambord.org/fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/051d6e7d-3048-3274-992d-ee810099204f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5ba31d2d-d394-3b2d-8e21-0b852ee899ca",
+          "schema:postalCode": "41250",
+          "@type": [
+            "schema:PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservations@chambord.org"
+      ],
+      "schema:legalName": "Château de Chambord",
+      "schema:telephone": [
+        "+33 2 54 50 50 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/323c5fa5-adfb-3f41-8346-efaf7216c26e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/59fbcaf1-17d3-3751-aba5-6a2d73ead039",
+          "schema:addressLocality": "Chambord",
+          "schema:postalCode": "41250",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41034",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chambord"
+                ],
+                "fr": [
+                  "Chambord"
+                ]
+              },
+              "insee": "41034",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "reservations@chambord.org"
+      ],
+      "schema:legalName": "Château de Chambord",
+      "schema:telephone": [
+        "+33 2 54 50 50 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.chambord.org/fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4c8688f7-d700-36c6-87b4-ba3e696d2257",
+      "dc:description": {
+        "en": [
+          "Visit of the Nature reserve by bus. Accompanied with a guide, the group penetrates with its own coach at the heart of the reserve usually closed to the public."
+        ],
+        "fr": [
+          "Accompagné d’un guide, le groupe pénètre avec son propre autocar au cœur de la réserve habituellement fermée au public. Dans ce milieu naturel préservé, les participants auront peut-être la chance d'apercevoir cerfs, biches ou sangliers..."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Visit of the Nature reserve by bus. Accompanied with a guide, the group penetrates with its own coach at the heart of the reserve usually closed to the public."
+        ],
+        "fr": [
+          "Accompagné d’un guide, le groupe pénètre avec son propre autocar au cœur de la réserve habituellement fermée au public."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c170d6ca-e88a-3c1f-a030-327b595ab9c7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8076a61a-1f2b-3c63-8023-0b2984197945",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8fd0f034-5b0a-30f3-85fe-1eecda96f9b5",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---Cerf-©-Domaine-National-de-Chambord---F-Forget"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Domaine National de Chambord - F-Forget"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aaf25b93-8351-3226-bee9-088e73e6f75c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---Cerf---Domaine-National-de-Chambord---F-Forget.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5f34e9c7-9e60-3afe-bdd7-454a10be40f1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1ac54b92-a5c8-3b1d-9db2-46dfb5f2508f",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---sanglier-©_Domaine-National-de-Chambord---F-Forget"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Domaine National de Chambord - F-Forget"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9000ddeb-b72b-3b40-a806-9d37d9efa4fd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---sanglier---Domaine-National-de-Chambord---F-Forget.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5f5bb25d-73af-3358-94e6-e655dffe406f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/13e8b5bf-5770-35ac-88a4-572b209d4284",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---Mirador-©-Sophie-Lloyd"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Sophie-Lloyd"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/77faf59b-05ae-3d93-9db1-3f1f448c7f05",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---Mirador---Sophie-Lloyd.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/797a22bc-cc61-3a88-ab1f-a929b8687ffb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6aca6945-8d4b-3c80-8828-4aaa1b63e903",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---Faune-(c)-Domaine-natinal-de-Chambord"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Domaine natinal de Chambord"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7d27c8de-86c8-354d-a7ea-48f36e3cb185",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---Faune--c--Domaine-natinal-de-Chambord.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8076a61a-1f2b-3c63-8023-0b2984197945",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8fd0f034-5b0a-30f3-85fe-1eecda96f9b5",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---Cerf-©-Domaine-National-de-Chambord---F-Forget"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Domaine National de Chambord - F-Forget"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/aaf25b93-8351-3226-bee9-088e73e6f75c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---Cerf---Domaine-National-de-Chambord---F-Forget.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a80ed6a0-0745-324c-9092-6590ed6e08e2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cd0c5ffc-c002-367c-9dd9-e374da21f2eb",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---étange-©-Sophie-Lloyd"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Sophie-Lloyd"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1ee8e573-6e52-3134-89a9-92701cc00da1",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---etange---Sophie-Lloyd.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b7d7cf66-7c47-3123-a837-f4914f0d91c1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a3a91e0b-8fa9-3b6e-8aa1-8ea5c2d908bd",
+          "ebucore:title": {
+            "fr": [
+              "Chambord---réserve-©-Sophie-Lloyd"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Sophie-Lloyd"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-06-27"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7df7151d-4e1d-395b-b7fb-2db1952aaf74",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Chambord---reserve---Sophie-Lloyd.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:FaunaFlora",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fauna - flora"
+        ],
+        "fr": [
+          "Faune - flore"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/75697c20-243f-3607-82ce-2ee5e6c82e59",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0d8d028f-420d-3bcb-9739-5dfab18698f0",
+          "schema:addressLocality": "Chambord",
+          "schema:postalCode": "41250",
+          "schema:streetAddress": [
+            "Château de Chambord"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41034",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Chambord"
+                ],
+                "fr": [
+                  "Chambord"
+                ]
+              },
+              "insee": "41034",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/73edfa02-90f6-348b-9c67-6fd0601701bb",
+        "schema:latitude": "47.616126",
+        "schema:longitude": "1.517218",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-09-07",
+  "lastUpdateDatatourisme": "2020-09-08T05:05:52.172Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1aaa986b-f619-364c-89dc-97af5934e9ce",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/95a937f3-2da4-3552-b258-4786831c3bc8",
+          "schema:minPrice": [
+            "330"
+          ],
+          "schema:price": "330",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Group",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Group rate"
+              ],
+              "fr": [
+                "Tarif Groupe"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

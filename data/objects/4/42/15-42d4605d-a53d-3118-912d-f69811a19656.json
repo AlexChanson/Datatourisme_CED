@@ -1,0 +1,963 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/42d4605d-a53d-3118-912d-f69811a19656",
+  "dc:identifier": "PCU41AASOR100187",
+  "@type": [
+    "ArcheologicalSite",
+    "Church",
+    "CityHeritage",
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "ReligiousSite",
+    "Ruins"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "The village of Lavardin is among \"the most beautiful villages of France\". Stroll through the picturesque streets (\"La Rotte aux Biques\", etc) lined with remarkably restored old houses from the 12th, 13th, 15th and 16th centuries"
+    ],
+    "fr": [
+      "Le village de Lavardin compte parmi “les plus beaux Villages de France”. Il fait bon flâner dans ses ruelles pittoresques (\"La Rotte aux Biques\"...) bordées de maisons anciennes (XIIe, XIIIe, XVe et XVIe s.) remarquablement restaurées. Visite commentée par un bénévole de l'association Hist'Orius."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Visit of the mediaeval village of Lavardin"
+    ],
+    "fr": [
+      "Visite commentée du village médiéval de Lavardin"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/02768121-a655-3dea-8193-22251144d3b1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4b38397e-f252-39de-b102-81e9f0e547e6",
+          "schema:addressLocality": "Lavardin",
+          "schema:postalCode": "41800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41113",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lavardin"
+                ],
+                "fr": [
+                  "Lavardin"
+                ]
+              },
+              "insee": "41113",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gino.segrais@wanadoo.fr"
+      ],
+      "schema:legalName": "Visite du village médiéval de Lavardin",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/02768121-a655-3dea-8193-22251144d3b1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4b38397e-f252-39de-b102-81e9f0e547e6",
+          "schema:addressLocality": "Lavardin",
+          "schema:postalCode": "41800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41113",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lavardin"
+                ],
+                "fr": [
+                  "Lavardin"
+                ]
+              },
+              "insee": "41113",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gino.segrais@wanadoo.fr"
+      ],
+      "schema:legalName": "Visite du village médiéval de Lavardin",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8c69aa81-ea95-38d1-be75-7d969242edf2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ebb49be-1f9c-3b93-b103-1cab8c5829fd",
+          "schema:addressLocality": "Lavardin",
+          "schema:postalCode": "41800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41113",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lavardin"
+                ],
+                "fr": [
+                  "Lavardin"
+                ]
+              },
+              "insee": "41113",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "gino.segrais@wanadoo.fr"
+      ],
+      "schema:legalName": "Visite du village médiéval de Lavardin",
+      "schema:telephone": [
+        "+33 6 72 46 13 39"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0d9510c8-573f-34c9-b7b4-e1a62529c0f6",
+      "dc:description": {
+        "en": [
+          "Nestled in the Loir Valley, Lavardin is set against the splendid ruins of its chÃ¢teau. <b>Classified among the most beautiful villages in France</b>, it has picturesque alleyways with flowers, lined by old houses (12th, 13th, 15th and 16th centuries) that have been carefully restored, troglodyte habitations, wall paintings and cool cellars. The beginnings of this village go back to the dawn of time (prehistoric origins), but it is its medieval appearance, along with its wild, rustic charm, that make it one of the most remarkable villages in France. Free self visit any time.<br>- Guided visit upon request.<br>"
+        ],
+        "fr": [
+          "Une promenade découverte vous est proposée dans Lavardin, village enfoui dans la verdure, au bord du Loir. Au pied du donjon et des ruines encore impressionnantes du château médiéval, vous parcourez des ruelles bordées de maisons anciennes, vous arpenterez la Rotte aux biques avant de vous arrêter dans l'église romane de Saint Genest pour y admirer les fresques murales du XIIème au XVIème siècle. Visite commentée par un bénévole de l'association Hist'Orius sur demande toute l'année."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "The village of Lavardin is among \"the most beautiful villages of France\". Stroll through the picturesque streets (\"La Rotte aux Biques\", etc) lined with remarkably restored old houses from the 12th, 13th, 15th and 16th centuries"
+        ],
+        "fr": [
+          "Le village de Lavardin compte parmi “les plus beaux Villages de France”. Il fait bon flâner dans ses ruelles pittoresques (\"La Rotte aux Biques\"...) bordées de maisons anciennes (XIIe, XIIIe, XVe et XVIe s.) remarquablement restaurées. Visite commentée par un bénévole de l'association Hist'Orius."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a630f4c2-4115-3ae8-b10d-7df0ad880dac",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Picnic area"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7e0629b7-80fa-36ad-b591-d406a267d36e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8583a3c5-82f1-3f42-8dc0-999512791b11",
+          "ebucore:title": {
+            "fr": [
+              "Vue-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ac1a6eaf-1452-3fc5-b4ed-fb4ef27bd58e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-35-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/05afdeea-612e-3f92-b5c8-31f855dc2261",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9f7f2ab4-fe2b-336a-99ff-348932e8ee87",
+          "ebucore:title": {
+            "fr": [
+              "Village-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/98b547bb-14b5-3151-9685-e8e0b8f74738",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-31-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0a1cd7be-b19d-3391-8885-47067bb8711d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7e1d2104-ad2a-3af3-8e07-f90b43207d7a",
+          "ebucore:title": {
+            "fr": [
+              "Maison-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d04981e6-ef6e-360c-92d6-98bf2f8af47d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-34-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5b542e89-9719-3100-9fb7-7ba8fb0e6689",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cd1778af-1aeb-38e9-8bf1-dcde85d0dbfa",
+          "ebucore:title": {
+            "fr": [
+              "Le-pont-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0ad8b30e-a8a6-3a06-8f21-4a4ad5579623",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-26-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7e0629b7-80fa-36ad-b591-d406a267d36e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8583a3c5-82f1-3f42-8dc0-999512791b11",
+          "ebucore:title": {
+            "fr": [
+              "Vue-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ac1a6eaf-1452-3fc5-b4ed-fb4ef27bd58e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-35-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/805c460d-e1a2-3f2d-aabb-6698137600e1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8093de82-aae2-38d2-bda3-98acc646704b",
+          "ebucore:title": {
+            "fr": [
+              "Les-ruelles-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/04f788cc-ae1b-35bd-b577-5b34a03a393c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-37-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b099d4b4-11dd-35cf-9bb4-54af9289f91d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4126ed6d-d912-3815-bffc-cea4b444185e",
+          "ebucore:title": {
+            "fr": [
+              "Lavoir-de-Lavardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©MIR-PHOTO-ADT41"
+          ],
+          "rightsEndDate": "2025-12-31",
+          "rightsStartDate": "2020-06-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3fbafd88-e4fd-3497-bac2-af9997e3efbe",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Lavardin-Studio-Mir-21-800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e7d84516-fa50-30b2-95fb-2c39684cc7f1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ebb49be-1f9c-3b93-b103-1cab8c5829fd",
+          "schema:addressLocality": "Lavardin",
+          "schema:postalCode": "41800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41113",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Lavardin"
+                ],
+                "fr": [
+                  "Lavardin"
+                ]
+              },
+              "insee": "41113",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/ad1c7bde-7b2f-37a7-8cd7-e737e263fc28",
+        "schema:latitude": "47.741583",
+        "schema:longitude": "0.886481",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-08-05",
+  "lastUpdateDatatourisme": "2020-08-17T14:02:34.655Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5a96d364-5a7e-35a2-aa59-a4b36de4cee7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/90a442af-7422-32cc-abc3-2d8873621e5c",
+          "schema:minPrice": [
+            "5"
+          ],
+          "schema:price": "5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(hors château)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cd34d5b2-f7d6-3967-8264-7c9975bf9475",
+          "schema:minPrice": [
+            "3"
+          ],
+          "schema:price": "3",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "(hors château)"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

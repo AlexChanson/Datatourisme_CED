@@ -1,0 +1,903 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/803a31e9-c801-3c31-8ec1-0fb2cbf1f79e",
+  "dc:identifier": "HLOCEN041V502YMS",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Les gîtes de Joséphine vous accueillent toute l'année dans un cadre paisible avec une capacités d'accueil de 4 personnes. Venez profiter du calme des bords de Loire, en couple, en famille ou entre amis. Venez découvrir la Loire à vélo et les nombreuses marches possibles dans la parc de Chambord."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Les gîtes de Joséphine - le Gîte Jaune"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2020-02-24",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3d8f302e-c63f-3c55-897b-87cc201bc8b5",
+      "schema:email": [
+        "panard.paskell@icloud.com"
+      ],
+      "schema:telephone": [
+        "+33 6 11 31 74 85"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.lesgitesdejosephine.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3d8f302e-c63f-3c55-897b-87cc201bc8b5",
+      "schema:email": [
+        "panard.paskell@icloud.com"
+      ],
+      "schema:telephone": [
+        "+33 6 11 31 74 85"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.lesgitesdejosephine.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04a0e01e-f4d5-3d8a-9a63-340f75f11faa",
+      "dc:description": {
+        "fr": [
+          "Les gîtes de Joséphine vous accueillent toute l'année dans un cadre paisible avec une capacités d'accueil de 4 personnes\nVenez profiter du calme des bords de Loire, en couple, en famille ou entre amis. \nVenez découvrir la Loire à vélo et les nombreuses marches possibles dans la parc de Chambord. Garage à vélos sécurisés, équipements pour réparation et nettoyage des vélos. Vos lits sont fait avant votre arrivée, linge de toilettes compris. WIFI gratuit, tv avec chaines internationales. Petits déjeuners, repas du soir et panier repas sur demande.\nTarif de 55 euros pour deux personnes, 10 euros par personnes supplémentaires.\nPetit déjeuner : 8euros/pers livré dans votre gite à une heure convenu ensemble\nRepas du soir : 19 euros/pers\nPanier repas : 11 euros"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Les gîtes de Joséphine vous accueillent toute l'année dans un cadre paisible avec une capacités d'accueil de 4 personnes. Venez profiter du calme des bords de Loire, en couple, en famille ou entre amis. Venez découvrir la Loire à vélo et les nombreuses marches possibles dans la parc de Chambord."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0f768d1e-adc3-3823-a849-721e5251130a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0a12a96b-b969-33fe-968d-1e62c13c70ac",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1bb86939-6e9b-3913-bf93-91ac9795461c",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salle a manger"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8866cce-390b-30da-8d13-39acb85629f6",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-0934.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/04b7d09f-8288-33a9-8320-517b8b9ece47",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/76f82a9d-1cf0-30db-841b-7d8e419b1873",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Cuisine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/82c56499-0910-3429-93a0-00f8afe706ff",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2076-3.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0a12a96b-b969-33fe-968d-1e62c13c70ac",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/1bb86939-6e9b-3913-bf93-91ac9795461c",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salle a manger"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8866cce-390b-30da-8d13-39acb85629f6",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-0934.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1e098b20-4708-3c3f-88b7-e62a5e49b80e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/20cf27d6-8760-33c7-a31d-2737161b3ad2",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Terrasse"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/130f7d3d-7a3c-3de7-8b66-dfd2ffba56f1",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-3929-3.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/69a3c67c-862d-3d68-849c-301d28e41700",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/07c91630-b48c-3754-99db-9ab78cf431d8",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Salle de bain"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/29569f9c-226b-3614-b947-f2157023eac2",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2608.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/704029ae-7bff-324a-8ab4-1287ecc42888",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d8b2fd13-19f6-3e45-91ce-4bc77b145336",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Chambres"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fd862e75-2432-3340-93f4-97973f83f968",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2077-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8c21ce34-0ff0-3ed5-8c81-d06a4370f54a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ee2d2ce7-5dff-38a5-841f-e5e8209e86cb",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Confiture maison"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/36835bf0-3145-3c5e-91b1-e6b002e635de",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2617-2.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/98c59e58-3f66-3afa-b53b-071d996b6029",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/76f82a9d-1cf0-30db-841b-7d8e419b1873",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Cuisine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6acff0b9-7a59-3a51-8263-aef261fe10ec",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2076-2.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b689953e-a98e-3315-bbf3-9b14f0bd3a2c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/56214725-dd0d-3873-bb4a-172f8829369d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Escalier"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ac424971-7265-3e36-b5da-b61897b16c05",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2613.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b9ed3e6f-d9ca-33ec-9529-b6a551f84d46",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/82355e29-f414-34f1-a865-7d58701ebc7c",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "salle de bain wc"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4bdfb3e6-c9d6-34bc-8069-a601b98ec4f5",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2069.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e5f5a6ef-1046-30d3-8b00-adb968ee0bee",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3dddea23-4239-39bf-bd2b-8dfa320d5c3d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Equipements enfants"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/dd290e66-28d9-3c00-8fba-66462095a68a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-1440-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/eb75d116-d8f4-3386-a5dc-b2cc6a47b3b3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/50dc6bd2-0317-33df-ba2f-1bfa5733320d",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "Douche"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Paskell"
+          ],
+          "rightsEndDate": "2021-12-31",
+          "rightsStartDate": "2020-03-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7cb1148a-9804-3664-a4c7-bbaefb4581cd",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-2070.jpeg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2455044a-2685-357a-a173-d13e0fba14d9",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "2 étoiles"
+          ],
+          "fr": [
+            "2 étoiles"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3550c96b-c964-3a1c-a871-f43fe572284d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8d3d62f0-2846-3e62-94be-b8f8fc238621",
+          "schema:addressLocality": "Courbouzon",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "Les Bordes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41066",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Courbouzon"
+                ],
+                "fr": [
+                  "Courbouzon"
+                ]
+              },
+              "insee": "41066",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/01f6e7e3-5469-34dd-aae8-1ece5480798b",
+        "schema:latitude": "47.680263",
+        "schema:longitude": "1.52981",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-13",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.331Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/36315131-2c27-3f74-9563-d54f438dae32",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/20d19616-a72e-3888-a33e-c4c633cdfc0a",
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/298c0df7-e17d-316f-a31c-e196aea3d843",
+          "schema:minPrice": [
+            "55"
+          ],
+          "schema:price": "55",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b2358bbf-7a0c-3d3c-9ee1-8bdcaee75edb",
+          "schema:minPrice": [
+            "11"
+          ],
+          "schema:price": "11",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/bd847c85-3b9b-3171-9c87-b7b2416330c9",
+          "schema:minPrice": [
+            "10"
+          ],
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e68196b3-15bd-35e1-987a-a124ee8232ae",
+          "schema:minPrice": [
+            "19"
+          ],
+          "schema:price": "19",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

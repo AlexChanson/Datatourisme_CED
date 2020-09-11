@@ -1,0 +1,707 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/f691e21b-f570-3501-8283-313bce5468cd",
+  "dc:identifier": "PNACEN041V500KBZ",
+  "@type": [
+    "schema:Landform",
+    "NaturalHeritage",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Le plan d'eau de Sougé est situé à proximité immédiate du Loir et du bourg. Sur place : sentier piéton, aire sécurisée pour les personnes à mobilité réduite, tables de pique-nique... Des zones de stationnement ont également été créées pour les pêcheurs et les visiteurs."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Etang communal de Sougé"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2016-10-18",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4aa3a8a5-1759-3f9d-ba1d-1b0d99b3a744",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fe532eb1-eab2-3a2a-90c9-992daff22ea7",
+          "schema:addressLocality": "Sougé",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "Etang communal de Sougé"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41250",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sougé"
+                ],
+                "fr": [
+                  "Sougé"
+                ]
+              },
+              "insee": "41250",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "fed.peche41@wanadoo.fr"
+      ],
+      "schema:legalName": "Fédération de Pêche du Loir-et-Cher",
+      "schema:telephone": [
+        "+33 2 54 90 25 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.fedepeche41.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4aa3a8a5-1759-3f9d-ba1d-1b0d99b3a744",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fe532eb1-eab2-3a2a-90c9-992daff22ea7",
+          "schema:addressLocality": "Sougé",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "Etang communal de Sougé"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41250",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sougé"
+                ],
+                "fr": [
+                  "Sougé"
+                ]
+              },
+              "insee": "41250",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "fed.peche41@wanadoo.fr"
+      ],
+      "schema:legalName": "Fédération de Pêche du Loir-et-Cher",
+      "schema:telephone": [
+        "+33 2 54 90 25 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.fedepeche41.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e85e957f-e0cb-3128-af7b-d0880fe8e3cd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a0039afb-cedd-3402-88b2-aa7c2201c033",
+          "schema:addressLocality": "Sougé",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "Etang communal de Sougé"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41250",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sougé"
+                ],
+                "fr": [
+                  "Sougé"
+                ]
+              },
+              "insee": "41250",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "fed.peche41@wanadoo.fr"
+      ],
+      "schema:legalName": "Fédération de Pêche du Loir-et-Cher",
+      "schema:telephone": [
+        "+33 2 54 90 25 60"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.fedepeche41.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f28f5a79-0592-31db-8415-3530952bfb6d",
+      "dc:description": {
+        "fr": [
+          "Le plan d'eau de Sougé est à proximité immédiate du Loir et du bourg. Sur place : sentier piéton, aire sécurisée pour les personnes à mobilité réduite, tables de pique-nique... Des zones de stationnement ont également été créées pour les pêcheurs et les visiteurs. Tous les pêcheurs munis d’une carte de pêche valide peuvent pratiquer la technique de pêche de leur choix : coup, lancer,... La pêche est uniquement autorisée du bord. La réglementation départementale s’applique sur le plan d’eau (périodes d’ouverture et de fermeture, tailles de capture,...)"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Le plan d'eau de Sougé est situé à proximité immédiate du Loir et du bourg. Sur place : sentier piéton, aire sécurisée pour les personnes à mobilité réduite, tables de pique-nique... Des zones de stationnement ont également été créées pour les pêcheurs et les visiteurs."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1af2c698-2b60-3133-8744-81b6357f20f3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/37c8da3c-3947-3d89-8a8a-13710bdd7a4c",
+          "ebucore:title": {
+            "fr": [
+              "Plan-d-eau-communal-souge©Federation-Peche-41-web"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Fédération-Pêche-41"
+          ],
+          "rightsStartDate": "2016-11-07"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/113bf4fd-a4f3-3840-a9cc-ec68453248b8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Plan-d-eau-communal-souge-Federation-Peche-41-web.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1af2c698-2b60-3133-8744-81b6357f20f3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/37c8da3c-3947-3d89-8a8a-13710bdd7a4c",
+          "ebucore:title": {
+            "fr": [
+              "Plan-d-eau-communal-souge©Federation-Peche-41-web"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Fédération-Pêche-41"
+          ],
+          "rightsStartDate": "2016-11-07"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/113bf4fd-a4f3-3840-a9cc-ec68453248b8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Plan-d-eau-communal-souge-Federation-Peche-41-web.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ece53429-5dba-32c6-b572-4c3c2e792ecf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8fdee790-a869-38c5-9337-a99b4f98c5eb",
+          "ebucore:title": {
+            "fr": [
+              "logo-tourisme-de-nature-sites-et-itineraires-chemin-forestier"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Conseil-Départemental-41"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d68c662c-5202-3e49-8e70-e3e38122e5d8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/logo-tourisme-de-nature-sites-et-itineraires-chemin-forestier.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/619b8062-f27f-3fa4-89b8-60192310c120",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ac659dc9-39ce-3fa1-9c52-8fa111599c9f",
+          "schema:addressLocality": "Sougé",
+          "schema:postalCode": "41800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41250",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sougé"
+                ],
+                "fr": [
+                  "Sougé"
+                ]
+              },
+              "insee": "41250",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/9b48d3ee-81e2-3736-a8fa-a6561f719c4a",
+        "schema:latitude": "47.7671716",
+        "schema:longitude": "0.713222",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-08-30T08:05:58.86Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0d57b830-129f-3a1c-bdcd-03986a6ecfcd",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:FrenchBonsCAF",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "French bons caf"
+            ],
+            "fr": [
+              "Bons caf"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/556ab752-623c-3388-be73-b5b5479a0c05",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

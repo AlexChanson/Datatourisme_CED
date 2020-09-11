@@ -1,0 +1,779 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/31b8ed3e-c1c2-3db2-b0bb-72a23c65b541",
+  "dc:identifier": "LOICEN041V50005D",
+  "@type": [
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "12 Km north-west of Blois. 12 Km from Vendôme. 30 km from Les Bordes international golf course in Saint-Laurent-Nouan. 190 Km from Paris.\r 10 minutes from Blois (heart of the Loire Valley registered on UNESCO World Hertitage list)."
+    ],
+    "fr": [
+      "Nombreuses activités de loisirs avec 6 pistes adaptées à toutes les pratiques (avions, hélicoptères ULM toutes classes, planeurs dont une piste revêtue de 1250 m). Quatre écoles de pilotage proposent diverses prestations, formations, vols d’initiations, baptêmes de l’air."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Blois-Le Breuil Aerodrome"
+    ],
+    "fr": [
+      "Aérodrome Blois-Le Breuil"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2014-03-21",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/52284d24-7154-3db0-9eb8-c089f52f3051",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8f537f6-7fd7-3095-9a2e-c4a3e5f19077",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "Hôtel du Département",
+            "Place de République"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "aerodrome.blois-lebreuil@cg41.fr"
+      ],
+      "schema:legalName": "Aérodrome Blois-Le Breuil",
+      "schema:telephone": [
+        "+33 2 54 20 30 30"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.aeroport.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/52284d24-7154-3db0-9eb8-c089f52f3051",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8f537f6-7fd7-3095-9a2e-c4a3e5f19077",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "Hôtel du Département",
+            "Place de République"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "aerodrome.blois-lebreuil@cg41.fr"
+      ],
+      "schema:legalName": "Aérodrome Blois-Le Breuil",
+      "schema:telephone": [
+        "+33 2 54 20 30 30"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.aeroport.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/81579588-2824-3b65-af48-c22b05b6e127",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b8f537f6-7fd7-3095-9a2e-c4a3e5f19077",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "Hôtel du Département",
+            "Place de République"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "aerodrome.blois-lebreuil@cg41.fr"
+      ],
+      "schema:legalName": "Aérodrome Blois-Le Breuil",
+      "schema:telephone": [
+        "+33 2 54 20 30 30",
+        "+33 6 75 14 44 33"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.aeroport.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3c629766-f57d-3aee-a349-446e65dd29f7",
+      "dc:description": {
+        "en": [
+          "12 Km north-west of Blois. 12 Km from Vendôme. 30 km from Les Bordes international goff course in Saint-Laurent-Nouan. 190 Km from Paris.\n10 minutes from Blois (heart of the Loire Valley registered on UNESCO World Hertitage list).\nOpen 7 days a week (5runways pistes - inc. one 1250m runway - suitable for all types of aircraft - planes, helicopters, microlights\nand gliders).\nNew air terminal. Facilities for pilots including fully equipped loungue (TV, Wifi...) and fueling facilities. Restaurant. Free parking for 50 vehicles. Taxis, car hire."
+        ],
+        "fr": [
+          "Nombreuses activités de loisirs avec 6 pistes adaptées à toutes les pratiques (avions, hélicoptères ULM toutes classes, planeurs dont une piste revêtue de 1250 m). Quatre écoles de pilotage proposent diverses prestations, formations, vols d’initiations, baptêmes de l’air. L’Air Club Blois-Vendôme (02.54.20.17.68) (activités Avions Ulm et planeurs). La société Centre Air Pilot (02.54.42.12.12)(vols d’initiation avion). La société Héli- Passion (02.54.81.05.92) (école et vols hélicoptère), la Maugerie ULM (autogire) 06 01 84 10 08 école de pilotage d'autogire. La société Compagnons du Vent, (02 54 43 19 12), vous propose quant à elle, des voyages inoubliables en montgolfière et A2 Parachutisme (06 61 92 22 72) sauts tandem en parachutes."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "12 Km north-west of Blois. 12 Km from Vendôme. 30 km from Les Bordes international golf course in Saint-Laurent-Nouan. 190 Km from Paris.\r 10 minutes from Blois (heart of the Loire Valley registered on UNESCO World Hertitage list)."
+        ],
+        "fr": [
+          "Nombreuses activités de loisirs avec 6 pistes adaptées à toutes les pratiques (avions, hélicoptères ULM toutes classes, planeurs dont une piste revêtue de 1250 m). Quatre écoles de pilotage proposent diverses prestations, formations, vols d’initiations, baptêmes de l’air."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ff2e3321-5dd6-379f-b568-b1cfa27235f1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EquippedMeetingRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Equipped meeting room"
+            ],
+            "fr": [
+              "Salle de réunion équipée"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Picnic area"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Restaurant"
+            ],
+            "fr": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Toilets"
+            ],
+            "fr": [
+              "Toilettes"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2ea54f3f-224a-3709-8bc8-4e645e92b0b4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ba838438-5393-3751-aae8-4e6b18ca4e70",
+          "ebucore:title": {
+            "fr": [
+              "vol-au-dessus-du-loir©CG41-Acharron-(5)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "CG41-Acharron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-07-18"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c2164756-b891-325f-a493-1bf72a29b665",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vol-au-dessus-du-loir-CG41-Acharron--5-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2ea54f3f-224a-3709-8bc8-4e645e92b0b4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ba838438-5393-3751-aae8-4e6b18ca4e70",
+          "ebucore:title": {
+            "fr": [
+              "vol-au-dessus-du-loir©CG41-Acharron-(5)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "CG41-Acharron"
+          ],
+          "rightsEndDate": "2020-12-31",
+          "rightsStartDate": "2016-07-18"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/c2164756-b891-325f-a493-1bf72a29b665",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vol-au-dessus-du-loir-CG41-Acharron--5-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/dc90467b-6fc7-3d97-ae62-2808607d66af",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6c4c639c-708c-33ae-b3fb-3ea0ab8f16e9",
+          "ebucore:title": {
+            "fr": [
+              "logo-tourisme-de-nature-sites-et-itineraires-chemin-forestier"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Conseil-Départemental-41"
+          ],
+          "rightsEndDate": "2050-06-11",
+          "rightsStartDate": "2018-06-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d68c662c-5202-3e49-8e70-e3e38122e5d8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/logo-tourisme-de-nature-sites-et-itineraires-chemin-forestier.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9cc81e14-0d52-3403-8da5-8e1c386ece63",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/810ce107-8f30-379b-8347-f55441e3b5ef",
+          "schema:addressLocality": "Villefrancœur",
+          "schema:postalCode": "41330",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41281",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villefrancœur"
+                ],
+                "fr": [
+                  "Villefrancœur"
+                ]
+              },
+              "insee": "41281",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/80a572b2-eef1-3e9d-8cbf-aba69fb116a4",
+        "schema:latitude": "47.69343",
+        "schema:longitude": "1.218987",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-02",
+  "lastUpdateDatatourisme": "2020-07-28T09:01:05.639Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1277e8c6-dd78-38b6-b20f-d2876b3fe6fa",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6af49ca9-458a-39f8-85fd-3552cfe73fd8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

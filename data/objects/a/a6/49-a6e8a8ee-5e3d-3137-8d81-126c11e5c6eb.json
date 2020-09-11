@@ -1,0 +1,232 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/49/a6e8a8ee-5e3d-3137-8d81-126c11e5c6eb",
+  "dc:identifier": "ASCPDL072V5015HX",
+  "@type": [
+    "schema:Product",
+    "FreePractice",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "En Vallée du Loir, que vous soyez débutant(e) ou pêcheur confirmé, seul(e) ou accompagné(e), à pied ou en  embarcation, vous pourrez en toute quiétude pratiquer votre loisir favori."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LA PÊCHE"
+    ]
+  },
+  "availableLanguage": [
+    "Français"
+  ],
+  "creationDate": "2013-05-24",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e8583423-d6bf-3463-bdee-29aaaf61d12d",
+      "schema:email": [
+        "fdppma72@club-internet.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 85 66 01"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.federationpeche.fr/72"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a80b11bf-0d84-39e3-8335-dbd2d5d9201d",
+      "dc:description": {
+        "fr": [
+          "La liste des distributeurs de cartes de pêche et les personnes à contacter sont disponibles dans les points d'accueils de l'Office de Tourisme de la Vallée du Loir ou sur le site www.federationpeche.fr/72"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "En Vallée du Loir, que vous soyez débutant(e) ou pêcheur confirmé, seul(e) ou accompagné(e), à pied ou en  embarcation, vous pourrez en toute quiétude pratiquer votre loisir favori."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Fishing",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Fishing"
+        ],
+        "fr": [
+          "Pêche"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/257511c3-9993-3a5e-8bf4-bc8207c541d7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8e66476f-b291-3cf4-bde2-9bb03791e5f9",
+          "schema:addressLocality": "La Flèche",
+          "schema:postalCode": "72200",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:72154",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Flèche"
+                ],
+                "fr": [
+                  "La Flèche"
+                ]
+              },
+              "insee": "72154",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France5272",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Sarthe"
+                    ],
+                    "fr": [
+                      "Sarthe"
+                    ]
+                  },
+                  "insee": "72",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France52",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Pays de la Loire"
+                        ],
+                        "fr": [
+                          "Pays de la Loire"
+                        ]
+                      },
+                      "insee": "52",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/6c7fb9f8-141e-3da5-bf24-7ff51172922f",
+        "schema:latitude": "47.728568",
+        "schema:longitude": "0.571416",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2019-02-07",
+  "lastUpdateDatatourisme": "2020-07-16T04:39:40.538Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c1b36544-f105-3102-8309-bd9e90bd05fa",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

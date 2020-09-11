@@ -1,0 +1,304 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/b91204cc-d224-35d3-bbfe-5066c3003b0d",
+  "dc:identifier": "FMACEN037V50K5F8",
+  "schema:endDate": [
+    "2020-09-20"
+  ],
+  "schema:startDate": [
+    "2020-09-19"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:SocialEvent",
+    "EntertainmentAndEvent",
+    "PointOfInterest",
+    "ReligiousEvent",
+    "SocialEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Visite libre de l’église du XIe-XVIe siècle, qui a reçu en 2009 le prix des\" rubans du patrimoine\" pour sa restauration remarquable."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Eglise Sainte-Eulalie"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "fr": [
+      "Port du masque obligatoire."
+    ]
+  },
+  "creationDate": "2020-07-20",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e49bdc96-bc74-3a5b-aec0-9c1d3220eeb2",
+      "schema:email": [
+        "catherine.merlet@genille.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 83 01 78 52"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.genille.eu/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ab675d6-953b-3d78-9deb-2b38874cab2e",
+      "dc:description": {
+        "fr": [
+          "Visite libre de l’église du XIe-XVIe siècle, qui a reçu en 2009 le prix des\" rubans du patrimoine\" pour sa restauration remarquable."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Visite libre de l’église du XIe-XVIe siècle, qui a reçu en 2009 le prix des\" rubans du patrimoine\" pour sa restauration remarquable."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bddb7723-a796-3379-ad5f-0bcdf1081a34",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fc02c0b5-198a-33c0-8ece-4f69798fa965",
+          "schema:addressLocality": "Genillé",
+          "schema:postalCode": "37460",
+          "schema:streetAddress": [
+            "Place Agnès Sorel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37111",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Genillé"
+                ],
+                "fr": [
+                  "Genillé"
+                ]
+              },
+              "insee": "37111",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d58382ae-7b9b-30c7-b1df-294cc73a6e06",
+        "schema:latitude": "47.184943",
+        "schema:longitude": "1.093579",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-25",
+  "lastUpdateDatatourisme": "2020-07-26T05:20:42.487Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37120d5c-1aba-3ce8-a107-4c3e312e83b4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true,
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/53f98f4e-7e55-3be0-9ba1-eedd427fd261",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-20",
+      "endTime": "18:00:00",
+      "startDate": "2020-09-19",
+      "startTime": "09:00:00"
+    }
+  ]
+}

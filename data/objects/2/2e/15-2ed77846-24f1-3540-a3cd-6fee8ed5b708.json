@@ -1,0 +1,289 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/2ed77846-24f1-3540-a3cd-6fee8ed5b708",
+  "dc:identifier": "FMACEN037V50JYD4",
+  "schema:endDate": [
+    "2020-09-13"
+  ],
+  "schema:startDate": [
+    "2020-09-13"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:SaleEvent",
+    "EntertainmentAndEvent",
+    "OpenDay",
+    "PointOfInterest",
+    "SaleEvent",
+    "SportsEvent"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "La Cordée Jocondienne invite le public adulte à découvrir et tester l'escalade, sport de loisir et de nature."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Journée découverte de l'escalade"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "creationDate": "2020-07-07",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/c89d354e-38ed-3d7f-88cc-fdcfa85ab097",
+    "schema:legalName": "ADT 37",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1bf58e0b-c4e9-375c-9940-216e645b7835",
+      "schema:email": [
+        "lacordee.caft@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 24 94 16 71"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1203c1bd-d7e2-3a7b-b6e0-30046ab4edce",
+      "dc:description": {
+        "fr": [
+          "La Cordée Jocondienne invite le public adulte à découvrir et tester l'escalade, sport de loisir et de nature."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "La Cordée Jocondienne invite le public adulte à découvrir et tester l'escalade, sport de loisir et de nature."
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ece9861-506c-364b-a2b7-c24a83fc4424",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3259605f-394d-3804-bbcb-bc183f60161a",
+          "schema:addressLocality": "Joué-lès-Tours",
+          "schema:postalCode": "37300",
+          "schema:streetAddress": [
+            "Rue Roland de la Olla"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37122",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Joué-lès-Tours"
+                ],
+                "fr": [
+                  "Joué-lès-Tours"
+                ]
+              },
+              "insee": "37122",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/7c3093e3-5d8e-3e9f-b540-bfb0a6ab9f74",
+        "schema:latitude": "47.3463184",
+        "schema:longitude": "0.6679295",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/501138a4-7788-35ce-beb7-32209d36dea2",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sunday"
+                ],
+                "fr": [
+                  "Dimanche"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2020-09-13T00:00:00",
+          "schema:validThrough": "2020-09-13T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-09",
+  "lastUpdateDatatourisme": "2020-07-10T04:41:58.254Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37120d5c-1aba-3ce8-a107-4c3e312e83b4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9f287403-156a-3c85-aca6-a2c37455c75b",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-13",
+      "endTime": "18:00:00",
+      "startDate": "2020-09-13",
+      "startTime": "14:00:00"
+    }
+  ]
+}

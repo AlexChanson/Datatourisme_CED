@@ -1,0 +1,941 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/0744b887-a0d5-3bbe-8201-d7c7775327b7",
+  "dc:identifier": "ASCCEN0410004470",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "EquipmentRental",
+    "EquipmentRentalShop",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental",
+    "ServiceProvider",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Explore the historic cities of Amboise, Blois, Loches and Tours by segway. Also : V.I.P. package for Beauval Zoo Park (Saint-Aignan). A fantastic itinerary (3h) through the heart of the animals park."
+    ],
+    "fr": [
+      "Aux commandes de votre Segway, partez à la découverte des trésors de la cité blésoise. Une balade accompagnée de 90 mn pour découvrir les quartiers historiques de Blois. Egalement : formule ZooParc de Beauval V.I.P. (Saint-Aignan). Une balade fantastique (3h) au cœur du parc animalier."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Visit Blois by Segway"
+    ],
+    "fr": [
+      "Visite en Segway - Freemove"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6750f703-b4be-3b1e-9d48-62fc2b53f813",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7296c183-5ab8-38e8-8a03-e584bddafb10",
+          "schema:addressLocality": "La Croix-en-Touraine",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "6 les Sablons"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37091",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Croix-en-Touraine"
+                ],
+                "fr": [
+                  "La Croix-en-Touraine"
+                ]
+              },
+              "insee": "37091",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@freemove.fr"
+      ],
+      "schema:legalName": "Visite de Blois en Segway",
+      "schema:telephone": [
+        "+33 2 47 30 95 35",
+        "+33 6 37 00 31 14"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.freemove.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/03a8cae0-65b7-3425-808f-f71d6ba2ae97",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b755805f-38b6-39e9-861e-84a3d3b6fb37",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "Place Louis XII"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@freemove.fr"
+      ],
+      "schema:legalName": "Visite de Blois en Segway",
+      "schema:telephone": [
+        "+33 2 54 90 41 41",
+        "+33 6 37 00 31 14"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.freemove.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6750f703-b4be-3b1e-9d48-62fc2b53f813",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7296c183-5ab8-38e8-8a03-e584bddafb10",
+          "schema:addressLocality": "La Croix-en-Touraine",
+          "schema:postalCode": "37150",
+          "schema:streetAddress": [
+            "6 les Sablons"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37091",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "La Croix-en-Touraine"
+                ],
+                "fr": [
+                  "La Croix-en-Touraine"
+                ]
+              },
+              "insee": "37091",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "contact@freemove.fr"
+      ],
+      "schema:legalName": "Visite de Blois en Segway",
+      "schema:telephone": [
+        "+33 2 47 30 95 35",
+        "+33 6 37 00 31 14"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.freemove.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/8be445ea-9688-35c1-bdba-e38436341521",
+      "dc:description": {
+        "en": [
+          "Explore the historic cities of Amboise, Blois, Loches and Tours by segway. Also : V.I.P. package for Beauval Zoo Park (Saint-Aignan). A fantastic itinerary (3h) through the heart of the animals park."
+        ],
+        "fr": [
+          "Aux commandes de votre gyropode Segway, partez à la découverte des trésors de la cité blésoise. - Au départ de la place Louis XII : balade accompagnée d'1 h 30 (*) pour découvrir les monuments chargés d'histoire tels que le Château Royal de Blois, la cathédrale Saint-Louis, l'église Saint-Nicolas... De 4 (minimum) à 15 (maximum) participants (à partir de 12 ans). (*) Balades encadrées par un accompagnateur qui assure une formation rapide en toute sécurité. Vêtements de pluie et casques fournis. Egalement : formule ZooParc de Beauval V.I.P. (Saint-Aignan). Une balade fantastique (3 h) au coeur d'un des plus beaux parcs animaliers du monde, guidée et commentée par le vétérinaire du site."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Explore the historic cities of Amboise, Blois, Loches and Tours by segway. Also : V.I.P. package for Beauval Zoo Park (Saint-Aignan). A fantastic itinerary (3h) through the heart of the animals park."
+        ],
+        "fr": [
+          "Aux commandes de votre Segway, partez à la découverte des trésors de la cité blésoise. Une balade accompagnée de 90 mn pour découvrir les quartiers historiques de Blois. Egalement : formule ZooParc de Beauval V.I.P. (Saint-Aignan). Une balade fantastique (3h) au cœur du parc animalier."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/935d90d8-b8f0-3a63-80e3-04006d4bb125",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4502addf-8825-3629-b8e9-cc890a898351",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d448c6ea-5b01-34e7-a22d-2ade45b1a5ee",
+          "ebucore:title": {
+            "fr": [
+              "balade-segway(4)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "SEGWAY - FREEMOVE"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2016-06-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6b3164e4-710e-3903-b6f0-a6ae823df5c9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/balade-segway-4-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3d200232-b0d0-385b-a682-ad292e96f3ca",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f3bbf9b6-828f-3f64-8015-b03012dbc628",
+          "ebucore:title": {
+            "fr": [
+              "balade-segway(2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "SEGWAY - FREEMOVE"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2016-06-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/215f93a0-3386-3b2c-a513-4e156ed4a3cc",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/balade-segway-2-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4502addf-8825-3629-b8e9-cc890a898351",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d448c6ea-5b01-34e7-a22d-2ade45b1a5ee",
+          "ebucore:title": {
+            "fr": [
+              "balade-segway(4)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "SEGWAY - FREEMOVE"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2016-06-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6b3164e4-710e-3903-b6f0-a6ae823df5c9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/balade-segway-4-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d44a05d-dfde-367a-8113-caa37159171b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9eadfe6b-9837-34bd-bb77-f10927ee6e79",
+          "ebucore:title": {
+            "fr": [
+              "balade-segway(3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "SEGWAY - FREEMOVE"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2016-06-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2a8a89e2-ac96-338f-8f46-3ab0824d2d98",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/balade-segway-3-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6f89ec19-ac71-3b57-8c32-ef2ed80acc18",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b5148f78-80d5-324f-aa9a-b329392bed9b",
+          "ebucore:title": {
+            "fr": [
+              "balade-segway"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "SEGWAY - FREEMOVE"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2016-06-15"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d0ddd6e4-e604-314a-87a6-3ca15992c155",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/balade-segway.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Gyropode",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Gyropode"
+        ],
+        "fr": [
+          "Gyropode"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In town"
+        ],
+        "fr": [
+          "En ville"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b732868e-6607-3a5d-b520-04fba6beb114",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b755805f-38b6-39e9-861e-84a3d3b6fb37",
+          "schema:addressLocality": "Blois",
+          "schema:postalCode": "41000",
+          "schema:streetAddress": [
+            "Place Louis XII"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41018",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Blois"
+                ],
+                "fr": [
+                  "Blois"
+                ]
+              },
+              "insee": "41018",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/494878af-7949-3d52-927c-9d2ed8946277",
+        "schema:latitude": "47.585651",
+        "schema:longitude": "1.333804",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-07-31",
+  "lastUpdateDatatourisme": "2020-08-01T05:31:29.482Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f8dd0ef7-ec8a-36ba-a88a-59733f0daf73",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/47c89eab-5faa-3116-9ced-b51e15f71176",
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:price": "45",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Group",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Group rate"
+              ],
+              "fr": [
+                "Tarif Groupe"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/704c940e-a764-3f7e-9e43-3f10a51948cc",
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:price": "45",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/73bb8973-3df7-3221-a091-e07df5b33069",
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:price": "48",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

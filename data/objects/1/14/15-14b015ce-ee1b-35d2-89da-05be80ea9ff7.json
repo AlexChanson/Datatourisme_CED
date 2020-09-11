@@ -1,0 +1,200 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/14b015ce-ee1b-35d2-89da-05be80ea9ff7",
+  "dc:identifier": "FMACEN037V50KO3T",
+  "schema:endDate": [
+    "2020-09-20"
+  ],
+  "schema:startDate": [
+    "2020-09-19"
+  ],
+  "@type": [
+    "schema:Event",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Visite libre de l'église"
+    ]
+  },
+  "creationDate": "2020-08-22",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9f32b870-cb4c-3dca-bb28-77deab809c3e",
+      "schema:email": [
+        "mairie.sepmes@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 65 44 66"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.mairiedesepmes.fr/"
+      ]
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/86430aaa-499a-3d2f-bc69-206dcfc0f328",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9a4e6809-2ac8-3123-8463-70bb56f36a05",
+          "schema:addressLocality": "Sepmes",
+          "schema:postalCode": "37800",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37247",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Sepmes"
+                ],
+                "fr": [
+                  "Sepmes"
+                ]
+              },
+              "insee": "37247",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f6560904-1c50-3481-b7a5-fc8b5e560cdc",
+        "schema:latitude": "47.068025",
+        "schema:longitude": "0.674727",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-08-22",
+  "lastUpdateDatatourisme": "2020-08-23T03:46:22.799Z",
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/33d785b5-b474-35ce-8782-01f7e2503e0c",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-09-20",
+      "endTime": "17:00:00",
+      "startDate": "2020-09-19",
+      "startTime": "10:00:00"
+    }
+  ]
+}

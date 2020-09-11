@@ -1,0 +1,598 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c612552e-b8c7-3727-802f-72e68b90a519",
+  "dc:identifier": "HLOCEN000V501SPT",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Entre BLOIS, AMBOISE, TOURS et VENDOME, Patricia vous propose la douceur de vivre dans la spacieuse Roulotte Bourrellerie (28 m²), à la décoration atypique de la BOURRLLERIE et qui offre une vue sur les chevaux. Avec salon de jardin, bains de soleil, barbecue privés pour cette roulotte. Vous découv"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Roulotte Bourrellerie"
+    ],
+    "fr": [
+      "Roulotte Bourrellerie"
+    ]
+  },
+  "allowedPersons": 5,
+  "availableLanguage": [
+    "en"
+  ],
+  "creationDate": "2018-02-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/d02b0367-e485-377f-adcc-7648169c34df",
+    "schema:legalName": "CRT_CENTRE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab83b1c5-8eba-3264-b1e3-daa1603d4553",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/39ae09d3-ef0a-3c62-ae23-9b29bc8b2d72",
+          "schema:addressLocality": "Saunay",
+          "schema:postalCode": "37110",
+          "schema:streetAddress": [
+            "3 Tous-Vents"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37240",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saunay"
+                ],
+                "fr": [
+                  "Saunay"
+                ]
+              },
+              "insee": "37240",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "tous-vents@gmx.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 29 55 89",
+        "+33 6 16 50 16 95"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gites-chateaux-loire-tousvents.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6a91bed7-94e1-3d40-b0ff-e6e5b28dc124",
+      "schema:email": [
+        "tous-vents@gmx.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 29 55 89",
+        "+33 6 16 50 16 95"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gite-insolite-touraine.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ab83b1c5-8eba-3264-b1e3-daa1603d4553",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/39ae09d3-ef0a-3c62-ae23-9b29bc8b2d72",
+          "schema:addressLocality": "Saunay",
+          "schema:postalCode": "37110",
+          "schema:streetAddress": [
+            "3 Tous-Vents"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37240",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saunay"
+                ],
+                "fr": [
+                  "Saunay"
+                ]
+              },
+              "insee": "37240",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "tous-vents@gmx.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 29 55 89",
+        "+33 6 16 50 16 95"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gites-chateaux-loire-tousvents.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/f606d2fb-6ab8-33a0-99dc-28f5121fb182",
+      "dc:description": {
+        "fr": [
+          "Entre BLOIS, AMBOISE, TOURS et VENDOME, Patricia vous propose la douceur de vivre dans la spacieuse Roulotte Bourrellerie (27 m²), à la décoration atypique de la BOURRLLERIE et qui offre une vue sur les chevaux. Avec salon de jardin, bains de soleil, barbecue privés pour cette roulotte. Vous découvrirez aussi sa passion pour la nature, les animaux et profiterez des structures de loisirs avec piscine, tennis, badminton, ping-pong, beach volley (avec prêt de matériel pour chaque structure)  aire de jeux, jeux de société. 4 autres spacieux insolites sur le domaine paysagé."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Entre BLOIS, AMBOISE, TOURS et VENDOME, Patricia vous propose la douceur de vivre dans la spacieuse Roulotte Bourrellerie (28 m²), à la décoration atypique de la BOURRLLERIE et qui offre une vue sur les chevaux. Avec salon de jardin, bains de soleil, barbecue privés pour cette roulotte. Vous découv"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/69a8e243-8172-3d98-a14d-85c05918cbac",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Daily housekeeping"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ]
+          }
+        },
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Game area"
+            ],
+            "fr": [
+              "Espace jeux"
+            ]
+          }
+        },
+        {
+          "@id": "kb:LinenHire",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Linen hire"
+            ],
+            "fr": [
+              "Location de linge"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TennisCourt",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Tennis court"
+            ],
+            "fr": [
+              "Court de tennis"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bef0d51d-9a7d-37fd-8448-837d6ed63cdb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/55e85a57-6c3d-3137-bc65-94b45c3b3a50",
+          "ebucore:isCoveredBy": "oui",
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab44a1c7-e3ce-3f95-ab14-6582e766e9af",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bef0d51d-9a7d-37fd-8448-837d6ed63cdb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/55e85a57-6c3d-3137-bc65-94b45c3b3a50",
+          "ebucore:isCoveredBy": "oui",
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-01"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab44a1c7-e3ce-3f95-ab14-6582e766e9af",
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/579651c9-30dc-33ba-9cbc-c66ea9d81ab1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/de7d8372-efa1-3f2d-8687-41010fe5a4fd",
+          "schema:addressLocality": "Saunay",
+          "schema:postalCode": "37110",
+          "schema:streetAddress": [
+            "3 Touts-Vents"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37240",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saunay"
+                ],
+                "fr": [
+                  "Saunay"
+                ]
+              },
+              "insee": "37240",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/204ff7f3-5ac9-3659-9b74-d1eca8c1801b",
+        "schema:latitude": "47.5892478",
+        "schema:longitude": "0.9527343",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-01",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.351Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7345ecbc-2039-38c1-b363-26e2770ece7d",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2402381f-36e4-3347-9e87-957adbfcb1b0",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

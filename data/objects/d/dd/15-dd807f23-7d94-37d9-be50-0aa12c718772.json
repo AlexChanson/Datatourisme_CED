@@ -1,0 +1,232 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/dd807f23-7d94-37d9-be50-0aa12c718772",
+  "dc:identifier": "ACCCEN037V500HSP",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Nous vous accueillons dans notre ferme pour stationner votre camping-car gratuitement. C'est avec plaisir que nous vous ferons découvrir nos produits fermiers dans notre boutique."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Aire de stationnement de la Ferme des Bournaichères"
+    ],
+    "fr": [
+      "Aire de stationnement de la Ferme des Bournaichères"
+    ]
+  },
+  "allowedPersons": 4,
+  "creationDate": "2014-01-25",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/04c81750-b203-3927-9f84-c974baa96a0c",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/885d332b-72d4-399e-b1d0-e935d8f86f31",
+      "schema:email": [
+        "contact@maisongalland.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 92 30 85"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.maisongalland.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/91d26060-f118-3ced-a4ed-487fd4cd7e79",
+      "dc:description": {
+        "fr": [
+          "<p>Nous vous accueillons dans notre ferme pour stationner votre camping-car gratuitement. C&#39;est avec plaisir que nous vous ferons découvrir nos produits fermiers dans notre boutique.</p>"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Nous vous accueillons dans notre ferme pour stationner votre camping-car gratuitement. C'est avec plaisir que nous vous ferons découvrir nos produits fermiers dans notre boutique."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/19633ebc-34c8-3148-aed9-91e9827adee2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/588c8898-e3d1-34e7-8808-aa61067b64dc",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/303da02b-d7b6-33e0-9b81-377b3c9ca711",
+          "schema:addressLocality": "Betz-le-Château",
+          "schema:postalCode": "37600",
+          "schema:streetAddress": [
+            "Les Bournaichères"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37026",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Betz-le-Château"
+                ],
+                "fr": [
+                  "Betz-le-Château"
+                ]
+              },
+              "insee": "37026",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f7a2c797-a44c-3434-97b3-2c814e9ae7f1",
+        "schema:latitude": "47.0021494",
+        "schema:longitude": "0.94760512",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-03",
+  "lastUpdateDatatourisme": "2020-08-03T03:14:34.629Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37e6c17e-afd0-3d0b-8604-a07eef234fc0",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b1ead469-12dc-353a-a269-2d51bc58e9db",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "pour les adhérents de France Passion"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

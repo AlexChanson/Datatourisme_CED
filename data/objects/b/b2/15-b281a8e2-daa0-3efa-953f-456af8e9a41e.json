@@ -1,0 +1,626 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/b281a8e2-daa0-3efa-953f-456af8e9a41e",
+  "dc:identifier": "DEG41AASOR100482",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:Product",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Producer",
+    "Product",
+    "Tasting",
+    "TastingProvider",
+    "WineCellar"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Domaine Michaud has been family-run for 3 generations, and owns 25 hectares of vines planted on the south-facing hillsides that dominate the Cher Valley. The vineyard is managed according to Terra Vitis quality. Free visit, guided tours available with advance booking."
+    ],
+    "fr": [
+      "Exploitation familiale depuis 3 générations, le Domaine Michaud est constitué de 25 ha de vignes implantés sur des coteaux exposés plein sud dominant la vallée du Cher. Vignoble conduit sous la démarche qualité Terra Vitis. Visite libre, ou guidée sur demande préalable."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Domaine Michaud"
+    ],
+    "fr": [
+      "Domaine Michaud"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/627a1cc5-25a0-3e27-b46b-294326f5e2b1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cd9f73c9-9f73-34dd-8148-64f9d3b0cf5a",
+          "schema:addressLocality": "Noyers-sur-Cher",
+          "schema:postalCode": "41140",
+          "schema:streetAddress": [
+            "20 rue des Martinières"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41164",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Noyers-sur-Cher"
+                ],
+                "fr": [
+                  "Noyers-sur-Cher"
+                ]
+              },
+              "insee": "41164",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "thierry@domainemichaud.com"
+      ],
+      "schema:legalName": "Domaine Michaud",
+      "schema:telephone": [
+        "+33 2 54 32 47 23"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.domainemichaud.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/627a1cc5-25a0-3e27-b46b-294326f5e2b1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cd9f73c9-9f73-34dd-8148-64f9d3b0cf5a",
+          "schema:addressLocality": "Noyers-sur-Cher",
+          "schema:postalCode": "41140",
+          "schema:streetAddress": [
+            "20 rue des Martinières"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41164",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Noyers-sur-Cher"
+                ],
+                "fr": [
+                  "Noyers-sur-Cher"
+                ]
+              },
+              "insee": "41164",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "thierry@domainemichaud.com"
+      ],
+      "schema:legalName": "Domaine Michaud",
+      "schema:telephone": [
+        "+33 2 54 32 47 23"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.domainemichaud.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fccd9b65-38f8-32a4-942f-71b46811d27c",
+      "dc:description": {
+        "en": [
+          "Domaine Michaud has been family-run for 3 generations, and owns 25 hectares of vines planted on the south-facing hillsides that dominate the Cher Valley. The vineyard is managed in accordance with Terra Vitis quality. Unaccompanied visits; guided tours available with advance notice."
+        ],
+        "fr": [
+          "Exploitation familiale depuis 3 générations, le Domaine Michaud est constitué de 25 ha de vignes implantés sur des coteaux exposés plein sud dominant la vallée du Cher. Vignoble conduit sous la démarche qualité Terra Vitis. Visite libre, ou guidée sur demande préalable. Autre production : AOC touraine chenonceaux."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Domaine Michaud has been family-run for 3 generations, and owns 25 hectares of vines planted on the south-facing hillsides that dominate the Cher Valley. The vineyard is managed according to Terra Vitis quality. Free visit, guided tours available with advance booking."
+        ],
+        "fr": [
+          "Exploitation familiale depuis 3 générations, le Domaine Michaud est constitué de 25 ha de vignes implantés sur des coteaux exposés plein sud dominant la vallée du Cher. Vignoble conduit sous la démarche qualité Terra Vitis. Visite libre, ou guidée sur demande préalable."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7dcbc77b-216e-3c0d-a695-8f1e1302e0d7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0d06a30e-c1f5-36cf-8345-0d84dd20e801",
+          "ebucore:title": {
+            "fr": [
+              "Domaine Michaud - Noyers-sur-Cher"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Kanopee"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-21"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b27ea444-9374-3a98-bc8d-c6ebbf831988",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Domaine-Michaud-Noyers-sur-Cher.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7dcbc77b-216e-3c0d-a695-8f1e1302e0d7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0d06a30e-c1f5-36cf-8345-0d84dd20e801",
+          "ebucore:title": {
+            "fr": [
+              "Domaine Michaud - Noyers-sur-Cher"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Kanopee"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-07-21"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/b27ea444-9374-3a98-bc8d-c6ebbf831988",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Domaine-Michaud-Noyers-sur-Cher.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0e2aaa3f-503d-305b-99fe-796eff4ffce6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cd9f73c9-9f73-34dd-8148-64f9d3b0cf5a",
+          "schema:addressLocality": "Noyers-sur-Cher",
+          "schema:postalCode": "41140",
+          "schema:streetAddress": [
+            "20 rue des Martinières"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41164",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Noyers-sur-Cher"
+                ],
+                "fr": [
+                  "Noyers-sur-Cher"
+                ]
+              },
+              "insee": "41164",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f5bb3bbf-0640-38c4-80d1-b6729e7aa3a4",
+        "schema:latitude": "47.2657442",
+        "schema:longitude": "1.4413472",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-08-07",
+  "lastUpdateDatatourisme": "2020-08-08T08:18:53.897Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0e2fefc7-5de2-310c-b5c3-d27f54456e24",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d52c22ad-a8d3-3e60-8be6-451943a5459d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:Free",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Free"
+              ],
+              "fr": [
+                "Gratuit"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

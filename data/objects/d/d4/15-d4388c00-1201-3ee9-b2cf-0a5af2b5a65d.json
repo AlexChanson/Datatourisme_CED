@@ -1,0 +1,506 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/d4388c00-1201-3ee9-b2cf-0a5af2b5a65d",
+  "dc:identifier": "ASCCEN041V5020JD",
+  "@type": [
+    "schema:Product",
+    "AccompaniedPractice",
+    "EquipmentRental",
+    "EquipmentRentalShop",
+    "MultiActivity",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental",
+    "ServiceProvider",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "On foot, by bike or by canoë."
+    ],
+    "fr": [
+      "Sorties nature guidées en vélo, à pied ou encore en canoë pour découvrir la Loire."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Accompanied nature rides around the Loire"
+    ],
+    "fr": [
+      "Balades nature accompagnées autour de la Loire - Maison de la Loire"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2018-09-19",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0b22ed80-97e8-34d6-8fb7-aadc1fa0db86",
+      "schema:email": [
+        "contact@maisondeloire41.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 81 68 07"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.maisondeloire41.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0b22ed80-97e8-34d6-8fb7-aadc1fa0db86",
+      "schema:email": [
+        "contact@maisondeloire41.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 81 68 07"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.maisondeloire41.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a4701534-d189-3b2b-85b7-36e5c39df1d0",
+      "dc:description": {
+        "en": [
+          "On foot, by bike or by canoë."
+        ],
+        "fr": [
+          "Sorties nature guidées en vélo, à pied ou encore en canoë pour découvrir la Loire."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "On foot, by bike or by canoë."
+        ],
+        "fr": [
+          "Sorties nature guidées en vélo, à pied ou encore en canoë pour découvrir la Loire."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ad9ff523-47c2-30da-ba04-9c15bf0898dc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Shop"
+            ],
+            "fr": [
+              "Boutique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4b3f35a5-ff57-323c-9b63-85d2805ed079",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0c7c57aa-ba26-3357-8078-34bd3c93a17f",
+          "ebucore:title": {
+            "fr": [
+              "CanoéCrépu"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "MdL41"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-09-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab0c1083-d4cb-3ebb-9a23-f07f48ffd20f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-6944.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4b3f35a5-ff57-323c-9b63-85d2805ed079",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0c7c57aa-ba26-3357-8078-34bd3c93a17f",
+          "ebucore:title": {
+            "fr": [
+              "CanoéCrépu"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "MdL41"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2018-09-19"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ab0c1083-d4cb-3ebb-9a23-f07f48ffd20f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/IMG-6944.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7b1a39ff-1286-3561-a06f-1aa9f98420cb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_AccueilVelo",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Accueil Vélo"
+          ],
+          "fr": [
+            "Accueil Vélo"
+          ]
+        },
+        "isCompliantWith": [
+          "PlaceOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:BicycleTouring",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Bicycle touring"
+        ],
+        "fr": [
+          "Cyclotourisme"
+        ]
+      }
+    },
+    {
+      "@id": "kb:CanoeingKayaking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Canoeing-kayaking"
+        ],
+        "fr": [
+          "Canoé kayak"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Hiking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Hiking"
+        ],
+        "fr": [
+          "Randonnée"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a19abb69-7113-3010-a419-7603fa67b6c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ed0b49a6-538d-35e7-ba60-22e3169cc5f1",
+          "schema:addressLocality": "Saint-Dyé-sur-Loire",
+          "schema:postalCode": "41500",
+          "schema:streetAddress": [
+            "Maison du tourisme et espace scénographique"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41207",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Saint-Dyé-sur-Loire"
+                ],
+                "fr": [
+                  "Saint-Dyé-sur-Loire"
+                ]
+              },
+              "insee": "41207",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/4c56097b-47e4-3f30-8041-62a7790abf19",
+        "schema:latitude": "47.655491",
+        "schema:longitude": "1.487319",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-08-10",
+  "lastUpdateDatatourisme": "2020-09-02T05:18:15.417Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/37bdd4e7-4e0a-3837-a0c5-e7f8f4eb358e",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:FrenchBonsCAF",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "French bons caf"
+            ],
+            "fr": [
+              "Bons caf"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Holiday vouchers"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

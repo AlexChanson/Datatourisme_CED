@@ -1,0 +1,313 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/04aeb07f-e246-3aec-90c0-426c07238002",
+  "dc:identifier": "FMACEN037V50KFH3",
+  "schema:endDate": [
+    "2020-10-02"
+  ],
+  "schema:startDate": [
+    "2020-10-02"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:MusicEvent",
+    "Concert",
+    "CulturalEvent",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "Pour le deuxième VENDREDI EN VILLAN’ZIK, l'équipe de Villandry Village vous propose 3 concerts - scène locale :\nL'Affaire Capucine, Altersonic, et The Sidewalk Bandits. Buvette et petite restauration sur place. Ouverture des portes à 19h30. Premier concert à 20h00. Réservation souhaitée."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Vendredi en Villan'Zik"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "creationDate": "2020-08-07",
+  "hasAudience": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/14364bf3-4c6c-3c78-b968-8f358561fe97",
+    "schema:legalName": "Tours Val de Loire Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ad8b22d2-9643-3fb0-b6e2-ae4bc7e26c35",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://villandryvillage.wixsite.com/villandryvillage"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2160757c-4362-3054-98e8-b44c28cbfc03",
+      "dc:description": {
+        "fr": [
+          "Pour le deuxième VENDREDI EN VILLAN’ZIK, l'équipe de Villandry Village vous propose 3 concerts - scène locale :\nL'Affaire Capucine, Altersonic, et The Sidewalk Bandits. Buvette et petite restauration sur place. Ouverture des portes à 19h30. Premier concert à 20h00. Réservation souhaitée."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "Pour le deuxième VENDREDI EN VILLAN’ZIK, l'équipe de Villandry Village vous propose 3 concerts - scène locale :\nL'Affaire Capucine, Altersonic, et The Sidewalk Bandits. Buvette et petite restauration sur place. Ouverture des portes à 19h30. Premier concert à 20h00. Réservation souhaitée."
+        ]
+      }
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Regional"
+        ],
+        "fr": [
+          "Régionale"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c102ead3-a64b-3850-821a-d362cc949285",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4732fa01-bb8e-3541-a435-1ed2737a1355",
+          "schema:addressLocality": "Villandry",
+          "schema:postalCode": "37510",
+          "schema:streetAddress": [
+            "38 Rue du Commerce"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37272",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Villandry"
+                ],
+                "fr": [
+                  "Villandry"
+                ]
+              },
+              "insee": "37272",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/d6474457-085d-3196-9b20-3fcfa17cfc72",
+        "schema:latitude": "47.3392141",
+        "schema:longitude": "0.5090022",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9d7c4911-98e8-34ad-95d1-2d71da8ad0c9",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Friday"
+                ],
+                "fr": [
+                  "Vendredi"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:30:00",
+          "schema:validFrom": "2020-10-02T00:00:00",
+          "schema:validThrough": "2020-10-02T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-09-07",
+  "lastUpdateDatatourisme": "2020-09-08T04:08:41.304Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/87ef750a-d7a6-3d65-bd1a-f62d27fa0863",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/32f4b433-c98e-35ad-8983-560ad50c3ac4",
+          "schema:minPrice": [
+            "5"
+          ],
+          "schema:price": "5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:ChildRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Child rate"
+              ],
+              "fr": [
+                "Tarif enfant"
+              ]
+            }
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8c4dfe57-2d30-3c45-b720-b3b09208f2d7",
+          "schema:minPrice": [
+            "10"
+          ],
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/9b5600ca-b7cb-37b2-a000-4bf938ef5744",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2020-10-02",
+      "startDate": "2020-10-02",
+      "startTime": "19:30:00"
+    }
+  ]
+}

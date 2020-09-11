@@ -1,0 +1,687 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/5ea334d9-cdcd-3850-b8e3-49626b4a3deb",
+  "dc:identifier": "ACCCEN041V5003Z4",
+  "@type": [
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "fr": [
+      "L’aire CAMPING-CAR PARK de l’Etourneau est située entre le Cher et la route de Tours. Elle est accessible par une rue pavillonnaire. Dans un espace ombragé, au calme, avec des haies séparatives pour les emplacements de 35m2 à 50 m2, elle est idéalement située à 500 mètres du centre ville."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire Camping-Car Park de Montrichard"
+    ]
+  },
+  "allowedPersons": 40,
+  "creationDate": "2015-04-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6455aab6-fc68-33fb-83aa-69ae65ffa4e9",
+      "schema:email": [
+        "contact@campingcarpark.com"
+      ],
+      "schema:legalName": "Aire Camping-Car Park de Montrichard",
+      "schema:telephone": [
+        "+33 2 85 52 66 93"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://campingcarpark.com/fr/aire-camping-car-park/montrichard"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/6455aab6-fc68-33fb-83aa-69ae65ffa4e9",
+      "schema:email": [
+        "contact@campingcarpark.com"
+      ],
+      "schema:legalName": "Aire Camping-Car Park de Montrichard",
+      "schema:telephone": [
+        "+33 2 85 52 66 93"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://campingcarpark.com/fr/aire-camping-car-park/montrichard"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1b19e9ca-342f-30ff-ab9a-4d11d842c439",
+      "dc:description": {
+        "fr": [
+          "L’aire CAMPING-CAR PARK de l’Etourneau est située entre le Cher et la route de Tours. Elle est accessible par une rue pavillonnaire. Dans un espace ombragé, au calme, avec des haies séparatives pour les emplacements de 35m2 à 50 m2, elle est idéalement située à 500 mètres du centre ville que vous pourrez rejoindre en empruntant le petit portillon (au fond de l'aire), vous accédez directement à l’ancien chemin de halage en passant entre la maison éclusière et le barrage à aiguilles, tout en profitant de la vue sur Montrichard et son vieux pont."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "fr": [
+          "L’aire CAMPING-CAR PARK de l’Etourneau est située entre le Cher et la route de Tours. Elle est accessible par une rue pavillonnaire. Dans un espace ombragé, au calme, avec des haies séparatives pour les emplacements de 35m2 à 50 m2, elle est idéalement située à 500 mètres du centre ville."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/2dcf9928-aaf4-3b60-bc4e-ebaa81bf2d7c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper pitch rental"
+            ],
+            "fr": [
+              "Location d'emplacement camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Camper service point"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChemicalToiletEmptying",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Chemical toilets emptying"
+            ],
+            "fr": [
+              "Vidange toilettes chimiques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Container",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Container"
+            ],
+            "fr": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Electrical connections"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Water connections"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5984c564-8c35-3d96-8084-a2efa94addfe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b1f5d26-57e8-3414-8510-d75a7f6e18ad",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "aire-stationnement-camping-car-campingcarpark-montrichard (2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Campingcarpark"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/01d17cbe-af4b-3296-8e8a-96a9e7057c51",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/aire-stationnement-camping-car-campingcarpark-montrichard-Campingcarpark--2--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4fdd2213-5e82-3980-8adf-a84adc1c83e4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/95db2893-3ce8-3f4a-bc80-81ed5ca91c46",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "aire-stationnement-camping-car-campingcarpark-montrichard©Campingcarpark (4)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Campingcarpark"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4950527f-9d1d-37aa-a90e-34570cb69879",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/aire-stationnement-camping-car-campingcarpark-montrichard-Campingcarpark--4--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5984c564-8c35-3d96-8084-a2efa94addfe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/5b1f5d26-57e8-3414-8510-d75a7f6e18ad",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "aire-stationnement-camping-car-campingcarpark-montrichard (2)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Campingcarpark"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/01d17cbe-af4b-3296-8e8a-96a9e7057c51",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/aire-stationnement-camping-car-campingcarpark-montrichard-Campingcarpark--2--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7b9e9e3a-33c5-38d1-a9de-b9726a959a30",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/edade263-b71e-3e04-8d11-61f438522d67",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "aire-stationnement-camping-car-campingcarpark-montrichard (1)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Campingcarpark"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/e78831af-610f-303d-a13f-841429a0d3fe",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/aire-stationnement-camping-car-campingcarpark-montrichard-Campingcarpark--1--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a93cf1ac-429e-3b05-80ba-1ecd572f72bb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2c39244f-17a7-3cf1-aa1c-a75e1dfab4f0",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "aire-stationnement-camping-car-campingcarpark-montrichard©Campingcarpark (3)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Campingcarpark"
+          ],
+          "rightsEndDate": "2017-12-31",
+          "rightsStartDate": "2016-06-13"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6cb22202-dbeb-3f8b-9cb0-25e242c5be01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/aire-stationnement-camping-car-campingcarpark-montrichard-Campingcarpark--3--2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1a9839ad-1c6f-3a0e-8455-e3aa852e698a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/ac8863c7-c1d3-3a89-b21d-073103647868",
+          "schema:addressLocality": "Montrichard Val de Cher",
+          "schema:postalCode": "41400",
+          "schema:streetAddress": [
+            "Rue Frideloux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41151",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Montrichard Val de Cher"
+                ],
+                "fr": [
+                  "Montrichard Val de Cher"
+                ]
+              },
+              "insee": "41151",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/1e2b8fc2-43fd-3be6-84b8-18a4d966ac19",
+        "schema:latitude": "47.340487",
+        "schema:longitude": "1.17038",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-03-31",
+  "lastUpdateDatatourisme": "2020-07-07T02:35:14.782Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/e0caef44-7c82-36e4-8552-81a7cba70333",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/2360fce7-fff4-37f8-a39b-c31f93f5477a",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "-> 5H de stationnement"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/a7e46a0b-186b-3043-bf50-82606369ca53",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "+ taxe séjour par nuit par camping-car"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/fa815d56-0fb1-347d-b23c-489f9829e135",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "séjour de 24h."
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

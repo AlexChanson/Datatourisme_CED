@@ -1,0 +1,871 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/32a29f5f-a00f-38f0-8039-a66ce718bbba",
+  "dc:identifier": "PCU41AASOR100701",
+  "@type": [
+    "schema:Park",
+    "CulturalSite",
+    "ParkAndGarden",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "This 25 hectares arboretum gathers trees and shrubs found all over the world that have been gradually planted by the family since 1751. Visit for groups only."
+    ],
+    "fr": [
+      "Arboretum rassemblant sur les 25 ha d'un coteau de la vallée du Loir des milliers d'arbres et arbustes du monde entier plantés par la même famille depuis 1751. Visites pour groupe de 10 pers. minimum uniquement sur réservation par email."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Arboretum de la Fosse"
+    ],
+    "fr": [
+      "Arboretum de La Fosse"
+    ]
+  },
+  "COVID19InOperationConfirmed": true,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2010-01-01",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/07dc8557-cbf5-3300-8d81-6b0a558531c1",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/081f0ca0-fdf4-3f9e-923c-43e27774ea41",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cb8c9d33-ae74-3b88-ab67-bf08ee6e6411",
+          "schema:addressLocality": "Fontaine-les-Coteaux",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41087",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Fontaine-les-Coteaux"
+                ],
+                "fr": [
+                  "Fontaine-les-Coteaux"
+                ]
+              },
+              "insee": "41087",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "arboretumdelafosse@orange.fr"
+      ],
+      "schema:legalName": "Arboretum de La Fosse",
+      "schema:telephone": [
+        "+33 2 54 85 38 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.arboretumdelafosse.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/081f0ca0-fdf4-3f9e-923c-43e27774ea41",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/cb8c9d33-ae74-3b88-ab67-bf08ee6e6411",
+          "schema:addressLocality": "Fontaine-les-Coteaux",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41087",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Fontaine-les-Coteaux"
+                ],
+                "fr": [
+                  "Fontaine-les-Coteaux"
+                ]
+              },
+              "insee": "41087",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "arboretumdelafosse@orange.fr"
+      ],
+      "schema:legalName": "Arboretum de La Fosse",
+      "schema:telephone": [
+        "+33 2 54 85 38 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.arboretumdelafosse.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/0b3d5b77-1fe4-35e2-92fd-8e0985f38cd8",
+      "schema:email": [
+        "arboretumdelafosse@orange.fr"
+      ],
+      "schema:legalName": "Arboretum de La Fosse",
+      "schema:telephone": [
+        "+33 2 54 85 38 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.arboretumdelafosse.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/36324fd6-0660-3905-81bf-7c8eab65bcbd",
+      "dc:description": {
+        "en": [
+          "This arboretum encompasses 25 hectares of trees and shrubs found all over the world that have been gradually planted by the family since 1751. From the first flower buds of spring to the brilliant colors of autumn, the vast variety of leaves, different types of bark, flowerbeds, and the landscape design, become a never-ending marvel for the visitors."
+        ],
+        "fr": [
+          "L' arboretum de La Fosse, près de Montoire sur le Loir, est l'un des plus anciens arboretums de France. Des milliers d'arbres et arbustes du monde entier y ont été plantés depuis la fin du XVIII° siècle autour des bâtiments puis selon le dessin paysager réalisé par son propriétaire, sur les 25 ha d'un coteau de la vallée du Loir. Les innombrables découvertes botaniques des 3 derniers siècles ainsi que la persévérance de 8 générations de la même famille ont permis un entretien et un enrichissement constant. Le parc de La Fosse, comme d'autres arboretums, joue un triple rôle de conservation, d'expérimentation et d'observation à la croisée des chemins de la Science, de l'Art et de l'Histoire. Visite pour groupes de 10 personnes minimum uniquement, sur réservation par email.",
+          "L'arboretum de la Fosse  (Monument Historique) rassemble, sur 25 ha, des milliers d'arbres et d'arbustes du monde entier plantés par la même famille depuis 1751. Des premières floraisons du printemps aux couleurs flamboyantes de l'automne, la variété des feuillages, les écorces étranges, les tapis de fleurs en sous-bois et le dessin du paysage, constituent pour le visiteur un émerveillement toujours renouvelé. Le parc de La Fosse, comme d'autres arboretums, joue un triple rôle de conservation, d'expérimentation et d'observation à la croisée des chemins de la Science, de l'Art et de l'Histoire. Visite pour groupes de 10 personnes minimum uniquement, sur réservation par email."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "This 25 hectares arboretum gathers trees and shrubs found all over the world that have been gradually planted by the family since 1751. Visit for groups only."
+        ],
+        "fr": [
+          "Arboretum rassemblant sur les 25 ha d'un coteau de la vallée du Loir des milliers d'arbres et arbustes du monde entier plantés par la même famille depuis 1751. Visites pour groupe de 10 pers. minimum uniquement sur réservation par email."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/b5aeee97-c905-350a-b47e-5eab8eddae3c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Car park"
+            ],
+            "fr": [
+              "Parking"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba758ef8-de14-3b65-83e6-1694e9da3afd",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7e85d97d-c428-3793-be15-312dbb49327e",
+          "ebucore:title": {
+            "fr": [
+              "Orangerie (1817)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©edmond-gerard"
+          ],
+          "rightsEndDate": "2019-12-30",
+          "rightsStartDate": "2019-01-10"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f050ae01-29e5-3781-8f4e-166f50efa28f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/orangerie-10.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/13880756-86a3-325e-91f5-17cd3d3b44dc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6a7af7f8-bd2d-3040-8a17-f8f99f038a3f",
+          "ebucore:title": {
+            "fr": [
+              "Végétation méditerranéene"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Gabrielle-de-Saint-Venant"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9508272b-76c3-3695-b404-f1714785b2ea",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Juniperus-drupacea-genevrier-Gabrielle-de-Saint-Venant.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7382d82c-dbf1-3f85-a720-6f3d629a5b79",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/61cb5497-04d8-37a7-b1b0-f3916e7dabf5",
+          "ebucore:title": {
+            "fr": [
+              "Feuilles de Firmiana simplex"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Gabrielle-de-Saint-Venant"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/442c8745-9a92-3212-9c9d-9865654f00f0",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/Firmiana-simplex-feuilles--Gabrielle-de-Saint-Venant.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/79b232b2-32f0-343c-a1bd-ac9f3a929827",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9ace8444-0e48-3fbf-bf8c-d12f0577d321",
+          "ebucore:title": {
+            "fr": [
+              "Cédre du Liban (1810)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Gabrielle-de-Saint-Venant"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/0db9915d-1317-303e-9c60-30d2ebae64e7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/vue-maison-du-cedre-Gabrielle-de-Saint-Venant.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/ba758ef8-de14-3b65-83e6-1694e9da3afd",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7e85d97d-c428-3793-be15-312dbb49327e",
+          "ebucore:title": {
+            "fr": [
+              "Orangerie (1817)"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©edmond-gerard"
+          ],
+          "rightsEndDate": "2019-12-30",
+          "rightsStartDate": "2019-01-10"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/f050ae01-29e5-3781-8f4e-166f50efa28f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/orangerie-10.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c03169f2-57fb-38d3-b5cb-3f7694d96f14",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9502d2c8-ff2a-3f74-9a89-933052504603",
+          "ebucore:title": {
+            "fr": [
+              "Banc en bois et Magnolia grandiflora en automne"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "©Gabrielle-de-Saint-Venant"
+          ],
+          "rightsEndDate": "2019-12-31",
+          "rightsStartDate": "2019-01-11"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/82593453-f7c8-3a7b-b1d1-ecbb0b67b519",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "fr": [
+                  "Image JPEG"
+                ]
+              },
+              "rdfs:label": [
+                "image/jpeg"
+              ]
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/banc-en-bois-et-Magnolia-grandiflora-en-automne-Gabrielle-de-Saint-Venant.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "en": [
+          "In the countryside"
+        ],
+        "fr": [
+          "A la campagne"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/3e5adf07-5654-3e30-b02e-ede702f655ed",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/3561107f-7db8-39bb-b74b-8739ae5eb936",
+          "schema:addressLocality": "Fontaine-les-Coteaux",
+          "schema:postalCode": "41800",
+          "schema:streetAddress": [
+            "La Fosse"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41087",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Fontaine-les-Coteaux"
+                ],
+                "fr": [
+                  "Fontaine-les-Coteaux"
+                ]
+              },
+              "insee": "41087",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/f234906a-18f6-3961-95c2-d513772244d1",
+        "schema:latitude": "47.773111",
+        "schema:longitude": "0.844153",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-24",
+  "lastUpdateDatatourisme": "2020-07-24T14:01:58.327Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/89f1ea4b-1399-3df6-b1cf-4d68b78adbb1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/00e27612-a274-3249-aba0-0f3e98b80591",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "1 accompagnateur professionnel (chauffeur, guide,...) pour 20 personnes payantes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/40a90d73-cff4-34ce-883e-bda66871470f",
+          "schema:minPrice": [
+            "12"
+          ],
+          "schema:price": "12",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "Visite libre (Option : visite guidée + 80 € par groupe)"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

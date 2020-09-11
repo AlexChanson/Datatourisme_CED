@@ -1,0 +1,591 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/56542510-2d46-35d3-ba36-8550bdaa40e3",
+  "dc:identifier": "HLOCEN000FS002PS",
+  "@type": [
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "In the heart of Loire Valley, between Chaumont-sur-Loire and Amboise, close to Chenonceau, Blois and Chambord, our water mill of the 17th century, whose park is crossed by rivers bordered by majestic weeping willows, his pond and the former laundry are an invitation to relaxation and expatriation. C"
+    ],
+    "fr": [
+      "Mei et Hugues vous accueillent à La Pillebourdière, une ancienne ferme viticole aujourd'hui exploitée en chambre d'hôtes de charme, l'endroit idéal pour séjourner et découvrir une région au passé fabuleux, chargée d'histoire et de culture."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "La Pillebourdière"
+    ]
+  },
+  "allowedPersons": 12,
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "creationDate": "2013-04-05",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/16ff94c6-530f-3890-b062-ae6c1c96ee35",
+    "schema:legalName": "CRT Centre",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/23f349e9-2b20-3f8f-bd10-245c8450956e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d017d063-caf6-3b20-a693-ea677c6f3d80",
+          "schema:addressLocality": "Oisly",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41166",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Oisly"
+                ],
+                "fr": [
+                  "Oisly"
+                ]
+              },
+              "insee": "41166",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@lapillebourdiere.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 79 07 16",
+        "+33 6 71 35 15 06"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lapillebourdiere.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/23f349e9-2b20-3f8f-bd10-245c8450956e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d017d063-caf6-3b20-a693-ea677c6f3d80",
+          "schema:addressLocality": "Oisly",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41166",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Oisly"
+                ],
+                "fr": [
+                  "Oisly"
+                ]
+              },
+              "insee": "41166",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@lapillebourdiere.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 54 79 07 16",
+        "+33 6 71 35 15 06"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lapillebourdiere.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.gouv.fr/a52113b7-c37b-3cda-a06d-6bff2545f97f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/d017d063-caf6-3b20-a693-ea677c6f3d80",
+          "schema:addressLocality": "Oisly",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41166",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Oisly"
+                ],
+                "fr": [
+                  "Oisly"
+                ]
+              },
+              "insee": "41166",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@lapillebourdiere.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 51 82 72 03"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lapillebourdiere.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/30e1b172-2a18-3de5-9b98-b38fc2a3fad4",
+      "dc:description": {
+        "en": [
+          "In the heart of Loire Valley, between Chaumont-sur-Loire and Amboise, close to Chenonceau, Blois and Chambord, our water mill of the 17th century, whose park is crossed by rivers bordered by majestic weeping willows, his pond and the former laundry are an invitation to relaxation and expatriation. Completely renovated, three spacious bedrooms, including a family suite, are available. Sleeping 5, 3 or 2 people, they are all equipped with bathrooms and separate toilets.All our rooms have a view of the river or pond."
+        ],
+        "fr": [
+          "Mei et Hugues vous accueillent à La Pillebourdière, une ancienne ferme viticole aujourd'hui exploitée en chambre d'hôtes de charme, l'endroit idéal pour séjourner et découvrir une région au passé fabuleux, chargée d'histoire et de culture."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "In the heart of Loire Valley, between Chaumont-sur-Loire and Amboise, close to Chenonceau, Blois and Chambord, our water mill of the 17th century, whose park is crossed by rivers bordered by majestic weeping willows, his pond and the former laundry are an invitation to relaxation and expatriation. C"
+        ],
+        "fr": [
+          "Mei et Hugues vous accueillent à La Pillebourdière, une ancienne ferme viticole aujourd'hui exploitée en chambre d'hôtes de charme, l'endroit idéal pour séjourner et découvrir une région au passé fabuleux, chargée d'histoire et de culture."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/fa6bf535-fc25-31eb-8527-dc92719e8cd9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Charging station"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Wifi, internet access"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:COVID19ProtocolsCommitted",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "en": [
+            "Committed to official health protocols Covid-19"
+          ],
+          "fr": [
+            "Engagé à respecter les protocoles sanitaires officiels Covid-19"
+          ]
+        },
+        "isCompliantWith": [
+          "PointOfInterest"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/7cd2ee63-f696-3b32-bbaf-a24607d21506",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/4965afad-4aa4-3fce-afa1-3cfd99fe8e90",
+          "schema:addressLocality": "Oisly",
+          "schema:postalCode": "41700",
+          "schema:streetAddress": [
+            "18 route du Vivier"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:41166",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Oisly"
+                ],
+                "fr": [
+                  "Oisly"
+                ]
+              },
+              "insee": "41166",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2441",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Loir-et-Cher"
+                    ],
+                    "fr": [
+                      "Loir-et-Cher"
+                    ]
+                  },
+                  "insee": "41",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/406bc77d-2b03-3161-a6e9-db94bc953a74",
+        "schema:latitude": "47.3877615",
+        "schema:longitude": "1.3769928",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2020-06-16",
+  "lastUpdateDatatourisme": "2020-09-09T02:30:07.349Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/c2257c65-6278-3d8a-9e38-f5eb44a01570",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/60128eb1-1a85-3830-950d-20c6ea25d33a",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/7b3bbb21-8d03-3a73-ab91-5c3a981351ec",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.gouv.fr/8b6b731a-0b62-3c27-91ae-d2e96c40882d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

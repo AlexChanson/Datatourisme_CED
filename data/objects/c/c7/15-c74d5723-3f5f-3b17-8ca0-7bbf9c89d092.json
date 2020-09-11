@@ -1,0 +1,361 @@
+{
+  "@id": "https://data.datatourisme.gouv.fr/15/c74d5723-3f5f-3b17-8ca0-7bbf9c89d092",
+  "dc:identifier": "DEGCEN037V50HD0N",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:Product",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting",
+    "TastingProvider",
+    "WineCellar"
+  ],
+  "rdfs:comment": {
+    "en": [
+      "Guided tour of the wine cellars then discovery of ’La Rotonde’, a secret place housing the most beautiful vintages of the estate. In this magical place, private tasting of 5 exceptional wines."
+    ],
+    "fr": [
+      "Visite guidée des caves puis découverte de la Rotonde, magnifique caveau où vieillissent les plus prestigieux millésimes de la propriété. Dans ce lieu magique, dégustation privée de 5 grands vins."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Private visit and wine tasting in La Rotonde"
+    ],
+    "fr": [
+      "Maison BREDIF - Visite et dégustation privée à la Rotonde"
+    ]
+  },
+  "availableLanguage": [
+    "en"
+  ],
+  "creationDate": "2019-07-05",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.gouv.fr/c89d354e-38ed-3d7f-88cc-fdcfa85ab097",
+    "schema:legalName": "ADT 37",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/76af2d84-a9a7-3329-b109-36c06a4d7427",
+      "schema:email": [
+        "bredif.loire@domaine-bredif.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 52 50 07"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.deladoucette.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/4b15ff99-8e89-3283-862e-f7f47486e4a5",
+      "dc:description": {
+        "en": [
+          "Guided tour of the wine cellars then discovery of ’La Rotonde’, a secret place housing the most beautiful vintages of the estate. In this magical place, private tasting of 5 exceptional wines."
+        ],
+        "fr": [
+          "Visite guidée des caves puis découverte de la Rotonde, magnifique caveau où vieillissent les plus prestigieux millésimes de la propriété. Dans ce lieu magique, dégustation privée de 5 grands vins."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "shortDescription": {
+        "en": [
+          "Guided tour of the wine cellars then discovery of ’La Rotonde’, a secret place housing the most beautiful vintages of the estate. In this magical place, private tasting of 5 exceptional wines."
+        ],
+        "fr": [
+          "Visite guidée des caves puis découverte de la Rotonde, magnifique caveau où vieillissent les plus prestigieux millésimes de la propriété. Dans ce lieu magique, dégustation privée de 5 grands vins."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/d6701253-0020-348e-b2c0-79d3a5047d8b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Wine",
+      "@type": [
+        "FoodProduct"
+      ],
+      "rdfs:label": {
+        "en": [
+          "Wine"
+        ],
+        "fr": [
+          "Vin"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/5ab4fe25-b0a8-397e-926c-2578ea7143df",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/6bdb47da-cef6-3031-9d15-fe302c6058f4",
+          "schema:addressLocality": "Rochecorbon",
+          "schema:postalCode": "37210",
+          "schema:streetAddress": [
+            "87 quai de la Loire"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": [
+            {
+              "@id": "kb:37203",
+              "@type": [
+                "City"
+              ],
+              "rdfs:label": {
+                "en": [
+                  "Rochecorbon"
+                ],
+                "fr": [
+                  "Rochecorbon"
+                ]
+              },
+              "insee": "37203",
+              "isPartOfDepartment": [
+                {
+                  "@id": "kb:France2437",
+                  "@type": [
+                    "Department"
+                  ],
+                  "rdfs:label": {
+                    "en": [
+                      "Indre-et-Loire"
+                    ],
+                    "fr": [
+                      "Indre-et-Loire"
+                    ]
+                  },
+                  "insee": "37",
+                  "isPartOfRegion": [
+                    {
+                      "@id": "kb:France24",
+                      "@type": [
+                        "Region"
+                      ],
+                      "rdfs:label": {
+                        "en": [
+                          "Centre-Val de Loire"
+                        ],
+                        "fr": [
+                          "Centre-Val de Loire"
+                        ]
+                      },
+                      "insee": "24",
+                      "isPartOfCountry": [
+                        {
+                          "@id": "kb:France",
+                          "@type": [
+                            "schema:Country"
+                          ],
+                          "rdfs:label": {
+                            "en": [
+                              "France"
+                            ],
+                            "fr": [
+                              "France"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.gouv.fr/fe9f7e8f-2fdd-3254-b9ac-3271678122f2",
+        "schema:latitude": "47.4105283",
+        "schema:longitude": "0.7755628",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-01",
+  "lastUpdateDatatourisme": "2020-07-07T10:19:39.587Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.gouv.fr/1d535c32-a6df-3ed2-9478-1f5d5a3a8f8c",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "American express"
+            ],
+            "fr": [
+              "American express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Blue card"
+            ],
+            "fr": [
+              "Carte bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Cash"
+            ],
+            "fr": [
+              "Espèce"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Check"
+            ],
+            "fr": [
+              "Chèque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Transfers"
+            ],
+            "fr": [
+              "Virements"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "en": [
+              "Visa"
+            ],
+            "fr": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.gouv.fr/9335b1ad-622a-3ae2-b418-87918d758cd5",
+          "schema:minPrice": [
+            "50"
+          ],
+          "schema:price": "50",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": {
+            "@id": "kb:BaseRateFullRate",
+            "@type": [
+              "PricingPolicy"
+            ],
+            "rdfs:label": {
+              "en": [
+                "Base rate - full rate"
+              ],
+              "fr": [
+                "Tarif de base - plein tarif"
+              ]
+            }
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}
