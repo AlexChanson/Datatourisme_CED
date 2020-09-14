@@ -44,10 +44,15 @@ if __name__ == '__main__':
         archi = []
         try:
             for theme in data["hasTheme"]:
-                themes.extend(theme["@type"])
+
                 #print(theme["@type"])
                 if 'ArchitecturalStyle' in theme["@type"]:
                     archi.extend(theme["rdfs:label"]["fr"])
+                    t = theme["@type"]
+                    t.remove('ArchitecturalStyle')
+                    themes.extend(t)
+                else:
+                    themes.extend(theme["@type"])
         except KeyError:
             pass
         archi_domain.extend(archi)
