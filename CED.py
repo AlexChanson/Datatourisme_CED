@@ -1,3 +1,6 @@
+"""
+  Original CED Source by Clément Moreau
+"""
 import numpy as np
 from numba import jit, prange
 from Operator import *

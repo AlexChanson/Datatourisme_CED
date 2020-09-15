@@ -1,3 +1,7 @@
+"""
+  Original CED Source by Clément Moreau
+"""
+
 from enum import Enum
 from typing import TypeVar
 from numba import jit

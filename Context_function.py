@@ -1,3 +1,7 @@
+"""
+  Original CED Source by Clément Moreau
+"""
+
 from math import *
 
 """

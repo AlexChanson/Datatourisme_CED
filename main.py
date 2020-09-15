@@ -9,200 +9,154 @@ Original file is located at
 # Init
 """
 
+from functools import lru_cache
+
+import matplotlib.pyplot as plt
+import networkx as nx
+import pandas as pd
+from numpy.random import choice
+from pyvis.network import Network
+from scipy.cluster.hierarchy import dendrogram, linkage
+
+from CED import *
+from Context_function import gaussian
+from graphs import datatourisme_hist, datatourisme_theme, chain, all_successors, all_predecessors
+
+
 # Load data
-ID_PREFIX = "https://data.datatourisme.gouv.fr/" #Ids (URI) have been striped for memory/ease of use
+ID_PREFIX = "https://data.datatourisme.gouv.fr/"  # Ids (URI) have been striped for memory/ease of use
 INSTANCES_FILE = "data/output.csv"
 ONTOLOGY_FILE = "data/graph"
 
 
-import pandas as pd
-import numpy as np
-from numpy.random import choice
-import matplotlib.pyplot as plt
-import networkx as nx 
-from pyvis.network import Network
-import IPython
-from IPython.display import display
-from scipy.stats import wasserstein_distance
-from scipy.optimize import linear_sum_assignment
-from numba import jit
-
-import math
-import csv
-from copy import deepcopy
-from os.path import expanduser
-import types
-from functools import lru_cache
-
-from CED import *
-from Context_function import gaussian
-
 # Main utility fonctions
-def all_successors(G, n, all_succ):
-    all_succ += [n]
-    for _n in G.successors(n):
-        if _n not in all_succ : 
-            all_successors(G, _n, all_succ)
-    return all_succ
-
-def all_predecessors(Graph, node):
-  def internal(G,n,acc):
-    acc += [n]
-    for _n in G.predecessors(n):
-        if _n not in acc : 
-            internal(G, _n, acc)
-    return acc
-  return internal(Graph, node, [])
-
 def degeneralize(concepts, ontology):
-  more_general = set()
+    more_general = set()
 
-  for concept in concepts:
-    to_rem = all_predecessors(ontology, concept)
-    to_rem.remove(concept)
-    
-    more_general.update(to_rem)
+    for concept in concepts:
+        to_rem = all_predecessors(ontology, concept)
+        to_rem.remove(concept)
 
-  return concepts.difference(more_general)
+        more_general.update(to_rem)
+
+    return concepts.difference(more_general)
+
 
 def display(G, filename, size_dynamic=True, height='750px', width="100%", notebook=True):
-  #pyvis.Network
-  g = Network(height=height, width=width, directed=True, heading=filename.rstrip(".html"))
+    # pyvis.Network
+    g = Network(height=height, width=width, directed=True, heading=filename.rstrip(".html"))
 
-  if size_dynamic:
-    size = lambda Graph,node : 80 * len(all_successors(Graph, node, []))
-  else:
-    size = lambda Graph, node: 80
-
-  for n in G:
-    if n == "Start":
-      g.add_node(n, value=size(G,n), label=n, color="Green")
-    elif n == "Sleep":
-      g.add_node(n, value=size(G,n), label=n, color="Red")  
+    if size_dynamic:
+        size = lambda Graph, node: 80 * len(all_successors(Graph, node, []))
     else:
-      g.add_node(n, value=size(G,n), label=n, ) 
-  for edge in G.edges:
-    try:
-      g.add_edge(edge[0], edge[1], label=G.get_edge_data(edge[0], edge[1])["weight"])
-    except KeyError:
-      g.add_edge(edge[0], edge[1])
+        size = lambda Graph, node: 80
 
-  g.show_buttons(filter_=['physics'])
-  g.show(filename)
+    for n in G:
+        if n == "Start":
+            g.add_node(n, value=size(G, n), label=n, color="Green")
+        elif n == "Sleep":
+            g.add_node(n, value=size(G, n), label=n, color="Red")
+        else:
+            g.add_node(n, value=size(G, n), label=n, )
+    for edge in G.edges:
+        try:
+            g.add_edge(edge[0], edge[1], label=G.get_edge_data(edge[0], edge[1])["weight"])
+        except KeyError:
+            g.add_edge(edge[0], edge[1])
+
+    g.show_buttons(filter_=['physics'])
+    g.show(filename)
+
 
 """# Halkidi"""
 
+
 @lru_cache(maxsize=100000)
 def wu_palmer(x, y, Ontologie, rootnode="All"):
-  return (2.0 * nx.shortest_path_length(Ontologie, rootnode, nx.lowest_common_ancestor(Ontologie, x, y))) / (nx.shortest_path_length(Ontologie, rootnode, x) + nx.shortest_path_length(Ontologie, rootnode, y))
+    return (2.0 * nx.shortest_path_length(Ontologie, rootnode, nx.lowest_common_ancestor(Ontologie, x, y))) / (
+                nx.shortest_path_length(Ontologie, rootnode, x) + nx.shortest_path_length(Ontologie, rootnode, y))
+
 
 # New stuff
-def halkidi(X, Y, delta, ontology) :
-  if len(X) == 0 or len(Y) == 0:
-    return 0
-  return  1.0/2 * (
-  1.0/len(X) * sum(max(delta(x, y, ontology) for y in Y) for x in X) +
-      1.0/len(Y) * sum(max(delta(x, y, ontology) for x in X) for y in Y)
-  )
+def halkidi(X, Y, delta, ontology):
+    if len(X) == 0 or len(Y) == 0:
+        return 0
+    return 1.0 / 2 * (
+            1.0 / len(X) * sum(max(delta(x, y, ontology) for y in Y) for x in X) +
+            1.0 / len(Y) * sum(max(delta(x, y, ontology) for x in X) for y in Y)
+    )
+
 
 def mval_sim(s, s_, onts):
-  sum_ = 0
-  for i, ont in enumerate(onts):
-    sum_ += halkidi(s[i], s_[i], wu_palmer, ont)
+    sum_ = 0
+    for i, ont in enumerate(onts):
+        sum_ += halkidi(s[i], s_[i], wu_palmer, ont)
 
-  return sum_ / float(len(onts))
+    return sum_ / float(len(onts))
 
-"""# Generator model"""
-
-# Chaine de Markov
-chain = nx.DiGraph()
-r = "Resto"; m = "act_matin"; a = "act_aprem"; h = "Hotel"; 
-s = "Sleep"; n = "act_nocturne"; st = "Start"
-# Start
-chain.add_edge(st,m, weight=0.7)
-chain.add_edge(st,r, weight=0.2)
-chain.add_edge(st,h, weight=0.1)
-# Activité matin
-chain.add_edge(m,m, weight=0.3)
-chain.add_edge(m,r, weight=0.5)
-chain.add_edge(m,a, weight=0.1)
-chain.add_edge(m,h, weight=0.1)
-# Resto
-chain.add_edge(r,a, weight=0.8)
-chain.add_edge(r,h, weight=0.1)
-chain.add_edge(r,s, weight=0.1)
-# Activité Aprem
-chain.add_edge(a,a, weight=0.3)
-chain.add_edge(a,h, weight=0.5)
-chain.add_edge(a,n, weight=0.2)
-# Hotel (Soir)
-chain.add_edge(h,s, weight=0.75)
-chain.add_edge(h,n, weight=0.25)
-# Activité Nocturne
-chain.add_edge(n,n, weight=0.1)
-chain.add_edge(n,s, weight=0.9)
 
 """## Model Vis"""
 
 # Display code - Markov model
-display(chain, "markov.html", size_dynamic=False, height="600px", width="70%")
-IPython.display.HTML("markov.html")
+# display(chain, "markov.html", size_dynamic=False, height="600px", width="70%")
 
 """## Sequence Gen"""
 
+
 def build_basic_sequence(markov, start_node, end_node, append_end_node=True):
+    def white_walker(acc):
+        successors = markov.successors(acc[-1])
+        probas = []
+        items = []
+        for next in successors:
+            items.append(next)
+            probas.append(markov.get_edge_data(acc[-1], next)["weight"])
+        # numpy.random.choice
+        draw = choice(items, 1, p=probas)[0]
 
-  def white_walker(acc):
-    successors = markov.successors(acc[-1])
-    probas = []; items = []
-    for next in successors:
-      items.append(next)
-      probas.append(markov.get_edge_data(acc[-1], next)["weight"])
-    #numpy.random.choice
-    draw = choice(items, 1, p=probas)[0]
-    
-    if draw == end_node:
-      if append_end_node:
+        if draw == end_node:
+            if append_end_node:
+                acc.append(draw)
+            return acc
+
         acc.append(draw)
-      return acc
+        return white_walker(acc)
 
-    acc.append(draw)
-    return white_walker(acc)
-
-  return white_walker([start_node])
+    return white_walker([start_node])
 
 
 def build_instance_sequence(base_seq, instance_map, start_node_swap="Hotel"):
-  if start_node_swap is not None:
-    base_seq[0] = start_node_swap
+    if start_node_swap is not None:
+        base_seq[0] = start_node_swap
 
-  # Hotel is drawn once
-  #numpy.random.choice
-  hotel = choice(instance_map["Hotel"], 1)[0]
+    # Hotel is drawn once
+    # numpy.random.choice
+    hotel = choice(instance_map["Hotel"], 1)[0]
 
-  outseq = []
-  for item in base_seq:
-    if item == "Hotel" or item == "Sleep":
-      outseq.append(hotel)
-    else:
-      #numpy.random.choice
-      outseq.append(choice(instance_map[item], 1)[0])
+    outseq = []
+    for item in base_seq:
+        if item == "Hotel" or item == "Sleep":
+            outseq.append(hotel)
+        else:
+            # numpy.random.choice
+            outseq.append(choice(instance_map[item], 1)[0])
 
-  return outseq
+    return outseq
 
 
 def map_to_multival(seq, database):
-  sem = []
-  for item in seq:
-    data = database[database["uri"] == item]
-    tags = data["tags"].tolist()
-    theme = data["theme"].tolist()
-    archi = data["architecture"].tolist()
-    sem_item = (set() if tags == [np.nan] else degeneralize(set(tags[0].split(';')), datatourisme_main), 
-                set() if theme == [np.nan] else set(theme[0].split(';')), 
-                set() if archi == [np.nan] else set(archi[0].split(';')))
-    sem.append(sem_item)
-  return sem
+    sem = []
+    for item in seq:
+        data = database[database["uri"] == item]
+        tags = data["tags"].tolist()
+        theme = data["theme"].tolist()
+        archi = data["architecture"].tolist()
+        sem_item = (set() if tags == [np.nan] else degeneralize(set(tags[0].split(';')), datatourisme_main),
+                    set() if theme == [np.nan] else set(theme[0].split(';')),
+                    set() if archi == [np.nan] else set(archi[0].split(';')))
+        sem.append(sem_item)
+    return sem
+
 
 """# Datatourism
 
@@ -210,80 +164,65 @@ def map_to_multival(seq, database):
 """
 
 # Ontologies
-raw_onto = nx.read_gml("graph")
+raw_onto = nx.read_gml(ONTOLOGY_FILE)
 datatourisme_main = raw_onto
 
-datatourisme_theme = nx.DiGraph()
-datatourisme_theme.add_node("SpatialEnvironmentTheme")
-datatourisme_theme.add_edges_from([("All","CulturalTheme"),("All","ParkAndGardenTheme"),("All","HealthTheme"),
-("All","FoodEstablishementTheme"),("All","FoodProduct"),("All","SpatialEnvironmentTheme"),("All","SportsTheme"),
-("All","EntertainmentAndEventTheme"),("All","CuisineCategory"),("All","RouteTheme"),("RouteTheme","CycleRouteTheme"),("RouteTheme","MTBRouteTheme"), ("All", "CommonAmenity")])
-
-datatourisme_hist = nx.DiGraph()
-datatourisme_hist.add_edges_from([("All","Médiéval"),("Médiéval","Gothique"),("Médiéval","Roman"),("All","Renaissance"),
-("All","Antiquité"),("Antiquité","Gallo-romain"),("All","XVII/XVIII"),("XVII/XVIII","Classique"),("XVII/XVIII","Néo-Classique"),("All","Moderne"),("Moderne","Contemporain"),("Moderne","Xixe siècle"), ("Moderne","Xxe siècle")])
-
 # Instances
-data_instances = pd.read_csv("data.csv")
+data_instances = pd.read_csv(INSTANCES_FILE)
 hotels = data_instances[data_instances["category"] == "Hotel"]
 restos = data_instances[data_instances["category"] == "Resto"]
 activities = data_instances[data_instances["category"] == "act"]
 
 instances = {
-    r: list(map(lambda x: x[2], restos.values)),
-    m: list(map(lambda x: x[2], activities.values)),
-    a: list(map(lambda x: x[2], activities.values)),
-    h: list(map(lambda x: x[2], hotels.values)),
-    n: list(map(lambda x: x[2], activities.values))}
+    "Resto": list(map(lambda x: x[2], restos.values)),
+    "act_matin": list(map(lambda x: x[2], activities.values)),
+    "act_aprem": list(map(lambda x: x[2], activities.values)),
+    "Hotel": list(map(lambda x: x[2], hotels.values)),
+    "act_nocturne": list(map(lambda x: x[2], activities.values))}
 
 """## Display"""
 
-display(datatourisme_theme, "datatourisme_theme.html", width="70%", height="600px")
-IPython.display.HTML(filename='datatourisme_theme.html')
-
-display(datatourisme_hist, "datatourisme_hist.html", width='80%')
-IPython.display.HTML(filename='datatourisme_hist.html')
-
-display(datatourisme_main, "datatourisme_main.html", width='80%')
-IPython.display.HTML(filename='datatourisme_main.html')
+# display(datatourisme_theme, "datatourisme_theme.html", width="70%", height="600px")
+# display(datatourisme_hist, "datatourisme_hist.html", width='80%')
+# display(datatourisme_main, "datatourisme_main.html", width='80%')
 
 """# Demo"""
 
 seqs = []
-for i in range(100):
-  base = build_basic_sequence(chain, "Start", "Sleep")
-  ids = build_instance_sequence(base, instances)
-  mv = map_to_multival(ids, data_instances)
-  seqs.append(mv)
+for i in range(10):
+    base = build_basic_sequence(chain, "Start", "Sleep")
+    ids = build_instance_sequence(base, instances)
+    mv = map_to_multival(ids, data_instances)
+    seqs.append(mv)
 
 print(seqs[0][0])
 print(seqs[1][0])
 print("Similarity", mval_sim(seqs[0][0], seqs[1][0], [datatourisme_main, datatourisme_theme, datatourisme_hist]))
 
-# Sim for CED
-def sim(x,y):
-  return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
 
-msize = int((len(seqs) * (len(seqs) - 1)) /2)
+# Sim for CED
+def sim(x, y):
+    return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
+
+
+msize = int((len(seqs) * (len(seqs) - 1)) / 2)
 ed = np.empty(msize, dtype=np.float32)
 
 pos = 0
 for i in range(1, len(seqs)):
-  for j in range(1,i + 1):
+    for j in range(1, i + 1):
 
-    seqA = np.empty((len(seqs[i]),), dtype=object)
-    seqB = np.empty((len(seqs[j]),), dtype=object)
+        seqA = np.empty((len(seqs[i]),), dtype=object)
+        seqB = np.empty((len(seqs[j]),), dtype=object)
 
-    for k in range(len(seqs[i])):
-      seqA[k] = seqs[i][k]
+        for k in range(len(seqs[i])):
+            seqA[k] = seqs[i][k]
 
-    for k in range(len(seqs[j])):
-      seqB[k] = seqs[j][k]
+        for k in range(len(seqs[j])):
+            seqB[k] = seqs[j][k]
 
-    ed[pos] = ced(seqA, seqB, sim, gaussian)
-    pos += 1
-
-from scipy.cluster.hierarchy import dendrogram, linkage
+        ed[pos] = ced(seqA, seqB, sim, gaussian)
+        pos += 1
 
 lk = linkage(ed, "ward")
 dendo = dendrogram(lk)
