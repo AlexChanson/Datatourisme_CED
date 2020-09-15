@@ -7,17 +7,20 @@ import networkx as nx
 import pandas as pd
 from numpy.random import choice
 from scipy.cluster.hierarchy import dendrogram, linkage
+import csv
 
 from CED import *
 from Context_function import gaussian
 from graphs import datatourisme_hist, datatourisme_theme, chain, all_successors, all_predecessors, degeneralize, display
 from dis_and_sim import halkidi, mval_sim, wu_palmer
+import multiprocessing as mp
 
 
 # Load data
 ID_PREFIX = "https://data.datatourisme.gouv.fr/"  # Ids (URI) have been striped for memory/ease of use
 INSTANCES_FILE = "data/output.csv"
 ONTOLOGY_FILE = "data/graph"
+SEQ_FILE = "data/seqs.csv"
 
 
 """## Model Vis"""
@@ -81,73 +84,82 @@ def map_to_multival(seq, database):
     return sem
 
 
-"""# Datatourism
+if __name__ == '__main__':
+    # Ontologies
+    raw_onto = nx.read_gml(ONTOLOGY_FILE)
+    datatourisme_main = raw_onto
 
-## Load
-"""
+    # Instances
+    data_instances = pd.read_csv(INSTANCES_FILE)
+    hotels = data_instances[data_instances["category"] == "Hotel"]
+    restos = data_instances[data_instances["category"] == "Resto"]
+    activities = data_instances[data_instances["category"] == "act"]
 
-# Ontologies
-raw_onto = nx.read_gml(ONTOLOGY_FILE)
-datatourisme_main = raw_onto
+    instances = {
+        "Resto": list(map(lambda x: x[2], restos.values)),
+        "act_matin": list(map(lambda x: x[2], activities.values)),
+        "act_aprem": list(map(lambda x: x[2], activities.values)),
+        "Hotel": list(map(lambda x: x[2], hotels.values)),
+        "act_nocturne": list(map(lambda x: x[2], activities.values))}
 
-# Instances
-data_instances = pd.read_csv(INSTANCES_FILE)
-hotels = data_instances[data_instances["category"] == "Hotel"]
-restos = data_instances[data_instances["category"] == "Resto"]
-activities = data_instances[data_instances["category"] == "act"]
+    """## Display"""
 
-instances = {
-    "Resto": list(map(lambda x: x[2], restos.values)),
-    "act_matin": list(map(lambda x: x[2], activities.values)),
-    "act_aprem": list(map(lambda x: x[2], activities.values)),
-    "Hotel": list(map(lambda x: x[2], hotels.values)),
-    "act_nocturne": list(map(lambda x: x[2], activities.values))}
+    # display(datatourisme_theme, "datatourisme_theme.html", width="70%", height="600px")
+    # display(datatourisme_hist, "datatourisme_hist.html", width='80%')
+    # display(datatourisme_main, "datatourisme_main.html", width='80%')
 
-"""## Display"""
+    """# Demo"""
 
-# display(datatourisme_theme, "datatourisme_theme.html", width="70%", height="600px")
-# display(datatourisme_hist, "datatourisme_hist.html", width='80%')
-# display(datatourisme_main, "datatourisme_main.html", width='80%')
+    seqs = []
+    for i in range(10):
+        base = build_basic_sequence(chain, "Start", "Sleep")
+        ids = build_instance_sequence(base, instances)
+        mv = map_to_multival(ids, data_instances)
+        seqs.append(mv)
 
-"""# Demo"""
+    print("Writing", len(seqs), "sequences to", SEQ_FILE)
+    with open(SEQ_FILE, 'w', newline='\n') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
+        spamwriter.writerow(["seq_id", "item_id", "main_tags", "event_tags", "archi_tags"])
 
-seqs = []
-for i in range(10):
-    base = build_basic_sequence(chain, "Start", "Sleep")
-    ids = build_instance_sequence(base, instances)
-    mv = map_to_multival(ids, data_instances)
-    seqs.append(mv)
-
-print(seqs[0][0])
-print(seqs[1][0])
-print("Similarity", mval_sim(seqs[0][0], seqs[1][0], [datatourisme_main, datatourisme_theme, datatourisme_hist]))
-
-
-# Sim for CED
-def sim(x, y):
-    return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
+        for seq_id, seq in enumerate(seqs):
+            for item_id, item in enumerate(seq):
+                line = [seq_id, item_id, ";".join(item[0]), ";".join(item[1]), ";".join(item[2])]
+                spamwriter.writerow(line)
 
 
-msize = int((len(seqs) * (len(seqs) - 1)) / 2)
-ed = np.empty(msize, dtype=np.float32)
+    # Sim for CED
+    def sim(x, y):
+        return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
 
-pos = 0
-for i in range(1, len(seqs)):
-    for j in range(1, i + 1):
 
-        seqA = np.empty((len(seqs[i]),), dtype=object)
-        seqB = np.empty((len(seqs[j]),), dtype=object)
+    print("Computing distance matrix")
+    # Convert to numpy data type
+    msize = int((len(seqs) * (len(seqs) - 1)) / 2) # Compute triangular matrix size
+    np_seqs = []
+    for seq in seqs:
+        seqA = np.empty((len(seq),), dtype=object)
+        for k in range(len(seq)):
+            seqA[k] = seq[k]
+        np_seqs.append(seqA)
+    del seqs # Free memory
 
-        for k in range(len(seqs[i])):
-            seqA[k] = seqs[i][k]
 
-        for k in range(len(seqs[j])):
-            seqB[k] = seqs[j][k]
+    pool = mp.Pool(8)
+    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian) for i in range(1, len(np_seqs)) for j in range(1, i + 1)])
+    pool.close()
+    ed = np.array(result)
 
-        ed[pos] = ced(seqA, seqB, sim, gaussian)
-        pos += 1
+    """
+    ed = np.empty(msize, dtype=np.float32)
+    pos = 0
+    for i in range(1, len(seqs)):
+        for j in range(1, i + 1):
+            ed[pos] = ced(np_seqs[i], np_seqs[j], sim, gaussian)
+            pos += 1
+    """
+    np.savetxt("data/dis_matrix.txt", ed)
 
-lk = linkage(ed, "ward")
-dendo = dendrogram(lk)
-
-plt.show()
+    #lk = linkage(ed, "ward")
+    #dendo = dendrogram(lk)
+    #plt.show()
