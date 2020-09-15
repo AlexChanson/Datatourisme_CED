@@ -1,4 +1,6 @@
 import networkx as nx
+from pyvis.network import Network
+
 
 datatourisme_theme = nx.DiGraph()
 datatourisme_theme.add_node("SpatialEnvironmentTheme")
@@ -71,3 +73,40 @@ def all_predecessors(Graph, node):
         return acc
 
     return internal(Graph, node, [])
+
+def degeneralize(concepts, ontology):
+    more_general = set()
+
+    for concept in concepts:
+        to_rem = all_predecessors(ontology, concept)
+        to_rem.remove(concept)
+
+        more_general.update(to_rem)
+
+    return concepts.difference(more_general)
+
+
+def display(G, filename, size_dynamic=True, height='750px', width="100%", notebook=True):
+    # pyvis.Network
+    g = Network(height=height, width=width, directed=True, heading=filename.rstrip(".html"))
+
+    if size_dynamic:
+        size = lambda Graph, node: 80 * len(all_successors(Graph, node, []))
+    else:
+        size = lambda Graph, node: 80
+
+    for n in G:
+        if n == "Start":
+            g.add_node(n, value=size(G, n), label=n, color="Green")
+        elif n == "Sleep":
+            g.add_node(n, value=size(G, n), label=n, color="Red")
+        else:
+            g.add_node(n, value=size(G, n), label=n, )
+    for edge in G.edges:
+        try:
+            g.add_edge(edge[0], edge[1], label=G.get_edge_data(edge[0], edge[1])["weight"])
+        except KeyError:
+            g.add_edge(edge[0], edge[1])
+
+    g.show_buttons(filter_=['physics'])
+    g.show(filename)
