@@ -13,7 +13,8 @@ from CED import *
 from Context_function import gaussian
 from graphs import datatourisme_hist, datatourisme_theme, chain, all_successors, all_predecessors, degeneralize, display
 from dis_and_sim import halkidi, mval_sim, wu_palmer
-import multiprocessing as mp
+import concurrent.futures
+
 
 
 # Load data
@@ -128,10 +129,8 @@ if __name__ == '__main__':
                 spamwriter.writerow(line)
 
 
-    # Sim for CED
     def sim(x, y):
         return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
-
 
     print("Computing distance matrix")
     # Convert to numpy data type
@@ -142,13 +141,22 @@ if __name__ == '__main__':
         for k in range(len(seq)):
             seqA[k] = seq[k]
         np_seqs.append(seqA)
-    del seqs # Free memory
+    del seqs#Free memory
 
+    ed = np.empty(msize, dtype=np.float32)
 
-    pool = mp.Pool(8)
-    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian) for i in range(1, len(np_seqs)) for j in range(1, i + 1)])
-    pool.close()
-    ed = np.array(result)
+    idx = [(i, j) for i in range(1, len(np_seqs)) for j in range(1, i + 1)]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        future_to_coordinates = {executor.submit(ced, np_seqs[i], np_seqs[j], sim, gaussian): (i, j) for i in range(1, len(np_seqs)) for j in range(1, i + 1)}
+        for future in concurrent.futures.as_completed(future_to_coordinates):
+            coo = future_to_coordinates[future]
+            try:
+                data = future.result()
+            except Exception as exc:
+                print('%r generated an exception: %s' % (coo, exc))
+            else:
+                ed[idx.index(coo)] = data
+
 
     """
     ed = np.empty(msize, dtype=np.float32)
