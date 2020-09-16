@@ -85,10 +85,17 @@ def map_to_multival(seq, database):
     return sem
 
 
+# Ontologies
+raw_onto = nx.read_gml(ONTOLOGY_FILE)
+datatourisme_main = raw_onto
+
+
+def sim(x, y):
+    return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
+
+
 if __name__ == '__main__':
-    # Ontologies
-    raw_onto = nx.read_gml(ONTOLOGY_FILE)
-    datatourisme_main = raw_onto
+
 
     # Instances
     data_instances = pd.read_csv(INSTANCES_FILE)
@@ -112,7 +119,7 @@ if __name__ == '__main__':
     """# Demo"""
 
     seqs = []
-    for i in range(10):
+    for i in range(1000):
         base = build_basic_sequence(chain, "Start", "Sleep")
         ids = build_instance_sequence(base, instances)
         mv = map_to_multival(ids, data_instances)
@@ -129,8 +136,7 @@ if __name__ == '__main__':
                 spamwriter.writerow(line)
 
 
-    def sim(x, y):
-        return mval_sim(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
+
 
     print("Computing distance matrix")
     # Convert to numpy data type
@@ -144,10 +150,11 @@ if __name__ == '__main__':
     del seqs#Free memory
 
     ed = np.empty(msize, dtype=np.float32)
-
     idx = [(i, j) for i in range(1, len(np_seqs)) for j in range(1, i + 1)]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+
+    with concurrent.futures.ProcessPoolExecutor(max_workers=12) as executor:
         future_to_coordinates = {executor.submit(ced, np_seqs[i], np_seqs[j], sim, gaussian): (i, j) for i in range(1, len(np_seqs)) for j in range(1, i + 1)}
+
         for future in concurrent.futures.as_completed(future_to_coordinates):
             coo = future_to_coordinates[future]
             try:
