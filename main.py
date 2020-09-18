@@ -14,6 +14,7 @@ from Context_function import gaussian
 from graphs import datatourisme_hist, datatourisme_theme, chain, all_successors, all_predecessors, degeneralize, display
 from dis_and_sim import halkidi, mval_sim, wu_palmer
 import concurrent.futures
+import multiprocessing as mp
 
 
 
@@ -119,7 +120,7 @@ if __name__ == '__main__':
     """# Demo"""
 
     seqs = []
-    for i in range(1000):
+    for i in range(10000):
         base = build_basic_sequence(chain, "Start", "Sleep")
         ids = build_instance_sequence(base, instances)
         mv = map_to_multival(ids, data_instances)
@@ -138,7 +139,7 @@ if __name__ == '__main__':
 
 
 
-    print("Computing distance matrix")
+
     # Convert to numpy data type
     msize = int((len(seqs) * (len(seqs) - 1)) / 2) # Compute triangular matrix size
     np_seqs = []
@@ -149,30 +150,13 @@ if __name__ == '__main__':
         np_seqs.append(seqA)
     del seqs#Free memory
 
-    ed = np.empty(msize, dtype=np.float32)
-    idx = [(i, j) for i in range(1, len(np_seqs)) for j in range(1, i + 1)]
-
-    with concurrent.futures.ProcessPoolExecutor(max_workers=12) as executor:
-        future_to_coordinates = {executor.submit(ced, np_seqs[i], np_seqs[j], sim, gaussian): (i, j) for i in range(1, len(np_seqs)) for j in range(1, i + 1)}
-
-        for future in concurrent.futures.as_completed(future_to_coordinates):
-            coo = future_to_coordinates[future]
-            try:
-                data = future.result()
-            except Exception as exc:
-                print('%r generated an exception: %s' % (coo, exc))
-            else:
-                ed[idx.index(coo)] = data
+    print("Computing distance matrix")
+    pool = mp.Pool(8)
+    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian) for i in range(1, len(np_seqs)) for j in range(1, i + 1)])
+    pool.close()
+    ed = np.array(result, dtype=float)
 
 
-    """
-    ed = np.empty(msize, dtype=np.float32)
-    pos = 0
-    for i in range(1, len(seqs)):
-        for j in range(1, i + 1):
-            ed[pos] = ced(np_seqs[i], np_seqs[j], sim, gaussian)
-            pos += 1
-    """
     np.savetxt("data/dis_matrix.txt", ed)
 
     #lk = linkage(ed, "ward")
