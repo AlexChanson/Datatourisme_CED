@@ -30,14 +30,42 @@ if __name__ == '__main__':
         with open(DATA_PATH + "objects/" + item["file"]) as file:
             data = json.load(file)
 
-        # Seperate hotel/restaurants from the rest
+        # Separate into distinct categories
         type = "act"
         for tag in data["@type"]:
-            if tag == "Accommodation":
+            if tag == "Hotel":
                 type = "Hotel"
                 break
+            if tag == "FastFoodRestaurant":
+                type = "fast_food"
             if tag == "Restaurant":
                 type = "Resto"
+                break
+            if tag == "Church":
+                type = "church"
+                break
+            if tag == "Camping" or tag == "CamperVanArea":
+                type = "camping"
+                break
+            if tag == "Museum":
+                type = "museum"
+                break
+            if tag == "NaturalHeritage":
+                type = "nature"
+            if tag == "Tasting":
+                type = "tasting"
+                break
+            if tag == "Castle":
+                type = "castle"
+                break
+            if tag == "ParkAndGarden":
+                type = "park"
+                break
+            if tag == "RentalAccommodation":
+                type = "gite"
+                break
+            if tag.startswith("Sports"):
+                type = "sport"
                 break
 
         themes = []

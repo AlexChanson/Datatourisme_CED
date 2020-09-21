@@ -53,21 +53,31 @@ def build_basic_sequence(markov, start_node, end_node, append_end_node=True):
     return white_walker([start_node])
 
 
-def build_instance_sequence(base_seq, instance_map, start_node_swap="Hotel"):
+def build_instance_sequence(base_seq, instance_map, profile, start_node_swap="Hotel"):
     if start_node_swap is not None:
         base_seq[0] = start_node_swap
 
     # Hotel is drawn once
     # numpy.random.choice
-    hotel = choice(instance_map["Hotel"], 1)[0]
+    acc_types, acc_probas = get_types_and_probas(profile["accommodation"])
+    acc_type = choice(acc_types, 1, p=acc_probas)[0]
+    hotel = choice(instance_map[acc_type], 1)[0]
 
     outseq = []
     for item in base_seq:
         if item == "Hotel" or item == "Sleep":
             outseq.append(hotel)
+        elif item == "Resto":
+            res_types, res_probas = get_types_and_probas(profile["food"])
+            res_type = choice(res_types, 1, p=res_probas)[0]
+            outseq.append(choice(instance_map[res_type], 1)[0])
+        elif item == "act_matin" or item == "act_aprem":
+            act_types, act_probas = get_types_and_probas(profile["activity"])
+            act_type = choice(act_types, 1, p=act_probas)[0]
+            outseq.append(choice(instance_map[act_type], 1)[0])
         else:
-            # numpy.random.choice
-            outseq.append(choice(instance_map[item], 1)[0])
+            act_type = "act"
+            outseq.append(choice(instance_map[act_type], 1)[0])
 
     return outseq
 
@@ -96,33 +106,18 @@ def sim(x, y):
 
 
 if __name__ == '__main__':
-
-
+    from profiles import *
     # Instances
     data_instances = pd.read_csv(INSTANCES_FILE)
-    hotels = data_instances[data_instances["category"] == "Hotel"]
-    restos = data_instances[data_instances["category"] == "Resto"]
-    activities = data_instances[data_instances["category"] == "act"]
+    instances = dict()
+    for cat in categories_:
+        instances[cat] = list(data_instances[data_instances["category"] == cat]["uri"])
 
-    instances = {
-        "Resto": list(map(lambda x: x[2], restos.values)),
-        "act_matin": list(map(lambda x: x[2], activities.values)),
-        "act_aprem": list(map(lambda x: x[2], activities.values)),
-        "Hotel": list(map(lambda x: x[2], hotels.values)),
-        "act_nocturne": list(map(lambda x: x[2], activities.values))}
-
-    """## Display"""
-
-    # display(datatourisme_theme, "datatourisme_theme.html", width="70%", height="600px")
-    # display(datatourisme_hist, "datatourisme_hist.html", width='80%')
-    # display(datatourisme_main, "datatourisme_main.html", width='80%')
-
-    """# Demo"""
 
     seqs = []
-    for i in range(10000):
+    for i in range(10):
         base = build_basic_sequence(chain, "Start", "Sleep")
-        ids = build_instance_sequence(base, instances)
+        ids = build_instance_sequence(base, instances, campeur)
         mv = map_to_multival(ids, data_instances)
         seqs.append(mv)
 
