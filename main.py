@@ -113,22 +113,25 @@ if __name__ == '__main__':
     for cat in categories_:
         instances[cat] = list(data_instances[data_instances["category"] == cat]["uri"])
 
-
+    profiles = [campeur, fetard, mixed, gastronomie, culturel, jeunes]
     seqs = []
-    for i in range(10):
-        base = build_basic_sequence(chain, "Start", "Sleep")
-        ids = build_instance_sequence(base, instances, campeur)
-        mv = map_to_multival(ids, data_instances)
-        seqs.append(mv)
+    types = []
+    for profile in profiles:
+        for i in range(10):
+            base = build_basic_sequence(chain, "Start", "Sleep")
+            ids = build_instance_sequence(base, instances, profile)
+            mv = map_to_multival(ids, data_instances)
+            seqs.append(mv)
+            types.append(profile["name"])
 
     print("Writing", len(seqs), "sequences to", SEQ_FILE)
     with open(SEQ_FILE, 'w', newline='\n') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-        spamwriter.writerow(["seq_id", "item_id", "main_tags", "event_tags", "archi_tags"])
+        spamwriter.writerow(["type", "seq_id", "item_id", "main_tags", "event_tags", "archi_tags"])
 
         for seq_id, seq in enumerate(seqs):
             for item_id, item in enumerate(seq):
-                line = [seq_id, item_id, ";".join(item[0]), ";".join(item[1]), ";".join(item[2])]
+                line = [types[seq_id], seq_id, item_id, ";".join(item[0]), ";".join(item[1]), ";".join(item[2])]
                 spamwriter.writerow(line)
 
 
