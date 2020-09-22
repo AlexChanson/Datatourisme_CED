@@ -20,40 +20,63 @@ datatourisme_hist.add_edges_from(
      ("Moderne", "Xxe siècle")])
 
 
-"""# Generator model"""
+"""# Generator models"""
 
-# Chaine de Markov
-chain = nx.DiGraph()
-r = "Resto"
-m = "act_matin"
-a = "act_aprem"
-h = "Hotel"
-s = "Sleep"
-n = "act_nocturne"
-st = "Start"
+r = "Resto"; m = "act_matin"; a = "act_aprem"; h = "Hotel";
+s = "Sleep"; n = "act_nocturne"; st = "Start"
+
+chain_fetard = nx.DiGraph()
 # Start
-chain.add_edge(st, m, weight=0.7)
-chain.add_edge(st, r, weight=0.2)
-chain.add_edge(st, h, weight=0.1)
+chain_fetard.add_edge(st, m, weight=0.05)
+chain_fetard.add_edge(st, r, weight=0.80)
+chain_fetard.add_edge(st, h, weight=0.25)
 # Activité matin
-chain.add_edge(m, m, weight=0.3)
-chain.add_edge(m, r, weight=0.5)
-chain.add_edge(m, a, weight=0.1)
-chain.add_edge(m, h, weight=0.1)
+chain_fetard.add_edge(m, m, weight=0.01) # autre act
+chain_fetard.add_edge(m, r, weight=0.48) # resto
+chain_fetard.add_edge(m, a, weight=0.01) # act matiné
+chain_fetard.add_edge(m, h, weight=0.5) # hotel
 # Resto
-chain.add_edge(r, a, weight=0.8)
-chain.add_edge(r, h, weight=0.1)
-chain.add_edge(r, s, weight=0.1)
+chain_fetard.add_edge(r, a, weight=0.05)
+chain_fetard.add_edge(r, h, weight=0.65)
+chain_fetard.add_edge(r, s, weight=0.30)
 # Activité Aprem
-chain.add_edge(a, a, weight=0.3)
-chain.add_edge(a, h, weight=0.5)
-chain.add_edge(a, n, weight=0.2)
+chain_fetard.add_edge(a, a, weight=0.05)
+chain_fetard.add_edge(a, h, weight=0.1)
+chain_fetard.add_edge(a, n, weight=0.85)
 # Hotel (Soir)
-chain.add_edge(h, s, weight=0.75)
-chain.add_edge(h, n, weight=0.25)
+chain_fetard.add_edge(h, s, weight=0.01)
+chain_fetard.add_edge(h, n, weight=0.99)
 # Activité Nocturne
-chain.add_edge(n, n, weight=0.1)
-chain.add_edge(n, s, weight=0.9)
+chain_fetard.add_edge(n, n, weight=0.4)
+chain_fetard.add_edge(n, s, weight=0.6)
+
+
+chain_culture = nx.DiGraph()
+# Start
+chain_culture.add_edge(st, m, weight=1.)
+chain_culture.add_edge(st, r, weight=0.)
+chain_culture.add_edge(st, h, weight=0.)
+# Activité matin
+chain_culture.add_edge(m, m, weight=0.5)
+chain_culture.add_edge(m, r, weight=0.4)
+chain_culture.add_edge(m, a, weight=0.1)
+chain_culture.add_edge(m, h, weight=0.)
+# Resto
+chain_culture.add_edge(r, a, weight=1.)
+chain_culture.add_edge(r, h, weight=0.)
+chain_culture.add_edge(r, s, weight=0.)
+# Activité Aprem
+chain_culture.add_edge(a, a, weight=0.6)
+chain_culture.add_edge(a, h, weight=0.3)
+chain_culture.add_edge(a, n, weight=0.1)
+# Hotel (Soir)
+chain_culture.add_edge(h, s, weight=0.7)
+chain_culture.add_edge(h, n, weight=0.3)
+# Activité Nocturne
+chain_culture.add_edge(n, n, weight=0.05)
+chain_culture.add_edge(n, s, weight=0.95)
+
+
 
 
 def all_successors(G, n, all_succ):

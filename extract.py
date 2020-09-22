@@ -36,6 +36,9 @@ if __name__ == '__main__':
             if tag == "Hotel":
                 type = "Hotel"
                 break
+            if tag == "BistroOrWineBar":
+                type = "bar"
+                break
             if tag == "FastFoodRestaurant":
                 type = "fast_food"
             if tag == "Restaurant":
@@ -92,6 +95,7 @@ if __name__ == '__main__':
         entry = [item['label'], ";".join(tag_data), data["@id"][len("https://data.datatourisme.gouv.fr/"):], type, ";".join(themes), ";".join(archi)]
         entries.append(entry)
 
+    print("Total instances", len(entries))
     with open(DATA_PATH + 'output.csv', 'w', newline='\n') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',  quotechar='"', quoting=csv.QUOTE_ALL)
         spamwriter.writerow(HEADER)
