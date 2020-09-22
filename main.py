@@ -12,7 +12,7 @@ import csv
 from CED import *
 from Context_function import gaussian
 from graphs import datatourisme_hist, datatourisme_theme, chain_fetard, all_successors, all_predecessors, degeneralize, display
-from dis_and_sim import halkidi, mval_sim, wu_palmer, mval_sim_max
+from dis_and_sim import halkidi, mval_sim, wu_palmer, mval_sim_ignore_null
 import concurrent.futures
 import multiprocessing as mp
 
@@ -102,7 +102,7 @@ datatourisme_main = raw_onto
 
 
 def sim(x, y):
-    return mval_sim_max(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
+    return mval_sim_ignore_null(x, y, [datatourisme_main, datatourisme_theme, datatourisme_hist])
 
 
 if __name__ == '__main__':
@@ -114,9 +114,11 @@ if __name__ == '__main__':
         instances[cat] = list(data_instances[data_instances["category"] == cat]["uri"])
 
     profiles = [campeur, fetard, gastronomie, culturel, jeunes]
+    profiles = [fetard, gastronomie, jeunes]
     seqs = []
     types = []
     for profile in profiles:
+        print("Generating", profile["name"])
         for i in range(200):
             base = build_basic_sequence(profile["chain"], "Start", "Sleep")
             ids = build_instance_sequence(base, instances, profile)
@@ -149,6 +151,7 @@ if __name__ == '__main__':
     del seqs#Free memory
 
     print("Computing distance matrix")
+
     pool = mp.Pool(10)
     result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian) for i in range(1, len(np_seqs)) for j in range(1, i + 1)])
     pool.close()

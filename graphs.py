@@ -29,7 +29,7 @@ chain_fetard = nx.DiGraph()
 # Start
 chain_fetard.add_edge(st, m, weight=0.05)
 chain_fetard.add_edge(st, r, weight=0.80)
-chain_fetard.add_edge(st, h, weight=0.25)
+chain_fetard.add_edge(st, h, weight=0.15)
 # Activité matin
 chain_fetard.add_edge(m, m, weight=0.01) # autre act
 chain_fetard.add_edge(m, r, weight=0.48) # resto
@@ -77,6 +77,56 @@ chain_culture.add_edge(n, n, weight=0.05)
 chain_culture.add_edge(n, s, weight=0.95)
 
 
+chain_campeur = nx.DiGraph()
+# Start
+chain_campeur.add_edge(st, m, weight=0.8)
+chain_campeur.add_edge(st, r, weight=0.1)
+chain_campeur.add_edge(st, h, weight=0.1)
+# Activité matin
+chain_campeur.add_edge(m, m, weight=0.6) # autre act
+chain_campeur.add_edge(m, r, weight=0.2) # resto
+chain_campeur.add_edge(m, a, weight=0.15) # act aprem
+chain_campeur.add_edge(m, h, weight=0.05) # hotel
+# Resto
+chain_campeur.add_edge(r, a, weight=0.78)
+chain_campeur.add_edge(r, h, weight=0.2)
+chain_campeur.add_edge(r, s, weight=0.02)
+# Activité Aprem
+chain_campeur.add_edge(a, a, weight=0.4)
+chain_campeur.add_edge(a, h, weight=0.5)
+chain_campeur.add_edge(a, n, weight=0.1)
+# Hotel (Soir)
+chain_campeur.add_edge(h, s, weight=0.70)
+chain_campeur.add_edge(h, n, weight=0.3)
+# Activité Nocturne
+chain_campeur.add_edge(n, n, weight=0.2)
+chain_campeur.add_edge(n, s, weight=0.8)
+
+
+chain_jeunes = nx.DiGraph()
+# Start
+chain_jeunes.add_edge(st, m, weight=0.75)
+chain_jeunes.add_edge(st, r, weight=0.)
+chain_jeunes.add_edge(st, h, weight=0.25)
+# Activité matin
+chain_jeunes.add_edge(m, m, weight=0.5) # autre act
+chain_jeunes.add_edge(m, r, weight=0.5) # resto
+chain_jeunes.add_edge(m, a, weight=0.) # act aprem
+chain_jeunes.add_edge(m, h, weight=0.) # hotel
+# Resto
+chain_jeunes.add_edge(r, a, weight=0.5)
+chain_jeunes.add_edge(r, h, weight=0.5)
+chain_jeunes.add_edge(r, s, weight=0.)
+# Activité Aprem
+chain_jeunes.add_edge(a, a, weight=0.5)
+chain_jeunes.add_edge(a, h, weight=0.5)
+chain_jeunes.add_edge(a, n, weight=0.)
+# Hotel (Soir)
+chain_jeunes.add_edge(h, s, weight=0.2)
+chain_jeunes.add_edge(h, n, weight=0.8)
+# Activité Nocturne
+chain_jeunes.add_edge(n, n, weight=0.2)
+chain_jeunes.add_edge(n, s, weight=0.8)
 
 
 def all_successors(G, n, all_succ):
@@ -133,3 +183,13 @@ def display(G, filename, size_dynamic=True, height='750px', width="100%", notebo
 
     g.show_buttons(filter_=['physics'])
     g.show(filename)
+
+if __name__ == '__main__':
+    from profiles import culturel, fetard
+    profs = [fetard, culturel]
+    for pr in profs:
+        print('---', pr["name"], "---")
+        print('Départ,Arrivée,Proba')
+        chain_campeur = pr['chain']
+        for u, v in chain_campeur.edges:
+            print(u, v, chain_campeur.get_edge_data(u, v)["weight"], sep=',')

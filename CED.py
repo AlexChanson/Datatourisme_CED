@@ -75,7 +75,7 @@ def one_sided_CED(S1, S2, sim, f_k: Callable[[int, float, float], float], alpha:
     return D[S1.size, S2.size]
 
 
-def ced(S1, S2, sim, f_k: Callable[[int, float, float], float], alpha: float=0.):
+def ced(S1, S2, sim, f_k: Callable[[int, float, float], float], alpha: float=1.):
     """
     :param S1: NumpyArray<T>                                        -- Sequence S1
     :param S2: NumpyArray<T>                                        -- Sequence S2

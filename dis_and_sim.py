@@ -34,3 +34,14 @@ def mval_sim_max(s, s_, onts):
         items.append(halkidi(s[i], s_[i], wu_palmer, ont))
 
     return max(items)
+
+
+def mval_sim_ignore_null(s, s_, onts):
+    items = []
+    for i, ont in enumerate(onts):
+        sim = halkidi(s[i], s_[i], wu_palmer, ont)
+        if sim != 0.:
+            items.append(sim)
+    if len(items) == 0:
+        return 0
+    return sum(items)/float(len(items))
