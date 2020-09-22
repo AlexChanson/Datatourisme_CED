@@ -96,6 +96,12 @@ if __name__ == '__main__':
         entries.append(entry)
 
     print("Total instances", len(entries))
+    too_empty = []
+    for entry in entries:
+        if entry[4] == "" and entry[5] == "":
+            too_empty.append(entry)
+    print("Dubious instances", len(too_empty))
+
     with open(DATA_PATH + 'output.csv', 'w', newline='\n') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',  quotechar='"', quoting=csv.QUOTE_ALL)
         spamwriter.writerow(HEADER)
