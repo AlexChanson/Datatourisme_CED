@@ -114,15 +114,16 @@ if __name__ == '__main__':
         instances[cat] = list(data_instances[data_instances["category"] == cat]["uri"])
 
     profiles = [campeur, fetard, gastronomie, culturel, jeunes]
-    profiles = [fetard, gastronomie, jeunes]
     seqs = []
     types = []
     for profile in profiles:
         print("Generating", profile["name"])
         for i in range(200):
-            base = build_basic_sequence(profile["chain"], "Start", "Sleep")
-            ids = build_instance_sequence(base, instances, profile)
-            mv = map_to_multival(ids, data_instances)
+            mv = []
+            for day in range(3):
+                base = build_basic_sequence(profile["chain"], "Start", "Sleep")
+                ids = build_instance_sequence(base, instances, profile)
+                mv.extend(map_to_multival(ids, data_instances))
             seqs.append(mv)
             types.append(profile["name"])
 
