@@ -113,54 +113,17 @@ if __name__ == '__main__':
     for cat in categories_:
         instances[cat] = list(data_instances[data_instances["category"] == cat]["uri"])
 
-    profiles = [campeur, fetard, gastronomie, culturel, jeunes]
-    seqs = []
-    types = []
-    for profile in profiles:
-        print("Generating", profile["name"])
-        for i in range(20):
-            mv = []
-            for day in range(3):
-                base = build_basic_sequence(profile["chain"], "Start", "Sleep")
-                ids = build_instance_sequence(base, instances, profile)
-                mv.extend(map_to_multival(ids, data_instances))
-            seqs.append(mv)
-            types.append(profile["name"])
+    from dis_and_sim import halkidi, wu_palmer
 
-    print("Writing", len(seqs), "sequences to", SEQ_FILE)
-    with open(SEQ_FILE, 'w', newline='\n') as csvfile:
-        spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-        spamwriter.writerow(["type", "seq_id", "item_id", "main_tags", "event_tags", "archi_tags"])
+    def detail(s, s_, onts=[datatourisme_main, datatourisme_theme, datatourisme_hist]):
+        items = []
+        for i, ont in enumerate(onts):
+            items.append(halkidi(s[i], s_[i], wu_palmer, ont))
 
-        for seq_id, seq in enumerate(seqs):
-            for item_id, item in enumerate(seq):
-                line = [types[seq_id], seq_id, item_id, ";".join(item[0]), ";".join(item[1]), ";".join(item[2])]
-                spamwriter.writerow(line)
+        return items
 
+    el1 = [{"Castle", "ShowEvent", "VisualArtsEvent"}, {"SpatialEnvironmentTheme"}, {"Renaissance"}]
+    el2 = [{"Castle", "ParkAndGarden"}, {"SpatialEnvironmentTheme"}, {"Roman"}]
 
-
-
-
-    # Convert to numpy data type
-    msize = int((len(seqs) * (len(seqs) - 1)) / 2) # Compute triangular matrix size
-    np_seqs = []
-    for seq in seqs:
-        seqA = np.empty((len(seq),), dtype=object)
-        for k in range(len(seq)):
-            seqA[k] = seq[k]
-        np_seqs.append(seqA)
-    del seqs#Free memory
-
-    print("Computing distance matrix")
-
-    pool = mp.Pool(4)
-    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian) for i in range(1, len(np_seqs)) for j in range(1, i + 1)])
-    pool.close()
-    ed = np.array(result, dtype=float)
-
-
-    np.savetxt("data/dis_matrix.txt", ed)
-
-    #lk = linkage(ed, "ward")
-    #dendo = dendrogram(lk)
-    #plt.show()
+    print(detail(el1, el2))
+    print(detail(el2, el1))
