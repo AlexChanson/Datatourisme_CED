@@ -25,77 +25,6 @@ ONTOLOGY_FILE = "data/graph"
 SEQ_FILE = "data/seqs.csv"
 
 
-"""## Model Vis"""
-# Display code - Markov model
-# display(chain, "markov.html", size_dynamic=False, height="600px", width="70%")
-
-
-"""## Sequence Gen"""
-def build_basic_sequence(markov, start_node, end_node, append_end_node=True):
-    def white_walker(acc):
-        successors = markov.successors(acc[-1])
-        probas = []
-        items = []
-        for next in successors:
-            items.append(next)
-            probas.append(markov.get_edge_data(acc[-1], next)["weight"])
-        # numpy.random.choice
-        draw = choice(items, 1, p=probas)[0]
-
-        if draw == end_node:
-            if append_end_node:
-                acc.append(draw)
-            return acc
-
-        acc.append(draw)
-        return white_walker(acc)
-
-    return white_walker([start_node])
-
-
-def build_instance_sequence(base_seq, instance_map, profile, start_node_swap="Hotel"):
-    if start_node_swap is not None:
-        base_seq[0] = start_node_swap
-
-    # Hotel is drawn once
-    # numpy.random.choice
-    acc_types, acc_probas = get_types_and_probas(profile["accommodation"])
-    acc_type = choice(acc_types, 1, p=acc_probas)[0]
-    hotel = choice(instance_map[acc_type], 1)[0]
-
-    outseq = []
-    for item in base_seq:
-        if item == "Hotel" or item == "Sleep":
-            outseq.append(hotel)
-        elif item == "Resto":
-            res_types, res_probas = get_types_and_probas(profile["food"])
-            res_type = choice(res_types, 1, p=res_probas)[0]
-            outseq.append(choice(instance_map[res_type], 1)[0])
-        elif item == "act_matin" or item == "act_aprem":
-            act_types, act_probas = get_types_and_probas(profile["activity"])
-            act_type = choice(act_types, 1, p=act_probas)[0]
-            outseq.append(choice(instance_map[act_type], 1)[0])
-        else:
-            act_type = "act"
-            outseq.append(choice(instance_map[act_type], 1)[0])
-
-    return outseq
-
-
-def map_to_multival(seq, database):
-    sem = []
-    for item in seq:
-        data = database[database["uri"] == item]
-        tags = data["tags"].tolist()
-        theme = data["theme"].tolist()
-        archi = data["architecture"].tolist()
-        sem_item = (set() if tags == [np.nan] else degeneralize(set(tags[0].split(';')), datatourisme_main),
-                    set() if theme == [np.nan] else set(theme[0].split(';')),
-                    set() if archi == [np.nan] else set(archi[0].split(';')))
-        sem.append(sem_item)
-    return sem
-
-
 # Ontologies
 raw_onto = nx.read_gml(ONTOLOGY_FILE)
 datatourisme_main = raw_onto
@@ -124,6 +53,17 @@ if __name__ == '__main__':
 
     el1 = [{"Castle", "ShowEvent", "VisualArtsEvent"}, {"SpatialEnvironmentTheme"}, {"Renaissance"}]
     el2 = [{"Castle", "ParkAndGarden"}, {"SpatialEnvironmentTheme"}, {"Roman"}]
+    el3 = [{"Product", "Tasting", "WineCellar"}, {"SpatialEnvironmentTheme"}, {}]
+    el4 = [{"Guesthouse"}, {}, {}]
 
-    print(detail(el1, el2))
-    print(detail(el2, el1))
+    print("el1,el2", detail(el1, el2))
+    print("el1,el3", detail(el1, el3))
+    print("el2,el3", detail(el2, el3))
+    print("el1,el4", detail(el2, el3))
+    print("el2,el4", detail(el2, el3))
+    print("el3,el4", detail(el2, el3))
+    print("--- --- ---")
+    print("halkidi Cinema Cliff", halkidi({"Cinema"}, {"Cliff"}, wu_palmer, datatourisme_main))
+    print("halkidi Cinema Mine", halkidi({"Cinema"}, {"Mine"}, wu_palmer, datatourisme_main))
+
+

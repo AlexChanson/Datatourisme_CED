@@ -2,11 +2,14 @@ import json
 import os
 from pprint import pprint
 import csv
+import networkx as nx
 
 DATA_PATH = "./data/"
-HEADER = ['label', "tags", "uri", "category", "theme", "architecture"]
+HEADER = ["uri", 'label', "category", "main_tags", "event_tags", "architecture_tags"]
 CAT = [("Accommodation", "Hotel"), ("Restaurant", "Resto")]
 
+main = nx.read_gml("./data/graph_main.gml")
+event = nx.read_gml("./data/graph_event.gml")
 
 def to_keep(tag):
     if tag == "PointOfInterest":
@@ -89,17 +92,28 @@ if __name__ == '__main__':
         archi_domain.extend(archi)
 
         #Cleanup
-        tag_data = filter(to_keep, data["@type"])
+        tag_data = list(filter(to_keep, data["@type"]))
+
+        # Isolate event tags
+        event_tags = []
+        for t in tag_data:
+            if t in event.nodes:
+                event_tags.append(t)
+        for t in event_tags:
+            tag_data.remove(t)
 
         #Build entry
-        entry = [item['label'], ";".join(tag_data), data["@id"][len("https://data.datatourisme.gouv.fr/"):], type, ";".join(themes), ";".join(archi)]
+        entry = [data["@id"][len("https://data.datatourisme.gouv.fr/"):], item['label'], type, ";".join(tag_data), ";".join(event_tags), ";".join(archi)]
         entries.append(entry)
 
     print("Total instances", len(entries))
     too_empty = []
     for entry in entries:
-        if entry[4] == "" and entry[5] == "":
+        s = len(entry[3])*1 + len(entry[3])*1 + len(entry[3])*1
+        if s < 150:
             too_empty.append(entry)
+
+    entries = filter(lambda e: e not in too_empty, entries)
     print("Dubious instances", len(too_empty))
 
     with open(DATA_PATH + 'output.csv', 'w', newline='\n') as csvfile:

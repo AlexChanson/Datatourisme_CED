@@ -21,7 +21,6 @@ import multiprocessing as mp
 # Load data
 ID_PREFIX = "https://data.datatourisme.gouv.fr/"  # Ids (URI) have been striped for memory/ease of use
 INSTANCES_FILE = "data/output.csv"
-ONTOLOGY_FILE = "data/graph"
 SEQ_FILE = "data/seqs.csv"
 
 
@@ -86,9 +85,9 @@ def map_to_multival(seq, database):
     sem = []
     for item in seq:
         data = database[database["uri"] == item]
-        tags = data["tags"].tolist()
-        theme = data["theme"].tolist()
-        archi = data["architecture"].tolist()
+        tags = data["main_tags"].tolist()
+        theme = data["event_tags"].tolist()
+        archi = data["architecture_tags"].tolist()
         sem_item = (set() if tags == [np.nan] else degeneralize(set(tags[0].split(';')), datatourisme_main),
                     set() if theme == [np.nan] else set(theme[0].split(';')),
                     set() if archi == [np.nan] else set(archi[0].split(';')))
@@ -97,8 +96,8 @@ def map_to_multival(seq, database):
 
 
 # Ontologies
-raw_onto = nx.read_gml(ONTOLOGY_FILE)
-datatourisme_main = raw_onto
+datatourisme_main = nx.read_gml("./data/graph_main.gml")
+datatourisme_theme = nx.read_gml("./data/graph_event.gml")
 
 
 def sim(x, y):
