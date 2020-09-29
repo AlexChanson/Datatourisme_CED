@@ -3,6 +3,8 @@ import os
 from pprint import pprint
 import csv
 import networkx as nx
+import seaborn as sns
+from matplotlib import pyplot as plt
 
 DATA_PATH = "./data/"
 HEADER = ["uri", 'label', "category", "main_tags", "event_tags", "architecture_tags"]
@@ -24,13 +26,13 @@ def to_keep(tag):
 if __name__ == '__main__':
     archi_domain = []
 
-    with open(DATA_PATH + "index.json") as idx:
+    with open(DATA_PATH + "index.json", encoding='UTF-8') as idx:
         index = json.load(idx)
 
     # Parse each file, one entry per file
     entries = []
     for item in index:
-        with open(DATA_PATH + "objects/" + item["file"]) as file:
+        with open(DATA_PATH + "objects/" + item["file"], encoding='UTF-8') as file:
             data = json.load(file)
 
         # Separate into distinct categories
@@ -110,13 +112,14 @@ if __name__ == '__main__':
     too_empty = []
     for entry in entries:
         s = len(entry[3])*1 + len(entry[3])*1 + len(entry[3])*1
-        if s < 150:
+        if s < 2:
             too_empty.append(entry)
 
-    entries = filter(lambda e: e not in too_empty, entries)
+    entries = list(filter(lambda e: e not in too_empty, entries))
     print("Dubious instances", len(too_empty))
 
-    with open(DATA_PATH + 'output.csv', 'w', newline='\n') as csvfile:
+
+    with open(DATA_PATH + 'output.csv', 'w', newline='\n', encoding='UTF-8') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',  quotechar='"', quoting=csv.QUOTE_ALL)
         spamwriter.writerow(HEADER)
         for line in entries:
@@ -124,3 +127,6 @@ if __name__ == '__main__':
 
     print("Active domain for architecture")
     print(set(archi_domain))
+
+    sns.displot(list(map(lambda x: x[2][:3], entries)))
+    plt.show()

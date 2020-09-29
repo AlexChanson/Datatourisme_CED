@@ -14,8 +14,13 @@ Context function f_k
 def unit(k: int, x: float, sigma: float) -> float:
     return 1.
 
-def gaussian(k: int, x: float, sigma: float = 3.0)-> float:
+def gaussian(k: int, x: float, sigma: float = 15.0)-> float:
     return exp(-1.0 / 2 * ((x - k) / (sigma/2))**2)
+
+def prep_gaussian(sigma: float):
+    def internal(k, x):
+        return exp(-1.0 / 2 * ((x - k) / (sigma/2))**2)
+    return internal
 
 def gaussianOlap(k: int, x: float, L)-> float:
     return exp(-1.0 / 2 * (2*(sqrt((k+1))*(x - k)/L))**2)
