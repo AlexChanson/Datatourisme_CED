@@ -149,7 +149,7 @@ if __name__ == '__main__':
     del seqs#Free memory
 
     print("Computing distance matrix - CED")
-    pool = mp.Pool(8)
+    pool = mp.Pool(12)
     result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian, 0.) for i in range(len(np_seqs)) for j in range(i + 1, len(np_seqs))])
     pool.close()
 
@@ -158,12 +158,25 @@ if __name__ == '__main__':
     np.savetxt("data/dis_matrix_ced.txt", CED_matrix)
 
     print("Computing distance matrix - ED")
-    pool = mp.Pool(8)
-    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian, 0.) for i in range(len(np_seqs)) for j in range(i + 1, len(np_seqs))])
+    pool = mp.Pool(12)
+    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian, 1.) for i in range(len(np_seqs)) for j in range(i + 1, len(np_seqs))])
     pool.close()
 
     from scipy.spatial.distance import squareform
     CED_matrix = squareform(np.array(result))
     np.savetxt("data/dis_matrix_ed.txt", CED_matrix)
+
+    print("Computing distance matrix - Levenshtein")
+    def trivial(x, y):
+        return 1 if x == y else 0
+    pool = mp.Pool(12)
+    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], trivial, gaussian, 1.) for i in range(len(np_seqs)) for j in
+                                range(i + 1, len(np_seqs))])
+    pool.close()
+
+    from scipy.spatial.distance import squareform
+
+    CED_matrix = squareform(np.array(result))
+    np.savetxt("data/dis_matrix_lev.txt", CED_matrix)
 
 
