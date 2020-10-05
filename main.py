@@ -117,7 +117,7 @@ if __name__ == '__main__':
     types = []
     for profile in profiles:
         print("Generating", profile["name"])
-        for i in range(5):
+        for i in range(50):
             mv = []
             for day in range(2):
                 base = build_basic_sequence(profile["chain"], "Start", "Sleep")
