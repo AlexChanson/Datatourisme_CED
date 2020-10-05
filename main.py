@@ -117,7 +117,7 @@ if __name__ == '__main__':
     types = []
     for profile in profiles:
         print("Generating", profile["name"])
-        for i in range(50):
+        for i in range(5):
             mv = []
             for day in range(2):
                 base = build_basic_sequence(profile["chain"], "Start", "Sleep")
@@ -148,31 +148,22 @@ if __name__ == '__main__':
         np_seqs.append(seqA)
     del seqs#Free memory
 
-    print("Computing distance matrix")
-
+    print("Computing distance matrix - CED")
     pool = mp.Pool(8)
     result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian, 0.) for i in range(len(np_seqs)) for j in range(i + 1, len(np_seqs))])
-    linkage_matrix = linkage(result, "ward")
     pool.close()
 
     from scipy.spatial.distance import squareform
     CED_matrix = squareform(np.array(result))
+    np.savetxt("data/dis_matrix_ced.txt", CED_matrix)
+
+    print("Computing distance matrix - ED")
+    pool = mp.Pool(8)
+    result = pool.starmap(ced, [(np_seqs[i], np_seqs[j], sim, gaussian, 0.) for i in range(len(np_seqs)) for j in range(i + 1, len(np_seqs))])
+    pool.close()
+
+    from scipy.spatial.distance import squareform
+    CED_matrix = squareform(np.array(result))
+    np.savetxt("data/dis_matrix_ed.txt", CED_matrix)
 
 
-
-    """np.zeros((len(np_seqs), len(np_seqs)))  # Matrice des distance CED
-    import math
-    # Range les résultats dans une matrice
-    for k in range(len(result)):
-        i = int(-1 / 2 + math.sqrt(1 / 4 + 2 * k))
-        j = int(k - i * (i + 1) / 2)
-        CED_matrix[i, j] = result[k]
-        CED_matrix[j, i] = CED_matrix[i, j]"""
-
-
-    np.savetxt("data/dis_matrix.txt", CED_matrix)
-    np.savetxt("data/linkage_matrix.csv", linkage_matrix)
-
-    #lk = linkage(ed, "ward")
-    #dendo = dendrogram(lk)
-    #plt.show()

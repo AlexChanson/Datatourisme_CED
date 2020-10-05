@@ -13,6 +13,7 @@ CAT = [("Accommodation", "Hotel"), ("Restaurant", "Resto")]
 main = nx.read_gml("./data/graph_main.gml")
 event = nx.read_gml("./data/graph_event.gml")
 
+
 def to_keep(tag):
     if tag == "PointOfInterest":
         return False

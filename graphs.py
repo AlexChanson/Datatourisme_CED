@@ -1,7 +1,6 @@
 import networkx as nx
 from pyvis.network import Network
 
-
 datatourisme_theme = nx.DiGraph()
 datatourisme_theme.add_node("SpatialEnvironmentTheme")
 datatourisme_theme.add_edges_from([("All", "CulturalTheme"), ("All", "ParkAndGardenTheme"), ("All", "HealthTheme"),
@@ -10,20 +9,23 @@ datatourisme_theme.add_edges_from([("All", "CulturalTheme"), ("All", "ParkAndGar
                                    ("All", "EntertainmentAndEventTheme"), ("All", "CuisineCategory"),
                                    ("All", "RouteTheme"), ("RouteTheme", "CycleRouteTheme"),
                                    ("RouteTheme", "MTBRouteTheme"), ("All", "CommonAmenity")])
-
-
 datatourisme_hist = nx.DiGraph()
 datatourisme_hist.add_edges_from(
-    [("All", "Médiéval"), ("Médiéval", "Gothique"), ("Médiéval", "Roman"), ("All", "Renaissance"),
-     ("All", "Antiquité"), ("Antiquité", "Gallo-romain"), ("All", "XVII/XVIII"), ("XVII/XVIII", "Classique"),
-     ("XVII/XVIII", "Néo-Classique"), ("All", "Moderne"), ("Moderne", "Contemporain"), ("Moderne", "Xixe siècle"),
+    [("All", "AD"), ("All", "BC"), ("AD", "Médiéval"), ("Médiéval", "Gothique"), ("Médiéval", "Roman"),
+     ("AD", "Renaissance"),
+     ("BC", "Antiquité"), ("Antiquité", "Gallo-romain"), ("AD", "XVII/XVIII"), ("XVII/XVIII", "Classique"),
+     ("XVII/XVIII", "Néo-Classique"), ("AD", "Moderne"), ("Moderne", "Contemporain"), ("Moderne", "Xixe siècle"),
      ("Moderne", "Xxe siècle")])
-
 
 """# Generator models"""
 
-r = "Resto"; m = "act_matin"; a = "act_aprem"; h = "Hotel";
-s = "Sleep"; n = "act_nocturne"; st = "Start"
+r = "Resto";
+m = "act_matin";
+a = "act_aprem";
+h = "Hotel";
+s = "Sleep";
+n = "act_nocturne";
+st = "Start"
 
 chain_fetard = nx.DiGraph()
 # Start
@@ -31,10 +33,10 @@ chain_fetard.add_edge(st, m, weight=0.05)
 chain_fetard.add_edge(st, r, weight=0.80)
 chain_fetard.add_edge(st, h, weight=0.15)
 # Activité matin
-chain_fetard.add_edge(m, m, weight=0.01) # autre act
-chain_fetard.add_edge(m, r, weight=0.48) # resto
-chain_fetard.add_edge(m, a, weight=0.01) # act matiné
-chain_fetard.add_edge(m, h, weight=0.5) # hotel
+chain_fetard.add_edge(m, m, weight=0.01)  # autre act
+chain_fetard.add_edge(m, r, weight=0.48)  # resto
+chain_fetard.add_edge(m, a, weight=0.01)  # act matiné
+chain_fetard.add_edge(m, h, weight=0.5)  # hotel
 # Resto
 chain_fetard.add_edge(r, a, weight=0.05)
 chain_fetard.add_edge(r, h, weight=0.65)
@@ -49,7 +51,6 @@ chain_fetard.add_edge(h, n, weight=0.99)
 # Activité Nocturne
 chain_fetard.add_edge(n, n, weight=0.4)
 chain_fetard.add_edge(n, s, weight=0.6)
-
 
 chain_culture = nx.DiGraph()
 # Start
@@ -76,17 +77,16 @@ chain_culture.add_edge(h, n, weight=0.3)
 chain_culture.add_edge(n, n, weight=0.05)
 chain_culture.add_edge(n, s, weight=0.95)
 
-
 chain_campeur = nx.DiGraph()
 # Start
 chain_campeur.add_edge(st, m, weight=0.8)
 chain_campeur.add_edge(st, r, weight=0.1)
 chain_campeur.add_edge(st, h, weight=0.1)
 # Activité matin
-chain_campeur.add_edge(m, m, weight=0.6) # autre act
-chain_campeur.add_edge(m, r, weight=0.2) # resto
-chain_campeur.add_edge(m, a, weight=0.15) # act aprem
-chain_campeur.add_edge(m, h, weight=0.05) # hotel
+chain_campeur.add_edge(m, m, weight=0.6)  # autre act
+chain_campeur.add_edge(m, r, weight=0.2)  # resto
+chain_campeur.add_edge(m, a, weight=0.15)  # act aprem
+chain_campeur.add_edge(m, h, weight=0.05)  # hotel
 # Resto
 chain_campeur.add_edge(r, a, weight=0.78)
 chain_campeur.add_edge(r, h, weight=0.2)
@@ -102,17 +102,16 @@ chain_campeur.add_edge(h, n, weight=0.3)
 chain_campeur.add_edge(n, n, weight=0.2)
 chain_campeur.add_edge(n, s, weight=0.8)
 
-
 chain_jeunes = nx.DiGraph()
 # Start
 chain_jeunes.add_edge(st, m, weight=0.75)
 chain_jeunes.add_edge(st, r, weight=0.)
 chain_jeunes.add_edge(st, h, weight=0.25)
 # Activité matin
-chain_jeunes.add_edge(m, m, weight=0.5) # autre act
-chain_jeunes.add_edge(m, r, weight=0.5) # resto
-chain_jeunes.add_edge(m, a, weight=0.) # act aprem
-chain_jeunes.add_edge(m, h, weight=0.) # hotel
+chain_jeunes.add_edge(m, m, weight=0.5)  # autre act
+chain_jeunes.add_edge(m, r, weight=0.5)  # resto
+chain_jeunes.add_edge(m, a, weight=0.)  # act aprem
+chain_jeunes.add_edge(m, h, weight=0.)  # hotel
 # Resto
 chain_jeunes.add_edge(r, a, weight=0.5)
 chain_jeunes.add_edge(r, h, weight=0.5)
@@ -146,6 +145,7 @@ def all_predecessors(Graph, node):
         return acc
 
     return internal(Graph, node, [])
+
 
 def degeneralize(concepts, ontology):
     more_general = set()
@@ -184,8 +184,10 @@ def display(G, filename, size_dynamic=True, height='750px', width="100%", notebo
     g.show_buttons(filter_=['physics'])
     g.show(filename)
 
+
 if __name__ == '__main__':
     from profiles import culturel, fetard
+
     profs = [fetard, culturel]
     for pr in profs:
         print('---', pr["name"], "---")
